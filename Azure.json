@@ -1,35 +1,5 @@
 [
  {
-   "TaskSortId": "AAA",
-   "SERVICE": "Entra ID Identity Management",
-   "Task Name": "Task Name 1",
-   "Category": "Category 1",
-   "Task Description": "Create, modify, and delete Shared Services Virtual Machines, Availability Sets, VMSS",
-   "Frequency": "Daily",
-   "Task Type": "",
-   "Automated (Y": {
-      "N)": "Yes"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AAB",
-   "SERVICE": "Entra ID Identity Management",
-   "Task Name": "Task Name 2",
-   "Category": "Category 1",
-   "Task Description": "Create, modify, and delete Shared Services Service Endpoints",
-   "Frequency": "Weekly",
-   "Task Type": "",
-   "Automated (Y": {
-      "N)": "Yes"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
    "TaskSortId": "AAC",
    "SERVICE": "Entra ID Identity Management",
    "Task Name": "Task Name 3",
