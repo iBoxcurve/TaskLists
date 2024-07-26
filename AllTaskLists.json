@@ -1,7 +1,9 @@
 [
   {
-    "List Name": "Azure",
+    "Vendor": "Microsoft",
+    "Platform": "Azure",
+    "Service": "Azure Compute",
     "Link": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/Azure.json",
-    "Description": "Description for Azure RACI list"
+    "Description": ""
   }
 ]
