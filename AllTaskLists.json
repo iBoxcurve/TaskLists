@@ -6,7 +6,7 @@
     "Link": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/Azure.json",
     "Description": "",
     "VendorIconURL": "https://upload.wikimedia.org/wikipedia/commons/2/25/Microsoft_icon.svg",
-    "PlatformIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/1280px-Microsoft_Azure.svg.png"
+    "PlatformIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/1280px-Microsoft_Azure.svg.png",
     "ServiceIconURL": "https://learn.microsoft.com/en-us/azure/media/index/kubernetes-services.svg"
   },
   {
@@ -16,7 +16,7 @@
     "Link": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/Azure.json",
     "Description": "",
     "VendorIconURL": "https://upload.wikimedia.org/wikipedia/commons/2/25/Microsoft_icon.svg",
-    "PlatformIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/1280px-Microsoft_Azure.svg.png"
+    "PlatformIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/1280px-Microsoft_Azure.svg.png",
     "ServiceIconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJK_LShdmXXMDe_xuJV9gHflkSlsY34zBPRA&s"
   },
   {
@@ -26,7 +26,7 @@
     "Link": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/Azure.json",
     "Description": "",
     "VendorIconURL": "https://upload.wikimedia.org/wikipedia/commons/2/25/Microsoft_icon.svg",
-    "PlatformIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/1280px-Microsoft_Azure.svg.png"
+    "PlatformIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/1280px-Microsoft_Azure.svg.png",
     "ServiceIconURL": "https://azure.microsoft.com/svghandler/ai-studio/?width=600&height=315"
   },
   {
@@ -36,7 +36,7 @@
     "Link": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/Azure.json",
     "Description": "",
     "VendorIconURL": "https://upload.wikimedia.org/wikipedia/commons/2/25/Microsoft_icon.svg",
-    "PlatformIconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkfNV1YtiGc-HUrSF4OfHIX50fUSmXWPWP2g&s"
+    "PlatformIconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkfNV1YtiGc-HUrSF4OfHIX50fUSmXWPWP2g&s",
     "ServiceIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/120px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png"
   }
 ]
