@@ -4,6 +4,7 @@
     "Platform": "Azure",
     "Service": "Azure Compute",
     "Link": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/Azure.json",
-    "Description": ""
+    "Description": "",
+    "IconURL": ""
   }
 ]
