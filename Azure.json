@@ -1,2432 +1,2108 @@
 [
- {
-   "TaskSortId": "AAC",
-   "SERVICE": "Entra ID Identity Management",
-   "Task Name": "Task Name 3",
-   "Category": "Category 1",
-   "Task Description": "Create, modify, and delete Shared Services Service Endpoint Policies",
-   "Frequency": "Monthly",
-   "Task Type": "",
-   "Automated (Y": {
-      "N)": "Yes"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AAD",
-   "SERVICE": "Entra ID Identity Management",
-   "Task Name": "Task Name 4",
-   "Category": "Category 1",
-   "Task Description": "Create, modify, and delete Shared Services Private Link Endpoints",
-   "Frequency": "Daily",
-   "Task Type": "",
-   "Automated (Y": {
-      "N)": "Yes"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AAE",
-   "SERVICE": "Entra ID Identity Management",
-   "Task Name": "Task Name 5",
-   "Category": "Category 1",
-   "Task Description": "Create, modify, and delete Shared Services Load Balancers",
-   "Frequency": "Daily",
-   "Task Type": "",
-   "Automated (Y": {
-      "N)": "Yes"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AAF",
-   "SERVICE": "Azure AD MFA",
-   "Task Name": "Task Name 6",
-   "Category": "Category 2",
-   "Task Description": "Create, modify, and delete Shared Services Public IP Addresses",
-   "Frequency": "Ad hoc",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "Yes"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AAG",
-   "SERVICE": "Azure AD MFA",
-   "Task Name": "Task Name 7",
-   "Category": "Category 2",
-   "Task Description": "Create, modify, and delete Shared Services Network Interfaces for VMs acting as NVAs",
-   "Frequency": "Ad hoc",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "Yes"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AAH",
-   "SERVICE": "Azure AD MFA",
-   "Task Name": "Task Name 8",
-   "Category": "Category 2",
-   "Task Description": "Create, modify, and delete Shared Services Network Interfaces for VMS not acting as NVAs",
-   "Frequency": "Ad hoc",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "Yes"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AAI",
-   "SERVICE": "Azure AD MFA",
-   "Task Name": "Task Name 9",
-   "Category": "Category 3",
-   "Task Description": "Create, modify, and delete Shared Services Key Vault secrets, keys, and certificates",
-   "Frequency": "Ad hoc",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "Yes"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AAJ",
-   "SERVICE": "Azure AD MFA",
-   "Task Name": "Task Name 10",
-   "Category": "Category 3",
-   "Task Description": "Create, modify, and delete Azure Traffic Manager",
-   "Frequency": "Ad hoc",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "Yes"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AAK",
-   "SERVICE": "Azure AD MFA",
-   "Task Name": "Task Name 11",
-   "Category": "Category 3",
-   "Task Description": "Create, modify, and delete Azure Front Door",
-   "Frequency": "Ad hoc",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "Yes"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AAL",
-   "SERVICE": "Azure AD MFA",
-   "Task Name": "Task Name 12",
-   "Category": "Category 3",
-   "Task Description": "Create, modify, and delete Azure Application Gateway",
-   "Frequency": "Ad hoc",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "Yes"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AAM",
-   "SERVICE": "Azure Compute",
-   "Task Name": "Task Name 13",
-   "Category": "Category 4",
-   "Task Description": "Create, modify, and delete Non-Shared Services Network Security Groups",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "Yes"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AAN",
-   "SERVICE": "Azure Compute",
-   "Task Name": "Task Name 14",
-   "Category": "Category 4",
-   "Task Description": "Create, modify, and delete Non-Shared Services Application Security Groups",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "Yes"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AAO",
-   "SERVICE": "Azure Compute",
-   "Task Name": "Task Name 15",
-   "Category": "Category 4",
-   "Task Description": "Create, modify, and delete Non-Shared Services Virtual Machines, Availability Sets, and VMSS",
-   "Frequency": "As Required",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "Yes"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-manage-disks"
-},
- {
-   "TaskSortId": "AAP",
-   "SERVICE": "Azure Compute",
-   "Task Name": "Task Name 16",
-   "Category": "Category 4",
-   "Task Description": "Start, Stop, and Restart Non-Shared Services Virtual Machines",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "Yes"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-custom-images"
-},
- {
-   "TaskSortId": "AAQ",
-   "SERVICE": "Azure Compute",
-   "Task Name": "Task Name 17",
-   "Category": "Category 4",
-   "Task Description": "Create, modify, and delete Non-Shared Services Service Endpoints",
-   "Frequency": "As Required",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "Yes"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-custom-images#image-management"
-},
- {
-   "TaskSortId": "AAR",
-   "SERVICE": "Azure Compute",
-   "Task Name": "Task Name 18",
-   "Category": "Category 4",
-   "Task Description": "Create, modify, and delete Non-Shared Services Service Endpoint Policies",
-   "Frequency": "As Required",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "Yes"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-availability-sets#create-an-availability-set"
-},
- {
-   "TaskSortId": "AAS",
-   "SERVICE": "Azure Compute",
-   "Task Name": "Task Name 19",
-   "Category": "Category 4",
-   "Task Description": "Create, modify, and delete Non-Shared Services Private Link Endpoints",
-   "Frequency": "As Required",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "Yes"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-availability-sets#create-vms-inside-an-availability-set"
-},
- {
-   "TaskSortId": "AAT",
-   "SERVICE": "Azure Compute",
-   "Task Name": "Task Name 20",
-   "Category": "Category 4",
-   "Task Description": "Create, modify, and delete Non-Shared Services Load Balancers",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "Yes"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AAU",
-   "SERVICE": "Azure Compute",
-   "Task Name": "Task Name 21",
-   "Category": "Category 4",
-   "Task Description": "Create, modify, and delete Non-Shared Services Public IP Addresses",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "Yes"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-backup-vms"
-},
- {
-   "TaskSortId": "AAV",
-   "SERVICE": "Azure Compute",
-   "Task Name": "Task Name 22",
-   "Category": "Category 4",
-   "Task Description": "Create, modify, and delete Non-Shared Services Network Interfaces for VMs",
-   "Frequency": "As Required",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "Yes"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-monitoring"
-},
- {
-   "TaskSortId": "AAW",
-   "SERVICE": "Azure Compute",
-   "Task Name": "Task Name 23",
-   "Category": "Category 4",
-   "Task Description": "Integrate SIEM to capture Azure Security Logs (Activity Logs, Key Vault Audit Logs)",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "Yes"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-azure-security"
-},
- {
-   "TaskSortId": "AAX",
-   "SERVICE": "Azure Compute",
-   "Task Name": "Task Name 24",
-   "Category": "Category 4",
-   "Task Description": "Create, modify, and delete Azure Log Analytics Workspaces",
-   "Frequency": "As Required",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "Yes"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/linux/maintenance-and-updates"
-},
- {
-   "TaskSortId": "AAY",
-   "SERVICE": "Azure Compute",
-   "Task Name": "Task Name 25",
-   "Category": "Category 4",
-   "Task Description": "Create, modify, and delete Azure SQL Servers, Azure SQL Managed Instance",
-   "Frequency": "As Required",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/linux/maintenance-and-updates"
-},
- {
-   "TaskSortId": "AAZ",
-   "SERVICE": "Azure Compute",
-   "Task Name": "Task Name 26",
-   "Category": "Category 4",
-   "Task Description": "Manage Access to Azure SQL Server, Azure SQL Managed Instance",
-   "Frequency": "As Required",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/linux/change-vm-size"
-},
- {
-   "TaskSortId": "ABA",
-   "SERVICE": "Azure Data & Analytics",
-   "Task Name": "Task Name 27",
-   "Category": "Category 4",
-   "Task Description": "Create, modify, and delete, Azure SQL Server / Azure SQL Managed Instance Databases",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": "https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-use-environments"
-},
- {
-   "TaskSortId": "ABB",
-   "SERVICE": "Azure Data & Analytics",
-   "Task Name": "Task Name 28",
-   "Category": "Category 4",
-   "Task Description": "Create, modify, and delete Non-Shared Services Storage Accounts",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": "https://docs.microsoft.com/en-us/azure/machine-learning/service/tutorial-1st-experiment-sdk-setup"
-},
- {
-   "TaskSortId": "ABC",
-   "SERVICE": "Azure Data & Analytics",
-   "Task Name": "Task Name 29",
-   "Category": "Category 4",
-   "Task Description": "Create, modify, and delete Azure Key Vaults and Key Vault Access Policies",
-   "Frequency": "As Required",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": "https://docs.microsoft.com/en-us/dotnet/api/overview/data-prep/overview-data-prep"
-},
- {
-   "TaskSortId": "ABD",
-   "SERVICE": "Azure Data & Analytics",
-   "Task Name": "Task Name 30",
-   "Category": "Category 4",
-   "Task Description": "Create, modify, and delete Non-Shared Services Key Vault secrets, keys, and certificates",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": "https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-deploy-and-where"
-},
- {
-   "TaskSortId": "ABE",
-   "SERVICE": "Azure Data & Analytics",
-   "Task Name": "Task Name 31",
-   "Category": "Category 5",
-   "Task Description": "Manage Backups of Virtual Machines and Azure SQL Servers / Azure SQL Managed Instances",
-   "Frequency": "As Required",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": "https://docs.microsoft.com/en-us/machine-learning-server/what-is-operationalization"
-},
- {
-   "TaskSortId": "ABF",
-   "SERVICE": "Azure Database",
-   "Task Name": "Task Name 32",
-   "Category": "Category 6",
-   "Task Description": "Create, modify, and delete Non-Shared Services Key Vault secrets, keys, and certificates",
-   "Frequency": "As Required",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ABG",
-   "SERVICE": "Azure Database",
-   "Task Name": "Task Name 33",
-   "Category": "Category 6",
-   "Task Description": "Monitor for compliance to organizational security and compliance requirements",
-   "Frequency": "As Required",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ABH",
-   "SERVICE": "Azure Database",
-   "Task Name": "Task Name 34",
-   "Category": "Category 6",
-   "Task Description": "Create, modify, and delete Shared Services Virtual Machines, Availability Sets, VMSS",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ABI",
-   "SERVICE": "Azure Database",
-   "Task Name": "Task Name 35",
-   "Category": "Category 6",
-   "Task Description": "Create, modify, and delete Shared Services Service Endpoints",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ABJ",
-   "SERVICE": "Azure Database",
-   "Task Name": "Task Name 36",
-   "Category": "Category 6",
-   "Task Description": "Create, modify, and delete Shared Services Service Endpoint Policies",
-   "Frequency": "As Required",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ABK",
-   "SERVICE": "Azure Database",
-   "Task Name": "Task Name 37",
-   "Category": "Category 6",
-   "Task Description": "Create, modify, and delete Shared Services Private Link Endpoints",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ABL",
-   "SERVICE": "Azure Database",
-   "Task Name": "Task Name 38",
-   "Category": "Category 6",
-   "Task Description": "Create, modify, and delete Shared Services Load Balancers",
-   "Frequency": "As Required",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ABM",
-   "SERVICE": "Azure Database",
-   "Task Name": "Task Name 39",
-   "Category": "Category 6",
-   "Task Description": "Create, modify, and delete Shared Services Public IP Addresses",
-   "Frequency": "As Required",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ABN",
-   "SERVICE": "Azure Database",
-   "Task Name": "Task Name 40",
-   "Category": "Category 6",
-   "Task Description": "Create, modify, and delete Shared Services Network Interfaces for VMs acting as NVAs",
-   "Frequency": "As Required",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ABO",
-   "SERVICE": "Azure Database",
-   "Task Name": "Task Name 41",
-   "Category": "Category 6",
-   "Task Description": "Create, modify, and delete Shared Services Network Interfaces for VMS not acting as NVAs",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ABP",
-   "SERVICE": "Azure Database",
-   "Task Name": "Task Name 42",
-   "Category": "Category 6",
-   "Task Description": "Create, modify, and delete Shared Services Key Vault secrets, keys, and certificates",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ABQ",
-   "SERVICE": "Azure Database",
-   "Task Name": "Task Name 43",
-   "Category": "Category 6",
-   "Task Description": "Create, modify, and delete Azure Traffic Manager",
-   "Frequency": "As Required",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ABR",
-   "SERVICE": "Azure Database",
-   "Task Name": "Task Name 44",
-   "Category": "Category 6",
-   "Task Description": "Create, modify, and delete Azure Front Door",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ABS",
-   "SERVICE": "Azure Database",
-   "Task Name": "Task Name 45",
-   "Category": "Category 6",
-   "Task Description": "Create, modify, and delete Azure Application Gateway",
-   "Frequency": "As Required",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ABT",
-   "SERVICE": "Azure Database",
-   "Task Name": "Task Name 46",
-   "Category": "Category 6",
-   "Task Description": "Create, modify, and delete Non-Shared Services Network Security Groups",
-   "Frequency": "As Required",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ABU",
-   "SERVICE": "Azure Database",
-   "Task Name": "Task Name 47",
-   "Category": "Category 6",
-   "Task Description": "Create, modify, and delete Non-Shared Services Application Security Groups",
-   "Frequency": "As Required",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ABV",
-   "SERVICE": "Azure Database",
-   "Task Name": "Task Name 48",
-   "Category": "Category 6",
-   "Task Description": "Create, modify, and delete Non-Shared Services Virtual Machines, Availability Sets, and VMSS",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ABW",
-   "SERVICE": "Azure Database",
-   "Task Name": "Task Name 49",
-   "Category": "Category 6",
-   "Task Description": "Start, Stop, and Restart Non-Shared Services Virtual Machines",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ABX",
-   "SERVICE": "Azure Database",
-   "Task Name": "Task Name 50",
-   "Category": "Category 6",
-   "Task Description": "Create, modify, and delete Non-Shared Services Service Endpoints",
-   "Frequency": "As Required",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ABY",
-   "SERVICE": "Azure Database",
-   "Task Name": "Task Name 51",
-   "Category": "Category 6",
-   "Task Description": "Create, modify, and delete Non-Shared Services Service Endpoint Policies",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ABZ",
-   "SERVICE": "Azure Database",
-   "Task Name": "Task Name 52",
-   "Category": "Category 6",
-   "Task Description": "Create, modify, and delete Non-Shared Services Private Link Endpoints",
-   "Frequency": "As Required",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ACA",
-   "SERVICE": "Azure Database",
-   "Task Name": "Task Name 53",
-   "Category": "Category 6",
-   "Task Description": "Create, modify, and delete Non-Shared Services Load Balancers",
-   "Frequency": "As Required",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ACB",
-   "SERVICE": "Azure Database",
-   "Task Name": "Task Name 54",
-   "Category": "Category 6",
-   "Task Description": "Create, modify, and delete Non-Shared Services Public IP Addresses",
-   "Frequency": "As Required",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ACC",
-   "SERVICE": "Azure Database",
-   "Task Name": "Task Name 55",
-   "Category": "Category 6",
-   "Task Description": "Create, modify, and delete Non-Shared Services Network Interfaces for VMs",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ACD",
-   "SERVICE": "Azure Database",
-   "Task Name": "Task Name 56",
-   "Category": "Category 6",
-   "Task Description": "Integrate SIEM to capture Azure Security Logs (Activity Logs, Key Vault Audit Logs)",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ACE",
-   "SERVICE": "Azure Database",
-   "Task Name": "Task Name 57",
-   "Category": "Category 6",
-   "Task Description": "Create, modify, and delete Azure Log Analytics Workspaces",
-   "Frequency": "As Required",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ACF",
-   "SERVICE": "Azure Database",
-   "Task Name": "Task Name 58",
-   "Category": "Category 6",
-   "Task Description": "Create, modify, and delete Azure SQL Servers, Azure SQL Managed Instance",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ACG",
-   "SERVICE": "Azure Database",
-   "Task Name": "Task Name 59",
-   "Category": "Category 6",
-   "Task Description": "Manage Access to Azure SQL Server, Azure SQL Managed Instance",
-   "Frequency": "As Required",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ACH",
-   "SERVICE": "Azure Database",
-   "Task Name": "Task Name 60",
-   "Category": "Category 6",
-   "Task Description": "Create, modify, and delete, Azure SQL Server / Azure SQL Managed Instance Databases",
-   "Frequency": "As Required",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ACI",
-   "SERVICE": "Azure Database",
-   "Task Name": "Task Name 61",
-   "Category": "Category 7",
-   "Task Description": "Create, modify, and delete Non-Shared Services Storage Accounts",
-   "Frequency": "As Required",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ACJ",
-   "SERVICE": "Azure Database",
-   "Task Name": "Task Name 62",
-   "Category": "Category 8",
-   "Task Description": "Create, modify, and delete Azure Key Vaults and Key Vault Access Policies",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ACK",
-   "SERVICE": "Azure Database",
-   "Task Name": "Task Name 63",
-   "Category": "Category 9",
-   "Task Description": "Create, modify, and delete Non-Shared Services Key Vault secrets, keys, and certificates",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ACL",
-   "SERVICE": "Azure Database",
-   "Task Name": "Task Name 64",
-   "Category": "Category 9",
-   "Task Description": "Manage Backups of Virtual Machines and Azure SQL Servers / Azure SQL Managed Instances",
-   "Frequency": "As Required",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ACM",
-   "SERVICE": "Azure Database",
-   "Task Name": "Task Name 65",
-   "Category": "Category 9",
-   "Task Description": "Create, modify, and delete Non-Shared Services Key Vault secrets, keys, and certificates",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ACN",
-   "SERVICE": "Azure Developer Tools",
-   "Task Name": "Task Name 66",
-   "Category": "Category 9",
-   "Task Description": "Monitor for compliance to organizational security and compliance requirements",
-   "Frequency": "As Required",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": "https://docs.microsoft.com/en-us/azure/api-management/import-and-publish"
-},
- {
-   "TaskSortId": "ACO",
-   "SERVICE": "Azure Developer Tools",
-   "Task Name": "Task Name 67",
-   "Category": "Category 9",
-   "Task Description": "Create, modify, and delete Shared Services Virtual Machines, Availability Sets, VMSS",
-   "Frequency": "As Required",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": "https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-add-products"
-},
- {
-   "TaskSortId": "ACP",
-   "SERVICE": "Azure Developer Tools",
-   "Task Name": "Task Name 68",
-   "Category": "Category 9",
-   "Task Description": "Create, modify, and delete Shared Services Service Endpoints",
-   "Frequency": "As Required",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": "https://docs.microsoft.com/en-us/azure/api-management/mock-api-responses"
-},
- {
-   "TaskSortId": "ACQ",
-   "SERVICE": "Azure Developer Tools",
-   "Task Name": "Task Name 69",
-   "Category": "Category 9",
-   "Task Description": "Create, modify, and delete Shared Services Service Endpoint Policies",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": "https://docs.microsoft.com/en-us/azure/api-management/transform-api"
-},
- {
-   "TaskSortId": "ACR",
-   "SERVICE": "Azure Developer Tools",
-   "Task Name": "Task Name 70",
-   "Category": "Category 9",
-   "Task Description": "Create, modify, and delete Shared Services Private Link Endpoints",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": "https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-use-azure-monitor"
-},
- {
-   "TaskSortId": "ACS",
-   "SERVICE": "Azure Developer Tools",
-   "Task Name": "Task Name 71",
-   "Category": "Category 9",
-   "Task Description": "Create, modify, and delete Shared Services Load Balancers",
-   "Frequency": "As Required",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": "https://docs.microsoft.com/en-us/azure/api-management/api-management-get-started-publish-versions"
-},
- {
-   "TaskSortId": "ACT",
-   "SERVICE": "Azure Developer Tools",
-   "Task Name": "Task Name 72",
-   "Category": "Category 9",
-   "Task Description": "Create, modify, and delete Shared Services Public IP Addresses",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": "https://docs.microsoft.com/en-us/azure/api-management/api-management-get-started-revise-api"
-},
- {
-   "TaskSortId": "ACU",
-   "SERVICE": "Azure Developer Tools",
-   "Task Name": "Task Name 73",
-   "Category": "Category 9",
-   "Task Description": "Create, modify, and delete Shared Services Network Interfaces for VMs acting as NVAs",
-   "Frequency": "As Required",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": "https://docs.microsoft.com/en-us/azure/api-management/api-management-customize-styles"
-},
- {
-   "TaskSortId": "ACV",
-   "SERVICE": "Azure Developer Tools",
-   "Task Name": "Task Name 74",
-   "Category": "Category 9",
-   "Task Description": "Create, modify, and delete Shared Services Network Interfaces for VMS not acting as NVAs",
-   "Frequency": "As Required",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": "https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-api-inspector"
-},
- {
-   "TaskSortId": "ACW",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 75",
-   "Category": "Category 9",
-   "Task Description": "Create, modify, and delete Shared Services Key Vault secrets, keys, and certificates",
-   "Frequency": "",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ACX",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 76",
-   "Category": "Category 9",
-   "Task Description": "Create, modify, and delete Azure Traffic Manager",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ACY",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 77",
-   "Category": "Category 9",
-   "Task Description": "Create, modify, and delete Azure Front Door",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ACZ",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 78",
-   "Category": "Category 9",
-   "Task Description": "Create, modify, and delete Azure Application Gateway",
-   "Frequency": "As Required",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ADA",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 79",
-   "Category": "Category 9",
-   "Task Description": "Create, modify, and delete Non-Shared Services Network Security Groups",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ADB",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 80",
-   "Category": "Category 9",
-   "Task Description": "Create, modify, and delete Non-Shared Services Application Security Groups",
-   "Frequency": "As Required",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ADC",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 81",
-   "Category": "Category 9",
-   "Task Description": "Create, modify, and delete Non-Shared Services Virtual Machines, Availability Sets, and VMSS",
-   "Frequency": "As Required",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ADD",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 82",
-   "Category": "Category 9",
-   "Task Description": "Start, Stop, and Restart Non-Shared Services Virtual Machines",
-   "Frequency": "As Required",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ADE",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 83",
-   "Category": "Category 9",
-   "Task Description": "Create, modify, and delete Non-Shared Services Service Endpoints",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ADF",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 84",
-   "Category": "Category 9",
-   "Task Description": "Create, modify, and delete Non-Shared Services Service Endpoint Policies",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ADG",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 85",
-   "Category": "Category 9",
-   "Task Description": "Create, modify, and delete Non-Shared Services Private Link Endpoints",
-   "Frequency": "As Required",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ADH",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 86",
-   "Category": "Category 9",
-   "Task Description": "Create, modify, and delete Non-Shared Services Load Balancers",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ADI",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 87",
-   "Category": "Category 9",
-   "Task Description": "Create, modify, and delete Non-Shared Services Public IP Addresses",
-   "Frequency": "As Required",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ADJ",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 88",
-   "Category": "Category 9",
-   "Task Description": "Create, modify, and delete Non-Shared Services Network Interfaces for VMs",
-   "Frequency": "As Required",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ADK",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 89",
-   "Category": "Category 9",
-   "Task Description": "Integrate SIEM to capture Azure Security Logs (Activity Logs, Key Vault Audit Logs)",
-   "Frequency": "As Required",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ADL",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 90",
-   "Category": "Category 9",
-   "Task Description": "Create, modify, and delete Azure Log Analytics Workspaces",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ADM",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 91",
-   "Category": "Category 9",
-   "Task Description": "Create, modify, and delete Azure SQL Servers, Azure SQL Managed Instance",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ADN",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 92",
-   "Category": "Category 9",
-   "Task Description": "Manage Access to Azure SQL Server, Azure SQL Managed Instance",
-   "Frequency": "As Required",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ADO",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 93",
-   "Category": "Category 9",
-   "Task Description": "Create, modify, and delete, Azure SQL Server / Azure SQL Managed Instance Databases",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ADP",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 94",
-   "Category": "Category 9",
-   "Task Description": "Create, modify, and delete Non-Shared Services Storage Accounts",
-   "Frequency": "As Required",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ADQ",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 95",
-   "Category": "Category 9",
-   "Task Description": "Create, modify, and delete Azure Key Vaults and Key Vault Access Policies",
-   "Frequency": "As Required",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ADR",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 96",
-   "Category": "Category 9",
-   "Task Description": "Create, modify, and delete Non-Shared Services Key Vault secrets, keys, and certificates",
-   "Frequency": "As Required",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ADS",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 97",
-   "Category": "Category 9",
-   "Task Description": "Manage Backups of Virtual Machines and Azure SQL Servers / Azure SQL Managed Instances",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ADT",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 98",
-   "Category": "Category 9",
-   "Task Description": "Create, modify, and delete Non-Shared Services Key Vault secrets, keys, and certificates",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ADU",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 99",
-   "Category": "Category 9",
-   "Task Description": "Monitor for compliance to organizational security and compliance requirements",
-   "Frequency": "As Required",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ADV",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 100",
-   "Category": "Category 9",
-   "Task Description": "Create, modify, and delete Shared Services Virtual Machines, Availability Sets, VMSS",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ADW",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 101",
-   "Category": "Category 9",
-   "Task Description": "Create, modify, and delete Shared Services Service Endpoints",
-   "Frequency": "As Required",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ADX",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 102",
-   "Category": "Category 9",
-   "Task Description": "Create, modify, and delete Shared Services Service Endpoint Policies",
-   "Frequency": "As Required",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ADY",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 103",
-   "Category": "Category 9",
-   "Task Description": "Create, modify, and delete Shared Services Private Link Endpoints",
-   "Frequency": "As Required",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "ADZ",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 104",
-   "Category": "Category 10",
-   "Task Description": "Create, modify, and delete Shared Services Load Balancers",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AEA",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 105",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Shared Services Public IP Addresses",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AEB",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 106",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Shared Services Network Interfaces for VMs acting as NVAs",
-   "Frequency": "As Required",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AEC",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 107",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Shared Services Network Interfaces for VMS not acting as NVAs",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AED",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 108",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Shared Services Key Vault secrets, keys, and certificates",
-   "Frequency": "As Required",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AEE",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 109",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Azure Traffic Manager",
-   "Frequency": "As Required",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AEF",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 110",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Azure Front Door",
-   "Frequency": "As Required",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AEG",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 111",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Azure Application Gateway",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AEH",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 112",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Non-Shared Services Network Security Groups",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AEI",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 113",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Non-Shared Services Application Security Groups",
-   "Frequency": "As Required",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AEJ",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 114",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Non-Shared Services Virtual Machines, Availability Sets, and VMSS",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AEK",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 115",
-   "Category": "Category 11",
-   "Task Description": "Start, Stop, and Restart Non-Shared Services Virtual Machines",
-   "Frequency": "As Required",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AEL",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 116",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Non-Shared Services Service Endpoints",
-   "Frequency": "As Required",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AEM",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 117",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Non-Shared Services Service Endpoint Policies",
-   "Frequency": "As Required",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AEN",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 118",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Non-Shared Services Private Link Endpoints",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AEO",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 119",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Non-Shared Services Load Balancers",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AEP",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 120",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Non-Shared Services Public IP Addresses",
-   "Frequency": "As Required",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AEQ",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 121",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Non-Shared Services Network Interfaces for VMs",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AER",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 122",
-   "Category": "Category 11",
-   "Task Description": "Integrate SIEM to capture Azure Security Logs (Activity Logs, Key Vault Audit Logs)",
-   "Frequency": "As Required",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AES",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 123",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Azure Log Analytics Workspaces",
-   "Frequency": "As Required",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AET",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 124",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Azure SQL Servers, Azure SQL Managed Instance",
-   "Frequency": "As Required",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AEU",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 125",
-   "Category": "Category 11",
-   "Task Description": "Manage Access to Azure SQL Server, Azure SQL Managed Instance",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AEV",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 126",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete, Azure SQL Server / Azure SQL Managed Instance Databases",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AEW",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 127",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Non-Shared Services Storage Accounts",
-   "Frequency": "As Required",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AEX",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 128",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Azure Key Vaults and Key Vault Access Policies",
-   "Frequency": "As Required",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AEY",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 129",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Non-Shared Services Key Vault secrets, keys, and certificates",
-   "Frequency": "As Required",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AEZ",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 130",
-   "Category": "Category 11",
-   "Task Description": "Manage Backups of Virtual Machines and Azure SQL Servers / Azure SQL Managed Instances",
-   "Frequency": "As Required",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AFA",
-   "SERVICE": "Azure DevOps",
-   "Task Name": "Task Name 131",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Non-Shared Services Key Vault secrets, keys, and certificates",
-   "Frequency": "As Required",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AFB",
-   "SERVICE": "Azure Governance",
-   "Task Name": "Task Name 132",
-   "Category": "Category 11",
-   "Task Description": "Monitor for compliance to organizational security and compliance requirements",
-   "Frequency": "",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AFC",
-   "SERVICE": "Azure Governance",
-   "Task Name": "Task Name 133",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Shared Services Virtual Machines, Availability Sets, VMSS",
-   "Frequency": "",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AFD",
-   "SERVICE": "Azure Governance",
-   "Task Name": "Task Name 134",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Shared Services Service Endpoints",
-   "Frequency": "",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AFE",
-   "SERVICE": "Azure Governance",
-   "Task Name": "Task Name 135",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Shared Services Service Endpoint Policies",
-   "Frequency": "",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AFF",
-   "SERVICE": "Azure Governance",
-   "Task Name": "Task Name 136",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Shared Services Private Link Endpoints",
-   "Frequency": "",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AFG",
-   "SERVICE": "Azure Governance",
-   "Task Name": "Task Name 137",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Shared Services Load Balancers",
-   "Frequency": "",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AFH",
-   "SERVICE": "Azure Governance",
-   "Task Name": "Task Name 138",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Shared Services Public IP Addresses",
-   "Frequency": "",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AFI",
-   "SERVICE": "Azure Governance",
-   "Task Name": "Task Name 139",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Shared Services Network Interfaces for VMs acting as NVAs",
-   "Frequency": "",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AFJ",
-   "SERVICE": "Azure Governance",
-   "Task Name": "Task Name 140",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Shared Services Network Interfaces for VMS not acting as NVAs",
-   "Frequency": "",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AFK",
-   "SERVICE": "Azure Governance",
-   "Task Name": "Task Name 141",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Shared Services Key Vault secrets, keys, and certificates",
-   "Frequency": "",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AFL",
-   "SERVICE": "Azure Governance",
-   "Task Name": "Task Name 142",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Azure Traffic Manager",
-   "Frequency": "",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AFM",
-   "SERVICE": "Azure Governance",
-   "Task Name": "Task Name 143",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Azure Front Door",
-   "Frequency": "",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AFN",
-   "SERVICE": "Azure Governance",
-   "Task Name": "Task Name 144",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Azure Application Gateway",
-   "Frequency": "",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AFO",
-   "SERVICE": "Azure Governance",
-   "Task Name": "Task Name 145",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Non-Shared Services Network Security Groups",
-   "Frequency": "",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AFP",
-   "SERVICE": "Azure Governance",
-   "Task Name": "Task Name 146",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Non-Shared Services Application Security Groups",
-   "Frequency": "",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AFQ",
-   "SERVICE": "Azure Governance",
-   "Task Name": "Task Name 147",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Non-Shared Services Virtual Machines, Availability Sets, and VMSS",
-   "Frequency": "",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AFR",
-   "SERVICE": "Azure Governance",
-   "Task Name": "Task Name 148",
-   "Category": "Category 11",
-   "Task Description": "Start, Stop, and Restart Non-Shared Services Virtual Machines",
-   "Frequency": "",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AFS",
-   "SERVICE": "Azure Governance",
-   "Task Name": "Task Name 149",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Non-Shared Services Service Endpoints",
-   "Frequency": "",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AFT",
-   "SERVICE": "Azure Governance",
-   "Task Name": "Task Name 150",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Non-Shared Services Service Endpoint Policies",
-   "Frequency": "",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AFU",
-   "SERVICE": "Azure Governance",
-   "Task Name": "Task Name 151",
-   "Category": "Category 11",
-   "Task Description": "Create, modify, and delete Non-Shared Services Private Link Endpoints",
-   "Frequency": "",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AFV",
-   "SERVICE": "Azure Governance",
-   "Task Name": "Task Name 152",
-   "Category": "Category 12",
-   "Task Description": "Create, modify, and delete Non-Shared Services Load Balancers",
-   "Frequency": "",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AFW",
-   "SERVICE": "Azure Governance",
-   "Task Name": "Task Name 153",
-   "Category": "Category 12",
-   "Task Description": "Create, modify, and delete Non-Shared Services Public IP Addresses",
-   "Frequency": "",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AFX",
-   "SERVICE": "Azure Governance",
-   "Task Name": "Task Name 154",
-   "Category": "Category 12",
-   "Task Description": "Create, modify, and delete Non-Shared Services Network Interfaces for VMs",
-   "Frequency": "",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AFY",
-   "SERVICE": "Azure Governance",
-   "Task Name": "Task Name 155",
-   "Category": "Category 12",
-   "Task Description": "Integrate SIEM to capture Azure Security Logs (Activity Logs, Key Vault Audit Logs)",
-   "Frequency": "",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AFZ",
-   "SERVICE": "Azure Governance",
-   "Task Name": "Task Name 156",
-   "Category": "Category 12",
-   "Task Description": "Create, modify, and delete Azure Log Analytics Workspaces",
-   "Frequency": "",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AGA",
-   "SERVICE": "Azure Governance",
-   "Task Name": "Task Name 157",
-   "Category": "Category 12",
-   "Task Description": "Create, modify, and delete Azure SQL Servers, Azure SQL Managed Instance",
-   "Frequency": "",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AGB",
-   "SERVICE": "Azure Governance",
-   "Task Name": "Task Name 158",
-   "Category": "Category 12",
-   "Task Description": "Manage Access to Azure SQL Server, Azure SQL Managed Instance",
-   "Frequency": "",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AGC",
-   "SERVICE": "Azure Governance",
-   "Task Name": "Task Name 159",
-   "Category": "Category 12",
-   "Task Description": "Create, modify, and delete, Azure SQL Server / Azure SQL Managed Instance Databases",
-   "Frequency": "",
-   "Task Type": "Troubleshooting",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AGD",
-   "SERVICE": "Azure Governance",
-   "Task Name": "Task Name 160",
-   "Category": "Category 12",
-   "Task Description": "Create, modify, and delete Non-Shared Services Storage Accounts",
-   "Frequency": "",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AGE",
-   "SERVICE": "Azure Governance",
-   "Task Name": "Task Name 161",
-   "Category": "Category 12",
-   "Task Description": "Create, modify, and delete Azure Key Vaults and Key Vault Access Policies",
-   "Frequency": "",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AGF",
-   "SERVICE": "Azure Governance",
-   "Task Name": "Task Name 162",
-   "Category": "Category 12",
-   "Task Description": "Create, modify, and delete Non-Shared Services Key Vault secrets, keys, and certificates",
-   "Frequency": "",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AGG",
-   "SERVICE": "Azure Governance",
-   "Task Name": "Task Name 163",
-   "Category": "Category 12",
-   "Task Description": "Manage Backups of Virtual Machines and Azure SQL Servers / Azure SQL Managed Instances",
-   "Frequency": "",
-   "Task Type": "Support",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-},
- {
-   "TaskSortId": "AGH",
-   "SERVICE": "Azure Governance",
-   "Task Name": "Task Name 164",
-   "Category": "Category 12",
-   "Task Description": "Create, modify, and delete Non-Shared Services Key Vault secrets, keys, and certificates",
-   "Frequency": "",
-   "Task Type": "Monitoring",
-   "Automated (Y": {
-      "N)": "No"
-   },
-   "Notes": "",
-   "Source": "",
-   "Documentation Link": ""
-}
+  {
+    "TaskSortId": "AAC",
+    "SERVICE": "Entra ID Identity Management",
+    "Task Name": "Task Name 3",
+    "Category": "Category 1",
+    "Task Description": "Create, modify, and delete Shared Services Service Endpoint Policies",
+    "Frequency": "Monthly",
+    "Task Type": "",
+    "Automated": "Yes",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AAD",
+    "SERVICE": "Entra ID Identity Management",
+    "Task Name": "Task Name 4",
+    "Category": "Category 1",
+    "Task Description": "Create, modify, and delete Shared Services Private Link Endpoints",
+    "Frequency": "Daily",
+    "Task Type": "",
+    "Automated": "Yes",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AAE",
+    "SERVICE": "Entra ID Identity Management",
+    "Task Name": "Task Name 5",
+    "Category": "Category 1",
+    "Task Description": "Create, modify, and delete Shared Services Load Balancers",
+    "Frequency": "Daily",
+    "Task Type": "",
+    "Automated": "Yes",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AAF",
+    "SERVICE": "Azure AD MFA",
+    "Task Name": "Task Name 6",
+    "Category": "Category 2",
+    "Task Description": "Create, modify, and delete Shared Services Public IP Addresses",
+    "Frequency": "Ad hoc",
+    "Task Type": "Support",
+    "Automated": "Yes",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AAG",
+    "SERVICE": "Azure AD MFA",
+    "Task Name": "Task Name 7",
+    "Category": "Category 2",
+    "Task Description": "Create, modify, and delete Shared Services Network Interfaces for VMs acting as NVAs",
+    "Frequency": "Ad hoc",
+    "Task Type": "Support",
+    "Automated": "Yes",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AAH",
+    "SERVICE": "Azure AD MFA",
+    "Task Name": "Task Name 8",
+    "Category": "Category 2",
+    "Task Description": "Create, modify, and delete Shared Services Network Interfaces for VMS not acting as NVAs",
+    "Frequency": "Ad hoc",
+    "Task Type": "Monitoring",
+    "Automated": "Yes",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AAI",
+    "SERVICE": "Azure AD MFA",
+    "Task Name": "Task Name 9",
+    "Category": "Category 3",
+    "Task Description": "Create, modify, and delete Shared Services Key Vault secrets, keys, and certificates",
+    "Frequency": "Ad hoc",
+    "Task Type": "Support",
+    "Automated": "Yes",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AAJ",
+    "SERVICE": "Azure AD MFA",
+    "Task Name": "Task Name 10",
+    "Category": "Category 3",
+    "Task Description": "Create, modify, and delete Azure Traffic Manager",
+    "Frequency": "Ad hoc",
+    "Task Type": "Monitoring",
+    "Automated": "Yes",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AAK",
+    "SERVICE": "Azure AD MFA",
+    "Task Name": "Task Name 11",
+    "Category": "Category 3",
+    "Task Description": "Create, modify, and delete Azure Front Door",
+    "Frequency": "Ad hoc",
+    "Task Type": "Troubleshooting",
+    "Automated": "Yes",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AAL",
+    "SERVICE": "Azure AD MFA",
+    "Task Name": "Task Name 12",
+    "Category": "Category 3",
+    "Task Description": "Create, modify, and delete Azure Application Gateway",
+    "Frequency": "Ad hoc",
+    "Task Type": "Troubleshooting",
+    "Automated": "Yes",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AAM",
+    "SERVICE": "Azure Compute",
+    "Task Name": "Task Name 13",
+    "Category": "Category 4",
+    "Task Description": "Create, modify, and delete Non-Shared Services Network Security Groups",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "Yes",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AAN",
+    "SERVICE": "Azure Compute",
+    "Task Name": "Task Name 14",
+    "Category": "Category 4",
+    "Task Description": "Create, modify, and delete Non-Shared Services Application Security Groups",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "Yes",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AAO",
+    "SERVICE": "Azure Compute",
+    "Task Name": "Task Name 15",
+    "Category": "Category 4",
+    "Task Description": "Create, modify, and delete Non-Shared Services Virtual Machines, Availability Sets, and VMSS",
+    "Frequency": "As Required",
+    "Task Type": "Monitoring",
+    "Automated": "Yes",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-manage-disks"
+  },
+  {
+    "TaskSortId": "AAP",
+    "SERVICE": "Azure Compute",
+    "Task Name": "Task Name 16",
+    "Category": "Category 4",
+    "Task Description": "Start, Stop, and Restart Non-Shared Services Virtual Machines",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "Yes",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-custom-images"
+  },
+  {
+    "TaskSortId": "AAQ",
+    "SERVICE": "Azure Compute",
+    "Task Name": "Task Name 17",
+    "Category": "Category 4",
+    "Task Description": "Create, modify, and delete Non-Shared Services Service Endpoints",
+    "Frequency": "As Required",
+    "Task Type": "Monitoring",
+    "Automated": "Yes",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-custom-images#image-management"
+  },
+  {
+    "TaskSortId": "AAR",
+    "SERVICE": "Azure Compute",
+    "Task Name": "Task Name 18",
+    "Category": "Category 4",
+    "Task Description": "Create, modify, and delete Non-Shared Services Service Endpoint Policies",
+    "Frequency": "As Required",
+    "Task Type": "Troubleshooting",
+    "Automated": "Yes",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-availability-sets#create-an-availability-set"
+  },
+  {
+    "TaskSortId": "AAS",
+    "SERVICE": "Azure Compute",
+    "Task Name": "Task Name 19",
+    "Category": "Category 4",
+    "Task Description": "Create, modify, and delete Non-Shared Services Private Link Endpoints",
+    "Frequency": "As Required",
+    "Task Type": "Troubleshooting",
+    "Automated": "Yes",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-availability-sets#create-vms-inside-an-availability-set"
+  },
+  {
+    "TaskSortId": "AAT",
+    "SERVICE": "Azure Compute",
+    "Task Name": "Task Name 20",
+    "Category": "Category 4",
+    "Task Description": "Create, modify, and delete Non-Shared Services Load Balancers",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "Yes",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AAU",
+    "SERVICE": "Azure Compute",
+    "Task Name": "Task Name 21",
+    "Category": "Category 4",
+    "Task Description": "Create, modify, and delete Non-Shared Services Public IP Addresses",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "Yes",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-backup-vms"
+  },
+  {
+    "TaskSortId": "AAV",
+    "SERVICE": "Azure Compute",
+    "Task Name": "Task Name 22",
+    "Category": "Category 4",
+    "Task Description": "Create, modify, and delete Non-Shared Services Network Interfaces for VMs",
+    "Frequency": "As Required",
+    "Task Type": "Monitoring",
+    "Automated": "Yes",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-monitoring"
+  },
+  {
+    "TaskSortId": "AAW",
+    "SERVICE": "Azure Compute",
+    "Task Name": "Task Name 23",
+    "Category": "Category 4",
+    "Task Description": "Integrate SIEM to capture Azure Security Logs (Activity Logs, Key Vault Audit Logs)",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "Yes",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-azure-security"
+  },
+  {
+    "TaskSortId": "AAX",
+    "SERVICE": "Azure Compute",
+    "Task Name": "Task Name 24",
+    "Category": "Category 4",
+    "Task Description": "Create, modify, and delete Azure Log Analytics Workspaces",
+    "Frequency": "As Required",
+    "Task Type": "Monitoring",
+    "Automated": "Yes",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/linux/maintenance-and-updates"
+  },
+  {
+    "TaskSortId": "AAY",
+    "SERVICE": "Azure Compute",
+    "Task Name": "Task Name 25",
+    "Category": "Category 4",
+    "Task Description": "Create, modify, and delete Azure SQL Servers, Azure SQL Managed Instance",
+    "Frequency": "As Required",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/linux/maintenance-and-updates"
+  },
+  {
+    "TaskSortId": "AAZ",
+    "SERVICE": "Azure Compute",
+    "Task Name": "Task Name 26",
+    "Category": "Category 4",
+    "Task Description": "Manage Access to Azure SQL Server, Azure SQL Managed Instance",
+    "Frequency": "As Required",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/linux/change-vm-size"
+  },
+  {
+    "TaskSortId": "ABA",
+    "SERVICE": "Azure Data & Analytics",
+    "Task Name": "Task Name 27",
+    "Category": "Category 4",
+    "Task Description": "Create, modify, and delete, Azure SQL Server / Azure SQL Managed Instance Databases",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": "https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-use-environments"
+  },
+  {
+    "TaskSortId": "ABB",
+    "SERVICE": "Azure Data & Analytics",
+    "Task Name": "Task Name 28",
+    "Category": "Category 4",
+    "Task Description": "Create, modify, and delete Non-Shared Services Storage Accounts",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": "https://docs.microsoft.com/en-us/azure/machine-learning/service/tutorial-1st-experiment-sdk-setup"
+  },
+  {
+    "TaskSortId": "ABC",
+    "SERVICE": "Azure Data & Analytics",
+    "Task Name": "Task Name 29",
+    "Category": "Category 4",
+    "Task Description": "Create, modify, and delete Azure Key Vaults and Key Vault Access Policies",
+    "Frequency": "As Required",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": "https://docs.microsoft.com/en-us/dotnet/api/overview/data-prep/overview-data-prep"
+  },
+  {
+    "TaskSortId": "ABD",
+    "SERVICE": "Azure Data & Analytics",
+    "Task Name": "Task Name 30",
+    "Category": "Category 4",
+    "Task Description": "Create, modify, and delete Non-Shared Services Key Vault secrets, keys, and certificates",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": "https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-deploy-and-where"
+  },
+  {
+    "TaskSortId": "ABE",
+    "SERVICE": "Azure Data & Analytics",
+    "Task Name": "Task Name 31",
+    "Category": "Category 5",
+    "Task Description": "Manage Backups of Virtual Machines and Azure SQL Servers / Azure SQL Managed Instances",
+    "Frequency": "As Required",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": "https://docs.microsoft.com/en-us/machine-learning-server/what-is-operationalization"
+  },
+  {
+    "TaskSortId": "ABF",
+    "SERVICE": "Azure Database",
+    "Task Name": "Task Name 32",
+    "Category": "Category 6",
+    "Task Description": "Create, modify, and delete Non-Shared Services Key Vault secrets, keys, and certificates",
+    "Frequency": "As Required",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ABG",
+    "SERVICE": "Azure Database",
+    "Task Name": "Task Name 33",
+    "Category": "Category 6",
+    "Task Description": "Monitor for compliance to organizational security and compliance requirements",
+    "Frequency": "As Required",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ABH",
+    "SERVICE": "Azure Database",
+    "Task Name": "Task Name 34",
+    "Category": "Category 6",
+    "Task Description": "Create, modify, and delete Shared Services Virtual Machines, Availability Sets, VMSS",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ABI",
+    "SERVICE": "Azure Database",
+    "Task Name": "Task Name 35",
+    "Category": "Category 6",
+    "Task Description": "Create, modify, and delete Shared Services Service Endpoints",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ABJ",
+    "SERVICE": "Azure Database",
+    "Task Name": "Task Name 36",
+    "Category": "Category 6",
+    "Task Description": "Create, modify, and delete Shared Services Service Endpoint Policies",
+    "Frequency": "As Required",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ABK",
+    "SERVICE": "Azure Database",
+    "Task Name": "Task Name 37",
+    "Category": "Category 6",
+    "Task Description": "Create, modify, and delete Shared Services Private Link Endpoints",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ABL",
+    "SERVICE": "Azure Database",
+    "Task Name": "Task Name 38",
+    "Category": "Category 6",
+    "Task Description": "Create, modify, and delete Shared Services Load Balancers",
+    "Frequency": "As Required",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ABM",
+    "SERVICE": "Azure Database",
+    "Task Name": "Task Name 39",
+    "Category": "Category 6",
+    "Task Description": "Create, modify, and delete Shared Services Public IP Addresses",
+    "Frequency": "As Required",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ABN",
+    "SERVICE": "Azure Database",
+    "Task Name": "Task Name 40",
+    "Category": "Category 6",
+    "Task Description": "Create, modify, and delete Shared Services Network Interfaces for VMs acting as NVAs",
+    "Frequency": "As Required",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ABO",
+    "SERVICE": "Azure Database",
+    "Task Name": "Task Name 41",
+    "Category": "Category 6",
+    "Task Description": "Create, modify, and delete Shared Services Network Interfaces for VMS not acting as NVAs",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ABP",
+    "SERVICE": "Azure Database",
+    "Task Name": "Task Name 42",
+    "Category": "Category 6",
+    "Task Description": "Create, modify, and delete Shared Services Key Vault secrets, keys, and certificates",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ABQ",
+    "SERVICE": "Azure Database",
+    "Task Name": "Task Name 43",
+    "Category": "Category 6",
+    "Task Description": "Create, modify, and delete Azure Traffic Manager",
+    "Frequency": "As Required",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ABR",
+    "SERVICE": "Azure Database",
+    "Task Name": "Task Name 44",
+    "Category": "Category 6",
+    "Task Description": "Create, modify, and delete Azure Front Door",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ABS",
+    "SERVICE": "Azure Database",
+    "Task Name": "Task Name 45",
+    "Category": "Category 6",
+    "Task Description": "Create, modify, and delete Azure Application Gateway",
+    "Frequency": "As Required",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ABT",
+    "SERVICE": "Azure Database",
+    "Task Name": "Task Name 46",
+    "Category": "Category 6",
+    "Task Description": "Create, modify, and delete Non-Shared Services Network Security Groups",
+    "Frequency": "As Required",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ABU",
+    "SERVICE": "Azure Database",
+    "Task Name": "Task Name 47",
+    "Category": "Category 6",
+    "Task Description": "Create, modify, and delete Non-Shared Services Application Security Groups",
+    "Frequency": "As Required",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ABV",
+    "SERVICE": "Azure Database",
+    "Task Name": "Task Name 48",
+    "Category": "Category 6",
+    "Task Description": "Create, modify, and delete Non-Shared Services Virtual Machines, Availability Sets, and VMSS",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ABW",
+    "SERVICE": "Azure Database",
+    "Task Name": "Task Name 49",
+    "Category": "Category 6",
+    "Task Description": "Start, Stop, and Restart Non-Shared Services Virtual Machines",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ABX",
+    "SERVICE": "Azure Database",
+    "Task Name": "Task Name 50",
+    "Category": "Category 6",
+    "Task Description": "Create, modify, and delete Non-Shared Services Service Endpoints",
+    "Frequency": "As Required",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ABY",
+    "SERVICE": "Azure Database",
+    "Task Name": "Task Name 51",
+    "Category": "Category 6",
+    "Task Description": "Create, modify, and delete Non-Shared Services Service Endpoint Policies",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ABZ",
+    "SERVICE": "Azure Database",
+    "Task Name": "Task Name 52",
+    "Category": "Category 6",
+    "Task Description": "Create, modify, and delete Non-Shared Services Private Link Endpoints",
+    "Frequency": "As Required",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ACA",
+    "SERVICE": "Azure Database",
+    "Task Name": "Task Name 53",
+    "Category": "Category 6",
+    "Task Description": "Create, modify, and delete Non-Shared Services Load Balancers",
+    "Frequency": "As Required",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ACB",
+    "SERVICE": "Azure Database",
+    "Task Name": "Task Name 54",
+    "Category": "Category 6",
+    "Task Description": "Create, modify, and delete Non-Shared Services Public IP Addresses",
+    "Frequency": "As Required",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ACC",
+    "SERVICE": "Azure Database",
+    "Task Name": "Task Name 55",
+    "Category": "Category 6",
+    "Task Description": "Create, modify, and delete Non-Shared Services Network Interfaces for VMs",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ACD",
+    "SERVICE": "Azure Database",
+    "Task Name": "Task Name 56",
+    "Category": "Category 6",
+    "Task Description": "Integrate SIEM to capture Azure Security Logs (Activity Logs, Key Vault Audit Logs)",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ACE",
+    "SERVICE": "Azure Database",
+    "Task Name": "Task Name 57",
+    "Category": "Category 6",
+    "Task Description": "Create, modify, and delete Azure Log Analytics Workspaces",
+    "Frequency": "As Required",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ACF",
+    "SERVICE": "Azure Database",
+    "Task Name": "Task Name 58",
+    "Category": "Category 6",
+    "Task Description": "Create, modify, and delete Azure SQL Servers, Azure SQL Managed Instance",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ACG",
+    "SERVICE": "Azure Database",
+    "Task Name": "Task Name 59",
+    "Category": "Category 6",
+    "Task Description": "Manage Access to Azure SQL Server, Azure SQL Managed Instance",
+    "Frequency": "As Required",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ACH",
+    "SERVICE": "Azure Database",
+    "Task Name": "Task Name 60",
+    "Category": "Category 6",
+    "Task Description": "Create, modify, and delete, Azure SQL Server / Azure SQL Managed Instance Databases",
+    "Frequency": "As Required",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ACI",
+    "SERVICE": "Azure Database",
+    "Task Name": "Task Name 61",
+    "Category": "Category 7",
+    "Task Description": "Create, modify, and delete Non-Shared Services Storage Accounts",
+    "Frequency": "As Required",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ACJ",
+    "SERVICE": "Azure Database",
+    "Task Name": "Task Name 62",
+    "Category": "Category 8",
+    "Task Description": "Create, modify, and delete Azure Key Vaults and Key Vault Access Policies",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ACK",
+    "SERVICE": "Azure Database",
+    "Task Name": "Task Name 63",
+    "Category": "Category 9",
+    "Task Description": "Create, modify, and delete Non-Shared Services Key Vault secrets, keys, and certificates",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ACL",
+    "SERVICE": "Azure Database",
+    "Task Name": "Task Name 64",
+    "Category": "Category 9",
+    "Task Description": "Manage Backups of Virtual Machines and Azure SQL Servers / Azure SQL Managed Instances",
+    "Frequency": "As Required",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ACM",
+    "SERVICE": "Azure Database",
+    "Task Name": "Task Name 65",
+    "Category": "Category 9",
+    "Task Description": "Create, modify, and delete Non-Shared Services Key Vault secrets, keys, and certificates",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ACN",
+    "SERVICE": "Azure Developer Tools",
+    "Task Name": "Task Name 66",
+    "Category": "Category 9",
+    "Task Description": "Monitor for compliance to organizational security and compliance requirements",
+    "Frequency": "As Required",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": "https://docs.microsoft.com/en-us/azure/api-management/import-and-publish"
+  },
+  {
+    "TaskSortId": "ACO",
+    "SERVICE": "Azure Developer Tools",
+    "Task Name": "Task Name 67",
+    "Category": "Category 9",
+    "Task Description": "Create, modify, and delete Shared Services Virtual Machines, Availability Sets, VMSS",
+    "Frequency": "As Required",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": "https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-add-products"
+  },
+  {
+    "TaskSortId": "ACP",
+    "SERVICE": "Azure Developer Tools",
+    "Task Name": "Task Name 68",
+    "Category": "Category 9",
+    "Task Description": "Create, modify, and delete Shared Services Service Endpoints",
+    "Frequency": "As Required",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": "https://docs.microsoft.com/en-us/azure/api-management/mock-api-responses"
+  },
+  {
+    "TaskSortId": "ACQ",
+    "SERVICE": "Azure Developer Tools",
+    "Task Name": "Task Name 69",
+    "Category": "Category 9",
+    "Task Description": "Create, modify, and delete Shared Services Service Endpoint Policies",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": "https://docs.microsoft.com/en-us/azure/api-management/transform-api"
+  },
+  {
+    "TaskSortId": "ACR",
+    "SERVICE": "Azure Developer Tools",
+    "Task Name": "Task Name 70",
+    "Category": "Category 9",
+    "Task Description": "Create, modify, and delete Shared Services Private Link Endpoints",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": "https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-use-azure-monitor"
+  },
+  {
+    "TaskSortId": "ACS",
+    "SERVICE": "Azure Developer Tools",
+    "Task Name": "Task Name 71",
+    "Category": "Category 9",
+    "Task Description": "Create, modify, and delete Shared Services Load Balancers",
+    "Frequency": "As Required",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": "https://docs.microsoft.com/en-us/azure/api-management/api-management-get-started-publish-versions"
+  },
+  {
+    "TaskSortId": "ACT",
+    "SERVICE": "Azure Developer Tools",
+    "Task Name": "Task Name 72",
+    "Category": "Category 9",
+    "Task Description": "Create, modify, and delete Shared Services Public IP Addresses",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": "https://docs.microsoft.com/en-us/azure/api-management/api-management-get-started-revise-api"
+  },
+  {
+    "TaskSortId": "ACU",
+    "SERVICE": "Azure Developer Tools",
+    "Task Name": "Task Name 73",
+    "Category": "Category 9",
+    "Task Description": "Create, modify, and delete Shared Services Network Interfaces for VMs acting as NVAs",
+    "Frequency": "As Required",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": "https://docs.microsoft.com/en-us/azure/api-management/api-management-customize-styles"
+  },
+  {
+    "TaskSortId": "ACV",
+    "SERVICE": "Azure Developer Tools",
+    "Task Name": "Task Name 74",
+    "Category": "Category 9",
+    "Task Description": "Create, modify, and delete Shared Services Network Interfaces for VMS not acting as NVAs",
+    "Frequency": "As Required",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": "https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-api-inspector"
+  },
+  {
+    "TaskSortId": "ACW",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 75",
+    "Category": "Category 9",
+    "Task Description": "Create, modify, and delete Shared Services Key Vault secrets, keys, and certificates",
+    "Frequency": "",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ACX",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 76",
+    "Category": "Category 9",
+    "Task Description": "Create, modify, and delete Azure Traffic Manager",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ACY",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 77",
+    "Category": "Category 9",
+    "Task Description": "Create, modify, and delete Azure Front Door",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ACZ",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 78",
+    "Category": "Category 9",
+    "Task Description": "Create, modify, and delete Azure Application Gateway",
+    "Frequency": "As Required",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ADA",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 79",
+    "Category": "Category 9",
+    "Task Description": "Create, modify, and delete Non-Shared Services Network Security Groups",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ADB",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 80",
+    "Category": "Category 9",
+    "Task Description": "Create, modify, and delete Non-Shared Services Application Security Groups",
+    "Frequency": "As Required",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ADC",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 81",
+    "Category": "Category 9",
+    "Task Description": "Create, modify, and delete Non-Shared Services Virtual Machines, Availability Sets, and VMSS",
+    "Frequency": "As Required",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ADD",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 82",
+    "Category": "Category 9",
+    "Task Description": "Start, Stop, and Restart Non-Shared Services Virtual Machines",
+    "Frequency": "As Required",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ADE",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 83",
+    "Category": "Category 9",
+    "Task Description": "Create, modify, and delete Non-Shared Services Service Endpoints",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ADF",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 84",
+    "Category": "Category 9",
+    "Task Description": "Create, modify, and delete Non-Shared Services Service Endpoint Policies",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ADG",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 85",
+    "Category": "Category 9",
+    "Task Description": "Create, modify, and delete Non-Shared Services Private Link Endpoints",
+    "Frequency": "As Required",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ADH",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 86",
+    "Category": "Category 9",
+    "Task Description": "Create, modify, and delete Non-Shared Services Load Balancers",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ADI",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 87",
+    "Category": "Category 9",
+    "Task Description": "Create, modify, and delete Non-Shared Services Public IP Addresses",
+    "Frequency": "As Required",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ADJ",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 88",
+    "Category": "Category 9",
+    "Task Description": "Create, modify, and delete Non-Shared Services Network Interfaces for VMs",
+    "Frequency": "As Required",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ADK",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 89",
+    "Category": "Category 9",
+    "Task Description": "Integrate SIEM to capture Azure Security Logs (Activity Logs, Key Vault Audit Logs)",
+    "Frequency": "As Required",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ADL",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 90",
+    "Category": "Category 9",
+    "Task Description": "Create, modify, and delete Azure Log Analytics Workspaces",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ADM",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 91",
+    "Category": "Category 9",
+    "Task Description": "Create, modify, and delete Azure SQL Servers, Azure SQL Managed Instance",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ADN",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 92",
+    "Category": "Category 9",
+    "Task Description": "Manage Access to Azure SQL Server, Azure SQL Managed Instance",
+    "Frequency": "As Required",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ADO",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 93",
+    "Category": "Category 9",
+    "Task Description": "Create, modify, and delete, Azure SQL Server / Azure SQL Managed Instance Databases",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ADP",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 94",
+    "Category": "Category 9",
+    "Task Description": "Create, modify, and delete Non-Shared Services Storage Accounts",
+    "Frequency": "As Required",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ADQ",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 95",
+    "Category": "Category 9",
+    "Task Description": "Create, modify, and delete Azure Key Vaults and Key Vault Access Policies",
+    "Frequency": "As Required",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ADR",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 96",
+    "Category": "Category 9",
+    "Task Description": "Create, modify, and delete Non-Shared Services Key Vault secrets, keys, and certificates",
+    "Frequency": "As Required",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ADS",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 97",
+    "Category": "Category 9",
+    "Task Description": "Manage Backups of Virtual Machines and Azure SQL Servers / Azure SQL Managed Instances",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ADT",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 98",
+    "Category": "Category 9",
+    "Task Description": "Create, modify, and delete Non-Shared Services Key Vault secrets, keys, and certificates",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ADU",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 99",
+    "Category": "Category 9",
+    "Task Description": "Monitor for compliance to organizational security and compliance requirements",
+    "Frequency": "As Required",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ADV",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 100",
+    "Category": "Category 9",
+    "Task Description": "Create, modify, and delete Shared Services Virtual Machines, Availability Sets, VMSS",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ADW",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 101",
+    "Category": "Category 9",
+    "Task Description": "Create, modify, and delete Shared Services Service Endpoints",
+    "Frequency": "As Required",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ADX",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 102",
+    "Category": "Category 9",
+    "Task Description": "Create, modify, and delete Shared Services Service Endpoint Policies",
+    "Frequency": "As Required",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ADY",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 103",
+    "Category": "Category 9",
+    "Task Description": "Create, modify, and delete Shared Services Private Link Endpoints",
+    "Frequency": "As Required",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "ADZ",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 104",
+    "Category": "Category 10",
+    "Task Description": "Create, modify, and delete Shared Services Load Balancers",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AEA",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 105",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Shared Services Public IP Addresses",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AEB",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 106",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Shared Services Network Interfaces for VMs acting as NVAs",
+    "Frequency": "As Required",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AEC",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 107",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Shared Services Network Interfaces for VMS not acting as NVAs",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AED",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 108",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Shared Services Key Vault secrets, keys, and certificates",
+    "Frequency": "As Required",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AEE",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 109",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Azure Traffic Manager",
+    "Frequency": "As Required",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AEF",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 110",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Azure Front Door",
+    "Frequency": "As Required",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AEG",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 111",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Azure Application Gateway",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AEH",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 112",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Non-Shared Services Network Security Groups",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AEI",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 113",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Non-Shared Services Application Security Groups",
+    "Frequency": "As Required",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AEJ",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 114",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Non-Shared Services Virtual Machines, Availability Sets, and VMSS",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AEK",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 115",
+    "Category": "Category 11",
+    "Task Description": "Start, Stop, and Restart Non-Shared Services Virtual Machines",
+    "Frequency": "As Required",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AEL",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 116",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Non-Shared Services Service Endpoints",
+    "Frequency": "As Required",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AEM",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 117",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Non-Shared Services Service Endpoint Policies",
+    "Frequency": "As Required",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AEN",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 118",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Non-Shared Services Private Link Endpoints",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AEO",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 119",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Non-Shared Services Load Balancers",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AEP",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 120",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Non-Shared Services Public IP Addresses",
+    "Frequency": "As Required",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AEQ",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 121",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Non-Shared Services Network Interfaces for VMs",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AER",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 122",
+    "Category": "Category 11",
+    "Task Description": "Integrate SIEM to capture Azure Security Logs (Activity Logs, Key Vault Audit Logs)",
+    "Frequency": "As Required",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AES",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 123",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Azure Log Analytics Workspaces",
+    "Frequency": "As Required",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AET",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 124",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Azure SQL Servers, Azure SQL Managed Instance",
+    "Frequency": "As Required",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AEU",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 125",
+    "Category": "Category 11",
+    "Task Description": "Manage Access to Azure SQL Server, Azure SQL Managed Instance",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AEV",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 126",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete, Azure SQL Server / Azure SQL Managed Instance Databases",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AEW",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 127",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Non-Shared Services Storage Accounts",
+    "Frequency": "As Required",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AEX",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 128",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Azure Key Vaults and Key Vault Access Policies",
+    "Frequency": "As Required",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AEY",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 129",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Non-Shared Services Key Vault secrets, keys, and certificates",
+    "Frequency": "As Required",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AEZ",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 130",
+    "Category": "Category 11",
+    "Task Description": "Manage Backups of Virtual Machines and Azure SQL Servers / Azure SQL Managed Instances",
+    "Frequency": "As Required",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AFA",
+    "SERVICE": "Azure DevOps",
+    "Task Name": "Task Name 131",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Non-Shared Services Key Vault secrets, keys, and certificates",
+    "Frequency": "As Required",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AFB",
+    "SERVICE": "Azure Governance",
+    "Task Name": "Task Name 132",
+    "Category": "Category 11",
+    "Task Description": "Monitor for compliance to organizational security and compliance requirements",
+    "Frequency": "",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AFC",
+    "SERVICE": "Azure Governance",
+    "Task Name": "Task Name 133",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Shared Services Virtual Machines, Availability Sets, VMSS",
+    "Frequency": "",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AFD",
+    "SERVICE": "Azure Governance",
+    "Task Name": "Task Name 134",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Shared Services Service Endpoints",
+    "Frequency": "",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AFE",
+    "SERVICE": "Azure Governance",
+    "Task Name": "Task Name 135",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Shared Services Service Endpoint Policies",
+    "Frequency": "",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AFF",
+    "SERVICE": "Azure Governance",
+    "Task Name": "Task Name 136",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Shared Services Private Link Endpoints",
+    "Frequency": "",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AFG",
+    "SERVICE": "Azure Governance",
+    "Task Name": "Task Name 137",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Shared Services Load Balancers",
+    "Frequency": "",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AFH",
+    "SERVICE": "Azure Governance",
+    "Task Name": "Task Name 138",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Shared Services Public IP Addresses",
+    "Frequency": "",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AFI",
+    "SERVICE": "Azure Governance",
+    "Task Name": "Task Name 139",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Shared Services Network Interfaces for VMs acting as NVAs",
+    "Frequency": "",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AFJ",
+    "SERVICE": "Azure Governance",
+    "Task Name": "Task Name 140",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Shared Services Network Interfaces for VMS not acting as NVAs",
+    "Frequency": "",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AFK",
+    "SERVICE": "Azure Governance",
+    "Task Name": "Task Name 141",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Shared Services Key Vault secrets, keys, and certificates",
+    "Frequency": "",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AFL",
+    "SERVICE": "Azure Governance",
+    "Task Name": "Task Name 142",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Azure Traffic Manager",
+    "Frequency": "",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AFM",
+    "SERVICE": "Azure Governance",
+    "Task Name": "Task Name 143",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Azure Front Door",
+    "Frequency": "",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AFN",
+    "SERVICE": "Azure Governance",
+    "Task Name": "Task Name 144",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Azure Application Gateway",
+    "Frequency": "",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AFO",
+    "SERVICE": "Azure Governance",
+    "Task Name": "Task Name 145",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Non-Shared Services Network Security Groups",
+    "Frequency": "",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AFP",
+    "SERVICE": "Azure Governance",
+    "Task Name": "Task Name 146",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Non-Shared Services Application Security Groups",
+    "Frequency": "",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AFQ",
+    "SERVICE": "Azure Governance",
+    "Task Name": "Task Name 147",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Non-Shared Services Virtual Machines, Availability Sets, and VMSS",
+    "Frequency": "",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AFR",
+    "SERVICE": "Azure Governance",
+    "Task Name": "Task Name 148",
+    "Category": "Category 11",
+    "Task Description": "Start, Stop, and Restart Non-Shared Services Virtual Machines",
+    "Frequency": "",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AFS",
+    "SERVICE": "Azure Governance",
+    "Task Name": "Task Name 149",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Non-Shared Services Service Endpoints",
+    "Frequency": "",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AFT",
+    "SERVICE": "Azure Governance",
+    "Task Name": "Task Name 150",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Non-Shared Services Service Endpoint Policies",
+    "Frequency": "",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AFU",
+    "SERVICE": "Azure Governance",
+    "Task Name": "Task Name 151",
+    "Category": "Category 11",
+    "Task Description": "Create, modify, and delete Non-Shared Services Private Link Endpoints",
+    "Frequency": "",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AFV",
+    "SERVICE": "Azure Governance",
+    "Task Name": "Task Name 152",
+    "Category": "Category 12",
+    "Task Description": "Create, modify, and delete Non-Shared Services Load Balancers",
+    "Frequency": "",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AFW",
+    "SERVICE": "Azure Governance",
+    "Task Name": "Task Name 153",
+    "Category": "Category 12",
+    "Task Description": "Create, modify, and delete Non-Shared Services Public IP Addresses",
+    "Frequency": "",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AFX",
+    "SERVICE": "Azure Governance",
+    "Task Name": "Task Name 154",
+    "Category": "Category 12",
+    "Task Description": "Create, modify, and delete Non-Shared Services Network Interfaces for VMs",
+    "Frequency": "",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AFY",
+    "SERVICE": "Azure Governance",
+    "Task Name": "Task Name 155",
+    "Category": "Category 12",
+    "Task Description": "Integrate SIEM to capture Azure Security Logs (Activity Logs, Key Vault Audit Logs)",
+    "Frequency": "",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AFZ",
+    "SERVICE": "Azure Governance",
+    "Task Name": "Task Name 156",
+    "Category": "Category 12",
+    "Task Description": "Create, modify, and delete Azure Log Analytics Workspaces",
+    "Frequency": "",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AGA",
+    "SERVICE": "Azure Governance",
+    "Task Name": "Task Name 157",
+    "Category": "Category 12",
+    "Task Description": "Create, modify, and delete Azure SQL Servers, Azure SQL Managed Instance",
+    "Frequency": "",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AGB",
+    "SERVICE": "Azure Governance",
+    "Task Name": "Task Name 158",
+    "Category": "Category 12",
+    "Task Description": "Manage Access to Azure SQL Server, Azure SQL Managed Instance",
+    "Frequency": "",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AGC",
+    "SERVICE": "Azure Governance",
+    "Task Name": "Task Name 159",
+    "Category": "Category 12",
+    "Task Description": "Create, modify, and delete, Azure SQL Server / Azure SQL Managed Instance Databases",
+    "Frequency": "",
+    "Task Type": "Troubleshooting",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AGD",
+    "SERVICE": "Azure Governance",
+    "Task Name": "Task Name 160",
+    "Category": "Category 12",
+    "Task Description": "Create, modify, and delete Non-Shared Services Storage Accounts",
+    "Frequency": "",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AGE",
+    "SERVICE": "Azure Governance",
+    "Task Name": "Task Name 161",
+    "Category": "Category 12",
+    "Task Description": "Create, modify, and delete Azure Key Vaults and Key Vault Access Policies",
+    "Frequency": "",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AGF",
+    "SERVICE": "Azure Governance",
+    "Task Name": "Task Name 162",
+    "Category": "Category 12",
+    "Task Description": "Create, modify, and delete Non-Shared Services Key Vault secrets, keys, and certificates",
+    "Frequency": "",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AGG",
+    "SERVICE": "Azure Governance",
+    "Task Name": "Task Name 163",
+    "Category": "Category 12",
+    "Task Description": "Manage Backups of Virtual Machines and Azure SQL Servers / Azure SQL Managed Instances",
+    "Frequency": "",
+    "Task Type": "Support",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  },
+  {
+    "TaskSortId": "AGH",
+    "SERVICE": "Azure Governance",
+    "Task Name": "Task Name 164",
+    "Category": "Category 12",
+    "Task Description": "Create, modify, and delete Non-Shared Services Key Vault secrets, keys, and certificates",
+    "Frequency": "",
+    "Task Type": "Monitoring",
+    "Automated": "No",
+    "Notes": "",
+    "Source": "",
+    "Documentation Link": ""
+  }
 ]
