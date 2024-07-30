@@ -1,0 +1,57 @@
+
+{
+  "Service": "Azure Networking",
+  "Category": "Azure Foundation: ExpressRoute",
+  "Tasks": [
+    {
+      "Task": "Create and modify a circuit",
+      "Task Description": "Set up and configure an ExpressRoute circuit to establish a private connection between your on-premises network and Microsoft cloud services.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-circuit-arm.md"
+    },
+    {
+      "Task": "Create and modify peering configuration",
+      "Task Description": "Configure peering settings for your ExpressRoute circuit to enable connectivity to Microsoft cloud services.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-routing-arm.md"
+    },
+    {
+      "Task": "Link a VNet to an ExpressRoute circuit",
+      "Task Description": "Connect a virtual network (VNet) to your ExpressRoute circuit to enable private connectivity between your Azure resources and on-premises network.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-linkvnet-arm.md"
+    },
+    {
+      "Task": "Configure ExpressRoute FastPath",
+      "Task Description": "Set up ExpressRoute FastPath to improve the data path performance between your on-premises network and Azure virtual networks.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-linkvnet-arm.md#configure-expressroute-fastpath"
+    },
+    {
+      "Task": "Enable ExpressRoute FastPath on the gateway connection",
+      "Task Description": "Enable FastPath on your ExpressRoute gateway connection to optimize the routing of network traffic.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-linkvnet-arm.md#configure-expressroute-fastpath"
+    },
+    {
+      "Task": "Verify network configuration",
+      "Task Description": "Verify your ExpressRoute network configuration by checking ARP records and route tables in the Azure portal.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-linkvnet-arm.md"
+    },
+    {
+      "Task": "Evaluate network design",
+      "Task Description": "Review the network design to ensure connectivity between all resources, considering mechanisms like Azure ExpressRoute, public Internet, or private endpoints.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/synapse-analytics/guidance/implementation-success-evaluate-workspace-design.md"
+    },
+    {
+      "Task": "Assess network security requirements",
+      "Task Description": "Evaluate network security requirements, including virtual networks, firewalls, and Azure ExpressRoute, to ensure secure connectivity.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/synapse-analytics/guidance/implementation-success-assess-environment.md"
+    },
+    {
+      "Task": "Create ExpressRoute Microsoft Peering",
+      "Task Description": "Set up Microsoft Peering for your ExpressRoute circuit to route traffic to Microsoft cloud services.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-routing-portal-resource-manager.md"
+    },
+    {
+      "Task": "Customize metrics and create a Connection Monitor",
+      "Task Description": "Customize your ExpressRoute metrics and set up a Connection Monitor to track the performance and reliability of your network connection.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-monitoring-metrics-alerts.md"
+    }
+  ]
+}
