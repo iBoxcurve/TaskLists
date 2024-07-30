@@ -1,0 +1,107 @@
+
+{
+  "Service": "Azure Networking",
+  "Category": "ExpressRoute",
+  "Tasks": [
+    {
+      "Task": "Establish Private Connection",
+      "Task Description": "Extend your on-premises networks into the Microsoft cloud over a private connection with the help of a connectivity provider. This connection offers more reliability, faster speeds, consistent latencies, and higher security than typical connections over the Internet.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-introduction.md"
+    },
+    {
+      "Task": "Configure ExpressRoute Circuit",
+      "Task Description": "Create an ExpressRoute circuit to establish a private connection between your on-premises infrastructure and Microsoft datacenters.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-circuit-arm.md"
+    },
+    {
+      "Task": "Configure Routing",
+      "Task Description": "Set up routing for your ExpressRoute circuit to ensure proper data flow between your on-premises network and Azure services.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-routing-arm.md"
+    },
+    {
+      "Task": "Link VNet to ExpressRoute Circuit",
+      "Task Description": "Link a virtual network (VNet) to your ExpressRoute circuit to enable communication between your Azure resources and on-premises network.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-linkvnet-arm.md"
+    },
+    {
+      "Task": "Enable ExpressRoute Fast Path",
+      "Task Description": "Use ExpressRoute Fast Path to access your Azure Large Instances servers from anywhere, including Azure VMs and on-premises.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-linkvnet-arm.md#configure-expressroute-fastpath"
+    },
+    {
+      "Task": "Review Prerequisites",
+      "Task Description": "Ensure that all prerequisites are met before setting up ExpressRoute, including having an Azure subscription and establishing physical connectivity with an ExpressRoute partner.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-prerequisites.md"
+    },
+    {
+      "Task": "Set Up Network Security",
+      "Task Description": "Evaluate and implement network security measures such as virtual networks, firewalls, and threat protection for your ExpressRoute setup.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/synapse-analytics/guidance/security-white-paper-introduction.md"
+    },
+    {
+      "Task": "Monitor and Customize Metrics",
+      "Task Description": "Customize your metrics and create a Connection Monitor to keep track of your ExpressRoute connection's performance and health.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-monitoring-metrics-alerts.md"
+    },
+    {
+      "Task": "Review ExpressRoute Connectivity Models",
+      "Task Description": "Learn about different ExpressRoute connectivity models to choose the best one for your network setup.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-connectivity-models.md"
+    },
+    {
+      "Task": "Find a Service Provider",
+      "Task Description": "Look for an ExpressRoute connectivity provider that meets your requirements and review their peering locations.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-locations.md"
+    },
+    {
+      "Task": "Implement High Availability",
+      "Task Description": "Ensure high availability by setting up a pair of ExpressRoute circuits, each terminated in a different router.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-introduction.md"
+    },
+    {
+      "Task": "Enable ExpressRoute Premium",
+      "Task Description": "Enable ExpressRoute Premium to extend connectivity across geopolitical boundaries and for higher bandwidth requirements.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-introduction.md"
+    },
+    {
+      "Task": "Set Up ExpressRoute Direct",
+      "Task Description": "Use ExpressRoute Direct for dual 100-Gbps connectivity and physical isolation for regulated industries.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-erdirect-about.md"
+    },
+    {
+      "Task": "Review ExpressRoute FAQ",
+      "Task Description": "Refer to the ExpressRoute FAQ for common questions and additional information about the service.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-faqs.md"
+    },
+    {
+      "Task": "Set Up Network Insights",
+      "Task Description": "Configure Network Insights to monitor and manage your ExpressRoute connection effectively.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/network-watcher/network-insights-overview.md"
+    },
+    {
+      "Task": "Implement Data Protection Measures",
+      "Task Description": "Ensure data protection by implementing in-transit encryption, encryption at rest, and data discovery and classification.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/synapse-analytics/guidance/security-white-paper-introduction.md"
+    },
+    {
+      "Task": "Set Up Access Control",
+      "Task Description": "Implement access control measures such as object-level security, row-level security, and dynamic data masking.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/synapse-analytics/guidance/security-white-paper-introduction.md"
+    },
+    {
+      "Task": "Configure Authentication",
+      "Task Description": "Set up authentication methods such as SQL login, Microsoft Entra ID, and multi-factor authentication (MFA).",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/synapse-analytics/guidance/security-white-paper-introduction.md"
+    },
+    {
+      "Task": "Review Network Security Requirements",
+      "Task Description": "Evaluate and implement network security requirements for client tools to access analytical compute and storage.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/synapse-analytics/guidance/security-white-paper-introduction.md"
+    },
+    {
+      "Task": "Set Up Threat Protection",
+      "Task Description": "Implement threat protection measures such as threat detection, auditing, and vulnerability assessment.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/synapse-analytics/guidance/security-white-paper-introduction.md"
+    }
+  ]
+}
