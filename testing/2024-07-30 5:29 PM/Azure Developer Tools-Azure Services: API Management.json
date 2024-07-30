@@ -1,0 +1,107 @@
+
+{
+  "Service": "Azure API Management",
+  "Category": "Project Implementation",
+  "Tasks": [
+    {
+      "Task": "Set up source code control",
+      "Task Description": "Set up either GitHub or Azure Repos for your source code control system. This choice will determine your choice of pipeline runner as well. GitHub can use Azure Pipelines or GitHub Actions, whereas Azure Repos must use Azure Pipelines.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-key-concepts.md"
+    },
+    {
+      "Task": "Set up Azure API Management service",
+      "Task Description": "Set up an Azure API Management service for each API developer so that they can develop API definitions along with the API service. Use the consumption or developer SKU when creating the service.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/get-started-create-service-instance.md"
+    },
+    {
+      "Task": "Use policy fragments",
+      "Task Description": "Use policy fragments to reduce the new policy that developers need to write for each API.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-howto-policies.md"
+    },
+    {
+      "Task": "Use named values and backends",
+      "Task Description": "Use named values and backends to ensure that policies are generic and can apply to any API Management instance.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-howto-properties.md"
+    },
+    {
+      "Task": "Extract working API definition",
+      "Task Description": "Use the Azure APIOps Toolkit to extract a working API definition from the developer service.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-howto-policies.md"
+    },
+    {
+      "Task": "Set up API approval process",
+      "Task Description": "Set up an API approval process that runs on each pull request. The API approval process should include breaking change detection, linting, and automated API testing.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-howto-policies.md"
+    },
+    {
+      "Task": "Publish API to production",
+      "Task Description": "Use the Azure APIOps Toolkit publisher to publish the API to your production API Management service.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-howto-policies.md"
+    },
+    {
+      "Task": "Manage API Management using Azure Automation",
+      "Task Description": "Use Windows PowerShell cmdlets for Azure API Management API within Azure Automation to perform many of your API Management tasks.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/powershell-samples.md"
+    },
+    {
+      "Task": "Create an API Management instance",
+      "Task Description": "From the Azure portal menu, select 'Create a resource', then select 'Integration' > 'API Management'. Fill in the required settings and select 'Review + create'.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/get-started-create-service-instance.md"
+    },
+    {
+      "Task": "Customize developer portal",
+      "Task Description": "Customize the look and feel of the developer portal by adding custom content, customizing styles, and adding your branding. Extend the developer portal further by self-hosting.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/developer-portal-self-host.md"
+    },
+    {
+      "Task": "Use Azure Key Vault for secrets management",
+      "Task Description": "Integrate Azure Key Vault for secure safekeeping and management of client certificates and secrets.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/key-vault/general/overview.md"
+    },
+    {
+      "Task": "Monitor API Management with Azure Monitor",
+      "Task Description": "Use Azure Monitor for logging, reporting, and alerting on management operations, systems events, and API requests.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-howto-use-azure-monitor.md"
+    },
+    {
+      "Task": "Use Application Insights for metrics and tracing",
+      "Task Description": "Integrate Application Insights for live metrics, end-to-end tracing, and troubleshooting.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-howto-app-insights.md"
+    },
+    {
+      "Task": "Set up network-level protection",
+      "Task Description": "Use virtual networks, private endpoints, and Application Gateway for network-level protection.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/virtual-network-concepts.md"
+    },
+    {
+      "Task": "Use Microsoft Entra ID for authentication",
+      "Task Description": "Integrate Microsoft Entra ID for developer authentication and request authorization.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-howto-aad.md"
+    },
+    {
+      "Task": "Stream events with Event Hubs",
+      "Task Description": "Use Event Hubs for streaming events.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-howto-log-event-hubs.md"
+    },
+    {
+      "Task": "Host APIs with Azure compute offerings",
+      "Task Description": "Use Azure Functions, Logic Apps, Web Apps, and Service Fabric to build and host APIs on Azure.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/import-function-app-as-api.md"
+    },
+    {
+      "Task": "Implement Infrastructure as Code (IaC)",
+      "Task Description": "Use Azure Resource Management templates, Bicep, Terraform, or Pulumi to create infrastructure resources for Azure Integration Services.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-howto-policies.md"
+    },
+    {
+      "Task": "Deploy logic for integration workflows",
+      "Task Description": "Deploy the logic that implements your end-to-end workflows using CI/CD pipelines based on deploying an orchestration of components.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-howto-policies.md"
+    },
+    {
+      "Task": "Prepare code with environment-specific configuration",
+      "Task Description": "Prepare the code with the environment-specific configuration, abstracting environment-based configuration information to reference an application settings repository.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-howto-policies.md"
+    }
+  ]
+}
