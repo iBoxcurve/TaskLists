@@ -1,0 +1,107 @@
+
+{
+  "Service": "Azure Networking",
+  "Category": "Azure Foundation: ExpressRoute",
+  "Tasks": [
+    {
+      "Task": "Create a virtual network and virtual network gateway",
+      "Task Description": "Create a virtual network and virtual network gateway if you haven't already. This is a prerequisite for setting up ExpressRoute.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-add-gateway-portal-resource-manager.md"
+    },
+    {
+      "Task": "Set up the connection between the virtual network gateway and ExpressRoute circuit",
+      "Task Description": "Use the Terraform script or PowerShell command to configure the connection between the virtual network gateway and your ExpressRoute circuit.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-linkvnet-arm.md#configure-expressroute-fastpath"
+    },
+    {
+      "Task": "Verify network configuration",
+      "Task Description": "Verify your network configuration by selecting 'Get ARP Records' and 'Get route table' under the ExpressRoute Private peering page in the Azure portal.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-linkvnet-arm.md"
+    },
+    {
+      "Task": "Enable ExpressRoute Fast Path",
+      "Task Description": "Enable ExpressRoute Fast Path to access your Azure Large Instances servers from anywhere, including Azure VMs and on-premises.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-linkvnet-arm.md#configure-expressroute-fastpath"
+    },
+    {
+      "Task": "Check learned routes from Azure Large Instances",
+      "Task Description": "Look at the Effective Routes table of one of your VMs to see the learned routes from Azure Large Instances.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/azure-large-instances/work-with-azure-large-instances-in-azure-portal.md#register-the-resource-provider"
+    },
+    {
+      "Task": "Set up volume groups",
+      "Task Description": "Set up volume groups for your Azure Large Instances solution based on your system requirements.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/azure-large-instances/workloads/epic/create-a-volume-group.md"
+    },
+    {
+      "Task": "Set up storage snapshot, backup, and data offload",
+      "Task Description": "Set up a storage snapshot, backup, and data offload after all data-intensive work is complete.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/azure-large-instances/work-with-azure-large-instances-in-azure-portal.md#register-the-resource-provider"
+    },
+    {
+      "Task": "Register the resource provider",
+      "Task Description": "If you don't see your Azure Large Instances deployment under your subscription, register the resource provider with your subscription.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/azure-large-instances/work-with-azure-large-instances-in-azure-portal.md#register-the-resource-provider"
+    },
+    {
+      "Task": "Create and modify a circuit",
+      "Task Description": "Create and modify an ExpressRoute circuit as needed for your project.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-circuit-arm.md"
+    },
+    {
+      "Task": "Create and modify peering configuration",
+      "Task Description": "Create and modify the peering configuration for your ExpressRoute circuit.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-routing-arm.md"
+    },
+    {
+      "Task": "Link a VNet to an ExpressRoute circuit",
+      "Task Description": "Link a virtual network (VNet) to an ExpressRoute circuit to enable private connectivity.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-linkvnet-arm.md"
+    },
+    {
+      "Task": "Customize your metrics",
+      "Task Description": "Customize your metrics and create a Connection Monitor to track the performance and reliability of your ExpressRoute connection.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-monitoring-metrics-alerts.md"
+    },
+    {
+      "Task": "Evaluate network design",
+      "Task Description": "Evaluate the network design to ensure connectivity between all resources, considering mechanisms like Azure ExpressRoute, public Internet, or private endpoints.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/synapse-analytics/guidance/implementation-success-evaluate-workspace-design.md"
+    },
+    {
+      "Task": "Assess network security requirements",
+      "Task Description": "Assess the network security requirements for client tools to access analytical compute and storage, considering options like peered network, private endpoint, or other.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/synapse-analytics/guidance/implementation-success-assess-environment.md"
+    },
+    {
+      "Task": "Evaluate regulatory requirements",
+      "Task Description": "Evaluate regulatory requirements for your data, such as PCI or HIPAA, and ensure your security group has certified Azure for this data.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/synapse-analytics/guidance/implementation-success-assess-environment.md"
+    },
+    {
+      "Task": "Set up on-premises access",
+      "Task Description": "Set up on-premises access via a Site-to-site VPN connection or via ExpressRoute, ensuring it is in place before starting the project.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-introduction.md"
+    },
+    {
+      "Task": "Review network security groups (NSGs)",
+      "Task Description": "Review Azure networking components like network security groups (NSGs) for proper connectivity and data movement.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/synapse-analytics/guidance/implementation-success-evaluate-workspace-design.md"
+    },
+    {
+      "Task": "Integrate with private DNS zones",
+      "Task Description": "Consider integration with private DNS zones for your network design.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/synapse-analytics/guidance/implementation-success-evaluate-workspace-design.md"
+    },
+    {
+      "Task": "Enable accelerated networking",
+      "Task Description": "Enable accelerated networking with all VMs connecting to Azure Large Instances.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/azure-large-instances/work-with-azure-large-instances-in-azure-portal.md#register-the-resource-provider"
+    },
+    {
+      "Task": "Evaluate data protection requirements",
+      "Task Description": "Evaluate data protection requirements such as in-transit encryption, encryption at rest, and data discovery and classification.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/synapse-analytics/guidance/implementation-success-assess-environment.md"
+    }
+  ]
+}
