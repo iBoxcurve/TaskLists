@@ -1,0 +1,72 @@
+
+{
+  "Service": "Azure Networking",
+  "Category": "Azure Foundation: ExpressRoute",
+  "Tasks": [
+    {
+      "Task": "Create a virtual network and virtual network gateway",
+      "Task Description": "Create a virtual network and virtual network gateway if you haven't already. This is a prerequisite for setting up ExpressRoute.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-add-gateway-portal-resource-manager.md"
+    },
+    {
+      "Task": "Set up the connection between the virtual network gateway and ExpressRoute circuit",
+      "Task Description": "Use a Terraform script or PowerShell command to configure the connection between the virtual network gateway and your ExpressRoute circuit.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-linkvnet-arm.md#configure-expressroute-fastpath"
+    },
+    {
+      "Task": "Verify network configuration",
+      "Task Description": "Verify your configuration by selecting 'Get ARP Records' and 'Get route table' under the ExpressRoute Private peering page in the Azure portal.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-linkvnet-arm.md"
+    },
+    {
+      "Task": "Enable ExpressRoute Fast Path",
+      "Task Description": "Enable ExpressRoute Fast Path to access your Azure Large Instances servers from anywhere, including Azure VMs and on-premises.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/azure-large-instances/work-with-azure-large-instances-in-azure-portal.md#register-the-resource-provider"
+    },
+    {
+      "Task": "Create and modify a circuit",
+      "Task Description": "Create and modify an ExpressRoute circuit to establish a private connection to Microsoft cloud services.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-circuit-arm.md"
+    },
+    {
+      "Task": "Create and modify peering configuration",
+      "Task Description": "Set up and modify the peering configuration for your ExpressRoute circuit to define how traffic is routed.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-routing-arm.md"
+    },
+    {
+      "Task": "Link a VNet to an ExpressRoute circuit",
+      "Task Description": "Link a virtual network (VNet) to an ExpressRoute circuit to enable private connectivity between your on-premises network and Azure.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-linkvnet-arm.md"
+    },
+    {
+      "Task": "Customize metrics and create a Connection Monitor",
+      "Task Description": "Customize your ExpressRoute metrics and set up a Connection Monitor to track the performance and reliability of your connection.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-monitoring-metrics-alerts.md"
+    },
+    {
+      "Task": "Evaluate network design",
+      "Task Description": "Evaluate the network design to ensure connectivity between all resources, considering mechanisms like Azure ExpressRoute, public Internet, or private endpoints.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/synapse-analytics/guidance/implementation-success-evaluate-workspace-design.md"
+    },
+    {
+      "Task": "Assess network security requirements",
+      "Task Description": "Assess the network security requirements for your Azure Synapse implementation, including the use of Azure ExpressRoute, firewalls, and private endpoints.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/synapse-analytics/guidance/implementation-success-assess-environment.md"
+    },
+    {
+      "Task": "Set up a direct interconnection between Azure and Oracle Cloud Infrastructure",
+      "Task Description": "Configure a direct interconnection between Azure and Oracle Cloud Infrastructure using ExpressRoute.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-add-gateway-portal-resource-manager.md"
+    },
+    {
+      "Task": "Use ExpressRoute for routing traffic to Microsoft PSTN services",
+      "Task Description": "Set up ExpressRoute to route traffic to Microsoft PSTN services, ensuring private and reliable connectivity.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-routing-portal-resource-manager.md"
+    },
+    {
+      "Task": "Review ExpressRoute technical overview",
+      "Task Description": "Familiarize yourself with the technical aspects of ExpressRoute to understand its capabilities and how it can be integrated into your network.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-introduction.md"
+    }
+  ]
+}
