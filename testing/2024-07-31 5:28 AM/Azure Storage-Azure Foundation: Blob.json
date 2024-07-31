@@ -1,0 +1,107 @@
+
+{
+  "Service": "Azure Storage",
+  "Category": "Azure Foundation: Blob",
+  "Tasks": [
+    {
+      "Task": "Create a storage account",
+      "Task Description": "Create an Azure Storage account to store blobs. This is the foundational step for using Azure Blob Storage.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/common/storage-account-overview.md"
+    },
+    {
+      "Task": "Configure Blob Storage",
+      "Task Description": "Configure the Blob Storage settings, including access tiers, replication, and networking options.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/storage-blob-storage-tiers.md"
+    },
+    {
+      "Task": "Set up access control",
+      "Task Description": "Set up access control using Azure RBAC roles or shared access signatures (SAS) to manage permissions for accessing blobs.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/common/storage-auth-aad-rbac.md"
+    },
+    {
+      "Task": "Upload blobs",
+      "Task Description": "Upload blobs to the storage account using tools like Azure Portal, Azure CLI, or client libraries for various programming languages.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/storage-quickstart-blobs-portal.md"
+    },
+    {
+      "Task": "Set up lifecycle management policies",
+      "Task Description": "Configure lifecycle management policies to automatically transition blobs to different access tiers or delete them based on specified rules.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/storage-lifecycle-management-concepts.md"
+    },
+    {
+      "Task": "Enable logging and monitoring",
+      "Task Description": "Enable logging and monitoring to track access and usage of blobs, and to set up alerts for specific events.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/common/storage-monitoring-diagnostics.md"
+    },
+    {
+      "Task": "Implement data redundancy",
+      "Task Description": "Choose and implement data redundancy options such as LRS, ZRS, GRS, or RA-GRS to ensure data durability and availability.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/common/storage-redundancy.md"
+    },
+    {
+      "Task": "Set up data encryption",
+      "Task Description": "Configure data encryption at rest and in transit to secure the data stored in Blob Storage.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/common/storage-service-encryption.md"
+    },
+    {
+      "Task": "Integrate with other Azure services",
+      "Task Description": "Integrate Blob Storage with other Azure services like Azure Functions, Azure Logic Apps, and Azure Event Grid for automated workflows.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/event-grid/blob-event-quickstart-portal.md"
+    },
+    {
+      "Task": "Optimize costs",
+      "Task Description": "Use the Azure pricing calculator to estimate costs and set up cost management features to monitor and optimize spending.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/storage-blob-pricing.md"
+    },
+    {
+      "Task": "Set up backup and disaster recovery",
+      "Task Description": "Implement backup and disaster recovery strategies to ensure data protection and business continuity.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/common/storage-disaster-recovery-guidance.md"
+    },
+    {
+      "Task": "Configure network security",
+      "Task Description": "Set up network security features like virtual network service endpoints and private endpoints to secure access to Blob Storage.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/common/storage-network-security.md"
+    },
+    {
+      "Task": "Use Blob Storage events",
+      "Task Description": "Set up Blob Storage events to trigger actions in response to blob creation, deletion, or other changes.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/event-grid/event-schema-blob-storage.md"
+    },
+    {
+      "Task": "Implement data migration",
+      "Task Description": "Use tools like AzCopy, Azure Data Factory, or third-party solutions to migrate data to Blob Storage.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/common/storage-migration-overview.md"
+    },
+    {
+      "Task": "Set up data access auditing",
+      "Task Description": "Enable auditing to track and log access to blobs for compliance and security purposes.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/common/storage-auditing.md"
+    },
+    {
+      "Task": "Configure cross-origin resource sharing (CORS)",
+      "Task Description": "Set up CORS rules to allow web applications from different domains to access Blob Storage resources.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/common/storage-cors-support.md"
+    },
+    {
+      "Task": "Set up blob versioning",
+      "Task Description": "Enable blob versioning to automatically maintain previous versions of blobs and recover from accidental deletions or overwrites.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/versioning-overview.md"
+    },
+    {
+      "Task": "Implement soft delete",
+      "Task Description": "Enable soft delete for blobs to recover deleted data within a specified retention period.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/soft-delete-overview.md"
+    },
+    {
+      "Task": "Set up blob immutability policies",
+      "Task Description": "Configure immutability policies to protect blobs from being modified or deleted for a specified period.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/immutable-storage-overview.md"
+    },
+    {
+      "Task": "Use BlobFuse for Linux",
+      "Task Description": "Install and configure BlobFuse to mount Blob Storage containers as file systems on Linux.",
+      "Documentation Link": "https://github.com/Azure/azure-storage-fuse/blob/main/README.md"
+    }
+  ]
+}
