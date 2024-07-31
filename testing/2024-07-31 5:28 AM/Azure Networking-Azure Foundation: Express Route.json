@@ -1,0 +1,57 @@
+
+{
+  "Service": "Azure Networking",
+  "Category": "Azure Foundation: ExpressRoute",
+  "Tasks": [
+    {
+      "Task": "Establish ExpressRoute Connection",
+      "Task Description": "Set up a dedicated private connection between your on-premises network and Microsoft Cloud services using ExpressRoute. This connection can be established through an IP VPN network, a point-to-point Ethernet network, or a virtual cross-connection via a connectivity provider at a co-location facility.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-introduction.md"
+    },
+    {
+      "Task": "Configure Virtual Network Gateway",
+      "Task Description": "Create and configure a virtual network gateway to connect your virtual network to the ExpressRoute circuit. This can be done using the Azure portal, Terraform scripts, or PowerShell commands.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-add-gateway-portal-resource-manager.md"
+    },
+    {
+      "Task": "Link VNet to ExpressRoute Circuit",
+      "Task Description": "Set up the connection between the virtual network gateway and your ExpressRoute circuit. Verify the configuration by checking ARP records and route tables under the ExpressRoute Private peering page in the Azure portal.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-linkvnet-arm.md"
+    },
+    {
+      "Task": "Enable ExpressRoute FastPath",
+      "Task Description": "Enable ExpressRoute FastPath to improve the data path performance between your on-premises network and Azure. This involves setting up the FastPath on the gateway connection and ensuring accelerated networking is enabled on all VMs connecting to Azure Large Instances.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-linkvnet-arm.md#configure-expressroute-fastpath"
+    },
+    {
+      "Task": "Monitor ExpressRoute Connection",
+      "Task Description": "Use Network Insights and Network Watcher to monitor and customize metrics for your ExpressRoute connection. Set up alerts and connection monitors to ensure the reliability and performance of your network.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/network-watcher/network-insights-overview.md"
+    },
+    {
+      "Task": "Review Network Security",
+      "Task Description": "Evaluate and implement network security measures such as virtual networks, firewalls, and private endpoints to ensure secure connectivity between your on-premises network and Azure services.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/synapse-analytics/guidance/security-white-paper-introduction.md"
+    },
+    {
+      "Task": "Create and Modify Peering Configuration",
+      "Task Description": "Set up and manage peering configurations for your ExpressRoute circuit to establish connections to Microsoft cloud services like Azure, Microsoft 365, and Dynamics 365.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-routing-arm.md"
+    },
+    {
+      "Task": "Evaluate Network Design",
+      "Task Description": "Review the network design to ensure connectivity between all resources, secure connections to Synapse Studio, and proper integration with private DNS zones. Verify that network and security outposts allow access to required on-premises sources.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/synapse-analytics/guidance/implementation-success-evaluate-workspace-design.md"
+    },
+    {
+      "Task": "Set Up On-Premises Access",
+      "Task Description": "Configure on-premises access via a Site-to-site VPN connection or ExpressRoute. Ensure that the ExpressRoute is in place before starting the project to avoid delays.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/devtest-lab-guidance-scale.md"
+    },
+    {
+      "Task": "Evaluate Regulatory Requirements",
+      "Task Description": "Assess regulatory requirements for data protection, access control, authentication, and network security. Ensure compliance with standards such as PCI, HIPAA, and other relevant regulations.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/synapse-analytics/guidance/implementation-success-assess-environment.md"
+    }
+  ]
+}
