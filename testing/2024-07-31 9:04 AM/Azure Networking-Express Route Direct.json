@@ -1,0 +1,62 @@
+
+{
+  "Service": "Azure Networking",
+  "Category": "ExpressRoute Direct",
+  "Tasks": [
+    {
+      "Task": "Create ExpressRoute Direct using Azure CLI",
+      "Task Description": "Use the Azure CLI to create an ExpressRoute Direct circuit. This involves specifying the ExpressRoute port, SKU family, SKU tier, bandwidth, and location.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/howto-expressroute-direct-cli.md"
+    },
+    {
+      "Task": "Create ExpressRoute Direct using Azure Portal",
+      "Task Description": "Navigate to the Azure portal, search for ExpressRoute Direct, and follow the steps to create a new ExpressRoute Direct resource by completing the fields on the Basics and Configuration pages.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/how-to-expressroute-direct-portal.md"
+    },
+    {
+      "Task": "Generate the Letter of Authorization (LOA)",
+      "Task Description": "Generate the LOA for the ExpressRoute Direct resource by providing the resource name, resource group name, and customer name. Optionally, specify a file location to store the document.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/howto-expressroute-direct-cli.md"
+    },
+    {
+      "Task": "Change AdminState for links",
+      "Task Description": "Enable or disable the admin state for primary and secondary links of the ExpressRoute Direct resource using the Azure CLI.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/howto-expressroute-direct-cli.md"
+    },
+    {
+      "Task": "Track provisioned and utilized bandwidth",
+      "Task Description": "Monitor the provisioned and utilized bandwidth for the ExpressRoute Direct circuits to ensure they meet the required performance and capacity.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/howto-expressroute-direct-cli.md"
+    },
+    {
+      "Task": "Set up ExpressRoute Direct",
+      "Task Description": "Follow the workflow diagram to set up ExpressRoute Direct, ensuring all steps are completed for a successful configuration.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/erdirect-about.md"
+    },
+    {
+      "Task": "Review ExpressRoute prerequisites and checklist",
+      "Task Description": "Ensure all prerequisites are met and follow the checklist for a successful ExpressRoute implementation, including reviewing routing, NAT, and QoS requirements.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-prerequisites.md"
+    },
+    {
+      "Task": "Evaluate project plan for ExpressRoute Direct",
+      "Task Description": "Evaluate the project plan to identify any steps that could lead to blockers or impact the project timeline. Make necessary adjustments to ensure a smooth implementation.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/synapse-analytics/guidance/implementation-success-evaluate-project-plan.md"
+    },
+    {
+      "Task": "Assess networking and security requirements",
+      "Task Description": "Evaluate regulatory requirements, user authorization, authentication, and network security needs for the ExpressRoute Direct implementation.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/synapse-analytics/guidance/implementation-success-assess-environment.md"
+    },
+    {
+      "Task": "Configure routing for ExpressRoute Direct",
+      "Task Description": "Set up routing for the ExpressRoute Direct connection, ensuring proper configuration for data flow between on-premises and Azure.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-routing-arm.md"
+    },
+    {
+      "Task": "Link a VNet to an ExpressRoute circuit",
+      "Task Description": "Establish a connection between a virtual network (VNet) and the ExpressRoute circuit to enable communication between Azure resources and on-premises infrastructure.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-linkvnet-arm.md"
+    }
+  ]
+}
