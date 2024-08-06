@@ -1,0 +1,107 @@
+
+{
+  "Service": "Azure Storage",
+  "Category": "Azure Foundation: Blob",
+  "Tasks": [
+    {
+      "Task": "Create a storage account",
+      "Task Description": "Set up a new Azure Storage account to store blobs. This involves selecting the appropriate performance tier, replication strategy, and access tier.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/common/storage-account-create.md"
+    },
+    {
+      "Task": "Configure Blob Storage",
+      "Task Description": "Configure the Blob Storage settings, including setting up containers, access policies, and lifecycle management rules.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/storage-blob-container-create.md"
+    },
+    {
+      "Task": "Set up access control",
+      "Task Description": "Implement access control using Azure RBAC roles or shared access signatures (SAS) to manage permissions for users and applications.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/common/storage-auth-aad-rbac.md"
+    },
+    {
+      "Task": "Implement data redundancy",
+      "Task Description": "Choose and configure the appropriate data redundancy option (LRS, ZRS, GRS, RA-GRS) to ensure data durability and availability.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/common/storage-redundancy.md"
+    },
+    {
+      "Task": "Set up monitoring and alerts",
+      "Task Description": "Configure monitoring and alerts for Blob Storage using Azure Monitor to track performance, availability, and usage metrics.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/common/storage-monitor.md"
+    },
+    {
+      "Task": "Optimize storage costs",
+      "Task Description": "Use the Azure pricing calculator to estimate costs and implement cost management features to set budgets and monitor expenses.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/common/storage-cost-management.md"
+    },
+    {
+      "Task": "Enable data encryption",
+      "Task Description": "Ensure data at rest is encrypted using Azure Storage Service Encryption (SSE) and configure customer-managed keys if required.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/common/storage-encryption.md"
+    },
+    {
+      "Task": "Set up data transfer methods",
+      "Task Description": "Implement data transfer methods such as AzCopy, Azure Data Factory, or Azure Storage Explorer for uploading and managing blobs.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/common/storage-transfer-data.md"
+    },
+    {
+      "Task": "Configure Blob Storage events",
+      "Task Description": "Set up event-based triggers using Azure Event Grid to react to blob storage events like creation, deletion, or modification.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/event-grid/blob-event-quickstart.md"
+    },
+    {
+      "Task": "Implement data lifecycle management",
+      "Task Description": "Configure lifecycle management policies to automatically transition blobs to different access tiers or delete them based on specified rules.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/common/storage-lifecycle-management.md"
+    },
+    {
+      "Task": "Set up logging and diagnostics",
+      "Task Description": "Enable logging and diagnostics to capture detailed information about requests to the Blob Storage service for troubleshooting and analysis.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/common/storage-logging-and-diagnostics.md"
+    },
+    {
+      "Task": "Implement security best practices",
+      "Task Description": "Follow security best practices for Azure Blob Storage, including using private endpoints, firewall rules, and advanced threat protection.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/common/storage-security-best-practices.md"
+    },
+    {
+      "Task": "Set up data replication",
+      "Task Description": "Configure data replication settings to ensure high availability and disaster recovery for your Blob Storage data.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/common/storage-replication.md"
+    },
+    {
+      "Task": "Use Blob Storage client libraries",
+      "Task Description": "Install and use Azure Blob Storage client libraries for different programming languages (e.g., .NET, Java, Python, JavaScript) to interact with Blob Storage programmatically.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/common/storage-client-libraries.md"
+    },
+    {
+      "Task": "Configure CORS settings",
+      "Task Description": "Set up Cross-Origin Resource Sharing (CORS) rules to allow web applications from different domains to access Blob Storage resources.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/common/storage-cors.md"
+    },
+    {
+      "Task": "Implement data backup and restore",
+      "Task Description": "Set up backup and restore procedures for Blob Storage data to ensure data protection and recovery in case of data loss.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/common/storage-backup-and-restore.md"
+    },
+    {
+      "Task": "Configure data retention policies",
+      "Task Description": "Implement data retention policies to manage the lifecycle of your data and ensure compliance with regulatory requirements.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/common/storage-data-retention.md"
+    },
+    {
+      "Task": "Set up Blob Storage triggers for Azure Functions",
+      "Task Description": "Configure Blob Storage triggers to automatically execute Azure Functions in response to changes in Blob Storage data.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/azure-functions/functions-bindings-storage-blob-trigger.md"
+    },
+    {
+      "Task": "Use Blob Storage with Azure Data Lake",
+      "Task Description": "Integrate Blob Storage with Azure Data Lake Storage Gen2 to build scalable data lakes and manage large datasets efficiently.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/common/storage-data-lake.md"
+    },
+    {
+      "Task": "Implement Blob Storage analytics",
+      "Task Description": "Set up analytics and reporting for Blob Storage to gain insights into storage usage, performance, and access patterns.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/common/storage-analytics.md"
+    }
+  ]
+}
