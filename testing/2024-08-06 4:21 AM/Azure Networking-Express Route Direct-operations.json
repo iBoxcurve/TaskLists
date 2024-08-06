@@ -1,0 +1,72 @@
+{
+  "Service": "Azure Networking",
+  "Category": "Express Route Direct",
+  "dateCreated": "2023-10-05 12:00",
+  "dateModified": "2023-10-05 12:00",
+  "Tasks": [
+    {
+      "Task": "Configure ExpressRoute Direct",
+      "Task Description": "Set up and configure ExpressRoute Direct to establish a dedicated connection to Azure services.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "once",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/howto-erdirect.md"
+    },
+    {
+      "Task": "Monitor ExpressRoute Direct Performance",
+      "Task Description": "Continuously monitor the performance metrics of ExpressRoute Direct connections to ensure optimal operation.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "daily",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/monitor-expressroute.md"
+    },
+    {
+      "Task": "Configure MACsec for ExpressRoute Direct Ports",
+      "Task Description": "Implement MACsec (Media Access Control Security) to secure data transmission over ExpressRoute Direct ports.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "once",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/howto-macsec.md"
+    },
+    {
+      "Task": "Evaluate ExpressRoute Direct Circuit Resiliency",
+      "Task Description": "Assess the resiliency of the ExpressRoute Direct circuit to ensure it meets the required service level agreements.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/evaluate-circuit-resiliency.md"
+    },
+    {
+      "Task": "Plan and Manage Costs for ExpressRoute Direct",
+      "Task Description": "Regularly review and manage costs associated with ExpressRoute Direct to optimize budget and resource allocation.",
+      "Task Type": "Operational",
+      "Classification": "Cost Management",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/plan-manage-cost.md"
+    },
+    {
+      "Task": "Configure Customer-Controlled Gateway Maintenance",
+      "Task Description": "Set up and manage customer-controlled maintenance for the ExpressRoute Direct gateway to minimize downtime.",
+      "Task Type": "Operational",
+      "Classification": "Maintenance",
+      "Frequency": "once",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/customer-controlled-gateway-maintenance.md"
+    },
+    {
+      "Task": "Manage Peerings for ExpressRoute Direct",
+      "Task Description": "Enable, disable, and configure peerings for ExpressRoute Direct to ensure proper connectivity and routing.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "weekly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/managing-peerings.md"
+    },
+    {
+      "Task": "Troubleshoot ExpressRoute Direct Issues",
+      "Task Description": "Identify and resolve any issues related to ExpressRoute Direct connections to maintain service availability.",
+      "Task Type": "Operational",
+      "Classification": "Troubleshooting",
+      "Frequency": "continuous",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-troubleshooting-expressroute-overview.md"
+    }
+  ]
+}
