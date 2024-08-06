@@ -1,0 +1,82 @@
+
+{
+  "Service": "Azure Storage",
+  "Category": "Azure Foundation: Blob",
+  "Tasks": [
+    {
+      "Task": "Download and configure the sample project",
+      "Task Description": "Clone the sample project from the GitHub repository and navigate to the JavaScript-v4 subdirectory to open the project in your code editor.",
+      "Documentation Link": "https://github.com/Azure-Samples/msdocs-storage-bind-function-service/tree/main/javascript-v4"
+    },
+    {
+      "Task": "Retrieve environment variables",
+      "Task Description": "Set up environment variables to connect to the storage account, Computer Vision, and Cosmos DB service.",
+      "Documentation Link": "https://github.com/Azure-Samples/msdocs-storage-bind-function-service/tree/main/javascript-v4"
+    },
+    {
+      "Task": "Accept uploaded file as a blob parameter",
+      "Task Description": "Configure the Azure Function to accept the uploaded file as a blob parameter.",
+      "Documentation Link": "https://github.com/Azure-Samples/msdocs-storage-bind-function-service/tree/main/javascript-v4"
+    },
+    {
+      "Task": "Analyze the blob using Computer Vision service",
+      "Task Description": "Implement the code to analyze the uploaded blob using the Computer Vision service.",
+      "Documentation Link": "https://github.com/Azure-Samples/msdocs-storage-bind-function-service/tree/main/javascript-v4"
+    },
+    {
+      "Task": "Insert analyzed image text into Cosmos DB",
+      "Task Description": "Use output bindings to insert the analyzed image text, as a JSON object, into Cosmos DB.",
+      "Documentation Link": "https://github.com/Azure-Samples/msdocs-storage-bind-function-service/tree/main/javascript-v4"
+    },
+    {
+      "Task": "Set up project for Azure Blob Storage client library for Python",
+      "Task Description": "Install the necessary packages for Azure Blob Storage and Azure Identity client libraries using pip.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/storage-quickstart-blobs-python.md"
+    },
+    {
+      "Task": "Add import statements in Python project",
+      "Task Description": "Add import statements for DefaultAzureCredential, BlobServiceClient, BlobClient, and ContainerClient in your Python code file.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/storage-quickstart-blobs-python.md"
+    },
+    {
+      "Task": "Configure Azure Blob Storage connection string",
+      "Task Description": "Update the project to use the Azure Blob Storage connection string using the func settings add command.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/azure-functions/functions-bindings-storage-blob.md"
+    },
+    {
+      "Task": "Create a Python function project",
+      "Task Description": "Use Visual Studio Code to create a Python function project and add storage blob input function binding.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/azure-functions/functions-bindings-storage-blob.md"
+    },
+    {
+      "Task": "Run the function locally",
+      "Task Description": "Use Visual Studio Code to run the function locally and test the storage blob input binding.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/azure-functions/functions-bindings-storage-blob.md"
+    },
+    {
+      "Task": "Deploy the function using Visual Studio",
+      "Task Description": "Use Visual Studio to deploy your function to Azure and ensure it is connected to the Storage Blob.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/azure-functions/functions-bindings-storage-blob.md"
+    },
+    {
+      "Task": "Create a storage task",
+      "Task Description": "Define conditions and operations for blobs in an Azure Storage account and identify Azure Storage account targets.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage-actions/overview.md"
+    },
+    {
+      "Task": "React to Blob storage events",
+      "Task Description": "Set up Azure Event Grid to react to Blob storage events such as creation and deletion of blobs.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/event-grid/event-schema-blob-storage.md"
+    },
+    {
+      "Task": "Create Miria Target Storage",
+      "Task Description": "Declare the Azure storage and the newly created container in the Miria Web UI and configure it as a source for future workflows.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/solution-integration/validated-partners/data-management/media/atempo-quick-start-guide/miria-overview.png"
+    },
+    {
+      "Task": "Plan and manage costs for Azure Blob Storage",
+      "Task Description": "Use the Azure pricing calculator to estimate costs, optimize the storage account, and set budgets to monitor costs.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/storage-quickstart-blobs-portal.md"
+    }
+  ]
+}
