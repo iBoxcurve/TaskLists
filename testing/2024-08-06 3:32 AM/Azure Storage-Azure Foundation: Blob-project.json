@@ -1,0 +1,77 @@
+
+{
+  "Service": "Azure Storage",
+  "Category": "Azure Foundation: Blob",
+  "Tasks": [
+    {
+      "Task": "Create and configure Azure Blob Storage",
+      "Task Description": "Create a new Azure Blob Storage account and configure it according to your project requirements. This includes setting up containers and defining access policies.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/storage-blobs-introduction.md"
+    },
+    {
+      "Task": "Set up environment variables",
+      "Task Description": "Retrieve and set environment variables to connect to the storage account, Computer Vision, and Cosmos DB services.",
+      "Documentation Link": "https://github.com/Azure-Samples/msdocs-storage-bind-function-service/tree/main/javascript-v4"
+    },
+    {
+      "Task": "Install necessary packages",
+      "Task Description": "Install the Azure Blob Storage client library and Azure Identity client library using the appropriate package manager for your programming language (e.g., npm for JavaScript, pip for Python).",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/storage-quickstart-blobs-python.md"
+    },
+    {
+      "Task": "Implement Blob Storage triggers and bindings",
+      "Task Description": "Define triggers and bindings in your Azure Function to handle blob storage events, such as file uploads.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/azure-functions/functions-bindings-storage-blob.md"
+    },
+    {
+      "Task": "Analyze blobs using Computer Vision",
+      "Task Description": "Implement functionality to analyze uploaded blobs using the Computer Vision service and process the results.",
+      "Documentation Link": "https://github.com/Azure-Samples/msdocs-storage-bind-function-service/tree/main/javascript-v4"
+    },
+    {
+      "Task": "Insert analyzed data into Cosmos DB",
+      "Task Description": "Use output bindings to insert the analyzed image text, as a JSON object, into Cosmos DB.",
+      "Documentation Link": "https://github.com/Azure-Samples/msdocs-storage-bind-function-service/tree/main/javascript-v4"
+    },
+    {
+      "Task": "Deploy the function to Azure",
+      "Task Description": "Use Visual Studio Code or the Azure CLI to deploy your function to Azure, ensuring it is properly connected to the Blob Storage and other services.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/azure-functions/functions-deployment-technologies.md"
+    },
+    {
+      "Task": "Monitor and manage costs",
+      "Task Description": "Use Azure's cost management features to set budgets, monitor costs, and optimize your storage account to ensure you only pay for what you need.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/storage-plan-manage-costs.md"
+    },
+    {
+      "Task": "Implement security measures",
+      "Task Description": "Ensure that appropriate security measures are in place, such as using managed identities for authentication and setting up role-based access control (RBAC).",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/azure/role-based-access-control/built-in-roles.md#storage-blob-data-contributor"
+    },
+    {
+      "Task": "Test the function locally",
+      "Task Description": "Use Visual Studio Code to run and test the function locally before deploying it to Azure.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/azure-functions/functions-develop-vs-code.md"
+    },
+    {
+      "Task": "Set up event-based triggers",
+      "Task Description": "Configure event-based triggers using Azure Event Grid to react to blob storage events such as creation and deletion of blobs.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/event-grid/event-schema-blob-storage.md"
+    },
+    {
+      "Task": "Create a storage task",
+      "Task Description": "Define conditions and operations for a storage task to perform on blobs in an Azure Storage account.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage-actions/overview.md"
+    },
+    {
+      "Task": "Use BlobFuse2 for Linux",
+      "Task Description": "Implement BlobFuse2 to mount Azure Blob Storage as a file system on Linux using the libfuse library.",
+      "Documentation Link": "https://github.com/Azure/azure-storage-fuse/tree/main"
+    },
+    {
+      "Task": "Implement data migration",
+      "Task Description": "Use tools like Miria to migrate data to Azure Blob Storage, ensuring proper configuration and monitoring of the migration process.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/solution-integration/validated-partners/data-management/media/atempo-quick-start-guide/miria-overview.png"
+    }
+  ]
+}
