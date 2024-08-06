@@ -1,0 +1,88 @@
+{
+    "Service": "Azure Developer Tools",
+    "Category": "Azure Services: API Management",
+    "dateCreated": "2023-10-05 12:00",
+    "dateModified": "2023-10-05 12:00",
+    "Tasks": [
+        {
+            "Task": "Assess Project Requirements",
+            "Task Description": "Gather detailed requirements for the API Management service. Identify the APIs to be managed and the target audience (external, partner, or internal developers).",
+            "Task Type": "Project",
+            "Classification": "Planning",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-key-concepts.md"
+        },
+        {
+            "Task": "Design API Management Architecture",
+            "Task Description": "Design the architecture for API Management, including service tiers, gateway capabilities, and integration with existing backend services.",
+            "Task Type": "Project",
+            "Classification": "Planning",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-gateways-overview.md"
+        },
+        {
+            "Task": "Create API Management Instance",
+            "Task Description": "Provision an instance of API Management using Azure CLI, Azure Portal, or ARM templates. Ensure to select the appropriate service tier.",
+            "Task Type": "Project",
+            "Classification": "Implementation",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/get-started-create-service-instance.md"
+        },
+        {
+            "Task": "Configure Custom Domain",
+            "Task Description": "Set up a custom domain for the API Management instance to enhance branding and security.",
+            "Task Type": "Project",
+            "Classification": "Configuration",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/configure-custom-domain.md"
+        },
+        {
+            "Task": "Implement Security Measures",
+            "Task Description": "Enable security features such as API authentication and authorization, client certificate authentication, and DDoS protection.",
+            "Task Type": "Project",
+            "Classification": "Security",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/authentication-authorization-overview.md"
+        },
+        {
+            "Task": "Set Up Monitoring and Analytics",
+            "Task Description": "Integrate Application Insights for monitoring API performance and usage analytics. Configure alerts for critical metrics.",
+            "Task Type": "Project",
+            "Classification": "Monitoring",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-howto-app-insights.md"
+        },
+        {
+            "Task": "Create and Publish APIs",
+            "Task Description": "Import existing APIs or create new ones. Publish APIs to the developer portal for access by external developers.",
+            "Task Type": "Project",
+            "Classification": "Implementation",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/import-and-publish.md"
+        },
+        {
+            "Task": "Configure API Policies",
+            "Task Description": "Set and edit policies for the APIs to manage traffic, enforce security, and transform requests/responses.",
+            "Task Type": "Project",
+            "Classification": "Configuration",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/set-edit-policies.md"
+        },
+        {
+            "Task": "Establish Disaster Recovery Plan",
+            "Task Description": "Set up a disaster recovery plan using backup and restore features to ensure high availability of the API Management service.",
+            "Task Type": "Project",
+            "Classification": "Security",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-howto-disaster-recovery-backup-restore.md"
+        },
+        {
+            "Task": "Obtain Necessary Authorizations",
+            "Task Description": "Prepare and submit a Letter of Authorization (LOA) if required for accessing certain resources or services.",
+            "Task Type": "Project",
+            "Classification": "Planning",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-faq.md"
+        }
+    ]
+}
