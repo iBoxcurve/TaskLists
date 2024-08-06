@@ -1,0 +1,57 @@
+
+{
+  "Service": "Azure Networking",
+  "Category": "ExpressRoute Direct",
+  "Tasks": [
+    {
+      "Task": "Create ExpressRoute Direct using Azure CLI",
+      "Task Description": "Use the Azure CLI to create an ExpressRoute Direct circuit. This involves specifying the subscription, resource group, SKU family, SKU tier, bandwidth, and location.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/howto-expressroute-direct-cli.md"
+    },
+    {
+      "Task": "Create ExpressRoute Direct using Azure Portal",
+      "Task Description": "Use the Azure portal to create an ExpressRoute Direct resource. This involves selecting the subscription, resource group, region, and configuring peering location, bandwidth, and encapsulation.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/how-to-expressroute-direct-portal.md"
+    },
+    {
+      "Task": "Generate Letter of Authorization (LOA)",
+      "Task Description": "Generate the LOA for the ExpressRoute Direct resource using the Azure CLI. This document is necessary for provisioning the physical connection.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/howto-expressroute-direct-cli.md"
+    },
+    {
+      "Task": "Change AdminState for Links",
+      "Task Description": "Enable or disable the administrative state of the primary and secondary links for the ExpressRoute Direct resource using the Azure CLI.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/howto-expressroute-direct-cli.md"
+    },
+    {
+      "Task": "Track Provisioned and Utilized Bandwidth",
+      "Task Description": "Monitor and track the provisioned and utilized bandwidth for the ExpressRoute Direct circuits to ensure optimal usage and compliance with limits.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/howto-expressroute-direct-cli.md"
+    },
+    {
+      "Task": "Set Up ExpressRoute Direct",
+      "Task Description": "Follow the workflow to set up ExpressRoute Direct, including creating the resource, configuring circuits, and establishing connections.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/erdirect-about.md"
+    },
+    {
+      "Task": "Review ExpressRoute Prerequisites",
+      "Task Description": "Ensure all prerequisites are met before setting up ExpressRoute Direct, including reviewing the ExpressRoute FAQ, finding a connectivity provider, and understanding routing, NAT, and QoS requirements.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-prerequisites.md"
+    },
+    {
+      "Task": "Configure Routing for ExpressRoute",
+      "Task Description": "Set up routing for the ExpressRoute circuit, including configuring BGP sessions and ensuring proper route advertisement.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-routing-arm.md"
+    },
+    {
+      "Task": "Link VNet to ExpressRoute Circuit",
+      "Task Description": "Link a virtual network (VNet) to the ExpressRoute circuit to enable private connectivity between on-premises networks and Azure VNets.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-linkvnet-arm.md"
+    },
+    {
+      "Task": "Evaluate Network Security Requirements",
+      "Task Description": "Assess and document the network security requirements for the ExpressRoute Direct setup, including virtual networks, firewalls, and threat protection measures.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/synapse-analytics/guidance/security-white-paper-introduction.md"
+    }
+  ]
+}
