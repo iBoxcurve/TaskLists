@@ -1,0 +1,57 @@
+
+{
+  "Service": "Azure Storage",
+  "Category": "Azure Foundation: Blob",
+  "Tasks": [
+    {
+      "Task": "Create a storage account",
+      "Task Description": "Create an Azure Storage account to store blobs. This is the foundational step for using Azure Blob Storage.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/common/storage-account-overview.md"
+    },
+    {
+      "Task": "Configure Blob Storage endpoint",
+      "Task Description": "Specify the type of endpoint (standard or Azure DNS zone) when creating a storage account. This endpoint forms the base address for all objects within the storage account.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/common/storage-account-overview.md#standard-endpoints"
+    },
+    {
+      "Task": "Set up environment variables",
+      "Task Description": "Retrieve and set environment variables to connect to the storage account, Computer Vision, and Cosmos DB services.",
+      "Documentation Link": "https://github.com/Azure-Samples/msdocs-storage-bind-function-service/tree/main/javascript-v4"
+    },
+    {
+      "Task": "Install necessary packages",
+      "Task Description": "Install the Azure Blob Storage client library and Azure Identity client library using package managers like npm or pip.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/storage-quickstart-blobs-nodejs.md"
+    },
+    {
+      "Task": "Create and configure Azure Function",
+      "Task Description": "Create an Azure Function that accepts an uploaded file as a blob parameter, analyzes the blob using the Computer Vision service, and inserts the analyzed image text into Cosmos DB.",
+      "Documentation Link": "https://github.com/Azure-Samples/msdocs-storage-bind-function-service/tree/main/javascript-v4"
+    },
+    {
+      "Task": "Set up Blob Storage triggers and bindings",
+      "Task Description": "Configure triggers and bindings for the Azure Function to indicate the data expected into or out of the function and the service that will send or receive that data.",
+      "Documentation Link": "https://github.com/Azure-Samples/msdocs-storage-bind-function-service/blob/main/javascript-v4/src/functions/process-blob.js"
+    },
+    {
+      "Task": "Use Azure CLI for connection setup",
+      "Task Description": "Use the Azure CLI to create a connection between Azure Function and Storage Blob with Service Connector.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/azure-functions/functions-bindings-storage-blob.md"
+    },
+    {
+      "Task": "Deploy the function",
+      "Task Description": "Use Visual Studio Code or other tools to deploy the Azure Function to the cloud.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/azure-functions/functions-bindings-storage-blob.md"
+    },
+    {
+      "Task": "Monitor and manage costs",
+      "Task Description": "Use the Azure pricing calculator to estimate costs and set up cost management features to monitor and manage spending.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/storage-plan-manage-costs.md"
+    },
+    {
+      "Task": "React to Blob Storage events",
+      "Task Description": "Set up Azure Event Grid to react to Blob Storage events such as creation and deletion of blobs, and route these events to subscribers like Azure Functions or Logic Apps.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/event-grid/event-schema-blob-storage.md"
+    }
+  ]
+}
