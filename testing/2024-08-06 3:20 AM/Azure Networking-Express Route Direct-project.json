@@ -1,0 +1,97 @@
+
+{
+  "Service": "Azure Networking",
+  "Category": "ExpressRoute Direct",
+  "Tasks": [
+    {
+      "Task": "Create ExpressRoute Direct using Azure CLI",
+      "Task Description": "Use the Azure CLI to create an ExpressRoute Direct circuit. This involves specifying the ExpressRoute port, resource group, SKU family, SKU tier, bandwidth, and location.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/howto-expressroute-direct-cli.md"
+    },
+    {
+      "Task": "Create ExpressRoute Direct using Azure Portal",
+      "Task Description": "Navigate to the Azure portal, search for ExpressRoute Direct, and follow the steps to create a new ExpressRoute Direct resource by specifying the subscription, resource group, region, and other configuration details.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/how-to-expressroute-direct-portal.md"
+    },
+    {
+      "Task": "Generate Letter of Authorization (LOA)",
+      "Task Description": "Generate the LOA for the ExpressRoute Direct resource using the Azure CLI. This document is necessary for setting up the physical connection with the service provider.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/howto-expressroute-direct-cli.md"
+    },
+    {
+      "Task": "Change AdminState for Links",
+      "Task Description": "Enable or disable the admin state for primary and secondary links of the ExpressRoute Direct port using the Azure CLI.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/howto-expressroute-direct-cli.md"
+    },
+    {
+      "Task": "Monitor Provisioned and Utilized Bandwidth",
+      "Task Description": "Track the provisioned and utilized bandwidth for the ExpressRoute Direct circuits to ensure optimal usage and avoid over-provisioning.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/howto-expressroute-direct-cli.md"
+    },
+    {
+      "Task": "Set Up ExpressRoute Direct",
+      "Task Description": "Follow the workflow to set up ExpressRoute Direct, including selecting peering locations, configuring bandwidth, and encapsulation types.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/erdirect-about.md"
+    },
+    {
+      "Task": "Review ExpressRoute Prerequisites",
+      "Task Description": "Ensure all prerequisites are met before setting up ExpressRoute Direct, including reviewing ExpressRoute locations, connectivity providers, and best practices.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-prerequisites.md"
+    },
+    {
+      "Task": "Configure Routing for ExpressRoute",
+      "Task Description": "Set up routing for the ExpressRoute circuit, including configuring BGP sessions and ensuring proper route advertisement.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-routing-arm.md"
+    },
+    {
+      "Task": "Link VNet to ExpressRoute Circuit",
+      "Task Description": "Link a virtual network (VNet) to the ExpressRoute circuit to enable private connectivity between on-premises networks and Azure VNets.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-linkvnet-arm.md"
+    },
+    {
+      "Task": "Evaluate Network Security Requirements",
+      "Task Description": "Assess and document the network security requirements for the ExpressRoute Direct setup, including virtual networks, firewalls, and threat protection measures.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/synapse-analytics/guidance/security-white-paper-introduction.md"
+    },
+    {
+      "Task": "Implement Data Protection Measures",
+      "Task Description": "Ensure data protection measures are in place, including in-transit encryption, encryption at rest, and data discovery and classification.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/synapse-analytics/guidance/security-white-paper-introduction.md"
+    },
+    {
+      "Task": "Set Up Access Control",
+      "Task Description": "Configure access control mechanisms such as object-level security, row-level security, column-level security, and dynamic data masking.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/synapse-analytics/guidance/security-white-paper-introduction.md"
+    },
+    {
+      "Task": "Configure Authentication Methods",
+      "Task Description": "Set up authentication methods for accessing the ExpressRoute Direct resources, including SQL login, Microsoft Entra ID, and multi-factor authentication (MFA).",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/synapse-analytics/guidance/security-white-paper-introduction.md"
+    },
+    {
+      "Task": "Enable Threat Protection",
+      "Task Description": "Implement threat protection measures such as threat detection, auditing, and vulnerability assessment for the ExpressRoute Direct setup.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/synapse-analytics/guidance/security-white-paper-introduction.md"
+    },
+    {
+      "Task": "Review ExpressRoute Direct Features",
+      "Task Description": "Familiarize yourself with the key features of ExpressRoute Direct, including large data ingestion, physical isolation, and granular control of circuit distribution.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/erdirect-about.md"
+    },
+    {
+      "Task": "Understand ExpressRoute Direct Connectivity Options",
+      "Task Description": "Learn about the connectivity options available with ExpressRoute Direct, including dual 100-Gbps or 10-Gbps connectivity and Active/Active connectivity at scale.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/erdirect-about.md"
+    },
+    {
+      "Task": "Plan for ExpressRoute Direct Implementation",
+      "Task Description": "Develop a detailed plan for implementing ExpressRoute Direct, including timelines, resource allocation, and potential challenges.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/erdirect-about.md"
+    },
+    {
+      "Task": "Evaluate Project Plan for ExpressRoute Direct",
+      "Task Description": "Evaluate the project plan to identify any steps that could lead to blockers or impact the project timeline. Make necessary adjustments to ensure a smooth implementation.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/synapse-analytics/guidance/implementation-success-evaluate-project-plan.md"
+    }
+  ]
+}
