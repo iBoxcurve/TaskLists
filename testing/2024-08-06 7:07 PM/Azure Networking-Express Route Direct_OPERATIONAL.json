@@ -1,0 +1,56 @@
+{
+  "Service": "Azure Networking",
+  "Category": "Express Route Direct",
+  "dateCreated": "2023-10-05 12:00",
+  "dateModified": "2023-10-05 12:00",
+  "Tasks": [
+    {
+      "Task": "Configure ExpressRoute Direct",
+      "Task Description": "Set up and configure ExpressRoute Direct to establish a dedicated connection to Azure services.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "once",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/how-to-expressroute-direct.md"
+    },
+    {
+      "Task": "Monitor ExpressRoute Direct Performance",
+      "Task Description": "Continuously monitor the performance metrics of ExpressRoute Direct connections to ensure optimal operation.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "daily",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/monitor-expressroute.md"
+    },
+    {
+      "Task": "Manage ExpressRoute Direct Gateway Maintenance",
+      "Task Description": "Plan and execute maintenance for ExpressRoute Direct gateways, ensuring minimal disruption to services.",
+      "Task Type": "Operational",
+      "Classification": "Maintenance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/customer-controlled-gateway-maintenance.md"
+    },
+    {
+      "Task": "Evaluate Circuit Resiliency",
+      "Task Description": "Regularly assess the resiliency of ExpressRoute Direct circuits to ensure they meet business continuity requirements.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/evaluate-circuit-resiliency.md"
+    },
+    {
+      "Task": "Configure MACsec for ExpressRoute Direct Ports",
+      "Task Description": "Implement MACsec encryption on ExpressRoute Direct ports to enhance security for data in transit.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "once",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/howto-macsec.md"
+    },
+    {
+      "Task": "Plan and Manage Costs for ExpressRoute Direct",
+      "Task Description": "Regularly review and manage costs associated with ExpressRoute Direct to optimize budget and resource allocation.",
+      "Task Type": "Operational",
+      "Classification": "Cost Management",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/plan-manage-cost.md"
+    }
+  ]
+}
