@@ -1,0 +1,144 @@
+{
+    "Service": "Azure Networking",
+    "Category": "Azure Foundation: Express Route",
+    "dateCreated": "2023-10-05 12:00",
+    "dateModified": "2023-10-05 12:00",
+    "Tasks": [
+        {
+            "Task": "Assess Requirements",
+            "Task Description": "Gather detailed requirements for setting up ExpressRoute. Identify the on-premises infrastructure and services that will connect to Azure.",
+            "Task Type": "Project",
+            "Classification": "Planning",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-prerequisites.md"
+        },
+        {
+            "Task": "Design Architecture",
+            "Task Description": "Design the architecture for ExpressRoute, including connectivity models and high availability considerations.",
+            "Task Type": "Project",
+            "Classification": "Planning",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-connectivity-models.md"
+        },
+        {
+            "Task": "Obtain Authorizations",
+            "Task Description": "Prepare and submit a Letter of Authorization (LOA) to the service provider for ExpressRoute setup.",
+            "Task Type": "Project",
+            "Classification": "Planning",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-circuit-portal-resource-manager.md"
+        },
+        {
+            "Task": "Create ExpressRoute Circuit",
+            "Task Description": "Create an ExpressRoute circuit using the Azure portal, PowerShell, or CLI.",
+            "Task Type": "Project",
+            "Classification": "Implementation",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-circuit-portal-resource-manager.md"
+        },
+        {
+            "Task": "Configure Peering",
+            "Task Description": "Set up and configure peering for the ExpressRoute circuit, including private and Microsoft peering.",
+            "Task Type": "Project",
+            "Classification": "Configuration",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-routing-portal-resource-manager.md"
+        },
+        {
+            "Task": "Implement Security Measures",
+            "Task Description": "Enable necessary security measures for ExpressRoute, including encryption and access controls.",
+            "Task Type": "Project",
+            "Classification": "Security",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-about-encryption.md"
+        },
+        {
+            "Task": "Configure Monitoring and Alerts",
+            "Task Description": "Set up monitoring and alerting for the ExpressRoute circuit using Azure Monitor.",
+            "Task Type": "Project",
+            "Classification": "Monitoring",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-monitoring-metrics-alerts.md"
+        },
+        {
+            "Task": "Evaluate Circuit Resiliency",
+            "Task Description": "Assess the resiliency of the ExpressRoute circuit and make necessary adjustments for high availability.",
+            "Task Type": "All",
+            "Classification": "Monitoring",
+            "Frequency": "once, monthly",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/evaluate-circuit-resiliency.md"
+        },
+        {
+            "Task": "Document Configuration",
+            "Task Description": "Document the configuration settings and architecture for the ExpressRoute setup for future reference.",
+            "Task Type": "Project",
+            "Classification": "Documentation",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-circuit-portal-resource-manager.md"
+        },
+        {
+            "Task": "Monitor ExpressRoute Performance",
+            "Task Description": "Continuously monitor the performance of ExpressRoute circuits, including latency, throughput, and availability metrics.",
+            "Task Type": "Operational",
+            "Classification": "Monitoring",
+            "Frequency": "continuous",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/monitor-expressroute.md"
+        },
+        {
+            "Task": "Configure Connection Monitoring for ExpressRoute",
+            "Task Description": "Set up connection monitoring to receive alerts on the status of ExpressRoute connections and take necessary actions.",
+            "Task Type": "Operational",
+            "Classification": "Monitoring",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/how-to-configure-connection-monitor.md"
+        },
+        {
+            "Task": "Manage Maintenance Alerts",
+            "Task Description": "View and configure maintenance alerts to stay informed about scheduled maintenance that may affect ExpressRoute circuits.",
+            "Task Type": "Operational",
+            "Classification": "Monitoring",
+            "Frequency": "monthly",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/maintenance-alerts.md"
+        },
+        {
+            "Task": "Configure Custom Alerts for Advertised Routes",
+            "Task Description": "Set up custom alerts to monitor changes in advertised routes for ExpressRoute circuits.",
+            "Task Type": "Operational",
+            "Classification": "Monitoring",
+            "Frequency": "monthly",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/how-to-custom-route-alert.md"
+        },
+        {
+            "Task": "Review and Update Security Configurations",
+            "Task Description": "Regularly review and update security configurations for ExpressRoute to ensure compliance with security policies.",
+            "Task Type": "Operational",
+            "Classification": "Security",
+            "Frequency": "monthly",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-security-baseline.md"
+        },
+        {
+            "Task": "Plan and Manage Costs",
+            "Task Description": "Monitor and manage costs associated with ExpressRoute circuits, including usage and pricing changes.",
+            "Task Type": "Operational",
+            "Classification": "Cost Management",
+            "Frequency": "monthly",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/plan-manage-cost.md"
+        },
+        {
+            "Task": "Conduct Regular Backup of Configuration",
+            "Task Description": "Ensure that the configuration settings for ExpressRoute circuits are backed up regularly to prevent data loss.",
+            "Task Type": "Operational",
+            "Classification": "Data Management",
+            "Frequency": "monthly",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/howto-circuit-portal-resource-manager.md"
+        },
+        {
+            "Task": "Review and Update Documentation",
+            "Task Description": "Keep all operational documentation related to ExpressRoute up-to-date, including configurations and procedures.",
+            "Task Type": "Operational",
+            "Classification": "Documentation",
+            "Frequency": "continuous",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/index.yml"
+        }
+    ]
+}
