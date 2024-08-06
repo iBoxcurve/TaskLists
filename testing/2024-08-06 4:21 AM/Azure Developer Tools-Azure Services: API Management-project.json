@@ -1,0 +1,96 @@
+{
+    "Service": "Azure Developer Tools",
+    "Category": "Azure Services: API Management",
+    "dateCreated": "2023-10-05 12:00",
+    "dateModified": "2023-10-05 12:00",
+    "Tasks": [
+        {
+            "Task": "Assess Project Requirements",
+            "Task Description": "Gather detailed requirements for the API Management service. Identify the APIs to be managed and the target audience (external, partner, or internal developers).",
+            "Task Type": "Project",
+            "Classification": "Planning",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-key-concepts.md"
+        },
+        {
+            "Task": "Design API Management Architecture",
+            "Task Description": "Design the architecture for API Management, including service tiers, gateway capabilities, and integration with existing backend services.",
+            "Task Type": "Project",
+            "Classification": "Planning",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-gateways-overview.md"
+        },
+        {
+            "Task": "Create API Management Instance",
+            "Task Description": "Provision an API Management instance using Azure CLI, Azure Portal, or ARM templates. Ensure to select the appropriate service tier based on requirements.",
+            "Task Type": "Project",
+            "Classification": "Implementation",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/get-started-create-service-instance.md"
+        },
+        {
+            "Task": "Configure Security Settings",
+            "Task Description": "Implement security measures for the API Management service, including authentication and authorization options, and configure policies to protect APIs.",
+            "Task Type": "Project",
+            "Classification": "Security",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/authentication-authorization-overview.md"
+        },
+        {
+            "Task": "Set Up Networking Options",
+            "Task Description": "Configure networking options for API Management, including VNet integration and private endpoints to ensure secure access to backend services.",
+            "Task Type": "Project",
+            "Classification": "Configuration",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/virtual-network-concepts.md"
+        },
+        {
+            "Task": "Implement Monitoring and Analytics",
+            "Task Description": "Set up monitoring and analytics for the API Management service using Azure Monitor and Application Insights to track API usage and performance.",
+            "Task Type": "Project",
+            "Classification": "Monitoring",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/howto-use-analytics.md"
+        },
+        {
+            "Task": "Create and Publish APIs",
+            "Task Description": "Import and publish APIs to the API Management instance. Ensure to apply necessary transformations and policies for security and performance.",
+            "Task Type": "Project",
+            "Classification": "Implementation",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/import-and-publish.md"
+        },
+        {
+            "Task": "Set Up Developer Portal",
+            "Task Description": "Customize and configure the developer portal for API consumers, including documentation, usage examples, and subscription management.",
+            "Task Type": "Project",
+            "Classification": "Configuration",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/developer-portal-overview.md"
+        },
+        {
+            "Task": "Obtain Necessary Authorizations",
+            "Task Description": "Prepare and submit a Letter of Authorization (LOA) if required for accessing certain resources or services within the Azure environment.",
+            "Task Type": "Project",
+            "Classification": "Planning",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-faq.yml"
+        },
+        {
+            "Task": "Conduct Security Review",
+            "Task Description": "Perform a security review of the API Management setup, ensuring compliance with organizational security policies and best practices.",
+            "Task Type": "Project",
+            "Classification": "Security",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/security-controls-policy.md"
+        },
+        {
+            "Task": "Plan for High Availability",
+            "Task Description": "Design and implement high availability strategies for the API Management service, including multi-region deployment and zone redundancy.",
+            "Task Type": "Project",
+            "Classification": "Planning",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/high-availability.md"
+        }
+    ]
+}
