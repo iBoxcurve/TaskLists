@@ -1,0 +1,80 @@
+{
+  "Service": "Azure Storage",
+  "Category": "Azure Foundation: Blob",
+  "dateCreated": "2023-10-05T12:00:00Z",
+  "dateModified": "2023-10-05T12:00:00Z",
+  "Tasks": [
+    {
+      "Task": "Monitor Blob Storage Performance",
+      "Task Description": "Continuously monitor performance metrics of Azure Blob Storage, including latency and throughput, to ensure optimal operation.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "daily",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/monitor-blob-storage.md"
+    },
+    {
+      "Task": "Manage Blob Storage Access Control",
+      "Task Description": "Regularly review and update access control policies for Azure Blob Storage to ensure compliance with security standards.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "weekly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/authorize-data-access.md"
+    },
+    {
+      "Task": "Implement Blob Storage Lifecycle Management",
+      "Task Description": "Configure and manage lifecycle management policies to automatically transition blobs to different access tiers based on usage patterns.",
+      "Task Type": "Operational",
+      "Classification": "Data Management",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/lifecycle-management-overview.md"
+    },
+    {
+      "Task": "Perform Regular Backups of Blob Data",
+      "Task Description": "Execute and verify backups of critical blob data to ensure data recovery in case of accidental deletion or corruption.",
+      "Task Type": "Operational",
+      "Classification": "Data Management",
+      "Frequency": "daily",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/soft-delete-blob-overview.md"
+    },
+    {
+      "Task": "Review and Update Blob Storage Security Settings",
+      "Task Description": "Regularly assess and update security settings, including encryption and access policies, to protect blob data.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/security-recommendations.md"
+    },
+    {
+      "Task": "Conduct Blob Storage Cost Management",
+      "Task Description": "Monitor and analyze costs associated with Azure Blob Storage usage, identifying opportunities for cost optimization.",
+      "Task Type": "Operational",
+      "Classification": "Cost Management",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/plan-manage-costs.md"
+    },
+    {
+      "Task": "Manage Blob Storage Updates and Patches",
+      "Task Description": "Plan and apply updates and patches to Azure Blob Storage configurations to ensure compliance with the latest security standards.",
+      "Task Type": "Operational",
+      "Classification": "Maintenance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/storage-feature-support-in-storage-accounts.md"
+    },
+    {
+      "Task": "Review Blob Storage Compliance and Governance",
+      "Task Description": "Conduct regular audits of Azure Blob Storage to ensure compliance with relevant regulations and governance policies.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/storage-compliance-offerings.md"
+    },
+    {
+      "Task": "Maintain Blob Storage Documentation",
+      "Task Description": "Keep documentation related to Azure Blob Storage operations, configurations, and policies up-to-date.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/index.yml"
+    }
+  ]
+}
