@@ -1,0 +1,52 @@
+
+{
+  "Service": "Azure Networking",
+  "Category": "ExpressRoute Direct",
+  "Tasks": [
+    {
+      "Task": "Create ExpressRoute Direct using Azure CLI",
+      "Task Description": "Use the Azure CLI to create an ExpressRoute Direct circuit. This involves specifying the ExpressRoute port, resource group, SKU family, SKU tier, bandwidth, and location.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/howto-expressroute-direct-cli.md"
+    },
+    {
+      "Task": "Create ExpressRoute Direct using Azure Portal",
+      "Task Description": "Navigate to the Azure portal, search for ExpressRoute Direct, and follow the steps to create a new ExpressRoute Direct resource by specifying the subscription, resource group, region, and other configuration details.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/how-to-expressroute-direct-portal.md"
+    },
+    {
+      "Task": "Generate the Letter of Authorization (LOA)",
+      "Task Description": "Generate the LOA for the ExpressRoute Direct resource using the Azure CLI by specifying the resource name, resource group, customer name, and optionally the file location to store the document.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/howto-expressroute-direct-cli.md"
+    },
+    {
+      "Task": "Change AdminState for links",
+      "Task Description": "Enable or disable the admin state for primary and secondary links of the ExpressRoute Direct port using the Azure CLI.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/howto-expressroute-direct-cli.md"
+    },
+    {
+      "Task": "Track provisioned and utilized bandwidth",
+      "Task Description": "Monitor and track the provisioned and utilized bandwidth for the ExpressRoute Direct circuits to ensure optimal usage and avoid over-provisioning.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/howto-expressroute-direct-cli.md"
+    },
+    {
+      "Task": "Set up ExpressRoute Direct",
+      "Task Description": "Follow the workflow to set up ExpressRoute Direct, including configuring the necessary peering locations and bandwidth options.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/erdirect-about.md"
+    },
+    {
+      "Task": "Review ExpressRoute prerequisites and checklist",
+      "Task Description": "Ensure all prerequisites are met before setting up ExpressRoute Direct, including reviewing the ExpressRoute FAQ, finding a connectivity provider, and understanding the Azure Well-Architected Framework for ExpressRoute.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-prerequisites.md"
+    },
+    {
+      "Task": "Configure routing for ExpressRoute",
+      "Task Description": "Set up routing for the ExpressRoute circuit, including creating the circuit, configuring routing, and linking a VNet to the ExpressRoute circuit.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-routing-arm.md"
+    },
+    {
+      "Task": "Enable ExpressRoute Global Reach",
+      "Task Description": "Use ExpressRoute Global Reach to enable direct access from on-premises to HANA Large Instance units deployed in different regions or enable direct communication between HANA Large Instance units in different regions.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-global-reach.md"
+    }
+  ]
+}
