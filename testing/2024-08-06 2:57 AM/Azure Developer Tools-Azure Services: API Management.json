@@ -1,0 +1,87 @@
+
+{
+  "Service": "Azure API Management",
+  "Category": "Project Implementation",
+  "Tasks": [
+    {
+      "Task": "Set up source code control",
+      "Task Description": "Set up either GitHub or Azure Repos for your source code control system. This choice will determine your choice of pipeline runner as well. GitHub can use Azure Pipelines or GitHub Actions, whereas Azure Repos must use Azure Pipelines.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-key-concepts.md"
+    },
+    {
+      "Task": "Set up Azure API Management service",
+      "Task Description": "Set up an Azure API Management service for each API developer so that they can develop API definitions along with the API service. Use the consumption or developer SKU when creating the service.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/get-started-create-service-instance.md"
+    },
+    {
+      "Task": "Use policy fragments",
+      "Task Description": "Use policy fragments to reduce the new policy that developers need to write for each API.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-howto-policies.md"
+    },
+    {
+      "Task": "Use named values and backends",
+      "Task Description": "Use named values and backends to ensure that policies are generic and can apply to any API Management instance.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-howto-properties.md"
+    },
+    {
+      "Task": "Extract working API definition",
+      "Task Description": "Use the Azure APIOps Toolkit to extract a working API definition from the developer service.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-howto-policies.md"
+    },
+    {
+      "Task": "Set up API approval process",
+      "Task Description": "Set up an API approval process that runs on each pull request. The API approval process should include breaking change detection, linting, and automated API testing.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-howto-policies.md"
+    },
+    {
+      "Task": "Publish API to production",
+      "Task Description": "Use the Azure APIOps Toolkit publisher to publish the API to your production API Management service.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-howto-policies.md"
+    },
+    {
+      "Task": "Create API Management instance",
+      "Task Description": "From the Azure portal menu, select 'Create a resource'. On the 'Create a resource' page, select 'Integration' > 'API Management'. On the 'Create API Management' page, enter the required settings and select 'Review + create'.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/get-started-create-service-instance.md"
+    },
+    {
+      "Task": "Manage user accounts",
+      "Task Description": "Complete tasks in the article to create an Azure API Management instance and manage user accounts.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-howto-create-or-invite-developers.md"
+    },
+    {
+      "Task": "Customize developer portal",
+      "Task Description": "Customize the look and feel of the developer portal by adding custom content, customizing styles, and adding branding. Extend the developer portal further by self-hosting.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/developer-portal-self-host.md"
+    },
+    {
+      "Task": "Use Azure Automation",
+      "Task Description": "Manage API Management using Azure Automation by writing PowerShell workflow scripts to perform API Management tasks using cmdlets.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/powershell-samples.md"
+    },
+    {
+      "Task": "Integrate with Azure services",
+      "Task Description": "Integrate API Management with Azure services such as Azure Key Vault, Azure Monitor, Application Insights, Virtual networks, Microsoft Entra ID, Event Hubs, and Azure compute offerings.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-howto-use-azure-monitor.md"
+    },
+    {
+      "Task": "Deploy API definition",
+      "Task Description": "Deploy the API definition using tools like Azure APIOps Toolkit, dotnet-apim, or Terraform, depending on the tool used to produce the API definition.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-howto-policies.md"
+    },
+    {
+      "Task": "Use Infrastructure as Code (IaC)",
+      "Task Description": "Manage Azure Integration Services components using Infrastructure as Code (IaC) by creating infrastructure resources using Azure Resource Management templates or abstraction tools like Bicep, Terraform, or Pulumi.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-howto-policies.md"
+    },
+    {
+      "Task": "Continuous integration phase",
+      "Task Description": "Get the source code's latest version, prepare the code with environment-specific configuration, and package the code for deployment in various environments.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-howto-policies.md"
+    },
+    {
+      "Task": "Continuous deployment phase",
+      "Task Description": "Deploy packaged code in the destination environment, update the application settings repository with the correct environment values, update any required permissions, and get the application ready for execution.",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-howto-policies.md"
+    }
+  ]
+}
