@@ -5,7 +5,7 @@
     "dateModified": "2023-10-05 12:00",
     "Tasks": [
         {
-			"TaskSortId": "ABC",
+            "TaskSortId": "ABC",
             "Task": "Assess Requirements for ExpressRoute Direct",
             "Task Description": "Gather detailed requirements for implementing ExpressRoute Direct, including understanding the business needs and expected outcomes.",
             "Task Type": "Project",
@@ -14,7 +14,7 @@
             "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-erdirect-about.md"
         },
         {
-		    "TaskSortId": "ABD",
+            "TaskSortId": "ABD",
             "Task": "Design Connectivity Model",
             "Task Description": "Design the connectivity model for ExpressRoute Direct, ensuring it meets the high availability and disaster recovery requirements.",
             "Task Type": "Project",
@@ -23,7 +23,7 @@
             "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-connectivity-models.md"
         },
         {
-		    "TaskSortId": "ABE",
+            "TaskSortId": "ABE",
             "Task": "Obtain Authorizations",
             "Task Description": "Prepare and submit a Letter of Authorization (LOA) to the service provider for ExpressRoute Direct setup.",
             "Task Type": "Project",
@@ -32,7 +32,7 @@
             "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-erdirect-about.md"
         },
         {
-		    "TaskSortId": "ABF",
+            "TaskSortId": "ABF",
             "Task": "Configure ExpressRoute Direct",
             "Task Description": "Set up and configure ExpressRoute Direct in the Azure portal, including necessary settings for routing and peering.",
             "Task Type": "All",
@@ -41,7 +41,7 @@
             "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-erdirect.md"
         },
         {
-		    "TaskSortId": "ABG",
+            "TaskSortId": "ABG",
             "Task": "Implement Security Measures",
             "Task Description": "Enable security measures for ExpressRoute Direct, including MACsec for encryption and access controls.",
             "Task Type": "Project",
@@ -50,7 +50,7 @@
             "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-macsec.md"
         },
         {
-		    "TaskSortId": "ABH",
+            "TaskSortId": "ABH",
             "Task": "Configure Monitoring and Alerts",
             "Task Description": "Set up monitoring and alerting for ExpressRoute Direct using Azure Monitor to track performance and connectivity.",
             "Task Type": "Project",
@@ -59,7 +59,7 @@
             "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/monitor-expressroute.md"
         },
         {
-		    "TaskSortId": "ABI",
+            "TaskSortId": "ABI",
             "Task": "Evaluate Circuit Resiliency",
             "Task Description": "Evaluate the resiliency of the ExpressRoute Direct circuit to ensure it meets the required service level agreements.",
             "Task Type": "All",
@@ -68,7 +68,7 @@
             "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/evaluate-circuit-resiliency.md"
         },
         {
-		    "TaskSortId": "ABJ",
+            "TaskSortId": "ABJ",
             "Task": "Document Configuration and Procedures",
             "Task Description": "Document the configuration settings, procedures, and any specific requirements for ExpressRoute Direct for future reference.",
             "Task Type": "Project",
@@ -77,7 +77,7 @@
             "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-erdirect-about.md"
         },
         {
-		    "TaskSortId": "ABK",
+            "TaskSortId": "ABK",
             "Task": "Monitor ExpressRoute Direct Performance",
             "Task Description": "Continuously monitor the performance metrics of ExpressRoute Direct connections to ensure optimal operation.",
             "Task Type": "Operational",
@@ -86,7 +86,7 @@
             "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/monitor-expressroute.md"
         },
         {
-		    "TaskSortId": "ABL",
+            "TaskSortId": "ABL",
             "Task": "Manage ExpressRoute Direct Gateway Maintenance",
             "Task Description": "Plan and execute maintenance for ExpressRoute Direct gateways, ensuring minimal disruption to services.",
             "Task Type": "Operational",
@@ -95,7 +95,7 @@
             "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/customer-controlled-gateway-maintenance.md"
         },
         {
-		    "TaskSortId": "ABM",
+            "TaskSortId": "ABM",
             "Task": "Configure MACsec for ExpressRoute Direct Ports",
             "Task Description": "Implement MACsec encryption on ExpressRoute Direct ports to enhance security for data in transit.",
             "Task Type": "Operational",
@@ -104,7 +104,7 @@
             "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/howto-macsec.md"
         },
         {
-		    "TaskSortId": "ABN",
+            "TaskSortId": "ABN",
             "Task": "Plan and Manage Costs for ExpressRoute Direct",
             "Task Description": "Regularly review and manage costs associated with ExpressRoute Direct to optimize budget and resource allocation.",
             "Task Type": "Operational",
