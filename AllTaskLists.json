@@ -1,5 +1,6 @@
 [
   {
+    "UID": "00000001",
     "Vendor": "Microsoft",
     "Platform": "Microsoft Azure",
     "Service": "Azure Kubernetes Service",
@@ -10,6 +11,7 @@
     "ServiceIconURL": "https://learn.microsoft.com/en-us/azure/media/index/kubernetes-services.svg"
   },
   {
+    "UID": "00000002",
     "Vendor": "Microsoft",
     "Platform": "Microsoft Azure",
     "Service": "Azure Compute",
@@ -20,6 +22,7 @@
     "ServiceIconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJK_LShdmXXMDe_xuJV9gHflkSlsY34zBPRA&s"
   },
   {
+    "UID": "00000003",
     "Vendor": "Microsoft",
     "Platform": "Microsoft Azure",
     "Service": "AI Studio",
@@ -30,6 +33,7 @@
     "ServiceIconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvVNwHAJbNJIhv28KjuqRPRdHFJyO4ojAUyw&s"
   },
   {
+    "UID": "00000004",
     "Vendor": "Microsoft",
     "Platform": "Microsoft 365",
     "Service": "Microsoft Teams",
@@ -40,6 +44,7 @@
     "ServiceIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/120px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png"
   },
   {
+    "UID": "00000005",
     "Vendor": "Microsoft",
     "Platform": "Microsoft Entra ID",
     "Service": "Microsoft Entra ID",
