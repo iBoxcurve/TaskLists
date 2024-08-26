@@ -1,0 +1,72 @@
+{
+    "Service": "Azure AI Studio",
+    "Category": "AI + Machine Learning",
+    "dateCreated": "2024-10-05 12:00",
+    "dateModified": "2024-10-05 12:00",
+    "Tasks": [
+        {
+            "Task": "Assess Project Requirements",
+            "Task Description": "Gather detailed requirements for the AI project. Identify the specific AI capabilities needed, such as natural language processing, image recognition, or decision-making.",
+            "Task Type": "Project",
+            "Classification": "Planning",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/ai-studio/what-is-ai-studio.md"
+        },
+        {
+            "Task": "Select AI Models",
+            "Task Description": "Review and select appropriate AI models from the Azure AI Studio model catalog that align with project requirements.",
+            "Task Type": "Project",
+            "Classification": "Planning",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/ai-studio/how-to/model-catalog.md"
+        },
+        {
+            "Task": "Create a New Project",
+            "Task Description": "Follow the steps to create a new project in Azure AI Studio, ensuring all necessary configurations are set.",
+            "Task Type": "Project",
+            "Classification": "Implementation",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/ai-studio/how-to/create-projects.md"
+        },
+        {
+            "Task": "Establish Security Measures",
+            "Task Description": "Implement security measures for the project, including access controls, data encryption, and compliance with organizational policies.",
+            "Task Type": "Project",
+            "Classification": "Security",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/ai-studio/security-measures.md"
+        },
+        {
+            "Task": "Connect to AI Services",
+            "Task Description": "Set up connections to necessary AI services, ensuring proper authentication and authorization are in place.",
+            "Task Type": "Project",
+            "Classification": "Configuration",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/ai-studio/ai-services/connect-ai-services.md"
+        },
+        {
+            "Task": "Develop Prompt Flows",
+            "Task Description": "Get started with developing prompt flows to facilitate interactions with the AI models. Ensure flows are optimized for performance.",
+            "Task Type": "Project",
+            "Classification": "Implementation",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/ai-studio/how-to/flow-develop.md"
+        },
+        {
+            "Task": "Monitor and Evaluate Performance",
+            "Task Description": "Set up monitoring and evaluation metrics for the AI models to ensure they meet performance expectations and quality standards.",
+            "Task Type": "Project",
+            "Classification": "Monitoring",
+            "Frequency": "continuous",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/ai-studio/concepts/evaluation-metrics-built-in.md"
+        },
+        {
+            "Task": "Obtain Necessary Authorizations",
+            "Task Description": "Prepare and submit a Letter of Authorization (LOA) if required for accessing specific resources or services within Azure.",
+            "Task Type": "Project",
+            "Classification": "Planning",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/ai-studio/authorization-process.md"
+        }
+    ]
+}
