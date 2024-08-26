@@ -1,0 +1,96 @@
+{
+    "Service": "Azure AI Studio",
+    "Category": "AI + Machine Learning",
+    "dateCreated": "2024-10-05 12:00",
+    "dateModified": "2024-10-05 12:00",
+    "Tasks": [
+        {
+            "Task": "Define Project Objectives",
+            "Task Description": "Identify the goals and objectives of the AI project. Determine the specific problems to be solved using AI and machine learning.",
+            "Task Type": "Project",
+            "Classification": "Planning",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/ai-studio/how-to/create-projects.md"
+        },
+        {
+            "Task": "Gather Requirements",
+            "Task Description": "Collect detailed requirements for the project, including data sources, user needs, and technical specifications.",
+            "Task Type": "Project",
+            "Classification": "Planning",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/ai-studio/how-to/create-projects.md"
+        },
+        {
+            "Task": "Select AI Models",
+            "Task Description": "Review and select appropriate AI models from the Azure AI Studio model catalog that align with project objectives.",
+            "Task Type": "Project",
+            "Classification": "Planning",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/ai-studio/how-to/model-catalog.md"
+        },
+        {
+            "Task": "Create a Project in Azure AI Studio",
+            "Task Description": "Set up a new project in Azure AI Studio, including naming the project and configuring initial settings.",
+            "Task Type": "Project",
+            "Classification": "Implementation",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/ai-studio/how-to/create-projects.md"
+        },
+        {
+            "Task": "Establish Data Connections",
+            "Task Description": "Connect to necessary data sources for the project, ensuring that data is accessible for training and evaluation.",
+            "Task Type": "Project",
+            "Classification": "Configuration",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/ai-studio/ai-services/connect-ai-services.md"
+        },
+        {
+            "Task": "Implement Security Measures",
+            "Task Description": "Configure security settings for the project, including data encryption, access controls, and compliance with organizational policies.",
+            "Task Type": "Project",
+            "Classification": "Security",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/ai-studio/how-to/create-projects.md"
+        },
+        {
+            "Task": "Develop Prompt Flows",
+            "Task Description": "Create and configure prompt flows to guide the AI model's interactions and responses based on user input.",
+            "Task Type": "Project",
+            "Classification": "Implementation",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/ai-studio/how-to/flow-develop.md"
+        },
+        {
+            "Task": "Test AI Models",
+            "Task Description": "Conduct testing of the selected AI models to evaluate their performance and accuracy against project requirements.",
+            "Task Type": "Project",
+            "Classification": "Monitoring",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/ai-studio/concepts/evaluation-metrics-built-in.md"
+        },
+        {
+            "Task": "Deploy AI Models",
+            "Task Description": "Deploy the trained AI models into production, ensuring that they are accessible for end-users and integrated with the application.",
+            "Task Type": "Project",
+            "Classification": "Implementation",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/ai-studio/concepts/deployments-overview.md"
+        },
+        {
+            "Task": "Monitor and Optimize Performance",
+            "Task Description": "Set up monitoring for the deployed models to track performance metrics and optimize as necessary based on user feedback.",
+            "Task Type": "Project",
+            "Classification": "Monitoring",
+            "Frequency": "continuous",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/ai-studio/concepts/evaluation-metrics-built-in.md"
+        },
+        {
+            "Task": "Obtain Necessary Authorizations",
+            "Task Description": "Prepare and submit a Letter of Authorization (LOA) if required for accessing specific data sources or services.",
+            "Task Type": "Project",
+            "Classification": "Planning",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/ai-studio/how-to/create-projects.md"
+        }
+    ]
+}
