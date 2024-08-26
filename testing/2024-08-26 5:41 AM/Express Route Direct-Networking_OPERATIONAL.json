@@ -1,0 +1,64 @@
+{
+  "Service": "ExpressRoute Direct",
+  "Category": "Networking",
+  "dateCreated": "2023-10-05 12:00",
+  "dateModified": "2023-10-05 12:00",
+  "Tasks": [
+    {
+      "Task": "Configure ExpressRoute Direct",
+      "Task Description": "Set up and configure ExpressRoute Direct to establish a dedicated connection to Microsoft cloud services.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "once",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-erdirect.md"
+    },
+    {
+      "Task": "Monitor ExpressRoute Direct Performance",
+      "Task Description": "Continuously monitor the performance metrics of the ExpressRoute Direct connection to ensure optimal operation.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "daily",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/monitor-expressroute.md"
+    },
+    {
+      "Task": "Evaluate Circuit Resiliency",
+      "Task Description": "Regularly assess the resiliency of the ExpressRoute Direct circuit to ensure it meets availability requirements.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/evaluate-circuit-resiliency.md"
+    },
+    {
+      "Task": "Configure MACsec for ExpressRoute Direct Ports",
+      "Task Description": "Implement MACsec encryption on ExpressRoute Direct ports to enhance security for data in transit.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "once",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-macsec.md"
+    },
+    {
+      "Task": "Manage Peerings for ExpressRoute Direct",
+      "Task Description": "Enable and disable peerings as necessary to maintain optimal connectivity and performance.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "as needed",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-reset-peering-portal.md"
+    },
+    {
+      "Task": "Plan and Manage Costs for ExpressRoute Direct",
+      "Task Description": "Regularly review and manage costs associated with ExpressRoute Direct to ensure budget compliance.",
+      "Task Type": "Operational",
+      "Classification": "Cost Management",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/plan-manage-cost.md"
+    },
+    {
+      "Task": "Obtain Necessary Authorizations",
+      "Task Description": "Ensure all necessary authorizations and approvals are obtained for the configuration and management of ExpressRoute Direct.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Frequency": "once",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-faqs.md"
+    }
+  ]
+}
