@@ -1,0 +1,72 @@
+{
+    "Service": "ExpressRoute Direct",
+    "Category": "Networking",
+    "dateCreated": "2023-10-05 12:00",
+    "dateModified": "2023-10-05 12:00",
+    "Tasks": [
+        {
+            "Task": "Assess Networking Requirements",
+            "Task Description": "Gather detailed networking requirements for ExpressRoute Direct. Identify the applications and services that will utilize this connection.",
+            "Task Type": "Project",
+            "Classification": "Planning",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-introduction.md"
+        },
+        {
+            "Task": "Design Network Architecture",
+            "Task Description": "Design the network architecture for ExpressRoute Direct, including connectivity models and redundancy options.",
+            "Task Type": "Project",
+            "Classification": "Planning",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-connectivity-models.md"
+        },
+        {
+            "Task": "Obtain Necessary Authorizations",
+            "Task Description": "Prepare and submit a Letter of Authorization (LOA) to the service provider for ExpressRoute Direct setup.",
+            "Task Type": "Project",
+            "Classification": "Planning",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-erdirect-about.md"
+        },
+        {
+            "Task": "Configure ExpressRoute Direct",
+            "Task Description": "Set up and configure ExpressRoute Direct in the Azure portal or using Azure CLI/PowerShell.",
+            "Task Type": "Project",
+            "Classification": "Implementation",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-erdirect.md"
+        },
+        {
+            "Task": "Implement Security Measures",
+            "Task Description": "Enable required security measures for ExpressRoute Direct, including MACsec for encryption.",
+            "Task Type": "Project",
+            "Classification": "Security",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-macsec.md"
+        },
+        {
+            "Task": "Configure Monitoring and Alerts",
+            "Task Description": "Set up monitoring and alerting for ExpressRoute Direct using Azure Monitor. Configure alerts for critical metrics and service health.",
+            "Task Type": "Project",
+            "Classification": "Monitoring",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-monitoring-metrics-alerts.md"
+        },
+        {
+            "Task": "Evaluate Circuit Resiliency",
+            "Task Description": "Assess the resiliency of the ExpressRoute Direct circuit to ensure high availability and disaster recovery.",
+            "Task Type": "Project",
+            "Classification": "Monitoring",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/evaluate-circuit-resiliency.md"
+        },
+        {
+            "Task": "Document Configuration and Procedures",
+            "Task Description": "Create comprehensive documentation of the ExpressRoute Direct setup, including configurations, security measures, and monitoring procedures.",
+            "Task Type": "Project",
+            "Classification": "Documentation",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-erdirect-about.md"
+        }
+    ]
+}
