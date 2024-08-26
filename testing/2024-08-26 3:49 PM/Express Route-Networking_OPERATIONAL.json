@@ -1,0 +1,72 @@
+{
+  "Service": "ExpressRoute",
+  "Category": "Networking",
+  "dateCreated": "2023-10-05 12:00",
+  "dateModified": "2023-10-05 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor ExpressRoute Performance",
+      "Task Description": "Continuously monitor the performance of ExpressRoute circuits, including latency, throughput, and availability metrics.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/monitor-expressroute.md"
+    },
+    {
+      "Task": "Evaluate Circuit Resiliency",
+      "Task Description": "Regularly assess the resiliency of ExpressRoute circuits to ensure they meet the required service level agreements (SLAs).",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/evaluate-circuit-resiliency.md"
+    },
+    {
+      "Task": "Configure Connection Monitoring for ExpressRoute",
+      "Task Description": "Set up and manage connection monitoring to detect and respond to connectivity issues promptly.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/how-to-configure-connection-monitor.md"
+    },
+    {
+      "Task": "Configure Maintenance Alerts",
+      "Task Description": "Set up alerts to notify relevant personnel of any scheduled maintenance or issues affecting ExpressRoute circuits.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/maintenance-alerts.md"
+    },
+    {
+      "Task": "Manage Peerings",
+      "Task Description": "Regularly review and manage peering configurations to ensure optimal performance and compliance with routing requirements.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/managing-peerings.md"
+    },
+    {
+      "Task": "Configure Redundancy for ExpressRoute",
+      "Task Description": "Implement redundancy configurations to ensure high availability and failover capabilities for ExpressRoute connections.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "once",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/redundancy.md"
+    },
+    {
+      "Task": "Plan and Manage Costs",
+      "Task Description": "Regularly review and optimize costs associated with ExpressRoute circuits and services.",
+      "Task Type": "Operational",
+      "Classification": "Cost Management",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/plan-manage-cost.md"
+    },
+    {
+      "Task": "Document Configuration Changes",
+      "Task Description": "Maintain up-to-date documentation of all configuration changes made to ExpressRoute circuits and peerings.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/documentation.md"
+    }
+  ]
+}
