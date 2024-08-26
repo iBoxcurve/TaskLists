@@ -1,0 +1,88 @@
+{
+    "Service": "Azure AI Search",
+    "Category": "AI + Machine Learning",
+    "dateCreated": "2024-10-05 12:00",
+    "dateModified": "2024-10-05 12:00",
+    "Tasks": [
+        {
+            "Task": "Assess Project Requirements",
+            "Task Description": "Gather detailed requirements for the Azure AI Search project, focusing on AI and machine learning capabilities. Identify the specific use cases and data sources.",
+            "Task Type": "Project",
+            "Classification": "Planning",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/search/search-what-is-azure-search.md"
+        },
+        {
+            "Task": "Design AI Enrichment Strategy",
+            "Task Description": "Plan the AI enrichment strategy for the search service, including the selection of cognitive skills and how they will be applied to the data.",
+            "Task Type": "Project",
+            "Classification": "Planning",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/search/cognitive-search-concept-intro.md"
+        },
+        {
+            "Task": "Create a Search Service",
+            "Task Description": "Set up the Azure AI Search service in the Azure portal, ensuring to select the appropriate tier and region based on project requirements.",
+            "Task Type": "Project",
+            "Classification": "Implementation",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/search/search-create-service-portal.md"
+        },
+        {
+            "Task": "Configure Data Sources",
+            "Task Description": "Identify and configure the data sources that will be indexed by Azure AI Search, including Azure Blob Storage, Azure SQL Database, or Azure Cosmos DB.",
+            "Task Type": "Project",
+            "Classification": "Configuration",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/search/search-howto-connecting-azure-sql-database-to-azure-search-using-indexers.md"
+        },
+        {
+            "Task": "Implement Security Measures",
+            "Task Description": "Enable necessary security measures for the Azure AI Search service, including role-based access control and network security configurations.",
+            "Task Type": "Project",
+            "Classification": "Security",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/search/search-security-overview.md"
+        },
+        {
+            "Task": "Create and Configure Indexes",
+            "Task Description": "Design and create the search indexes that will be used to store and retrieve data. Define the fields and data types for the indexes.",
+            "Task Type": "Project",
+            "Classification": "Configuration",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/search/search-how-to-create-search-index.md"
+        },
+        {
+            "Task": "Set Up AI Skills and Skillsets",
+            "Task Description": "Create and configure skillsets that define how AI enrichment will be applied to the indexed data, including cognitive skills for data processing.",
+            "Task Type": "Project",
+            "Classification": "Configuration",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/search/cognitive-search-defining-skillset.md"
+        },
+        {
+            "Task": "Test and Validate Search Functionality",
+            "Task Description": "Conduct testing to validate that the search functionality works as expected, including testing AI enrichment and query performance.",
+            "Task Type": "Project",
+            "Classification": "Testing",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/search/search-howto-monitor-indexers.md"
+        },
+        {
+            "Task": "Monitor and Optimize Performance",
+            "Task Description": "Set up monitoring for the Azure AI Search service to track performance metrics and optimize the service based on usage patterns.",
+            "Task Type": "Project",
+            "Classification": "Monitoring",
+            "Frequency": "continuous",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/search/monitor-azure-cognitive-search.md"
+        },
+        {
+            "Task": "Obtain Necessary Authorizations",
+            "Task Description": "Prepare and submit a Letter of Authorization (LOA) if required for accessing external data sources or services.",
+            "Task Type": "Project",
+            "Classification": "Planning",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/search/search-indexer-securing-resources.md"
+        }
+    ]
+}
