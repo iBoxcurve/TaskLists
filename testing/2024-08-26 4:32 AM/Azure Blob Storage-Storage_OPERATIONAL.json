@@ -1,0 +1,88 @@
+{
+  "Service": "Azure Blob Storage",
+  "Category": "Storage",
+  "dateCreated": "2023-10-05T12:00:00Z",
+  "dateModified": "2023-10-05T12:00:00Z",
+  "Tasks": [
+    {
+      "Task": "Monitor Blob Storage Performance",
+      "Task Description": "Continuously monitor performance metrics of Azure Blob Storage to ensure optimal operation and identify potential issues.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "daily",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/monitor-blob-storage.md"
+    },
+    {
+      "Task": "Manage Blob Lifecycle Policies",
+      "Task Description": "Configure and manage lifecycle management policies to automatically transition blobs to different access tiers based on their usage.",
+      "Task Type": "Operational",
+      "Classification": "Maintenance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/lifecycle-management-overview.md"
+    },
+    {
+      "Task": "Perform Regular Backups",
+      "Task Description": "Execute and verify regular backups of critical blob data to ensure data recovery in case of accidental deletion or corruption.",
+      "Task Type": "Operational",
+      "Classification": "Data Management",
+      "Frequency": "weekly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/soft-delete-blob-enable.md"
+    },
+    {
+      "Task": "Review and Update Access Controls",
+      "Task Description": "Regularly review and update access controls and permissions for blob storage to ensure compliance with security policies.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/authorize-data-access.md"
+    },
+    {
+      "Task": "Check Encryption Status",
+      "Task Description": "Verify the encryption status of blobs to ensure that data is encrypted at rest and meets compliance requirements.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/storage-blob-encryption-status.md"
+    },
+    {
+      "Task": "Manage Blob Versions",
+      "Task Description": "Enable and manage blob versioning to keep track of changes and allow for recovery of previous versions of blobs.",
+      "Task Type": "Operational",
+      "Classification": "Data Management",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/versioning-overview.md"
+    },
+    {
+      "Task": "Conduct Capacity Planning",
+      "Task Description": "Regularly assess current storage capacity and forecast future needs to ensure adequate resources are available.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/scalability-targets.md"
+    },
+    {
+      "Task": "Implement Soft Delete",
+      "Task Description": "Enable soft delete for blobs to allow for recovery of deleted blobs within a specified retention period.",
+      "Task Type": "Operational",
+      "Classification": "Data Management",
+      "Frequency": "once",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/soft-delete-blob-overview.md"
+    },
+    {
+      "Task": "Review and Optimize Access Tiers",
+      "Task Description": "Analyze blob access patterns and optimize access tiers to reduce costs while maintaining performance.",
+      "Task Type": "Operational",
+      "Classification": "Cost Management",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/access-tiers-overview.md"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep documentation up-to-date regarding blob storage configurations, policies, and operational procedures.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/index.yml"
+    }
+  ]
+}
