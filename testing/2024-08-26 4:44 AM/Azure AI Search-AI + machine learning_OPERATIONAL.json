@@ -1,0 +1,64 @@
+{
+  "Service": "Azure AI Search",
+  "Category": "AI + Machine Learning",
+  "dateCreated": "2024-10-05 12:00",
+  "dateModified": "2024-10-05 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor AI Enrichment Processes",
+      "Task Description": "Continuously monitor the performance and accuracy of AI enrichment processes to ensure they are functioning as expected.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "daily",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/search/monitor-azure-cognitive-search.md"
+    },
+    {
+      "Task": "Review and Update Skillsets",
+      "Task Description": "Regularly review and update skillsets used in AI enrichment to ensure they are optimized for current data and use cases.",
+      "Task Type": "Operational",
+      "Classification": "Maintenance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/search/cognitive-search-working-with-skillsets.md"
+    },
+    {
+      "Task": "Evaluate AI Model Performance",
+      "Task Description": "Assess the performance of AI models integrated with Azure AI Search, making adjustments as necessary to improve accuracy and efficiency.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/search/performance-analysis.md"
+    },
+    {
+      "Task": "Manage AI Model Updates",
+      "Task Description": "Plan and implement updates to AI models used in Azure AI Search to incorporate new features or improvements.",
+      "Task Type": "Operational",
+      "Classification": "Maintenance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/search/api-preview.md"
+    },
+    {
+      "Task": "Conduct Regular Security Audits",
+      "Task Description": "Perform security audits on AI models and skillsets to ensure compliance with security policies and best practices.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/search/security-overview.md"
+    },
+    {
+      "Task": "Optimize Data Import Strategies",
+      "Task Description": "Review and optimize data import strategies for AI enrichment to ensure efficient processing and minimal downtime.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/search/what-is-data-import.md"
+    },
+    {
+      "Task": "Maintain Documentation for AI Processes",
+      "Task Description": "Keep documentation up-to-date regarding AI enrichment processes, skillsets, and model performance for future reference.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/search/maintain-documentation.md"
+    }
+  ]
+}
