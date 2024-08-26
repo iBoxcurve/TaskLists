@@ -1,0 +1,72 @@
+{
+    "Service": "ExpressRoute Direct",
+    "Category": "Networking",
+    "dateCreated": "2023-10-05 12:00",
+    "dateModified": "2023-10-05 12:00",
+    "Tasks": [
+        {
+            "Task": "Assess Project Requirements",
+            "Task Description": "Gather and document the specific requirements for setting up ExpressRoute Direct, including bandwidth needs and connectivity models.",
+            "Task Type": "Project",
+            "Classification": "Planning",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-introduction.md"
+        },
+        {
+            "Task": "Design Network Architecture",
+            "Task Description": "Create a detailed design for the network architecture that incorporates ExpressRoute Direct, ensuring high availability and disaster recovery considerations.",
+            "Task Type": "Project",
+            "Classification": "Planning",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/designing-for-high-availability-with-expressroute.md"
+        },
+        {
+            "Task": "Obtain Necessary Authorizations",
+            "Task Description": "Prepare and submit a Letter of Authorization (LOA) to the service provider for the ExpressRoute Direct setup.",
+            "Task Type": "Project",
+            "Classification": "Planning",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-erdirect.md"
+        },
+        {
+            "Task": "Configure ExpressRoute Direct",
+            "Task Description": "Set up and configure ExpressRoute Direct in the Azure portal, including the necessary settings for connectivity and routing.",
+            "Task Type": "Project",
+            "Classification": "Implementation",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/how-to-expressroute-direct-portal.md"
+        },
+        {
+            "Task": "Implement Security Measures",
+            "Task Description": "Enable security features for ExpressRoute Direct, including MACsec for encryption and configuring IPsec transport mode.",
+            "Task Type": "Project",
+            "Classification": "Security",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-macsec.md"
+        },
+        {
+            "Task": "Configure Monitoring and Alerts",
+            "Task Description": "Set up monitoring for ExpressRoute Direct using Azure Monitor, including metrics and alerts for performance and connectivity.",
+            "Task Type": "Project",
+            "Classification": "Monitoring",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-monitoring-metrics-alerts.md"
+        },
+        {
+            "Task": "Test Connectivity",
+            "Task Description": "Conduct tests to verify the connectivity and performance of the ExpressRoute Direct setup, ensuring it meets the defined requirements.",
+            "Task Type": "Project",
+            "Classification": "Testing",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-troubleshooting-expressroute-overview.md"
+        },
+        {
+            "Task": "Document Configuration and Procedures",
+            "Task Description": "Create comprehensive documentation of the ExpressRoute Direct configuration, including network diagrams and operational procedures.",
+            "Task Type": "Project",
+            "Classification": "Documentation",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-circuit-peerings.md"
+        }
+    ]
+}
