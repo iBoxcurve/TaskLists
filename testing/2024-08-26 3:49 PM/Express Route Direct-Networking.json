@@ -1,0 +1,104 @@
+{
+    "Service": "ExpressRoute Direct",
+    "Category": "Networking",
+    "dateCreated": "2023-10-05 12:00",
+    "dateModified": "2023-10-05 12:00",
+    "Tasks": [
+        {
+            "Task": "Assess Requirements for ExpressRoute Direct",
+            "Task Description": "Gather detailed requirements for implementing ExpressRoute Direct, including bandwidth needs, connectivity models, and compliance requirements.",
+            "Task Type": "Project",
+            "Classification": "Planning",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-erdirect-about.md"
+        },
+        {
+            "Task": "Design Network Architecture",
+            "Task Description": "Design the network architecture for ExpressRoute Direct, ensuring high availability and disaster recovery considerations are included.",
+            "Task Type": "Project",
+            "Classification": "Planning",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/designing-for-high-availability-with-expressroute.md"
+        },
+        {
+            "Task": "Obtain Necessary Authorizations",
+            "Task Description": "Ensure all necessary authorizations and approvals are obtained for the configuration and management of ExpressRoute Direct.",
+            "Task Type": "All",
+            "Classification": "Planning",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-faqs.md"
+        },
+        {
+            "Task": "Configure ExpressRoute Direct",
+            "Task Description": "Set up and configure ExpressRoute Direct to establish a dedicated connection to Microsoft cloud services.",
+            "Task Type": "All",
+            "Classification": "Configuration",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/howto-erdirect.md"
+        },
+        {
+            "Task": "Implement Security Measures",
+            "Task Description": "Enable security measures for ExpressRoute Direct, including MACsec for encryption and access controls.",
+            "Task Type": "Project",
+            "Classification": "Security",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-howto-macsec.md"
+        },
+        {
+            "Task": "Configure Monitoring and Alerts",
+            "Task Description": "Set up monitoring and alerting for ExpressRoute Direct using Azure Monitor to track performance and connectivity.",
+            "Task Type": "Project",
+            "Classification": "Monitoring",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/monitor-expressroute.md"
+        },
+        {
+            "Task": "Evaluate Circuit Resiliency",
+            "Task Description": "Regularly assess the resiliency of the ExpressRoute Direct circuit to ensure it meets the required service levels.",
+            "Task Type": "All",
+            "Classification": "Monitoring",
+            "Frequency": "monthly",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/evaluate-circuit-resiliency.md"
+        },
+        {
+            "Task": "Document Configuration and Procedures",
+            "Task Description": "Create comprehensive documentation of the ExpressRoute Direct configuration, including network diagrams and operational procedures.",
+            "Task Type": "Project",
+            "Classification": "Documentation",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/expressroute-erdirect-about.md"
+        },
+        {
+            "Task": "Monitor ExpressRoute Direct Performance",
+            "Task Description": "Continuously monitor the performance metrics of ExpressRoute Direct to ensure optimal connectivity and performance.",
+            "Task Type": "Operational",
+            "Classification": "Monitoring",
+            "Frequency": "continuous",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/monitor-expressroute.md"
+        },
+        {
+            "Task": "Configure MACsec for ExpressRoute Direct Ports",
+            "Task Description": "Implement MACsec (Media Access Control Security) to encrypt data on ExpressRoute Direct ports for enhanced security.",
+            "Task Type": "Operational",
+            "Classification": "Security",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/howto-macsec.md"
+        },
+        {
+            "Task": "Manage Peerings for ExpressRoute Direct",
+            "Task Description": "Enable, disable, and configure peerings for ExpressRoute Direct to manage connectivity effectively.",
+            "Task Type": "Operational",
+            "Classification": "Configuration",
+            "Frequency": "as needed",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/howto-reset-peering.md"
+        },
+        {
+            "Task": "Plan and Manage Costs for ExpressRoute Direct",
+            "Task Description": "Regularly review and manage costs associated with ExpressRoute Direct to optimize budget and resource allocation.",
+            "Task Type": "Operational",
+            "Classification": "Cost Management",
+            "Frequency": "monthly",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/expressroute/plan-manage-cost.md"
+        }
+    ]
+}
