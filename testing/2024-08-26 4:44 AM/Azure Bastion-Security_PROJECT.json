@@ -1,0 +1,64 @@
+{
+    "Service": "Azure Bastion",
+    "Category": "Security",
+    "dateCreated": "2023-10-16 10:00",
+    "dateModified": "2023-10-16 10:00",
+    "Tasks": [
+        {
+            "Task": "Review Security Baseline",
+            "Task Description": "Review the Azure Bastion security baseline to ensure compliance with organizational security policies.",
+            "Task Type": "Project",
+            "Classification": "Security",
+            "Frequency": "once",
+            "Documentation Link": "/security/benchmark/azure/baselines/bastion-security-baseline?toc=/azure/bastion/TOC.json"
+        },
+        {
+            "Task": "Configure Network Security Groups (NSGs)",
+            "Task Description": "Set up and configure Network Security Groups to control inbound and outbound traffic to Azure Bastion.",
+            "Task Type": "Project",
+            "Classification": "Security",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/bastion/bastion-nsg.md"
+        },
+        {
+            "Task": "Implement Role-Based Access Control (RBAC)",
+            "Task Description": "Define and implement Role-Based Access Control to restrict access to Azure Bastion based on user roles.",
+            "Task Type": "Project",
+            "Classification": "Security",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/bastion/bastion-faq.md"
+        },
+        {
+            "Task": "Enable Encryption",
+            "Task Description": "Ensure that all data in transit to and from Azure Bastion is encrypted using SSL/TLS protocols.",
+            "Task Type": "Project",
+            "Classification": "Security",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/bastion/bastion-overview.md"
+        },
+        {
+            "Task": "Configure Session Recording",
+            "Task Description": "Set up session recording to monitor and log all user sessions for compliance and auditing purposes.",
+            "Task Type": "Project",
+            "Classification": "Security",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/bastion/session-recording.md"
+        },
+        {
+            "Task": "Establish VPN Connectivity",
+            "Task Description": "If necessary, establish a VPN connection to secure access to Azure Bastion from on-premises networks.",
+            "Task Type": "Project",
+            "Classification": "Security",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/bastion/bastion-faq.md"
+        },
+        {
+            "Task": "Obtain Letter of Authorization (LOA)",
+            "Task Description": "If required, obtain a Letter of Authorization from relevant stakeholders to proceed with the security configurations.",
+            "Task Type": "Project",
+            "Classification": "Security",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/bastion/bastion-faq.md"
+        }
+    ]
+}
