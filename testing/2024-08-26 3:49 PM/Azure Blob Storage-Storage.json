@@ -1,0 +1,152 @@
+{
+    "Service": "Azure Blob Storage",
+    "Category": "Storage",
+    "dateCreated": "2023-10-05T12:00:00Z",
+    "dateModified": "2023-10-05T12:00:00Z",
+    "Tasks": [
+        {
+            "Task": "Assess Storage Requirements",
+            "Task Description": "Gather detailed requirements for the Azure Blob Storage service, including data types, volume, and access patterns.",
+            "Task Type": "Project",
+            "Classification": "Planning",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/storage-blobs-overview.md"
+        },
+        {
+            "Task": "Design Storage Architecture",
+            "Task Description": "Design the architecture for Azure Blob Storage, considering redundancy, performance, and scalability requirements.",
+            "Task Type": "Project",
+            "Classification": "Planning",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/architecture.md"
+        },
+        {
+            "Task": "Create Storage Account",
+            "Task Description": "Create a new Azure Storage account for Blob Storage through the Azure portal or CLI.",
+            "Task Type": "Project",
+            "Classification": "Implementation",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/common/storage-account-create.md"
+        },
+        {
+            "Task": "Configure Data Redundancy",
+            "Task Description": "Select and configure the appropriate data redundancy option (LRS, GRS, RA-GRS, etc.) for the storage account.",
+            "Task Type": "Project",
+            "Classification": "Configuration",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/common/storage-redundancy.md"
+        },
+        {
+            "Task": "Implement Security Measures",
+            "Task Description": "Enable security features such as encryption at rest, secure transfer, and access control policies.",
+            "Task Type": "Project",
+            "Classification": "Security",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/security-recommendations.md"
+        },
+        {
+            "Task": "Set Up Access Control",
+            "Task Description": "Configure access control using Azure RBAC and Shared Access Signatures (SAS) to manage permissions.",
+            "Task Type": "Project",
+            "Classification": "Security",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/authorize-data-access.md"
+        },
+        {
+            "Task": "Configure Networking",
+            "Task Description": "Set up networking options such as firewalls, virtual networks, and private endpoints to secure access to the storage account.",
+            "Task Type": "Project",
+            "Classification": "Configuration",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/storage-network-security.md"
+        },
+        {
+            "Task": "Establish Monitoring and Alerts",
+            "Task Description": "Set up monitoring and alerts for the storage account using Azure Monitor to track performance and health.",
+            "Task Type": "Project",
+            "Classification": "Monitoring",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/monitor-blob-storage.md"
+        },
+        {
+            "Task": "Obtain Necessary Authorizations",
+            "Task Description": "Prepare and submit a Letter of Authorization (LOA) if required for compliance and security approvals.",
+            "Task Type": "Project",
+            "Classification": "Documentation",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/faq.md"
+        },
+        {
+            "Task": "Document Configuration and Policies",
+            "Task Description": "Document all configurations, policies, and procedures related to the Azure Blob Storage setup for future reference.",
+            "Task Type": "Project",
+            "Classification": "Documentation",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/storage-lifecycle-management-concepts.md"
+        },
+        {
+            "Task": "Enable Soft Delete for Blobs",
+            "Task Description": "Configure soft delete for blobs to allow recovery of deleted blobs within a specified retention period.",
+            "Task Type": "Operational",
+            "Classification": "Maintenance",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/soft-delete-blob-enable.md"
+        },
+        {
+            "Task": "Enable Blob Versioning",
+            "Task Description": "Activate blob versioning to maintain previous versions of blobs, allowing for recovery of data from earlier states.",
+            "Task Type": "Operational",
+            "Classification": "Maintenance",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/versioning-enable.md"
+        },
+        {
+            "Task": "Configure Lifecycle Management Policies",
+            "Task Description": "Set up lifecycle management policies to automatically transition blobs to different access tiers or delete them based on specified rules.",
+            "Task Type": "Operational",
+            "Classification": "Maintenance",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/lifecycle-management-policy-configure.md"
+        },
+        {
+            "Task": "Monitor Blob Storage Metrics",
+            "Task Description": "Regularly review metrics for blob storage to ensure optimal performance and identify any potential issues.",
+            "Task Type": "Operational",
+            "Classification": "Monitoring",
+            "Frequency": "daily",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/monitor-blob-storage.md"
+        },
+        {
+            "Task": "Review and Rotate Access Keys",
+            "Task Description": "Periodically review and rotate access keys for blob storage to enhance security and prevent unauthorized access.",
+            "Task Type": "Operational",
+            "Classification": "Security",
+            "Frequency": "monthly",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/common/storage-account-keys-manage.md"
+        },
+        {
+            "Task": "Check Encryption Status",
+            "Task Description": "Verify the encryption status of blobs to ensure that data is encrypted at rest and meets compliance requirements.",
+            "Task Type": "Operational",
+            "Classification": "Security",
+            "Frequency": "monthly",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/storage-blob-encryption-status.md"
+        },
+        {
+            "Task": "Conduct Regular Backups",
+            "Task Description": "Implement a backup strategy for blob data to ensure data recovery in case of accidental deletion or corruption.",
+            "Task Type": "Operational",
+            "Classification": "Data Management",
+            "Frequency": "weekly",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/soft-delete-blob-manage.yml"
+        },
+        {
+            "Task": "Review and Update Access Control Lists (ACLs)",
+            "Task Description": "Regularly review and update ACLs for blob storage to ensure that only authorized users have access to sensitive data.",
+            "Task Type": "Operational",
+            "Classification": "Security",
+            "Frequency": "monthly",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/data-lake-storage-acl-azure-portal.md"
+        }
+    ]
+}
