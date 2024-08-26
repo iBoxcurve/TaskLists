@@ -1,0 +1,136 @@
+{
+    "Service": "Azure Virtual Network",
+    "Category": "Networking",
+    "dateCreated": "2023-10-05 12:00",
+    "dateModified": "2023-10-05 12:00",
+    "Tasks": [
+        {
+            "Task": "Assess Networking Requirements",
+            "Task Description": "Gather detailed requirements for the virtual network setup, including IP address ranges, subnets, and connectivity needs.",
+            "Task Type": "Project",
+            "Classification": "Planning",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/virtual-network/virtual-networks-overview.md"
+        },
+        {
+            "Task": "Design Network Architecture",
+            "Task Description": "Create a design for the virtual network architecture, including subnets, network security groups, and routing configurations.",
+            "Task Type": "Project",
+            "Classification": "Planning",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/virtual-network/architecture-design.md"
+        },
+        {
+            "Task": "Obtain Necessary Authorizations",
+            "Task Description": "Prepare and submit a Letter of Authorization (LOA) to relevant stakeholders for approval of the network design and implementation plan.",
+            "Task Type": "Project",
+            "Classification": "Planning",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/virtual-network/authorization-process.md"
+        },
+        {
+            "Task": "Provision Virtual Network",
+            "Task Description": "Create the virtual network in the Azure portal or using Azure CLI, ensuring to configure the necessary address space and subnets.",
+            "Task Type": "Project",
+            "Classification": "Implementation",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/virtual-network/quick-create-portal.md"
+        },
+        {
+            "Task": "Configure Subnets",
+            "Task Description": "Set up subnets within the virtual network, defining IP address ranges and any necessary network security groups.",
+            "Task Type": "Project",
+            "Classification": "Configuration",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/virtual-network/virtual-network-manage-subnet.md"
+        },
+        {
+            "Task": "Implement Network Security Groups",
+            "Task Description": "Create and configure network security groups to control inbound and outbound traffic to the virtual network.",
+            "Task Type": "Project",
+            "Classification": "Security",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/virtual-network/network-security-groups-overview.md"
+        },
+        {
+            "Task": "Set Up Virtual Network Peering",
+            "Task Description": "Configure virtual network peering if connecting multiple virtual networks, ensuring proper routing and security settings.",
+            "Task Type": "Project",
+            "Classification": "Configuration",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/virtual-network/virtual-network-peering-overview.md"
+        },
+        {
+            "Task": "Configure Monitoring and Alerts",
+            "Task Description": "Set up monitoring for the virtual network using Azure Monitor, including alerts for network performance and security events.",
+            "Task Type": "All",
+            "Classification": "Monitoring",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/virtual-network/monitor-virtual-networks.md"
+        },
+        {
+            "Task": "Document Network Configuration",
+            "Task Description": "Create comprehensive documentation of the virtual network configuration, including architecture diagrams and security settings.",
+            "Task Type": "Project",
+            "Classification": "Documentation",
+            "Frequency": "once",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/virtual-network/documentation-best-practices.md"
+        },
+        {
+            "Task": "Review Network Configuration",
+            "Task Description": "Regularly review the configuration of the virtual network, including subnets, IP address ranges, and network security groups to ensure they meet current requirements.",
+            "Task Type": "Operational",
+            "Classification": "Maintenance",
+            "Frequency": "monthly",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/virtual-network/manage-virtual-network.yml"
+        },
+        {
+            "Task": "Update Network Security Groups",
+            "Task Description": "Periodically update the rules in network security groups to reflect changes in security policies and access requirements.",
+            "Task Type": "Operational",
+            "Classification": "Maintenance",
+            "Frequency": "monthly",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/virtual-network/network-security-groups-overview.md"
+        },
+        {
+            "Task": "Monitor Network Performance",
+            "Task Description": "Continuously monitor the performance of the virtual network, including latency and throughput, to identify and address any issues.",
+            "Task Type": "Operational",
+            "Classification": "Monitoring",
+            "Frequency": "continuous",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/virtual-network/monitor-virtual-networks.md"
+        },
+        {
+            "Task": "Conduct Regular Backups of Network Configurations",
+            "Task Description": "Execute and verify regular backups of the virtual network configurations to ensure recovery in case of misconfiguration or failure.",
+            "Task Type": "Operational",
+            "Classification": "Data Management",
+            "Frequency": "monthly",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/virtual-network/manage-virtual-network.yml"
+        },
+        {
+            "Task": "Test Disaster Recovery Procedures",
+            "Task Description": "Regularly test disaster recovery procedures for the virtual network to ensure that failover mechanisms are effective and can be executed quickly.",
+            "Task Type": "Operational",
+            "Classification": "Maintenance",
+            "Frequency": "quarterly",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/virtual-network/architecture/design-high-availability.md"
+        },
+        {
+            "Task": "Review and Update VPN Configurations",
+            "Task Description": "Regularly review and update VPN configurations to ensure secure and reliable connectivity between on-premises networks and Azure.",
+            "Task Type": "Operational",
+            "Classification": "Maintenance",
+            "Frequency": "monthly",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/virtual-network/vpn-gateway-how-to-site-to-site-resource-manager-portal.md"
+        },
+        {
+            "Task": "Maintain Documentation of Network Architecture",
+            "Task Description": "Keep documentation of the virtual network architecture up-to-date, including diagrams, IP address allocations, and security configurations.",
+            "Task Type": "Operational",
+            "Classification": "Documentation",
+            "Frequency": "continuous",
+            "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/virtual-network/architecture/networking-start-here.md"
+        }
+    ]
+}
