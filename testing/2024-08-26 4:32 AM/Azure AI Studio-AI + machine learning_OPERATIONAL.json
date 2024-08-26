@@ -1,0 +1,72 @@
+{
+  "Service": "Azure AI Studio",
+  "Category": "AI + Machine Learning",
+  "dateCreated": "2024-10-05 12:00",
+  "dateModified": "2024-10-05 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor AI Model Performance",
+      "Task Description": "Continuously monitor the performance of deployed AI models, analyzing metrics such as accuracy, latency, and throughput to ensure optimal operation.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "daily",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/ai-studio/monitor-model-performance.md"
+    },
+    {
+      "Task": "Update AI Models",
+      "Task Description": "Regularly review and update AI models based on new data, performance metrics, and user feedback to maintain relevance and accuracy.",
+      "Task Type": "Operational",
+      "Classification": "Maintenance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/ai-studio/update-models.md"
+    },
+    {
+      "Task": "Conduct Regular Backups of AI Projects",
+      "Task Description": "Execute and verify regular backups of AI project configurations, models, and data to ensure recovery in case of failure.",
+      "Task Type": "Operational",
+      "Classification": "Data Management",
+      "Frequency": "weekly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/ai-studio/backup-projects.md"
+    },
+    {
+      "Task": "Manage API Keys and Access Controls",
+      "Task Description": "Regularly review and update API keys and access controls for AI services to ensure security and compliance with organizational policies.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/ai-studio/manage-api-keys.md"
+    },
+    {
+      "Task": "Review and Optimize Resource Utilization",
+      "Task Description": "Analyze resource usage patterns for AI services and optimize configurations to improve performance and reduce costs.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/ai-studio/optimize-resources.md"
+    },
+    {
+      "Task": "Conduct Security Audits",
+      "Task Description": "Perform regular security audits of AI projects and services to identify vulnerabilities and ensure compliance with security standards.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/ai-studio/security-audits.md"
+    },
+    {
+      "Task": "Maintain Documentation for AI Projects",
+      "Task Description": "Keep documentation for AI projects up-to-date, including operational procedures, model configurations, and troubleshooting guides.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/ai-studio/maintain-documentation.md"
+    },
+    {
+      "Task": "Evaluate New AI Technologies",
+      "Task Description": "Regularly assess new AI technologies and tools that could enhance existing projects or improve operational efficiency.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Frequency": "once in a blue moon",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/ai-studio/evaluate-technologies.md"
+    }
+  ]
+}
