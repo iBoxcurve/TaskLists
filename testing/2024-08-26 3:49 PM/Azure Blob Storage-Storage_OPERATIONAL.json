@@ -1,0 +1,72 @@
+{
+  "Service": "Azure Blob Storage",
+  "Category": "Storage",
+  "dateCreated": "2023-10-05T12:00:00Z",
+  "dateModified": "2023-10-05T12:00:00Z",
+  "Tasks": [
+    {
+      "Task": "Enable Soft Delete for Blobs",
+      "Task Description": "Configure soft delete for blobs to allow recovery of deleted blobs within a specified retention period.",
+      "Task Type": "Operational",
+      "Classification": "Maintenance",
+      "Frequency": "once",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/soft-delete-blob-enable.md"
+    },
+    {
+      "Task": "Enable Blob Versioning",
+      "Task Description": "Activate blob versioning to maintain previous versions of blobs, allowing for recovery of data from earlier states.",
+      "Task Type": "Operational",
+      "Classification": "Maintenance",
+      "Frequency": "once",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/versioning-enable.md"
+    },
+    {
+      "Task": "Configure Lifecycle Management Policies",
+      "Task Description": "Set up lifecycle management policies to automatically transition blobs to different access tiers or delete them based on specified rules.",
+      "Task Type": "Operational",
+      "Classification": "Maintenance",
+      "Frequency": "once",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/lifecycle-management-policy-configure.md"
+    },
+    {
+      "Task": "Monitor Blob Storage Metrics",
+      "Task Description": "Regularly review metrics for blob storage to ensure optimal performance and identify any potential issues.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "daily",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/monitor-blob-storage.md"
+    },
+    {
+      "Task": "Review and Rotate Access Keys",
+      "Task Description": "Periodically review and rotate access keys for blob storage to enhance security and prevent unauthorized access.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/common/storage-account-keys-manage.md"
+    },
+    {
+      "Task": "Check Encryption Status",
+      "Task Description": "Verify the encryption status of blobs to ensure that data is encrypted at rest and meets compliance requirements.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/storage-blob-encryption-status.md"
+    },
+    {
+      "Task": "Conduct Regular Backups",
+      "Task Description": "Implement a backup strategy for blob data to ensure data recovery in case of accidental deletion or corruption.",
+      "Task Type": "Operational",
+      "Classification": "Data Management",
+      "Frequency": "weekly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/soft-delete-blob-manage.yml"
+    },
+    {
+      "Task": "Review and Update Access Control Lists (ACLs)",
+      "Task Description": "Regularly review and update ACLs for blob storage to ensure that only authorized users have access to sensitive data.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/data-lake-storage-acl-azure-portal.md"
+    }
+  ]
+}
