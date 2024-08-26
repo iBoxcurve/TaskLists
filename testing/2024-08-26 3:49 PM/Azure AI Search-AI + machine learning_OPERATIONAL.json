@@ -1,0 +1,64 @@
+{
+  "Service": "Azure AI Search",
+  "Category": "AI + Machine Learning",
+  "dateCreated": "2024-10-05 12:00",
+  "dateModified": "2024-10-05 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor AI Enrichment Processes",
+      "Task Description": "Continuously monitor the performance and effectiveness of AI enrichment processes to ensure they are functioning as expected and providing accurate results.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "daily",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/search/monitor-azure-cognitive-search.md"
+    },
+    {
+      "Task": "Review and Update Skillsets",
+      "Task Description": "Regularly review and update AI skillsets to ensure they are aligned with current business needs and technological advancements.",
+      "Task Type": "Operational",
+      "Classification": "Maintenance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/search/cognitive-search-defining-skillset.md"
+    },
+    {
+      "Task": "Evaluate AI Model Performance",
+      "Task Description": "Conduct periodic evaluations of AI models used in the search service to assess their performance and make necessary adjustments.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/search/performance-analysis.md"
+    },
+    {
+      "Task": "Manage AI Resource Attachments",
+      "Task Description": "Ensure that all AI resources attached to the Azure AI Search service are properly configured and functioning correctly.",
+      "Task Type": "Operational",
+      "Classification": "Maintenance",
+      "Frequency": "weekly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/search/cognitive-search-attach-cognitive-services.md"
+    },
+    {
+      "Task": "Conduct Security Reviews for AI Components",
+      "Task Description": "Perform regular security reviews of AI components to ensure compliance with security policies and best practices.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/search/search-security-overview.md"
+    },
+    {
+      "Task": "Update AI Models and Skills",
+      "Task Description": "Plan and implement updates to AI models and skills based on new data, user feedback, and performance metrics.",
+      "Task Type": "Operational",
+      "Classification": "Maintenance",
+      "Frequency": "as needed",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/search/cognitive-search-how-to-debug-skillset.md"
+    },
+    {
+      "Task": "Document AI Enhancements",
+      "Task Description": "Maintain comprehensive documentation of all AI enhancements and updates made to the Azure AI Search service.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/search/knowledge-store-projection-overview.md"
+    }
+  ]
+}
