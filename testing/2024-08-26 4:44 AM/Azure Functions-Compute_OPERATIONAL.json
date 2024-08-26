@@ -1,0 +1,80 @@
+{
+  "Service": "Azure Functions",
+  "Category": "Compute",
+  "dateCreated": "2023-10-05T12:00:00Z",
+  "dateModified": "2023-10-05T12:00:00Z",
+  "Tasks": [
+    {
+      "Task": "Monitor Function Performance",
+      "Task Description": "Continuously monitor the performance of Azure Functions, including execution times, failure rates, and resource utilization to ensure optimal performance.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/azure-functions/monitor-functions.md"
+    },
+    {
+      "Task": "Manage Function App Settings",
+      "Task Description": "Regularly review and update the application settings for function apps, including connection strings and environment variables to ensure they are secure and up-to-date.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/azure-functions/functions-how-to-use-azure-function-app-settings.md"
+    },
+    {
+      "Task": "Perform Regular Backups",
+      "Task Description": "Execute and verify regular backups of function app configurations and code to ensure data recovery in case of failures.",
+      "Task Type": "Operational",
+      "Classification": "Data Management",
+      "Frequency": "weekly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/azure-functions/functions-backup-restore.md"
+    },
+    {
+      "Task": "Update Function Runtime Versions",
+      "Task Description": "Regularly check for updates to the Azure Functions runtime and apply necessary updates to ensure compatibility and security.",
+      "Task Type": "Operational",
+      "Classification": "Maintenance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/azure-functions/functions-versions.md"
+    },
+    {
+      "Task": "Review and Optimize Function Code",
+      "Task Description": "Conduct periodic reviews of function code to identify opportunities for optimization, refactoring, and performance improvements.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/azure-functions/functions-best-practices.md"
+    },
+    {
+      "Task": "Manage Function App Scaling",
+      "Task Description": "Monitor and adjust the scaling settings of function apps based on usage patterns to ensure performance and cost-effectiveness.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "weekly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/azure-functions/functions-scale.md"
+    },
+    {
+      "Task": "Conduct Security Audits",
+      "Task Description": "Perform regular security audits of function apps to identify vulnerabilities and ensure compliance with security best practices.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/azure-functions/security-concepts.md"
+    },
+    {
+      "Task": "Test Disaster Recovery Procedures",
+      "Task Description": "Regularly test disaster recovery procedures to ensure that function apps can be restored quickly and effectively in case of an outage.",
+      "Task Type": "Operational",
+      "Classification": "Support",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/azure-functions/functions-disaster-recovery.md"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep documentation for function apps up-to-date, including operational procedures, configuration details, and troubleshooting guides.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/azure-functions/functions-reference.md"
+    }
+  ]
+}
