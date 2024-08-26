@@ -1,0 +1,64 @@
+{
+  "Service": "Azure Virtual Network",
+  "Category": "Networking",
+  "dateCreated": "2023-10-05 12:00",
+  "dateModified": "2023-10-05 12:00",
+  "Tasks": [
+    {
+      "Task": "Review Network Configuration",
+      "Task Description": "Regularly review the configuration of the virtual network, including subnets, IP address ranges, and network security groups to ensure they meet current requirements.",
+      "Task Type": "Operational",
+      "Classification": "Maintenance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/virtual-network/manage-virtual-network.yml"
+    },
+    {
+      "Task": "Update Network Security Groups",
+      "Task Description": "Periodically update the rules in network security groups to reflect changes in security policies and access requirements.",
+      "Task Type": "Operational",
+      "Classification": "Maintenance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/virtual-network/network-security-groups-overview.md"
+    },
+    {
+      "Task": "Monitor Network Performance",
+      "Task Description": "Continuously monitor the performance of the virtual network, including latency and throughput, to identify and address any issues.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/virtual-network/monitor-virtual-networks.md"
+    },
+    {
+      "Task": "Conduct Regular Backups of Network Configurations",
+      "Task Description": "Execute and verify regular backups of the virtual network configurations to ensure recovery in case of misconfiguration or failure.",
+      "Task Type": "Operational",
+      "Classification": "Data Management",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/virtual-network/manage-virtual-network.yml"
+    },
+    {
+      "Task": "Test Disaster Recovery Procedures",
+      "Task Description": "Regularly test disaster recovery procedures for the virtual network to ensure that failover mechanisms are effective and can be executed quickly.",
+      "Task Type": "Operational",
+      "Classification": "Maintenance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/virtual-network/architecture/design-high-availability.md"
+    },
+    {
+      "Task": "Review and Update VPN Configurations",
+      "Task Description": "Regularly review and update VPN configurations to ensure secure and reliable connectivity between on-premises networks and Azure.",
+      "Task Type": "Operational",
+      "Classification": "Maintenance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/virtual-network/vpn-gateway-how-to-site-to-site-resource-manager-portal.md"
+    },
+    {
+      "Task": "Maintain Documentation of Network Architecture",
+      "Task Description": "Keep documentation of the virtual network architecture up-to-date, including diagrams, IP address allocations, and security configurations.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/virtual-network/architecture/networking-start-here.md"
+    }
+  ]
+}
