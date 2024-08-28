@@ -1,0 +1,85 @@
+{
+  "Service": "Azure Virtual Network",
+  "Category": "Networking",
+  "dateCreated": "2023-10-05 12:00",
+  "dateModified": "2023-10-05 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Networking Requirements",
+      "Task Description": "Gather detailed requirements for the virtual network, including IP address ranges, subnets, and connectivity needs with on-premises networks.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview"
+    },
+    {
+      "Task": "Design Network Architecture",
+      "Task Description": "Create a design for the virtual network architecture, including subnets, network security groups, and routing configurations.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/architecture/guide/networking/networking-start-here"
+    },
+    {
+      "Task": "Provision Virtual Network",
+      "Task Description": "Use the Azure portal or CLI to create the virtual network with the defined IP address range and subnets.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-network/quick-create-portal"
+    },
+    {
+      "Task": "Configure Subnets",
+      "Task Description": "Create and configure subnets within the virtual network, ensuring proper segmentation and addressing.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-manage-subnet"
+    },
+    {
+      "Task": "Implement Network Security Groups (NSGs)",
+      "Task Description": "Create and configure NSGs to control inbound and outbound traffic to the virtual network and its subnets.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview"
+    },
+    {
+      "Task": "Set Up Virtual Network Peering",
+      "Task Description": "Establish peering connections with other virtual networks as needed for resource sharing and communication.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview"
+    },
+    {
+      "Task": "Configure Route Tables",
+      "Task Description": "Set up route tables to manage traffic flow within the virtual network and to external networks.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-udr-overview"
+    },
+    {
+      "Task": "Implement Virtual Network Encryption",
+      "Task Description": "Enable encryption for the virtual network to secure data in transit, following best practices for network security.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-encryption-overview"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring for the virtual network using Azure Monitor and configure alerts for network performance and security events.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-tap-overview"
+    },
+    {
+      "Task": "Documentation and Training",
+      "Task Description": "Document the virtual network architecture, configurations, and operational procedures. Conduct training for the operations team.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-network/"
+    },
+    {
+      "Task": "Compliance and Auditing",
+      "Task Description": "Ensure the virtual network setup meets compliance requirements and implement regular auditing procedures.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/compliance/"
+    }
+  ]
+}
