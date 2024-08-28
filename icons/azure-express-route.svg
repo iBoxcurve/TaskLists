@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.0" id="katman_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 35.2 25.1" style="enable-background:new 0 0 35.2 25.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#A67AF4;}
+	.st1{fill:#773ADC;}
+	.st2{fill:url(#SVGID_1_);}
+	.st3{fill:url(#SVGID_00000177448624191425167500000013889948531196008093_);}
+	.st4{fill:url(#SVGID_00000183209182261760487810000011648996170457944988_);}
+</style>
+<rect x="9.6" y="11.5" transform="matrix(0.5 -0.866 0.866 0.5 -3.6803 18.6658)" class="st0" width="9.5" height="2"/>
+<rect x="19.8" y="7.9" transform="matrix(0.866 -0.5 0.5 0.866 -3.5504 12.097)" class="st0" width="2" height="9.5"/>
+<rect x="12.7" y="17.3" class="st1" width="9.5" height="2"/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="13.6214" y1="20.3354" x2="17.0296" y2="16.9271" gradientTransform="matrix(1 -1.396263e-03 -1.396263e-03 -1 2.3631 25.3482)">
+	<stop  offset="0" style="stop-color:#86D633"/>
+	<stop  offset="1" style="stop-color:#5E9624"/>
+</linearGradient>
+<circle class="st2" cx="17.7" cy="6.7" r="2.4"/>
+<linearGradient id="SVGID_00000117665469010915501180000007020933184649233804_" gradientUnits="userSpaceOnUse" x1="22.1531" y1="10.731" x2="25.5563" y2="7.3178" gradientTransform="matrix(1 0 0 -1 0 27.1111)">
+	<stop  offset="0" style="stop-color:#86D633"/>
+	<stop  offset="1" style="stop-color:#5E9624"/>
+</linearGradient>
+<circle style="fill:url(#SVGID_00000117665469010915501180000007020933184649233804_);" cx="24.2" cy="18.4" r="2.4"/>
+<linearGradient id="SVGID_00000171701159375781903290000003942474309833111985_" gradientUnits="userSpaceOnUse" x1="8.9626" y1="10.7356" x2="12.3626" y2="7.3356" gradientTransform="matrix(1 0 0 -1 0 27.1111)">
+	<stop  offset="0" style="stop-color:#86D633"/>
+	<stop  offset="1" style="stop-color:#5E9624"/>
+</linearGradient>
+<circle style="fill:url(#SVGID_00000171701159375781903290000003942474309833111985_);" cx="11" cy="18.4" r="2.4"/>
+</svg>
