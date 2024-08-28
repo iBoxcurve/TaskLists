@@ -1,0 +1,88 @@
+{
+  "Service": "Azure Virtual Network",
+  "Category": "Networking",
+  "dateCreated": "2023-10-05 12:00",
+  "dateModified": "2023-10-05 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Network Performance",
+      "Task Description": "Utilize Azure Monitor to continuously track the performance metrics of the virtual network, including latency, packet loss, and throughput. Investigate any anomalies.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/monitor-virtual-network"
+    },
+    {
+      "Task": "Review Network Security Groups (NSGs)",
+      "Task Description": "Regularly audit the configurations of NSGs to ensure they align with security policies and best practices. Update rules as necessary to maintain security posture.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview"
+    },
+    {
+      "Task": "Validate Virtual Network Peering",
+      "Task Description": "Check the status and configuration of virtual network peering connections to ensure they are functioning correctly and that traffic flows as expected.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview"
+    },
+    {
+      "Task": "Update Route Tables",
+      "Task Description": "Review and update route tables to ensure they reflect the current network architecture and routing requirements. Remove any obsolete routes.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-udr-overview"
+    },
+    {
+      "Task": "Conduct Network Traffic Analysis",
+      "Task Description": "Analyze network traffic patterns using Azure Network Watcher to identify any unusual activity or bottlenecks. Implement changes as necessary.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-monitoring-overview"
+    },
+    {
+      "Task": "Backup Network Configurations",
+      "Task Description": "Regularly back up the configurations of virtual networks, including subnets and NSGs, to ensure quick recovery in case of misconfigurations or failures.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-manage-subnet"
+    },
+    {
+      "Task": "Test Failover Scenarios",
+      "Task Description": "Conduct failover tests to ensure that redundant paths and configurations are functioning correctly and can take over in case of primary path failures.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/resiliency"
+    },
+    {
+      "Task": "Review Compliance with Security Policies",
+      "Task Description": "Perform regular compliance checks to ensure that the virtual network setup adheres to relevant regulations and internal security policies.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-security-best-practices"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep all documentation related to the virtual network, including architecture diagrams, configuration details, and operational procedures, up to date.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/"
+    },
+    {
+      "Task": "Engage in Regular Training",
+      "Task Description": "Ensure the operations team participates in regular training sessions to stay updated with new features, best practices, and security measures related to Azure Virtual Network.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/"
+    }
+  ]
+}
