@@ -1,0 +1,88 @@
+{
+  "Service": "Azure Blob Storage",
+  "Category": "Storage",
+  "dateCreated": "2023-10-05 12:00",
+  "dateModified": "2023-10-05 12:00",
+  "Tasks": [
+    {
+      "Task": "Create Storage Task",
+      "Task Description": "Define and create a storage task to perform operations on blobs in an Azure Storage account. Specify conditions and operations for each object.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Frequency": "once",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage-actions/overview.md"
+    },
+    {
+      "Task": "Assign Roles for Storage Task",
+      "Task Description": "Assign appropriate Azure roles to users for executing storage tasks. Ensure roles have necessary permissions for operations on the target storage account.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Frequency": "once",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/tasks/storage-task-authorization-roles.md"
+    },
+    {
+      "Task": "Set Blob Immutability Policy",
+      "Task Description": "Apply a time-based immutability policy to blobs to prevent modifications for a specified duration.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/actions/storage-task-quickstart-portal.md"
+    },
+    {
+      "Task": "Set Blob Tags",
+      "Task Description": "Add or update tags for blobs to facilitate organization and management of blob data.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/actions/storage-task-quickstart-portal.md"
+    },
+    {
+      "Task": "Monitor Blob Storage Operations",
+      "Task Description": "Utilize Azure Monitor to track and analyze logs for blob storage operations. Identify and address any anomalies.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/azure/azure-monitor/essentials/resource-logs.md"
+    },
+    {
+      "Task": "Review and Update Access Policies",
+      "Task Description": "Regularly review and update access policies for blob storage to ensure compliance with security standards.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/storage-blob-access-control.md"
+    },
+    {
+      "Task": "Backup Blob Data",
+      "Task Description": "Implement a backup strategy for blob data to ensure data recovery in case of accidental deletion or corruption.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/storage-blob-backup.md"
+    },
+    {
+      "Task": "Conduct Security Audits",
+      "Task Description": "Perform regular security audits on blob storage configurations and access controls to identify vulnerabilities.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/security-recommendations.md"
+    },
+    {
+      "Task": "Test Blob Storage Failover",
+      "Task Description": "Conduct failover tests to ensure that blob storage can recover from outages and maintain availability.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "annually",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/common/storage-disaster-recovery-guidance.md"
+    },
+    {
+      "Task": "Update Documentation",
+      "Task Description": "Maintain and update documentation related to blob storage operations, configurations, and policies.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/storage/blobs/storage-blobs-introduction.md"
+    }
+  ]
+}
