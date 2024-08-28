@@ -1,0 +1,88 @@
+{
+  "Service": "Azure API Management",
+  "Category": "Integration",
+  "dateCreated": "2023-10-05 12:00",
+  "dateModified": "2023-10-05 12:00",
+  "Tasks": [
+    {
+      "Task": "Integrate API Management with Service Fabric",
+      "Task Description": "Set up Azure API Management to route traffic to back-end services hosted in Service Fabric. Ensure proper configuration of API operations to communicate with the ASP.NET Core stateless service.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Frequency": "once",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/service-fabric/service-fabric-api-management-overview.md"
+    },
+    {
+      "Task": "Configure API Operations",
+      "Task Description": "Add front-end API operations in API Management, specifying display names, HTTP methods, and URL templates to ensure proper communication with the back-end services.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Frequency": "once",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/import-and-publish.md"
+    },
+    {
+      "Task": "Set Up VNet Integration",
+      "Task Description": "Configure VNet integration for the API Management instance to allow secure access to network-isolated back-end services. Ensure that the API Management gateway remains publicly accessible.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Frequency": "once",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/integrate-vnet-outbound.md"
+    },
+    {
+      "Task": "Implement API Management Policies",
+      "Task Description": "Define and implement policies in API Management to control API behavior, including authentication, throttling, and caching. Ensure policies are aligned with security and performance requirements.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-howto-policies.md"
+    },
+    {
+      "Task": "Monitor API Performance",
+      "Task Description": "Utilize Azure Monitor and Application Insights to track the performance and health of APIs managed by API Management. Set up alerts for any anomalies or performance issues.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-howto-use-azure-monitor.md"
+    },
+    {
+      "Task": "Review and Update API Documentation",
+      "Task Description": "Regularly review and update the API documentation available on the developer portal to ensure it reflects the current state of the APIs and their operations.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-howto-developer-portal.md"
+    },
+    {
+      "Task": "Conduct Security Audits",
+      "Task Description": "Perform regular security audits of the API Management instance to ensure compliance with security policies and best practices. Address any identified vulnerabilities.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-security-best-practices.md"
+    },
+    {
+      "Task": "Backup API Management Configuration",
+      "Task Description": "Regularly back up the API Management configuration, including policies, products, and API definitions, to ensure recovery in case of data loss.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-howto-backup.md"
+    },
+    {
+      "Task": "Engage in Continuous Training",
+      "Task Description": "Ensure the operations team participates in continuous training to stay updated with new features, best practices, and security measures related to API Management.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-key-concepts.md"
+    },
+    {
+      "Task": "Review API Usage Analytics",
+      "Task Description": "Analyze API usage metrics and analytics to understand consumption patterns and identify opportunities for optimization and improvement.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "monthly",
+      "Documentation Link": "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/main/articles/api-management/api-management-howto-analytics.md"
+    }
+  ]
+}
