@@ -6,7 +6,7 @@
     "Service": "Express Route",
     "Link": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/Azure.json",
     "Description": "",
-    "VendorIconURL": "https://upload.wikimedia.org/wikipedia/commons/2/25/Microsoft_icon.svg",
+    "VendorIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/Microsoft_logo.svg",
     "PlatformIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/microsoft-azure.svg",
     "ServiceIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/azure-express-route.svg"
   },
@@ -17,7 +17,7 @@
     "Service": "Azure Compute",
     "Link": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/Azure.json",
     "Description": "",
-    "VendorIconURL": "https://upload.wikimedia.org/wikipedia/commons/2/25/Microsoft_icon.svg",
+    "VendorIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/Microsoft_logo.svg",
     "PlatformIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/microsoft-azure.svg",
     "ServiceIconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJK_LShdmXXMDe_xuJV9gHflkSlsY34zBPRA&s"
   },
@@ -28,7 +28,7 @@
     "Service": "AI Studio",
     "Link": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/Azure.json",
     "Description": "",
-    "VendorIconURL": "https://upload.wikimedia.org/wikipedia/commons/2/25/Microsoft_icon.svg",
+    "VendorIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/Microsoft_logo.svg",
     "PlatformIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/microsoft-azure.svg",
     "ServiceIconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvVNwHAJbNJIhv28KjuqRPRdHFJyO4ojAUyw&s"
   },
@@ -39,7 +39,7 @@
     "Service": "Microsoft Teams",
     "Link": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/Azure.json",
     "Description": "",
-    "VendorIconURL": "https://upload.wikimedia.org/wikipedia/commons/2/25/Microsoft_icon.svg",
+    "VendorIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/Microsoft_logo.svg",
     "PlatformIconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkfNV1YtiGc-HUrSF4OfHIX50fUSmXWPWP2g&s",
     "ServiceIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/120px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png"
   },
@@ -50,7 +50,7 @@
     "Service": "Microsoft Entra ID",
     "Link": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/Azure.json",
     "Description": "",
-    "VendorIconURL": "https://upload.wikimedia.org/wikipedia/commons/2/25/Microsoft_icon.svg",
+    "VendorIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/Microsoft_logo.svg",
     "PlatformIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Microsoft_Entra_ID_color_icon.svg/1200px-Microsoft_Entra_ID_color_icon.svg.png",
     "ServiceIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Microsoft_Entra_ID_color_icon.svg/1200px-Microsoft_Entra_ID_color_icon.svg.png"
   }
