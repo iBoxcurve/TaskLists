@@ -41,7 +41,7 @@
     "Description": "",
     "VendorIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/Microsoft_logo.svg",
     "PlatformIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/microsoft-azure.svg",
-    "ServiceIconURL": "https://github.com/iBoxcurve/TaskLists/raw/main/icons/express-route-direct.svg"
+    "ServiceIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/express-route-direct.svg"
   },
   {
     "UID": "00000005",
@@ -52,7 +52,7 @@
     "Description": "",
     "VendorIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/Microsoft_logo.svg",
     "PlatformIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/microsoft-azure.svg",
-    "ServiceIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Microsoft_Entra_ID_color_icon.svg/1200px-Microsoft_Entra_ID_color_icon.svg.png"
+    "ServiceIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/AI-Studio.svg"
   },
   {
     "UID": "00000006",
