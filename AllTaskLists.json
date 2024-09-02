@@ -63,7 +63,7 @@
     "Description": "",
     "VendorIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/Microsoft_logo.svg",
     "PlatformIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/microsoft-azure.svg",
-    "ServiceIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Microsoft_Entra_ID_color_icon.svg/1200px-Microsoft_Entra_ID_color_icon.svg.png"
+    "ServiceIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/azure-ai-search.svg"
   },
   {
     "UID": "00000007",
@@ -74,7 +74,7 @@
     "Description": "",
     "VendorIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/Microsoft_logo.svg",
     "PlatformIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/microsoft-azure.svg",
-    "ServiceIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Microsoft_Entra_ID_color_icon.svg/1200px-Microsoft_Entra_ID_color_icon.svg.png"
+    "ServiceIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/10029-icon-service-Function-Apps.svg"
   },
   {
     "UID": "00000008",
