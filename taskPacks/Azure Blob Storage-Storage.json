@@ -5,6 +5,7 @@
   "dateModified": "2023-10-05 12:00",
   "Tasks": [
     {
+      "TaskSortId": "ABC",
       "Task": "Assess Storage Requirements",
       "Task Description": "Gather detailed requirements for data storage, including expected data volume, access patterns, and performance needs.",
       "Task Type": "Project",
@@ -12,6 +13,7 @@
       "Documentation Link": "https://docs.microsoft.com/en-us/azure/storage/common/storage-introduction"
     },
     {
+      "TaskSortId": "ABD",
       "Task": "Design Blob Storage Architecture",
       "Task Description": "Design the architecture for Azure Blob Storage, including the structure of containers and blobs, and how they will be accessed.",
       "Task Type": "Project",
@@ -19,6 +21,7 @@
       "Documentation Link": "https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction"
     },
     {
+      "TaskSortId": "ABE",
       "Task": "Create Azure Storage Account",
       "Task Description": "Provision a new Azure Storage Account in the Azure portal, selecting the appropriate performance and replication options.",
       "Task Type": "Project",
@@ -26,6 +29,7 @@
       "Documentation Link": "https://docs.microsoft.com/en-us/azure/storage/common/storage-account-create"
     },
     {
+      "TaskSortId": "ABF",
       "Task": "Configure Access Policies",
       "Task Description": "Set up access policies for the storage account, including shared access signatures (SAS) and role-based access control (RBAC) to manage permissions.",
       "Task Type": "All",
@@ -34,6 +38,7 @@
       "Frequency": "monthly"
     },
     {
+      "TaskSortId": "ABG",
       "Task": "Implement Data Encryption",
       "Task Description": "Enable encryption for data at rest and in transit. Configure Azure Storage Service Encryption (SSE) and ensure HTTPS is used for data transfer.",
       "Task Type": "Project",
@@ -41,6 +46,7 @@
       "Documentation Link": "https://docs.microsoft.com/en-us/azure/storage/common/storage-service-encryption"
     },
     {
+      "TaskSortId": "ABH",
       "Task": "Set Up Monitoring and Alerts",
       "Task Description": "Configure Azure Monitor and Storage Analytics to track storage account metrics and set up alerts for unusual activity or performance issues.",
       "Task Type": "Project",
@@ -48,6 +54,7 @@
       "Documentation Link": "https://docs.microsoft.com/en-us/azure/storage/common/storage-monitoring"
     },
     {
+      "TaskSortId": "ABI",
       "Task": "Create Blob Containers",
       "Task Description": "Create the necessary blob containers within the storage account to organize and manage the blobs effectively.",
       "Task Type": "Project",
@@ -55,6 +62,7 @@
       "Documentation Link": "https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-container-create"
     },
     {
+      "TaskSortId": "ABJ",
       "Task": "Upload Data to Blob Storage",
       "Task Description": "Upload initial data to the created blob containers using Azure Storage Explorer or Azure CLI.",
       "Task Type": "Project",
@@ -62,6 +70,7 @@
       "Documentation Link": "https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-portal"
     },
     {
+      "TaskSortId": "ABK",
       "Task": "Implement Backup and Recovery Plan",
       "Task Description": "Establish a backup and recovery plan for the data stored in Azure Blob Storage, including regular snapshots and geo-redundancy options.",
       "Task Type": "Project",
@@ -69,6 +78,7 @@
       "Documentation Link": "https://docs.microsoft.com/en-us/azure/storage/common/storage-backup-recovery"
     },
     {
+      "TaskSortId": "ABL",
       "Task": "Conduct Security Review",
       "Task Description": "Perform a security review of the storage account configuration, ensuring compliance with organizational security policies and best practices.",
       "Task Type": "Project",
@@ -76,6 +86,7 @@
       "Documentation Link": "https://docs.microsoft.com/en-us/azure/security/fundamentals/storage-security-best-practices"
     },
     {
+      "TaskSortId": "ABM",
       "Task": "Documentation and Training",
       "Task Description": "Document the storage architecture, configurations, and operational procedures. Conduct training sessions for the operations team on managing and using Azure Blob Storage.",
       "Task Type": "All",
@@ -84,6 +95,7 @@
       "Frequency": "continuous"
     },
     {
+      "TaskSortId": "ABN",
       "Task": "Compliance and Auditing",
       "Task Description": "Ensure the storage setup meets all regulatory compliance requirements. Implement regular auditing procedures to verify compliance and security postures.",
       "Task Type": "Project",
@@ -91,6 +103,7 @@
       "Documentation Link": "https://docs.microsoft.com/en-us/azure/compliance/"
     },
     {
+      "TaskSortId": "ABO",
       "Task": "Monitor Blob Storage Performance",
       "Task Description": "Utilize Azure Monitor to track the performance metrics of Blob Storage, including latency, throughput, and request rates. Investigate any anomalies or performance degradation.",
       "Task Type": "Operational",
@@ -99,6 +112,7 @@
       "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-monitoring-blob-storage"
     },
     {
+      "TaskSortId": "ABP",
       "Task": "Review Access Logs",
       "Task Description": "Regularly review access logs to identify any unauthorized access attempts or unusual patterns. Ensure compliance with security policies.",
       "Task Type": "Operational",
@@ -107,6 +121,7 @@
       "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-logging"
     },
     {
+      "TaskSortId": "ABQ",
       "Task": "Implement Lifecycle Management Policies",
       "Task Description": "Set up and review lifecycle management policies to automatically transition blobs to cooler storage tiers or delete them based on defined criteria.",
       "Task Type": "Operational",
@@ -115,6 +130,7 @@
       "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-lifecycle-management-concepts"
     },
     {
+      "TaskSortId": "ABR",
       "Task": "Backup Blob Data",
       "Task Description": "Regularly back up critical blob data to ensure data recovery in case of accidental deletion or corruption. Store backups in a secure location.",
       "Task Type": "Operational",
@@ -123,6 +139,7 @@
       "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-backup-blob-storage"
     },
     {
+      "TaskSortId": "ABS",
       "Task": "Review Security Settings",
       "Task Description": "Audit and update security settings, including Shared Access Signatures (SAS) and role-based access control (RBAC) to ensure proper access management.",
       "Task Type": "Operational",
@@ -131,6 +148,7 @@
       "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-authentication"
     },
     {
+      "TaskSortId": "ABT",
       "Task": "Conduct Data Integrity Checks",
       "Task Description": "Perform regular checks to verify the integrity of stored blob data. Use tools to detect any corruption or data loss.",
       "Task Type": "Operational",
@@ -139,6 +157,7 @@
       "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-data-integrity"
     },
     {
+      "TaskSortId": "ABW",
       "Task": "Test Disaster Recovery Procedures",
       "Task Description": "Regularly test disaster recovery procedures to ensure that blob data can be restored quickly and effectively in case of an outage or data loss.",
       "Task Type": "Operational",
@@ -147,6 +166,7 @@
       "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-redundancy"
     },
     {
+      "TaskSortId": "ABX",
       "Task": "Engage in Regular Training",
       "Task Description": "Ensure the operations team participates in regular training to stay updated with new Blob Storage features, best practices, and security measures.",
       "Task Type": "Operational",
@@ -155,6 +175,7 @@
       "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/blobs/"
     },
     {
+      "TaskSortId": "ABY",
       "Task": "Review Cost Management Reports",
       "Task Description": "Analyze cost management reports to monitor spending on Blob Storage and identify opportunities for cost optimization.",
       "Task Type": "Operational",
