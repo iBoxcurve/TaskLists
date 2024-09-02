@@ -19,7 +19,7 @@
     "Description": "",
     "VendorIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/Microsoft_logo.svg",
     "PlatformIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/microsoft-azure.svg",
-    "ServiceIconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJK_LShdmXXMDe_xuJV9gHflkSlsY34zBPRA&s"
+    "ServiceIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/azure-blob-storage.svg"
   },
   {
     "UID": "00000003",
@@ -30,7 +30,7 @@
     "Description": "",
     "VendorIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/Microsoft_logo.svg",
     "PlatformIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/microsoft-azure.svg",
-    "ServiceIconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvVNwHAJbNJIhv28KjuqRPRdHFJyO4ojAUyw&s"
+    "ServiceIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/api-management.svg"
   },
   {
     "UID": "00000004",
@@ -40,8 +40,8 @@
     "Link": "https://github.com/iBoxcurve/TaskLists/raw/main/taskPacks/Express%20Route%20Direct-Networking.json",
     "Description": "",
     "VendorIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/Microsoft_logo.svg",
-    "PlatformIconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkfNV1YtiGc-HUrSF4OfHIX50fUSmXWPWP2g&s",
-    "ServiceIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/120px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png"
+    "PlatformIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/microsoft-azure.svg",
+    "ServiceIconURL": "https://github.com/iBoxcurve/TaskLists/raw/main/icons/express-route-direct.svg"
   },
   {
     "UID": "00000005",
@@ -51,7 +51,7 @@
     "Link": "https://github.com/iBoxcurve/TaskLists/raw/main/taskPacks/Azure%20AI%20Studio-AI%20+%20machine%20learning.json",
     "Description": "",
     "VendorIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/Microsoft_logo.svg",
-    "PlatformIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Microsoft_Entra_ID_color_icon.svg/1200px-Microsoft_Entra_ID_color_icon.svg.png",
+    "PlatformIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/microsoft-azure.svg",
     "ServiceIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Microsoft_Entra_ID_color_icon.svg/1200px-Microsoft_Entra_ID_color_icon.svg.png"
   },
   {
@@ -62,7 +62,7 @@
     "Link": "https://github.com/iBoxcurve/TaskLists/raw/main/taskPacks/Azure%20AI%20Search-AI%20+%20machine%20learning.json",
     "Description": "",
     "VendorIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/Microsoft_logo.svg",
-    "PlatformIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Microsoft_Entra_ID_color_icon.svg/1200px-Microsoft_Entra_ID_color_icon.svg.png",
+    "PlatformIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/microsoft-azure.svg",
     "ServiceIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Microsoft_Entra_ID_color_icon.svg/1200px-Microsoft_Entra_ID_color_icon.svg.png"
   },
   {
@@ -73,7 +73,7 @@
     "Link": "https://github.com/iBoxcurve/TaskLists/raw/main/taskPacks/Azure%20Functions-Compute.json",
     "Description": "",
     "VendorIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/Microsoft_logo.svg",
-    "PlatformIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Microsoft_Entra_ID_color_icon.svg/1200px-Microsoft_Entra_ID_color_icon.svg.png",
+    "PlatformIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/microsoft-azure.svg",
     "ServiceIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Microsoft_Entra_ID_color_icon.svg/1200px-Microsoft_Entra_ID_color_icon.svg.png"
   },
   {
@@ -84,7 +84,7 @@
     "Link": "https://github.com/iBoxcurve/TaskLists/raw/main/taskPacks/Virtual%20Network-Networking.json",
     "Description": "",
     "VendorIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/Microsoft_logo.svg",
-    "PlatformIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Microsoft_Entra_ID_color_icon.svg/1200px-Microsoft_Entra_ID_color_icon.svg.png",
+    "PlatformIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/microsoft-azure.svg",
     "ServiceIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Microsoft_Entra_ID_color_icon.svg/1200px-Microsoft_Entra_ID_color_icon.svg.png"
   },
   {
@@ -95,7 +95,7 @@
     "Link": "https://github.com/iBoxcurve/TaskLists/raw/main/taskPacks/Azure%20Bastion-Security.json",
     "Description": "",
     "VendorIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/Microsoft_logo.svg",
-    "PlatformIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Microsoft_Entra_ID_color_icon.svg/1200px-Microsoft_Entra_ID_color_icon.svg.png",
+    "PlatformIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/microsoft-azure.svg",
     "ServiceIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Microsoft_Entra_ID_color_icon.svg/1200px-Microsoft_Entra_ID_color_icon.svg.png"
   },
   {
@@ -106,7 +106,7 @@
     "Link": "https://github.com/iBoxcurve/TaskLists/raw/main/taskPacks/Container-Apps-Web.json",
     "Description": "",
     "VendorIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/Microsoft_logo.svg",
-    "PlatformIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Microsoft_Entra_ID_color_icon.svg/1200px-Microsoft_Entra_ID_color_icon.svg.png",
+    "PlatformIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/microsoft-azure.svg",
     "ServiceIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Microsoft_Entra_ID_color_icon.svg/1200px-Microsoft_Entra_ID_color_icon.svg.png"
   }
 ]
