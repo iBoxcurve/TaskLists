@@ -5,6 +5,7 @@
   "dateModified": "2023-10-05 12:00",
   "Tasks": [
     {
+      "TaskSortId": "ABC",
       "Task": "Assess Networking Requirements",
       "Task Description": "Gather detailed requirements for the virtual network, including IP address ranges, subnets, and connectivity needs for applications and services.",
       "Task Type": "Project",
@@ -12,6 +13,7 @@
       "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview"
     },
     {
+      "TaskSortId": "ABD",
       "Task": "Design Virtual Network Architecture",
       "Task Description": "Create a design for the virtual network architecture, including subnets, network security groups (NSGs), and routing configurations.",
       "Task Type": "Project",
@@ -19,6 +21,7 @@
       "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-design"
     },
     {
+      "TaskSortId": "ABE",
       "Task": "Create Virtual Network",
       "Task Description": "Provision the virtual network in the Azure portal, specifying the address space and subnets as per the design.",
       "Task Type": "Project",
@@ -26,6 +29,7 @@
       "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-network/quick-create-portal"
     },
     {
+      "TaskSortId": "ABF",
       "Task": "Configure Subnets",
       "Task Description": "Set up subnets within the virtual network, ensuring proper segmentation for different workloads and services.",
       "Task Type": "All",
@@ -34,6 +38,7 @@
       "Frequency": "quarterly"
     },
     {
+      "TaskSortId": "ABG",
       "Task": "Implement Network Security Groups (NSGs)",
       "Task Description": "Create and configure NSGs to control inbound and outbound traffic to the subnets and network interfaces.",
       "Task Type": "All",
@@ -42,6 +47,7 @@
       "Frequency": "monthly"
     },
     {
+      "TaskSortId": "ABH",
       "Task": "Set Up Route Tables",
       "Task Description": "Create and associate route tables with subnets to manage traffic routing within the virtual network.",
       "Task Type": "Project",
@@ -49,6 +55,7 @@
       "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-route-table-overview"
     },
     {
+      "TaskSortId": "ABI",
       "Task": "Configure VPN Gateway (if needed)",
       "Task Description": "Deploy a VPN Gateway if secure site-to-site connectivity is required. Configure the necessary settings for the VPN connection.",
       "Task Type": "Project",
@@ -56,6 +63,7 @@
       "Documentation Link": "https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-site-to-site-resource-manager-portal"
     },
     {
+      "TaskSortId": "ABJ",
       "Task": "Implement Azure Bastion (if needed)",
       "Task Description": "Set up Azure Bastion for secure RDP and SSH access to virtual machines without exposing them to the public internet.",
       "Task Type": "Project",
@@ -63,6 +71,7 @@
       "Documentation Link": "https://docs.microsoft.com/en-us/azure/bastion/bastion-overview"
     },
     {
+      "TaskSortId": "ABK",
       "Task": "Test Network Connectivity",
       "Task Description": "Perform connectivity tests to ensure that all components of the virtual network are functioning as expected.",
       "Task Type": "Project",
@@ -70,6 +79,7 @@
       "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-troubleshoot-connectivity"
     },
     {
+      "TaskSortId": "ABL",
       "Task": "Configure Monitoring and Alerts",
       "Task Description": "Set up monitoring and alerting for the virtual network using Azure Monitor and Network Watcher to track performance and security.",
       "Task Type": "Project",
@@ -77,6 +87,7 @@
       "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-network/monitoring-network-traffic"
     },
     {
+      "TaskSortId": "ABM",
       "Task": "Documentation and Training",
       "Task Description": "Document the virtual network architecture, configurations, and operational procedures. Conduct training sessions for the operations team.",
       "Task Type": "All",
@@ -85,6 +96,7 @@
       "Frequency": "continuous"
     },
     {
+      "TaskSortId": "ABN",
       "Task": "Compliance and Auditing",
       "Task Description": "Ensure the virtual network setup meets all regulatory compliance requirements. Implement regular auditing procedures.",
       "Task Type": "Project",
@@ -92,6 +104,7 @@
       "Documentation Link": "https://docs.microsoft.com/en-us/azure/compliance/"
     },
     {
+      "TaskSortId": "ABO",
       "Task": "Monitor Network Performance",
       "Task Description": "Utilize Azure Monitor to continuously track the performance metrics of the Virtual Network, including latency, packet loss, and throughput.",
       "Task Type": "Operational",
@@ -100,6 +113,7 @@
       "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/monitoring-virtual-network"
     },
     {
+      "TaskSortId": "ABP",
       "Task": "Validate Subnet Configurations",
       "Task Description": "Check the configurations of all subnets within the Virtual Network to ensure they are correctly set up and not overlapping with other networks.",
       "Task Type": "Operational",
@@ -108,6 +122,7 @@
       "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview"
     },
     {
+      "TaskSortId": "ABQ",
       "Task": "Conduct Network Security Audits",
       "Task Description": "Perform regular audits of the Virtual Network's security configurations, including NSGs, route tables, and VPN gateways, to identify vulnerabilities.",
       "Task Type": "Operational",
@@ -116,6 +131,7 @@
       "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/security-best-practices"
     },
     {
+      "TaskSortId": "ABR",
       "Task": "Backup Network Configurations",
       "Task Description": "Regularly back up the configurations of the Virtual Network, including NSGs, route tables, and other critical settings, to ensure quick recovery in case of issues.",
       "Task Type": "Operational",
@@ -124,6 +140,7 @@
       "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-backup"
     },
     {
+      "TaskSortId": "ABS",
       "Task": "Test Failover Mechanisms",
       "Task Description": "Conduct tests of failover mechanisms, such as VPN gateways, to ensure they function correctly in case of primary connection failures.",
       "Task Type": "Operational",
@@ -132,6 +149,7 @@
       "Documentation Link": "https://learn.microsoft.com/en-us/azure/vpn/vpn-gateway-howto-vpn-site-to-site-resource-manager"
     },
     {
+      "TaskSortId": "ABT",
       "Task": "Review Peering Configurations",
       "Task Description": "Regularly review and validate the configurations of Virtual Network peering to ensure optimal connectivity and security between networks.",
       "Task Type": "Operational",
@@ -140,6 +158,7 @@
       "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview"
     },
     {
+      "TaskSortId": "ABW",
       "Task": "Conduct Incident Response Drills",
       "Task Description": "Perform drills to prepare the team for potential network incidents, ensuring familiarity with response protocols and procedures.",
       "Task Type": "Operational",
@@ -148,6 +167,7 @@
       "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-security-best-practices"
     },
     {
+      "TaskSortId": "ABX",
       "Task": "Engage in Regular Training",
       "Task Description": "Ensure the operations team participates in regular training sessions to stay updated on new features, best practices, and security measures related to Virtual Networks.",
       "Task Type": "Operational",
