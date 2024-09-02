@@ -5,6 +5,7 @@
   "dateModified": "2023-10-05 12:00",
   "Tasks": [
     {
+      "TaskSortId": "ABC",
       "Task": "Define Project Objectives",
       "Task Description": "Identify the specific goals and outcomes for the AI project, including the problems to be solved and the expected benefits.",
       "Task Type": "Project",
@@ -12,6 +13,7 @@
       "Documentation Link": "https://docs.microsoft.com/en-us/azure/ai-services/overview"
     },
     {
+      "TaskSortId": "ABD",
       "Task": "Gather Data Requirements",
       "Task Description": "Determine the data sources needed for the AI models, including data types, volume, and quality requirements.",
       "Task Type": "Project",
@@ -19,6 +21,7 @@
       "Documentation Link": "https://docs.microsoft.com/en-us/azure/ai-services/data-preparation"
     },
     {
+      "TaskSortId": "ABE",
       "Task": "Select AI Models",
       "Task Description": "Research and select appropriate AI models that align with the project objectives and data characteristics.",
       "Task Type": "Project",
@@ -26,6 +29,7 @@
       "Documentation Link": "https://docs.microsoft.com/en-us/azure/machine-learning/concept-models"
     },
     {
+      "TaskSortId": "ABF",
       "Task": "Set Up Azure AI Studio Environment",
       "Task Description": "Create an Azure AI Studio workspace and configure the necessary resources, including compute instances and storage accounts.",
       "Task Type": "Project",
@@ -33,6 +37,7 @@
       "Documentation Link": "https://docs.microsoft.com/en-us/azure/ai-services/ai-studio-setup"
     },
     {
+      "TaskSortId": "ABG",
       "Task": "Data Ingestion",
       "Task Description": "Implement data ingestion pipelines to bring data into the Azure AI Studio environment from various sources.",
       "Task Type": "Project",
@@ -40,6 +45,7 @@
       "Documentation Link": "https://docs.microsoft.com/en-us/azure/ai-services/data-ingestion"
     },
     {
+      "TaskSortId": "ABH",
       "Task": "Data Preprocessing",
       "Task Description": "Clean and preprocess the ingested data to ensure it is suitable for training AI models, including handling missing values and normalization.",
       "Task Type": "Project",
@@ -47,6 +53,7 @@
       "Documentation Link": "https://docs.microsoft.com/en-us/azure/ai-services/data-preparation"
     },
     {
+      "TaskSortId": "ABI",
       "Task": "Train AI Models",
       "Task Description": "Utilize the selected AI models to train on the preprocessed data, adjusting parameters as necessary to optimize performance.",
       "Task Type": "Project",
@@ -54,6 +61,7 @@
       "Documentation Link": "https://docs.microsoft.com/en-us/azure/machine-learning/how-to-train-models"
     },
     {
+      "TaskSortId": "ABJ",
       "Task": "Evaluate Model Performance",
       "Task Description": "Assess the performance of the trained models using appropriate metrics and validation techniques to ensure they meet project objectives.",
       "Task Type": "Project",
@@ -61,6 +69,7 @@
       "Documentation Link": "https://docs.microsoft.com/en-us/azure/machine-learning/how-to-evaluate-models"
     },
     {
+      "TaskSortId": "ABK",
       "Task": "Deploy AI Models",
       "Task Description": "Deploy the trained models to production environments, ensuring they are accessible for inference and integrated with applications as needed.",
       "Task Type": "Project",
@@ -68,6 +77,7 @@
       "Documentation Link": "https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-models"
     },
     {
+      "TaskSortId": "ABL",
       "Task": "Implement Security Measures",
       "Task Description": "Apply security best practices, including data encryption, access controls, and compliance with data protection regulations.",
       "Task Type": "Project",
@@ -75,6 +85,7 @@
       "Documentation Link": "https://docs.microsoft.com/en-us/azure/security/fundamentals/security-best-practices"
     },
     {
+      "TaskSortId": "ABM",
       "Task": "Monitor Model Performance",
       "Task Description": "Set up monitoring for deployed models to track performance, detect anomalies, and ensure they continue to meet business requirements. Continuously monitor the performance of deployed AI models using Azure Monitor. Identify any performance degradation or anomalies in predictions.",
       "Task Type": "All",
@@ -83,6 +94,7 @@
       "Frequency": "continuous"
     },
     {
+      "TaskSortId": "ABN",
       "Task": "Document Project Processes",
       "Task Description": "Create comprehensive documentation of the project, including objectives, methodologies, data sources, and model performance metrics.",
       "Task Type": "Project",
@@ -90,6 +102,7 @@
       "Documentation Link": "https://docs.microsoft.com/en-us/azure/ai-services/documentation"
     },
     {
+      "TaskSortId": "ABO",
       "Task": "Conduct Training Sessions",
       "Task Description": "Organize training sessions for stakeholders and users to familiarize them with the AI models and how to utilize them effectively.",
       "Task Type": "Project",
@@ -97,6 +110,7 @@
       "Documentation Link": "https://docs.microsoft.com/en-us/azure/ai-services/training"
     },
     {
+      "TaskSortId": "ABP",
       "Task": "Review and Iterate",
       "Task Description": "Regularly review the AI models and project outcomes, making necessary adjustments and improvements based on feedback and performance data.",
       "Task Type": "Project",
@@ -104,6 +118,7 @@
       "Documentation Link": "https://docs.microsoft.com/en-us/azure/machine-learning/how-to-improve-models"
     },
     {
+      "TaskSortId": "ABQ",
       "Task": "Update Model Versions",
       "Task Description": "Regularly update AI models with new training data and improved algorithms. Ensure that versioning is properly managed to maintain model integrity.",
       "Task Type": "Operational",
@@ -112,6 +127,7 @@
       "Documentation Link": "https://learn.microsoft.com/en-us/azure/machine-learning/how-to-manage-models"
     },
     {
+      "TaskSortId": "ABR",
       "Task": "Conduct Model Retraining",
       "Task Description": "Schedule and execute retraining of AI models based on new data or performance metrics. Ensure that retraining processes are documented and validated.",
       "Task Type": "Operational",
@@ -120,6 +136,7 @@
       "Documentation Link": "https://learn.microsoft.com/en-us/azure/machine-learning/how-to-retrain-models"
     },
     {
+      "TaskSortId": "ABS",
       "Task": "Review Data Quality",
       "Task Description": "Regularly assess the quality of data used for training AI models. Implement data cleansing processes to ensure high-quality input data.",
       "Task Type": "Operational",
@@ -128,6 +145,7 @@
       "Documentation Link": "https://learn.microsoft.com/en-us/azure/machine-learning/how-to-data-preparation"
     },
     {
+      "TaskSortId": "ABT",
       "Task": "Audit Model Compliance",
       "Task Description": "Conduct audits to ensure AI models comply with relevant regulations and ethical guidelines. Document findings and implement necessary changes.",
       "Task Type": "Operational",
@@ -136,6 +154,7 @@
       "Documentation Link": "https://learn.microsoft.com/en-us/azure/machine-learning/how-to-compliance"
     },
     {
+      "TaskSortId": "ABW",
       "Task": "Backup Model Artifacts",
       "Task Description": "Regularly back up model artifacts, including training scripts, datasets, and model binaries. Ensure secure storage and easy retrieval for disaster recovery.",
       "Task Type": "Operational",
@@ -144,6 +163,7 @@
       "Documentation Link": "https://learn.microsoft.com/en-us/azure/machine-learning/how-to-manage-models"
     },
     {
+      "TaskSortId": "ABX",
       "Task": "Engage in User Feedback Sessions",
       "Task Description": "Collect feedback from users regarding the performance and usability of AI models. Use this feedback to inform future improvements and updates.",
       "Task Type": "Operational",
@@ -152,6 +172,7 @@
       "Documentation Link": "https://learn.microsoft.com/en-us/azure/machine-learning/how-to-collect-feedback"
     },
     {
+      "TaskSortId": "ABY",
       "Task": "Maintain Documentation",
       "Task Description": "Keep all documentation related to AI models, including architecture, training processes, and performance metrics, up-to-date.",
       "Task Type": "Operational",
@@ -160,6 +181,7 @@
       "Documentation Link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
     },
     {
+      "TaskSortId": "ABZ",
       "Task": "Conduct Security Reviews",
       "Task Description": "Perform regular security reviews of AI models and data pipelines to identify vulnerabilities and ensure compliance with security policies.",
       "Task Type": "Operational",
@@ -168,6 +190,7 @@
       "Documentation Link": "https://learn.microsoft.com/en-us/azure/machine-learning/how-to-security"
     },
     {
+      "TaskSortId": "ACA",
       "Task": "Plan for Model Scaling",
       "Task Description": "Develop and execute plans for scaling AI models based on usage patterns and performance metrics. Ensure minimal disruption during scaling activities.",
       "Task Type": "Operational",
