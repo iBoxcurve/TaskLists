@@ -85,7 +85,7 @@
     "Description": "",
     "VendorIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/Microsoft_logo.svg",
     "PlatformIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/microsoft-azure.svg",
-    "ServiceIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Microsoft_Entra_ID_color_icon.svg/1200px-Microsoft_Entra_ID_color_icon.svg.png"
+    "ServiceIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/10075-icon-service-Virtual-Networks-(Classic).svg"
   },
   {
     "UID": "00000009",
@@ -96,7 +96,7 @@
     "Description": "",
     "VendorIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/Microsoft_logo.svg",
     "PlatformIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/microsoft-azure.svg",
-    "ServiceIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Microsoft_Entra_ID_color_icon.svg/1200px-Microsoft_Entra_ID_color_icon.svg.png"
+    "ServiceIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/02422-icon-service-Bastions.svg"
   },
   {
     "UID": "00000010",
@@ -107,6 +107,6 @@
     "Description": "",
     "VendorIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/Microsoft_logo.svg",
     "PlatformIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/microsoft-azure.svg",
-    "ServiceIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Microsoft_Entra_ID_color_icon.svg/1200px-Microsoft_Entra_ID_color_icon.svg.png"
+    "ServiceIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/Azure%20Container%20Apps.svg"
   }
 ]
