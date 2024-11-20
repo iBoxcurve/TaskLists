@@ -1,0 +1,85 @@
+{
+  "Service": "Azure Bastion",
+  "Category": "Security",
+  "dateCreated": "2024-07-30 14:30",
+  "dateModified": "2024-07-30 14:30",
+  "Tasks": [
+    {
+      "Task": "Assess Security Requirements",
+      "Task Description": "Identify the security requirements for accessing Azure virtual machines through Azure Bastion. Determine compliance needs and security policies.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/bastion/bastion-overview"
+    },
+    {
+      "Task": "Design Bastion Architecture",
+      "Task Description": "Design the architecture for Azure Bastion deployment, including network configurations, virtual network integration, and subnet requirements.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/bastion/bastion-create"
+    },
+    {
+      "Task": "Create Virtual Network and Subnet",
+      "Task Description": "Create a virtual network and a dedicated subnet for Azure Bastion. Ensure the subnet is named 'AzureBastionSubnet' and meets Azure's requirements.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/bastion/bastion-create#prerequisites"
+    },
+    {
+      "Task": "Deploy Azure Bastion",
+      "Task Description": "Deploy Azure Bastion in the designated subnet using the Azure portal, Azure CLI, or ARM templates. Ensure proper configuration for secure access.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/bastion/bastion-create#deploy-azure-bastion"
+    },
+    {
+      "Task": "Implement Network Security Groups (NSGs)",
+      "Task Description": "Configure NSGs to restrict access to the Azure Bastion subnet. Define rules to allow only necessary traffic and block unwanted access.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-network/network-security-group-overview"
+    },
+    {
+      "Task": "Enable Azure Bastion Security Features",
+      "Task Description": "Enable security features such as Azure Bastion's built-in protection against port scanning and brute force attacks. Configure session timeout settings.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/bastion/bastion-security"
+    },
+    {
+      "Task": "Configure Role-Based Access Control (RBAC)",
+      "Task Description": "Set up RBAC to control who can access Azure Bastion and the virtual machines. Assign roles based on the principle of least privilege.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/role-based-access-control/overview"
+    },
+    {
+      "Task": "Implement Logging and Monitoring",
+      "Task Description": "Set up logging and monitoring for Azure Bastion using Azure Monitor and Azure Log Analytics. Configure alerts for suspicious activities.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/bastion/bastion-monitoring"
+    },
+    {
+      "Task": "Conduct Security Testing",
+      "Task Description": "Perform security testing on the Azure Bastion deployment, including penetration testing and vulnerability assessments to identify potential weaknesses.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/security/fundamentals/security-testing"
+    },
+    {
+      "Task": "Document Security Policies and Procedures",
+      "Task Description": "Document all security policies, procedures, and configurations related to Azure Bastion. Ensure that the documentation is accessible for audits and reviews.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/bastion/"
+    },
+    {
+      "Task": "Review and Update Security Measures",
+      "Task Description": "Regularly review and update security measures for Azure Bastion to adapt to new threats and vulnerabilities. Schedule periodic assessments.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/bastion/bastion-security"
+    }
+  ]
+}
