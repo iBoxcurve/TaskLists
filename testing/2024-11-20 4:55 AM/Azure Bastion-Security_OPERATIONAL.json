@@ -1,0 +1,88 @@
+{
+  "Service": "Azure Bastion",
+  "Category": "Security",
+  "dateCreated": "2024-07-30 14:30",
+  "dateModified": "2024-07-30 14:30",
+  "Tasks": [
+    {
+      "Task": "Review Bastion Host Security Configuration",
+      "Task Description": "Regularly review the security configuration of Azure Bastion hosts to ensure compliance with security best practices and organizational policies.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/bastion/bastion-security-best-practices"
+    },
+    {
+      "Task": "Monitor Bastion Access Logs",
+      "Task Description": "Continuously monitor access logs for Azure Bastion to detect any unauthorized access attempts or suspicious activities.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/bastion/bastion-monitoring"
+    },
+    {
+      "Task": "Implement Network Security Groups (NSGs)",
+      "Task Description": "Configure and maintain Network Security Groups (NSGs) to restrict access to Azure Bastion and ensure only authorized traffic is allowed.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "once",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/bastion/bastion-nsg"
+    },
+    {
+      "Task": "Conduct Security Audits",
+      "Task Description": "Perform regular security audits of Azure Bastion configurations and access controls to identify and mitigate potential vulnerabilities.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/bastion/bastion-security-best-practices"
+    },
+    {
+      "Task": "Update Bastion Host Software",
+      "Task Description": "Ensure that the Azure Bastion host software is up-to-date with the latest security patches and updates to protect against vulnerabilities.",
+      "Task Type": "Operational",
+      "Classification": "Implementation",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/bastion/bastion-overview"
+    },
+    {
+      "Task": "Review User Access Permissions",
+      "Task Description": "Regularly review and update user access permissions for Azure Bastion to ensure that only authorized users have access to the service.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/bastion/bastion-user-access"
+    },
+    {
+      "Task": "Enable Diagnostic Settings",
+      "Task Description": "Configure diagnostic settings for Azure Bastion to collect logs and metrics for security monitoring and compliance purposes.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "once",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/bastion/bastion-diagnostics"
+    },
+    {
+      "Task": "Conduct Incident Response Drills",
+      "Task Description": "Perform incident response drills to prepare the team for potential security incidents involving Azure Bastion. Ensure familiarity with response protocols.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/bastion/bastion-security-best-practices"
+    },
+    {
+      "Task": "Backup Bastion Configuration",
+      "Task Description": "Regularly back up the configuration settings of Azure Bastion to ensure quick recovery in case of misconfiguration or failure.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/bastion/bastion-overview"
+    },
+    {
+      "Task": "Engage in Security Training",
+      "Task Description": "Ensure the operations team participates in regular security training to stay updated with new Azure Bastion features, best practices, and security measures.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/bastion/"
+    }
+  ]
+}
