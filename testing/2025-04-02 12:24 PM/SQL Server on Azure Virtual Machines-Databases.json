@@ -1,0 +1,200 @@
+{
+  "Service": "SQL Server on Azure Virtual Machines",
+  "Category": "Databases",
+  "dateCreated": "2023-10-07 12:00",
+  "dateModified": "2023-10-07 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Project Requirements",
+      "Task Description": "Gather detailed requirements for the SQL Server deployment, including database size, performance needs, high availability, and disaster recovery requirements.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-vm-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Select SQL Server Edition and Licensing Model",
+      "Task Description": "Choose the appropriate SQL Server edition (e.g., Standard, Enterprise) and licensing model (e.g., pay-as-you-go or bring-your-own-license).",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-vm-licensing",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Database Architecture",
+      "Task Description": "Plan the database architecture, including storage configuration, backup strategy, and network connectivity.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-vm-best-practices",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Provision Azure Virtual Machine",
+      "Task Description": "Create an Azure Virtual Machine with the required specifications (CPU, memory, storage) and pre-installed SQL Server.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure SQL Server Settings",
+      "Task Description": "Set up SQL Server configurations, including max memory, tempdb settings, and collation.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-vm-configure",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Enable security features such as Transparent Data Encryption (TDE), Always Encrypted, and configure firewalls and Network Security Groups (NSGs).",
+      "Task Type": "All",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-vm-security",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Set Up High Availability and Disaster Recovery",
+      "Task Description": "Configure high availability options such as Always On Availability Groups and set up disaster recovery mechanisms.",
+      "Task Type": "All",
+      "Classification": "Disaster Recovery",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-vm-high-availability",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Backup and Restore",
+      "Task Description": "Set up automated backups and test the restore process to ensure data recovery capabilities.",
+      "Task Type": "All",
+      "Classification": "Backup",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-vm-backup",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Optimize Performance",
+      "Task Description": "Implement performance tuning measures such as indexing, query optimization, and monitoring resource usage.",
+      "Task Type": "All",
+      "Classification": "Performance",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-vm-performance",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Set Up Monitoring and Alerts",
+      "Task Description": "Configure monitoring tools like Azure Monitor and SQL Server Management Studio (SSMS) to track performance and set up alerts for critical events.",
+      "Task Type": "All",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-monitor/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Test and Validate Deployment",
+      "Task Description": "Conduct thorough testing of the SQL Server setup, including connectivity, performance, and failover scenarios.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-vm-troubleshooting",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Document Configuration and Procedures",
+      "Task Description": "Create detailed documentation of the SQL Server setup, including configurations, backup procedures, and troubleshooting steps.",
+      "Task Type": "All",
+      "Classification": "Documentation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-vm-overview",
+      "Frequency": "continuous"
+    },
+    {
+      "Task": "Train Operations Team",
+      "Task Description": "Provide training to the operations team on managing and maintaining the SQL Server on Azure Virtual Machines.",
+      "Task Type": "All",
+      "Classification": "Training",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/",
+      "Frequency": "quarterly"
+    },
+    {
+      "Task": "Establish Compliance and Auditing",
+      "Task Description": "Ensure the SQL Server setup complies with organizational and regulatory standards. Set up auditing mechanisms to track access and changes.",
+      "Task Type": "All",
+      "Classification": "Compliance",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-vm-compliance",
+      "Frequency": "annually"
+    },
+    {
+      "Task": "Monitor SQL Server Performance",
+      "Task Description": "Use Azure Monitor and SQL Server performance tools to continuously monitor database performance metrics such as CPU usage, memory consumption, and query execution times.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-monitor/"
+    },
+    {
+      "Task": "Apply Security Updates",
+      "Task Description": "Regularly apply security patches and updates to SQL Server and the underlying operating system to protect against vulnerabilities.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-sql-server-update-management"
+    },
+    {
+      "Task": "Validate Backup Integrity",
+      "Task Description": "Test and validate the integrity of database backups to ensure they can be restored successfully in case of data loss or corruption.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-sql-server-azure-vms"
+    },
+    {
+      "Task": "Monitor Disk Space Usage",
+      "Task Description": "Track disk space usage on the virtual machine hosting SQL Server to ensure sufficient storage is available for database growth and operations.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "daily",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-sql-server-storage"
+    },
+    {
+      "Task": "Audit Database Security",
+      "Task Description": "Conduct regular security audits to ensure compliance with organizational policies and industry standards. Check for unauthorized access and vulnerabilities.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/sql/relational-databases/security/security-center-for-sql-server-database-engine-and-azure-sql-database"
+    },
+    {
+      "Task": "Update SQL Server Configuration",
+      "Task Description": "Review and update SQL Server configuration settings to align with best practices and changing application requirements.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/sql/database-engine/configure-windows/sql-server-configuration-options"
+    },
+    {
+      "Task": "Perform SQL Server Health Checks",
+      "Task Description": "Run regular health checks on SQL Server instances to identify and resolve issues such as database corruption or service interruptions.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/sql/database-engine/availability/sql-server-health-checks"
+    },
+    {
+      "Task": "Rotate Encryption Keys",
+      "Task Description": "Regularly rotate encryption keys used for securing sensitive data in SQL Server databases to enhance security.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/sql/relational-databases/security/encryption/sql-server-encryption"
+    },
+    {
+      "Task": "Conduct Failover Tests",
+      "Task Description": "Perform failover tests to ensure high availability configurations, such as Always On Availability Groups, function correctly.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/sql/database-engine/availability/always-on-availability-groups-sql-server"
+    },
+    {
+      "Task": "Engage in Regular Training",
+      "Task Description": "Ensure the operations team participates in regular training to stay updated with new SQL Server features, best practices, and security measures.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/sql/"
+    }
+  ]
+}
