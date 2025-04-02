@@ -1,0 +1,120 @@
+{
+  "Service": "Azure App Service",
+  "Category": "Web",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Application Performance",
+      "Task Description": "Use Azure Monitor and Application Insights to continuously monitor the performance of web applications hosted on Azure App Service. Identify and resolve performance bottlenecks.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview"
+    },
+    {
+      "Task": "Check Security Configuration",
+      "Task Description": "Verify the security settings of the web application, including HTTPS enforcement, TLS versions, and custom domain bindings. Ensure compliance with organizational security policies.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/app-service/configure-ssl-certificate"
+    },
+    {
+      "Task": "Update Application Frameworks",
+      "Task Description": "Regularly update the application frameworks and runtime versions used by the web application to ensure compatibility and security.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/app-service/manage-app-service"
+    },
+    {
+      "Task": "Backup Application Data",
+      "Task Description": "Schedule and verify backups of application data and configurations to ensure recovery in case of data loss or corruption.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "daily",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/app-service/web-sites-backup"
+    },
+    {
+      "Task": "Audit Access Controls",
+      "Task Description": "Review and update access controls, including role-based access control (RBAC) and identity management settings, to ensure only authorized users have access.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/role-based-access-control/"
+    },
+    {
+      "Task": "Test Failover and High Availability",
+      "Task Description": "Conduct failover tests to ensure the web application can recover quickly in case of regional outages or service disruptions.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/app-service/app-service-environment-high-availability"
+    },
+    {
+      "Task": "Optimize Application Scaling",
+      "Task Description": "Review and adjust scaling settings, including autoscale rules, to ensure optimal performance and cost efficiency during peak and off-peak times.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/app-service/manage-scale-up"
+    },
+    {
+      "Task": "Patch Underlying Infrastructure",
+      "Task Description": "Ensure the underlying infrastructure, including the App Service plan, is patched and updated to the latest versions to mitigate vulnerabilities.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/app-service/overview"
+    },
+    {
+      "Task": "Review Application Logs",
+      "Task Description": "Analyze application logs for errors, warnings, and unusual activity. Use Azure Log Analytics for deeper insights and troubleshooting.",
+      "Task Type": "Operational",
+      "Classification": "Troubleshooting",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-monitor/log-query/get-started-log-queries"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep documentation for the web application up-to-date, including architecture diagrams, operational procedures, and troubleshooting guides.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/app-service/"
+    },
+    {
+      "Task": "Conduct Security Penetration Tests",
+      "Task Description": "Perform regular penetration tests to identify vulnerabilities in the web application and its hosting environment.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/security/fundamentals/pen-testing"
+    },
+    {
+      "Task": "Review Service Level Agreement (SLA)",
+      "Task Description": "Evaluate the SLA performance of Azure App Service to ensure compliance with agreed metrics. Address any deviations or concerns.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/app-service/overview"
+    },
+    {
+      "Task": "Engage in Regular Training",
+      "Task Description": "Ensure the operations team participates in regular training to stay updated with new Azure App Service features, best practices, and security measures.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/app-service/"
+    },
+    {
+      "Task": "User Feedback and Improvement",
+      "Task Description": "Collect and analyze user feedback regarding the web application's performance and reliability. Implement continuous improvements based on this feedback.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/app-service/"
+    }
+  ]
+}
