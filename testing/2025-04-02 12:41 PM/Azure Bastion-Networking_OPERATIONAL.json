@@ -1,0 +1,96 @@
+{
+  "Service": "Azure Bastion",
+  "Category": "Networking",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Bastion Host Connectivity",
+      "Task Description": "Use Azure Monitor and Network Watcher to continuously monitor the connectivity of the Azure Bastion host. Identify and resolve any connectivity issues promptly.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/bastion/bastion-overview"
+    },
+    {
+      "Task": "Verify Network Security Groups (NSGs)",
+      "Task Description": "Ensure that the NSGs associated with the Azure Bastion subnet are correctly configured to allow required inbound and outbound traffic. Regularly review and update rules as needed.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/bastion/bastion-nsg"
+    },
+    {
+      "Task": "Check Bastion Host Performance",
+      "Task Description": "Analyze performance metrics of the Azure Bastion host to ensure it operates within expected parameters. Investigate and address any performance bottlenecks.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/bastion/bastion-troubleshooting"
+    },
+    {
+      "Task": "Conduct Failover Tests",
+      "Task Description": "Perform failover tests to verify that Azure Bastion can maintain connectivity during network disruptions or outages.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/bastion/bastion-high-availability"
+    },
+    {
+      "Task": "Update Bastion Host Configuration",
+      "Task Description": "Review and update Azure Bastion host configurations to align with changes in network architecture or security requirements.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/bastion/bastion-configure"
+    },
+    {
+      "Task": "Audit Bastion Host Access Logs",
+      "Task Description": "Regularly audit access logs to ensure that only authorized users are connecting to resources via Azure Bastion. Investigate any suspicious activity.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/bastion/bastion-monitoring"
+    },
+    {
+      "Task": "Backup Bastion Host Configuration",
+      "Task Description": "Create backups of Azure Bastion host configurations to ensure quick recovery in case of accidental changes or failures.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/bastion/bastion-backup"
+    },
+    {
+      "Task": "Review Bastion Host SLA Compliance",
+      "Task Description": "Evaluate Azure Bastion's performance against the SLA to ensure compliance. Address any deviations from SLA metrics.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/bastion/bastion-sla"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep Azure Bastion service documentation up-to-date, including operational procedures, configuration details, and troubleshooting guides.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/bastion/"
+    },
+    {
+      "Task": "Incident Response Drills",
+      "Task Description": "Conduct incident response drills to prepare the team for potential security incidents or Azure Bastion outages. Ensure familiarity with procedures and protocols.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/bastion/bastion-security-best-practices"
+    },
+    {
+      "Task": "User Feedback and Improvement",
+      "Task Description": "Collect and analyze user feedback regarding Azure Bastion performance and reliability. Implement continuous improvements based on this feedback.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/bastion/bastion-troubleshooting"
+    }
+  ]
+}
