@@ -1,0 +1,104 @@
+{
+  "Service": "Azure Private IP",
+  "Category": "Networking",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Networking Requirements",
+      "Task Description": "Gather detailed requirements for the private IP setup, including the number of IPs needed, subnet configurations, and integration with existing on-premises or Azure networks.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-ip-addresses-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design IP Addressing Scheme",
+      "Task Description": "Plan the IP addressing scheme, including subnet ranges, CIDR blocks, and address allocation for Azure resources.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-ip-addresses-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Create Virtual Network",
+      "Task Description": "Set up a virtual network (VNet) in Azure to host the private IPs. Define subnets and ensure proper segmentation for security and performance.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/quick-create-portal",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Subnets",
+      "Task Description": "Create and configure subnets within the virtual network. Assign private IP ranges to each subnet based on the addressing scheme.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-manage-subnet",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Assign Private IPs to Resources",
+      "Task Description": "Assign private IP addresses to Azure resources such as virtual machines, load balancers, or application gateways within the VNet.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-ip-addresses-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Network Security Groups (NSGs)",
+      "Task Description": "Set up NSGs to control inbound and outbound traffic to and from the subnets and resources using private IPs.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Enable Azure Private Link (if required)",
+      "Task Description": "Configure Azure Private Link to securely access Azure services over private IPs, ensuring no traffic traverses the public internet.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/private-link/private-link-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Test Connectivity",
+      "Task Description": "Verify connectivity between resources using private IPs. Test scenarios include intra-subnet communication, inter-subnet communication, and access to on-premises networks (if applicable).",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-troubleshoot-connectivity",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Monitoring and Alerts",
+      "Task Description": "Set up monitoring for the private IP setup using Azure Monitor and Network Watcher. Configure alerts for unusual traffic patterns or connectivity issues.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-monitoring-overview",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Document Configuration",
+      "Task Description": "Document the private IP setup, including the IP addressing scheme, subnet configurations, and security measures. Share the documentation with relevant stakeholders.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Conduct Training for Operations Team",
+      "Task Description": "Provide training to the operations team on managing and troubleshooting the private IP setup, including monitoring tools and security configurations.",
+      "Task Type": "Project",
+      "Classification": "Support",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Perform Regular Audits",
+      "Task Description": "Conduct periodic audits to ensure the private IP setup complies with organizational policies and security standards.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/security/",
+      "Frequency": "Monthly"
+    }
+  ]
+}
