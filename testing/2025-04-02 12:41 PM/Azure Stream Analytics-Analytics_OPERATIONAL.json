@@ -1,0 +1,104 @@
+{
+  "Service": "Azure Stream Analytics",
+  "Category": "Analytics",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Stream Analytics Job Health",
+      "Task Description": "Use Azure Monitor to continuously track the health and performance of Stream Analytics jobs. Identify and resolve any anomalies or failures in real-time.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-monitoring"
+    },
+    {
+      "Task": "Validate Input Data Sources",
+      "Task Description": "Regularly check the connectivity and integrity of input data sources, such as Event Hubs, IoT Hub, or Blob Storage, to ensure uninterrupted data flow.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "daily",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-inputs"
+    },
+    {
+      "Task": "Optimize Query Performance",
+      "Task Description": "Review and optimize Stream Analytics queries to ensure efficient processing and minimal latency. Use query performance metrics for adjustments.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-query-performance"
+    },
+    {
+      "Task": "Perform Failover Tests",
+      "Task Description": "Conduct failover tests to verify the resiliency of Stream Analytics jobs in case of regional outages or service disruptions.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-high-availability"
+    },
+    {
+      "Task": "Update Security Policies",
+      "Task Description": "Review and update security policies for Stream Analytics jobs, including access controls and encryption settings, to align with organizational security standards.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-security"
+    },
+    {
+      "Task": "Audit Job Configurations",
+      "Task Description": "Conduct regular audits of Stream Analytics job configurations to ensure compliance with best practices and documented architecture.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-best-practices"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep Stream Analytics job documentation up-to-date, including operational procedures, query configurations, and troubleshooting guides.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/stream-analytics/"
+    },
+    {
+      "Task": "Backup Job Configurations",
+      "Task Description": "Regularly back up Stream Analytics job configurations to ensure quick recovery in case of accidental changes or failures.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-job-configuration"
+    },
+    {
+      "Task": "Review Output Data Integrity",
+      "Task Description": "Validate the integrity and accuracy of output data sent to destinations like Power BI, SQL Database, or Blob Storage.",
+      "Task Type": "Operational",
+      "Classification": "Quality Assurance",
+      "Frequency": "daily",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-outputs"
+    },
+    {
+      "Task": "Incident Response Drills",
+      "Task Description": "Conduct incident response drills to prepare the team for potential failures or security incidents in Stream Analytics jobs.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-troubleshooting"
+    },
+    {
+      "Task": "User Feedback and Improvement",
+      "Task Description": "Collect and analyze user feedback regarding Stream Analytics job performance and reliability. Implement continuous improvements based on this feedback.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-best-practices"
+    },
+    {
+      "Task": "Engage in Regular Training",
+      "Task Description": "Ensure the operations team participates in regular training to stay updated with new Stream Analytics features, best practices, and security measures.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/stream-analytics/"
+    }
+  ]
+}
