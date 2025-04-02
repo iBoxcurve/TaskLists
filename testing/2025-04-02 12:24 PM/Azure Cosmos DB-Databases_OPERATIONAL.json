@@ -1,0 +1,120 @@
+{
+  "Service": "Azure Cosmos DB",
+  "Category": "Databases",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Database Performance",
+      "Task Description": "Use Azure Monitor to continuously track the performance metrics of Azure Cosmos DB, including throughput, latency, and request units (RUs). Investigate and address any anomalies.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cosmos-db/monitor-resource-usage"
+    },
+    {
+      "Task": "Backup and Restore Data",
+      "Task Description": "Ensure regular backups of Azure Cosmos DB data are configured and verify the integrity of backups. Test restore procedures periodically to confirm data recovery capabilities.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "daily",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cosmos-db/backup-and-restore"
+    },
+    {
+      "Task": "Review Indexing Policies",
+      "Task Description": "Periodically review and optimize indexing policies to ensure efficient query performance and cost management.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cosmos-db/indexing-policies"
+    },
+    {
+      "Task": "Audit Security Settings",
+      "Task Description": "Conduct regular audits of security settings, including firewall rules, access keys, and role-based access control (RBAC) configurations, to ensure compliance with security policies.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cosmos-db/security"
+    },
+    {
+      "Task": "Scale Throughput as Needed",
+      "Task Description": "Monitor usage patterns and adjust the provisioned throughput (RUs) to meet application demands while optimizing costs.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cosmos-db/provisioned-throughput"
+    },
+    {
+      "Task": "Test Failover Procedures",
+      "Task Description": "Perform failover tests to validate the high availability and disaster recovery capabilities of Azure Cosmos DB across multiple regions.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cosmos-db/high-availability"
+    },
+    {
+      "Task": "Optimize Query Performance",
+      "Task Description": "Analyze query performance metrics and optimize queries to reduce latency and resource consumption.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cosmos-db/sql-query-performance-tips"
+    },
+    {
+      "Task": "Update SDKs and APIs",
+      "Task Description": "Ensure that applications using Azure Cosmos DB are updated to the latest SDKs and APIs to leverage new features and security updates.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cosmos-db/sdk"
+    },
+    {
+      "Task": "Review Partitioning Strategy",
+      "Task Description": "Evaluate the partitioning strategy to ensure optimal distribution of data and efficient scaling.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cosmos-db/partitioning-overview"
+    },
+    {
+      "Task": "Conduct Compliance Checks",
+      "Task Description": "Perform regular compliance checks to ensure Azure Cosmos DB adheres to organizational and regulatory requirements.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cosmos-db/compliance"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep documentation for Azure Cosmos DB configurations, operational procedures, and troubleshooting guides up-to-date.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cosmos-db/"
+    },
+    {
+      "Task": "Incident Response Drills",
+      "Task Description": "Conduct incident response drills to prepare for potential security incidents or database outages. Ensure familiarity with procedures and protocols.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cosmos-db/troubleshoot-guide"
+    },
+    {
+      "Task": "Analyze Cost Efficiency",
+      "Task Description": "Review Azure Cosmos DB usage and costs to identify opportunities for optimization and cost savings.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cosmos-db/cost-management"
+    },
+    {
+      "Task": "Engage in Regular Training",
+      "Task Description": "Ensure the operations team participates in regular training to stay updated with new Azure Cosmos DB features, best practices, and security measures.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cosmos-db/"
+    }
+  ]
+}
