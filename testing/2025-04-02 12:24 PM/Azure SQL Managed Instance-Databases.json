@@ -1,0 +1,208 @@
+{
+  "Service": "Azure SQL Managed Instance",
+  "Category": "Databases",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Requirements",
+      "Task Description": "Gather detailed requirements for database size, performance, scalability, and security. Identify the applications and services that will use the Azure SQL Managed Instance.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Database Architecture",
+      "Task Description": "Design the database architecture, including schema, indexing, and partitioning strategies. Plan for high availability and disaster recovery.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/high-availability-disaster-recovery",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Provision Azure SQL Managed Instance",
+      "Task Description": "Create and configure the Azure SQL Managed Instance in the Azure portal or using Azure CLI/PowerShell. Specify the required compute and storage resources.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/create-instance",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Networking",
+      "Task Description": "Set up virtual network integration for the Azure SQL Managed Instance. Configure subnets, private endpoints, and firewall rules to secure access.",
+      "Task Type": "All",
+      "Classification": "Networking",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/connectivity-architecture",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Enable security features such as Transparent Data Encryption (TDE), Advanced Threat Protection, and role-based access control (RBAC). Configure auditing and data masking as needed.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/database/security-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Migrate Data",
+      "Task Description": "Plan and execute the migration of existing databases to Azure SQL Managed Instance using tools like Azure Database Migration Service or native backup and restore.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dms/dms-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Backup and Restore",
+      "Task Description": "Set up automated backups and define retention policies. Test restore procedures to ensure data recovery capabilities.",
+      "Task Type": "All",
+      "Classification": "Backup",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/automated-backup",
+      "Frequency": "Daily"
+    },
+    {
+      "Task": "Optimize Performance",
+      "Task Description": "Monitor and optimize database performance using tools like Query Store, Index Tuning, and Azure Monitor. Address bottlenecks and ensure efficient query execution.",
+      "Task Type": "All",
+      "Classification": "Performance",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/database/performance-overview",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring and alerting for database health, performance, and security using Azure Monitor and Log Analytics.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-monitor/overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Test Failover and High Availability",
+      "Task Description": "Test failover scenarios to ensure high availability configurations are functioning correctly. Validate the setup for disaster recovery.",
+      "Task Type": "All",
+      "Classification": "Disaster Recovery",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/high-availability-disaster-recovery",
+      "Frequency": "Quarterly"
+    },
+    {
+      "Task": "Document Configuration and Procedures",
+      "Task Description": "Document the database architecture, configurations, and operational procedures. Provide training for the operations team on managing and troubleshooting the setup.",
+      "Task Type": "All",
+      "Classification": "Documentation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Compliance and Auditing",
+      "Task Description": "Ensure the database setup meets all regulatory compliance requirements. Implement regular auditing procedures to verify compliance and security postures.",
+      "Task Type": "All",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/compliance/",
+      "Frequency": "Monthly"
+    },
+    {
+      "Task": "Monitor Database Performance",
+      "Task Description": "Use Azure Monitor and SQL Insights to continuously monitor the performance of databases hosted on Azure SQL Managed Instance. Identify and address any performance bottlenecks or anomalies.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "Continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/monitoring"
+    },
+    {
+      "Task": "Apply Security Updates",
+      "Task Description": "Ensure that the latest security updates and patches are applied to the Azure SQL Managed Instance to protect against vulnerabilities.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "Monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/security-overview"
+    },
+    {
+      "Task": "Test Disaster Recovery",
+      "Task Description": "Conduct regular failover and disaster recovery tests to ensure that the databases can be restored quickly in case of an outage.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "Quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/high-availability-disaster-recovery"
+    },
+    {
+      "Task": "Optimize Query Performance",
+      "Task Description": "Analyze and optimize database queries to improve performance and reduce resource consumption.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "Weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/performance-tuning"
+    },
+    {
+      "Task": "Audit Database Security",
+      "Task Description": "Perform regular audits of database security settings, including firewall rules, access controls, and encryption configurations.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "Monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/auditing"
+    },
+    {
+      "Task": "Update Database Schema",
+      "Task Description": "Review and apply updates to the database schema to accommodate new application requirements or improve efficiency.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "As Needed",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/schema-management"
+    },
+    {
+      "Task": "Review Index Usage",
+      "Task Description": "Analyze index usage and make adjustments to improve query performance and reduce storage costs.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "Monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/index-management"
+    },
+    {
+      "Task": "Perform Compliance Checks",
+      "Task Description": "Ensure that the database setup adheres to relevant compliance standards and regulations, such as GDPR or HIPAA.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "Quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/compliance"
+    },
+    {
+      "Task": "Conduct Incident Response Drills",
+      "Task Description": "Simulate security incidents or outages to test the team's readiness and refine response protocols.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "Semi-Annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/security-incident-response"
+    },
+    {
+      "Task": "Review Resource Utilization",
+      "Task Description": "Analyze resource utilization metrics to ensure efficient use of compute, storage, and memory resources.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "Weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/resource-utilization"
+    },
+    {
+      "Task": "Plan for Capacity Upgrades",
+      "Task Description": "Evaluate current capacity and plan for upgrades to accommodate growth or increased workload demands.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Frequency": "Annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/scaling"
+    },
+    {
+      "Task": "Engage in Regular Training",
+      "Task Description": "Ensure the operations team participates in regular training to stay updated with new Azure SQL Managed Instance features and best practices.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "Quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/training"
+    },
+    {
+      "Task": "Validate Connectivity",
+      "Task Description": "Regularly test and validate network connectivity to Azure SQL Managed Instance, including VPN or ExpressRoute configurations.",
+      "Task Type": "Operational",
+      "Classification": "Networking",
+      "Frequency": "Monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/networking"
+    }
+  ]
+}
