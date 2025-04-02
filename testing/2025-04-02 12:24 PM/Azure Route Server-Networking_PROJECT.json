@@ -1,0 +1,104 @@
+{
+  "Service": "Azure Route Server",
+  "Category": "Networking",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Networking Requirements",
+      "Task Description": "Gather detailed requirements for the Azure Route Server deployment, including routing needs, supported protocols, and integration with existing on-premises or cloud networks.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/route-server/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Network Architecture",
+      "Task Description": "Design the network architecture to include Azure Route Server, ensuring compatibility with existing network topology and routing protocols such as BGP.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/route-server/route-server-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Obtain Necessary Approvals",
+      "Task Description": "Secure necessary approvals and authorizations, such as budgetary and compliance approvals, for deploying Azure Route Server.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/route-server/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Deploy Azure Route Server",
+      "Task Description": "Deploy Azure Route Server in the desired virtual network using the Azure portal, CLI, or PowerShell.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/route-server/quickstart-create-route-server-portal",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure BGP Peering",
+      "Task Description": "Set up BGP peering between Azure Route Server and your network devices. Ensure proper configuration of Autonomous System Numbers (ASNs) and IP addresses.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/route-server/route-server-how-to-configure-bgp",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Apply security best practices, such as Network Security Groups (NSGs) and route filtering, to secure the Azure Route Server deployment.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/route-server/route-server-security",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Test Routing and Connectivity",
+      "Task Description": "Perform thorough testing of routing and connectivity, including failover scenarios, to ensure the Azure Route Server is functioning as expected.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/route-server/route-server-troubleshooting",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring and alerting for Azure Route Server using Azure Monitor and Network Watcher. Configure alerts for routing issues and performance metrics.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/route-server/route-server-monitoring",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Document Configuration and Procedures",
+      "Task Description": "Document the Azure Route Server configuration, routing policies, and operational procedures. Share the documentation with the operations team.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/route-server/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Conduct Training for Operations Team",
+      "Task Description": "Provide training to the operations team on managing and troubleshooting Azure Route Server.",
+      "Task Type": "Project",
+      "Classification": "Support",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/route-server/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Perform Regular Audits",
+      "Task Description": "Conduct regular audits to ensure the Azure Route Server setup complies with organizational and regulatory requirements.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/route-server/",
+      "Frequency": "Monthly"
+    },
+    {
+      "Task": "Update and Maintain Configuration",
+      "Task Description": "Periodically review and update the Azure Route Server configuration to align with evolving network requirements.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/route-server/",
+      "Frequency": "Continuous"
+    }
+  ]
+}
