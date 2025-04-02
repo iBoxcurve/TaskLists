@@ -1,0 +1,112 @@
+{
+  "Service": "Azure Elastic SAN",
+  "Category": "Storage",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Storage Health",
+      "Task Description": "Use Azure Monitor to continuously track the health and performance of Azure Elastic SAN. Identify and address any anomalies or potential issues.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/elastic-san/monitoring"
+    },
+    {
+      "Task": "Check Security Configurations",
+      "Task Description": "Verify the security settings of Azure Elastic SAN, including encryption at rest and access controls. Ensure compliance with organizational security policies.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/elastic-san/security"
+    },
+    {
+      "Task": "Validate Backup and Restore Procedures",
+      "Task Description": "Test backup and restore processes to ensure data integrity and availability in case of failures or disasters.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/elastic-san/backup-restore"
+    },
+    {
+      "Task": "Audit Storage Configurations",
+      "Task Description": "Conduct regular audits of Azure Elastic SAN configurations to ensure alignment with best practices and organizational requirements.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/elastic-san/configuration-audit"
+    },
+    {
+      "Task": "Perform Capacity Planning",
+      "Task Description": "Analyze storage usage trends and plan for capacity upgrades or optimizations to meet future demands.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/elastic-san/capacity-planning"
+    },
+    {
+      "Task": "Update Security Policies",
+      "Task Description": "Review and update security policies for Azure Elastic SAN to adapt to changes in the threat landscape or organizational requirements.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/elastic-san/security-best-practices"
+    },
+    {
+      "Task": "Conduct Failover Tests",
+      "Task Description": "Perform failover tests to verify the resiliency of Azure Elastic SAN and ensure that redundant paths function correctly during outages.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/elastic-san/disaster-recovery"
+    },
+    {
+      "Task": "Optimize Storage Performance",
+      "Task Description": "Analyze performance metrics and implement optimizations to ensure Azure Elastic SAN operates within expected parameters.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/elastic-san/performance-optimization"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep documentation for Azure Elastic SAN up-to-date, including operational procedures, configuration details, and troubleshooting guides.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/elastic-san/documentation"
+    },
+    {
+      "Task": "Review SLA Compliance",
+      "Task Description": "Evaluate Azure Elastic SAN's performance against the SLA. Address any deviations or issues with Microsoft support.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/elastic-san/sla"
+    },
+    {
+      "Task": "Incident Response Drills",
+      "Task Description": "Conduct incident response drills to prepare the team for potential security incidents or storage outages. Ensure familiarity with procedures and protocols.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/elastic-san/incident-response"
+    },
+    {
+      "Task": "Engage in Regular Training",
+      "Task Description": "Ensure the operations team participates in regular training to stay updated with new Azure Elastic SAN features, best practices, and security measures.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/elastic-san/training"
+    },
+    {
+      "Task": "User Feedback and Improvement",
+      "Task Description": "Collect and analyze user feedback regarding Azure Elastic SAN performance and reliability. Implement continuous improvements based on this feedback.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/elastic-san/feedback"
+    }
+  ]
+}
