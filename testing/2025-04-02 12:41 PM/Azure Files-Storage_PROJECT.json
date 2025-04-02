@@ -1,0 +1,104 @@
+{
+  "Service": "Azure Files",
+  "Category": "Storage",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Storage Requirements",
+      "Task Description": "Gather detailed requirements for storage capacity, performance, access patterns, and redundancy. Identify the applications and users that will utilize Azure Files.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/storage-files-introduction",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Storage Architecture",
+      "Task Description": "Design the storage architecture, including file share structure, access permissions, and integration with existing systems.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/storage-files-planning",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Create Azure Storage Account",
+      "Task Description": "Provision a new Azure Storage Account in the Azure portal or using Azure CLI/PowerShell. Ensure the account is configured for redundancy and meets performance requirements.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/common/storage-account-create",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure File Shares",
+      "Task Description": "Create and configure file shares within the Azure Storage Account. Define quotas, tiers, and access policies as per requirements.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/storage-how-to-create-file-share",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Enable security features such as encryption at rest, Azure Active Directory (AAD) authentication, and access control lists (ACLs) for file shares.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/storage-files-active-directory-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Set Up Network Connectivity",
+      "Task Description": "Configure private endpoints or VPNs to ensure secure access to Azure Files from on-premises or other networks.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/storage-files-networking-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Test File Share Access",
+      "Task Description": "Verify access to file shares from intended clients and applications. Test permissions, performance, and connectivity.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/storage-troubleshoot-file-shares",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring and alerting using Azure Monitor and Storage Analytics. Configure alerts for storage capacity, access errors, and performance metrics.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/storage-files-monitoring",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Document Configuration and Usage",
+      "Task Description": "Document the storage account and file share configurations, access policies, and operational procedures. Share documentation with relevant stakeholders.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Train Operations Team",
+      "Task Description": "Conduct training sessions for the operations team on managing, monitoring, and troubleshooting Azure Files.",
+      "Task Type": "Project",
+      "Classification": "Support",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Backup and Recovery",
+      "Task Description": "Set up backup policies and recovery procedures for Azure Files using Azure Backup or third-party tools.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-files",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Perform Compliance Checks",
+      "Task Description": "Ensure the Azure Files setup meets regulatory compliance requirements. Conduct regular audits to verify compliance and security postures.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/compliance/",
+      "Frequency": "Monthly"
+    }
+  ]
+}
