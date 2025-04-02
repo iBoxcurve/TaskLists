@@ -1,0 +1,120 @@
+{
+  "Service": "Azure Service Fabric",
+  "Category": "Containers",
+  "dateCreated": "2023-10-07 12:00",
+  "dateModified": "2023-10-07 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Cluster Health",
+      "Task Description": "Continuously monitor the health of the Service Fabric cluster, including the status of nodes, applications, and containers. Use Azure Monitor and Service Fabric Explorer to identify and resolve issues.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-diagnostics-overview"
+    },
+    {
+      "Task": "Update Service Fabric Runtime",
+      "Task Description": "Regularly update the Service Fabric runtime to the latest stable version to ensure access to new features, bug fixes, and security updates.",
+      "Task Type": "Operational",
+      "Classification": "Maintenance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-upgrade-cluster"
+    },
+    {
+      "Task": "Patch and Update Container Images",
+      "Task Description": "Ensure that container images used in the Service Fabric cluster are regularly patched and updated to address vulnerabilities and improve performance.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-containers-overview"
+    },
+    {
+      "Task": "Backup and Restore Cluster Configuration",
+      "Task Description": "Regularly back up the Service Fabric cluster configuration and test the restore process to ensure data integrity and disaster recovery readiness.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-backup-restore"
+    },
+    {
+      "Task": "Audit Security Configurations",
+      "Task Description": "Perform regular audits of security configurations, including access controls, certificates, and network security settings, to ensure compliance with organizational policies.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-cluster-security"
+    },
+    {
+      "Task": "Scale Cluster Resources",
+      "Task Description": "Monitor resource utilization and scale the Service Fabric cluster up or down as needed to meet application demands and optimize costs.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "as-needed",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-cluster-resource-management"
+    },
+    {
+      "Task": "Test Disaster Recovery Procedures",
+      "Task Description": "Conduct regular disaster recovery drills to validate the effectiveness of backup and restore processes and ensure minimal downtime during actual incidents.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-disaster-recovery"
+    },
+    {
+      "Task": "Optimize Application Performance",
+      "Task Description": "Analyze the performance of containerized applications running on Service Fabric and optimize configurations to improve efficiency and reduce latency.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-performance-tuning"
+    },
+    {
+      "Task": "Rotate Certificates",
+      "Task Description": "Regularly rotate certificates used for securing Service Fabric clusters and containerized applications to maintain security and compliance.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-cluster-security-update-certificates"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep all documentation related to the Service Fabric cluster, including operational procedures, configurations, and troubleshooting guides, up-to-date.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/"
+    },
+    {
+      "Task": "Review Logs and Diagnostics",
+      "Task Description": "Regularly review logs and diagnostic data from the Service Fabric cluster to identify trends, potential issues, and opportunities for improvement.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-diagnostics-overview"
+    },
+    {
+      "Task": "Validate Network Configurations",
+      "Task Description": "Ensure that network configurations, including load balancers, firewalls, and virtual networks, are optimized and secure for containerized workloads.",
+      "Task Type": "Operational",
+      "Classification": "Networking",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-networking"
+    },
+    {
+      "Task": "Conduct Security Incident Drills",
+      "Task Description": "Simulate security incidents to test the response plan and ensure the team is prepared to handle real-world threats effectively.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-security-best-practices"
+    },
+    {
+      "Task": "Engage in Training and Skill Development",
+      "Task Description": "Ensure the operations team participates in regular training to stay updated on Service Fabric features, container management, and best practices.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/"
+    }
+  ]
+}
