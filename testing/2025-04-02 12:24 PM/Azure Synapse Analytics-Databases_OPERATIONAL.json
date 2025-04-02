@@ -1,0 +1,120 @@
+{
+  "Service": "Azure Synapse Analytics",
+  "Category": "Databases",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Database Performance",
+      "Task Description": "Use Azure Monitor and Synapse Analytics built-in tools to continuously monitor database performance metrics such as query execution times, resource utilization, and data throughput.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/synapse-analytics/monitoring-overview"
+    },
+    {
+      "Task": "Perform Index Maintenance",
+      "Task Description": "Regularly review and optimize database indexes to ensure efficient query performance and reduce resource consumption.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/synapse-analytics/sql-resources-performance-tuning"
+    },
+    {
+      "Task": "Backup and Restore Databases",
+      "Task Description": "Schedule regular backups of Synapse Analytics databases and test restore procedures to ensure data recovery in case of failure.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/synapse-analytics/sql-data-backup"
+    },
+    {
+      "Task": "Update Security Policies",
+      "Task Description": "Review and update database security policies, including access controls, firewall rules, and encryption settings, to align with organizational security standards.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/synapse-analytics/security-overview"
+    },
+    {
+      "Task": "Audit Database Configurations",
+      "Task Description": "Conduct regular audits of database configurations to ensure compliance with best practices and organizational policies.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/synapse-analytics/sql-best-practices"
+    },
+    {
+      "Task": "Optimize Query Performance",
+      "Task Description": "Analyze and optimize slow-running queries using query performance insights and tuning recommendations provided by Synapse Analytics.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/synapse-analytics/sql-query-performance"
+    },
+    {
+      "Task": "Conduct Failover Tests",
+      "Task Description": "Perform failover tests to validate the resiliency of Synapse Analytics databases and ensure high availability during outages.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/synapse-analytics/high-availability"
+    },
+    {
+      "Task": "Review Database Usage Patterns",
+      "Task Description": "Analyze database usage patterns to identify opportunities for cost optimization and resource scaling.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/synapse-analytics/cost-management"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Ensure all database configurations, maintenance procedures, and troubleshooting guides are documented and kept up-to-date.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/synapse-analytics/documentation-overview"
+    },
+    {
+      "Task": "Incident Response Drills",
+      "Task Description": "Conduct incident response drills to prepare the team for potential database outages or security incidents. Ensure familiarity with recovery procedures.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/synapse-analytics/security-incident-response"
+    },
+    {
+      "Task": "Review Service Level Agreements (SLAs)",
+      "Task Description": "Evaluate the SLA performance of Synapse Analytics databases and address any deviations from agreed metrics.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/synapse-analytics/sla-overview"
+    },
+    {
+      "Task": "Plan for Upgrades and Expansions",
+      "Task Description": "Develop and execute plans for database upgrades or expansions to accommodate growing data and performance needs.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/synapse-analytics/upgrade-expansion"
+    },
+    {
+      "Task": "Engage in Regular Training",
+      "Task Description": "Ensure the operations team participates in regular training to stay updated with new Synapse Analytics features, best practices, and security measures.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/synapse-analytics/training-resources"
+    },
+    {
+      "Task": "User Feedback and Improvement",
+      "Task Description": "Collect and analyze user feedback regarding database performance and reliability. Implement continuous improvements based on this feedback.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/synapse-analytics/user-feedback"
+    }
+  ]
+}
