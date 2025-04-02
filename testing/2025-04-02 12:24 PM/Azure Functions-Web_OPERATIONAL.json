@@ -1,0 +1,120 @@
+{
+  "Service": "Azure Functions",
+  "Category": "Web",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Function App Health",
+      "Task Description": "Use Azure Monitor and Application Insights to continuously monitor the health and performance of the Function App. Investigate any anomalies or errors.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-functions/functions-monitoring"
+    },
+    {
+      "Task": "Update Runtime Versions",
+      "Task Description": "Ensure the Function App is running on the latest supported runtime version to maintain security and compatibility.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-functions/functions-versions"
+    },
+    {
+      "Task": "Review and Rotate Access Keys",
+      "Task Description": "Regularly review and rotate access keys for the Function App to ensure security and prevent unauthorized access.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-queue-output?tabs=csharp#access-keys"
+    },
+    {
+      "Task": "Optimize Function Performance",
+      "Task Description": "Analyze performance metrics and logs to identify bottlenecks or inefficiencies in the Function App. Implement optimizations as needed.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-functions/functions-best-practices"
+    },
+    {
+      "Task": "Backup Function App Configuration",
+      "Task Description": "Regularly back up the Function App configuration and code to ensure recovery in case of accidental changes or failures.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-functions/functions-how-to-use-azure-backup"
+    },
+    {
+      "Task": "Conduct Security Audits",
+      "Task Description": "Perform regular security audits to ensure the Function App adheres to best practices and is protected against vulnerabilities.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/security/fundamentals/secure-app-development"
+    },
+    {
+      "Task": "Test Failover Scenarios",
+      "Task Description": "Simulate failover scenarios to ensure the Function App can recover gracefully in case of outages or disruptions.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-functions/functions-redundancy"
+    },
+    {
+      "Task": "Update Application Settings",
+      "Task Description": "Review and update application settings, including connection strings and environment variables, to align with current requirements.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-functions/functions-how-to-use-azure-function-app-settings"
+    },
+    {
+      "Task": "Audit Logging and Monitoring Configuration",
+      "Task Description": "Ensure logging and monitoring configurations are correctly set up and provide adequate visibility into Function App operations.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-functions/functions-monitoring"
+    },
+    {
+      "Task": "Review Scalability Settings",
+      "Task Description": "Check and adjust scalability settings, such as plan type and instance count, to ensure the Function App can handle expected workloads.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-functions/functions-scale"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep documentation for the Function App up-to-date, including operational procedures, configuration details, and troubleshooting guides.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-functions/"
+    },
+    {
+      "Task": "Conduct Incident Response Drills",
+      "Task Description": "Perform incident response drills to prepare the team for potential security incidents or Function App outages.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/security/fundamentals/incident-response-playbook"
+    },
+    {
+      "Task": "Review Billing and Cost Optimization",
+      "Task Description": "Analyze billing data to identify cost-saving opportunities and ensure the Function App is operating within budget.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cost-management-billing/cost-management-best-practices"
+    },
+    {
+      "Task": "Engage in Regular Training",
+      "Task Description": "Ensure the operations team participates in regular training to stay updated with new Azure Functions features and best practices.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-functions/"
+    }
+  ]
+}
