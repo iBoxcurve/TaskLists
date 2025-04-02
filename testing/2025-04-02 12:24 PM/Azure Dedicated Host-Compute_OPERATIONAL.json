@@ -1,0 +1,120 @@
+{
+  "Service": "Azure Dedicated Host",
+  "Category": "Compute",
+  "dateCreated": "2024-07-30 14:30",
+  "dateModified": "2024-07-30 14:30",
+  "Tasks": [
+    {
+      "Task": "Plan Host Allocation",
+      "Task Description": "Determine the number and type of Azure Dedicated Hosts required based on workload requirements and ensure proper allocation to meet performance and compliance needs.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Frequency": "Once",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dedicated-hosts/"
+    },
+    {
+      "Task": "Configure Host Groups",
+      "Task Description": "Set up host groups to organize and manage Azure Dedicated Hosts effectively. Ensure proper placement policies are applied for high availability.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "Once",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dedicated-hosts/host-groups"
+    },
+    {
+      "Task": "Monitor Host Health",
+      "Task Description": "Use Azure Monitor to continuously track the health and performance of Azure Dedicated Hosts. Set up alerts for any anomalies or potential issues.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "Continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dedicated-hosts/monitoring"
+    },
+    {
+      "Task": "Apply Security Updates",
+      "Task Description": "Ensure that all security updates and patches are applied to the Azure Dedicated Hosts to maintain compliance and protect against vulnerabilities.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "Monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dedicated-hosts/security"
+    },
+    {
+      "Task": "Review Host Utilization",
+      "Task Description": "Analyze the utilization of Azure Dedicated Hosts to ensure optimal resource usage. Identify underutilized or overutilized hosts and take corrective actions.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "Weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dedicated-hosts/optimization"
+    },
+    {
+      "Task": "Perform Failover Testing",
+      "Task Description": "Conduct failover tests to ensure workloads can be seamlessly moved to other hosts in case of hardware failure or maintenance.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "Quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dedicated-hosts/failover"
+    },
+    {
+      "Task": "Audit Host Configurations",
+      "Task Description": "Regularly audit the configurations of Azure Dedicated Hosts to ensure they align with organizational policies and compliance requirements.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "Quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dedicated-hosts/compliance"
+    },
+    {
+      "Task": "Backup Host Metadata",
+      "Task Description": "Backup metadata and configuration details of Azure Dedicated Hosts to ensure quick recovery in case of accidental changes or failures.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "Weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dedicated-hosts/backup"
+    },
+    {
+      "Task": "Update Documentation",
+      "Task Description": "Maintain up-to-date documentation for Azure Dedicated Hosts, including operational procedures, configurations, and troubleshooting guides.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "Continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dedicated-hosts/documentation"
+    },
+    {
+      "Task": "Conduct Training for Operations Team",
+      "Task Description": "Provide regular training to the operations team on managing Azure Dedicated Hosts, including new features, best practices, and troubleshooting techniques.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "Quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dedicated-hosts/training"
+    },
+    {
+      "Task": "Review SLA Compliance",
+      "Task Description": "Ensure that Azure Dedicated Hosts meet the agreed Service Level Agreements (SLAs) and address any deviations promptly.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "Monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dedicated-hosts/sla"
+    },
+    {
+      "Task": "Optimize Workload Placement",
+      "Task Description": "Periodically review and optimize the placement of workloads on Azure Dedicated Hosts to ensure efficient resource utilization and cost-effectiveness.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "Monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dedicated-hosts/optimization"
+    },
+    {
+      "Task": "Incident Response Drills",
+      "Task Description": "Conduct incident response drills to prepare the team for potential issues with Azure Dedicated Hosts. Ensure familiarity with escalation procedures.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "Semi-Annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dedicated-hosts/incident-response"
+    },
+    {
+      "Task": "Evaluate Cost Management",
+      "Task Description": "Review the cost associated with Azure Dedicated Hosts and identify opportunities for cost savings without compromising performance or compliance.",
+      "Task Type": "Operational",
+      "Classification": "Cost Management",
+      "Frequency": "Monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dedicated-hosts/cost-management"
+    }
+  ]
+}
