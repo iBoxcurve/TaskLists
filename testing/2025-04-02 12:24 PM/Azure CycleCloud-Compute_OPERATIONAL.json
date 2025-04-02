@@ -1,0 +1,112 @@
+{
+  "Service": "Azure CycleCloud",
+  "Category": "Compute",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Cluster Health",
+      "Task Description": "Use Azure Monitor and CycleCloud's built-in monitoring tools to continuously track the health and performance of compute clusters. Identify and resolve any anomalies or issues.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cyclecloud/monitoring"
+    },
+    {
+      "Task": "Update CycleCloud Software",
+      "Task Description": "Regularly check for updates to Azure CycleCloud software and apply patches to ensure the latest features and security fixes are in place.",
+      "Task Type": "Operational",
+      "Classification": "Maintenance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cyclecloud/update-cyclecloud"
+    },
+    {
+      "Task": "Validate Compute Node Configuration",
+      "Task Description": "Ensure that compute nodes are configured correctly and meet the requirements for workloads. Validate settings such as VM sizes, disk configurations, and network settings.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cyclecloud/configure-compute-nodes"
+    },
+    {
+      "Task": "Backup Cluster Configurations",
+      "Task Description": "Regularly back up cluster configurations, including templates, scripts, and settings, to ensure recoverability in case of failure.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cyclecloud/backup-cluster-configurations"
+    },
+    {
+      "Task": "Audit Resource Usage",
+      "Task Description": "Perform audits of compute resource usage to ensure efficient utilization and cost management. Identify and address any over-provisioning or under-utilization.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cyclecloud/resource-usage-audit"
+    },
+    {
+      "Task": "Test Failover Scenarios",
+      "Task Description": "Conduct failover tests to verify that clusters can recover from node failures or other disruptions. Ensure high availability and resiliency.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cyclecloud/failover-testing"
+    },
+    {
+      "Task": "Review Security Policies",
+      "Task Description": "Regularly review and update security policies for CycleCloud clusters, including access controls, encryption settings, and firewall rules.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cyclecloud/security-best-practices"
+    },
+    {
+      "Task": "Optimize Cluster Performance",
+      "Task Description": "Analyze performance metrics and optimize cluster configurations to ensure workloads run efficiently. Adjust settings based on workload requirements.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cyclecloud/cluster-performance-optimization"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep documentation for CycleCloud clusters up-to-date, including operational procedures, configuration details, and troubleshooting guides.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cyclecloud/documentation"
+    },
+    {
+      "Task": "Conduct Incident Response Drills",
+      "Task Description": "Perform incident response drills to prepare the team for potential security incidents or cluster outages. Ensure familiarity with procedures and protocols.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cyclecloud/incident-response"
+    },
+    {
+      "Task": "Review Compute Quotas",
+      "Task Description": "Check and adjust compute quotas to ensure sufficient resources are available for workloads while avoiding unnecessary costs.",
+      "Task Type": "Operational",
+      "Classification": "Resource Management",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cyclecloud/compute-quotas"
+    },
+    {
+      "Task": "Engage in Regular Training",
+      "Task Description": "Ensure the operations team participates in regular training to stay updated with new CycleCloud features, best practices, and security measures.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cyclecloud/training"
+    },
+    {
+      "Task": "User Feedback and Improvement",
+      "Task Description": "Collect and analyze user feedback regarding CycleCloud cluster performance and reliability. Implement continuous improvements based on this feedback.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cyclecloud/user-feedback"
+    }
+  ]
+}
