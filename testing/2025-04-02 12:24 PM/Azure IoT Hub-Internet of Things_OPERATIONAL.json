@@ -1,0 +1,120 @@
+{
+  "Service": "Azure IoT Hub",
+  "Category": "Internet of Things",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor IoT Hub Metrics",
+      "Task Description": "Use Azure Monitor to continuously track IoT Hub metrics such as message delivery rates, device connectivity, and error rates. Investigate anomalies and ensure optimal performance.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-hub/iot-hub-monitor-resource"
+    },
+    {
+      "Task": "Review Security Configurations",
+      "Task Description": "Regularly audit IoT Hub security settings, including Shared Access Policies and device authentication methods. Ensure compliance with organizational security standards.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-security"
+    },
+    {
+      "Task": "Rotate Access Keys",
+      "Task Description": "Rotate IoT Hub access keys periodically to enhance security and prevent unauthorized access.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-security"
+    },
+    {
+      "Task": "Validate Device Connectivity",
+      "Task Description": "Ensure all registered devices are able to connect to the IoT Hub without issues. Investigate and resolve connectivity problems.",
+      "Task Type": "Operational",
+      "Classification": "Troubleshooting",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-hub/iot-hub-troubleshoot-connectivity"
+    },
+    {
+      "Task": "Backup IoT Hub Configuration",
+      "Task Description": "Regularly back up IoT Hub configurations, including device identities, routing rules, and message settings, to ensure recovery in case of accidental changes or failures.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-hub/iot-hub-backup-restore"
+    },
+    {
+      "Task": "Perform Failover Tests",
+      "Task Description": "Conduct failover tests to verify the resiliency of IoT Hub in case of regional outages or service disruptions.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-hub/iot-hub-high-availability"
+    },
+    {
+      "Task": "Update Device Firmware",
+      "Task Description": "Coordinate with device manufacturers to ensure devices connected to IoT Hub have the latest firmware updates for security and performance improvements.",
+      "Task Type": "Operational",
+      "Classification": "Maintenance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-hub/iot-hub-device-update"
+    },
+    {
+      "Task": "Audit Message Routing Rules",
+      "Task Description": "Review and optimize message routing rules to ensure efficient data flow and processing within IoT Hub.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-hub/iot-hub-message-routing"
+    },
+    {
+      "Task": "Test Telemetry Data Integrity",
+      "Task Description": "Validate the integrity and accuracy of telemetry data received from devices. Investigate discrepancies and resolve issues.",
+      "Task Type": "Operational",
+      "Classification": "Troubleshooting",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-hub/iot-hub-troubleshoot-telemetry"
+    },
+    {
+      "Task": "Review IoT Hub Quotas and Scaling",
+      "Task Description": "Monitor IoT Hub quotas and ensure the service is scaled appropriately to handle current and projected workloads.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-hub/iot-hub-scaling"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep IoT Hub operational and configuration documentation up-to-date, including troubleshooting guides and best practices.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-hub/"
+    },
+    {
+      "Task": "Conduct Incident Response Drills",
+      "Task Description": "Simulate security incidents or service outages to ensure the team is prepared to respond effectively.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-hub/iot-hub-security-best-practices"
+    },
+    {
+      "Task": "Optimize IoT Hub Costs",
+      "Task Description": "Analyze IoT Hub usage and optimize configurations to reduce costs while maintaining performance and reliability.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-hub/iot-hub-pricing"
+    },
+    {
+      "Task": "Review Compliance Requirements",
+      "Task Description": "Ensure IoT Hub configurations and operations comply with relevant industry standards and regulations.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-hub/iot-hub-compliance"
+    }
+  ]
+}
