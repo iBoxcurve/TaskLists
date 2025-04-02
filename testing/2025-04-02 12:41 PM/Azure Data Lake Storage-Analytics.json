@@ -1,0 +1,120 @@
+{
+  "Service": "Azure Data Lake Storage",
+  "Category": "Analytics",
+  "dateCreated": "2023-10-07 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Define Project Scope and Objectives",
+      "Task Description": "Identify the analytics requirements, data sources, and expected outcomes for the Azure Data Lake Storage project.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/introduction",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Assess Data Storage Requirements",
+      "Task Description": "Determine the volume, velocity, and variety of data to be stored and analyzed. Identify the required storage tier and performance needs.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/data-lake-storage-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Data Lake Architecture",
+      "Task Description": "Plan the structure of the data lake, including folder hierarchy, naming conventions, and access patterns for analytics workloads.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/data-lake-storage-best-practices",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Provision Azure Data Lake Storage",
+      "Task Description": "Create the Azure Data Lake Storage account and configure the required settings, such as performance tier and redundancy options.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/data-lake-storage-create-account",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Set up access controls, encryption, and firewall rules to secure the data lake. Configure Azure Active Directory (AAD) for authentication.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/data-lake-storage-security",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Integrate Data Sources",
+      "Task Description": "Connect the data lake to various data sources, such as on-premises databases, Azure services, and third-party applications.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/data-lake-storage-data-ingestion",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Data Ingestion Pipelines",
+      "Task Description": "Set up pipelines using Azure Data Factory or other tools to ingest data into the data lake. Ensure data is ingested in the required format and frequency.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/introduction",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Optimize Data Storage and Partitioning",
+      "Task Description": "Implement best practices for data partitioning and compression to improve query performance and reduce storage costs.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/data-lake-storage-performance",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Set Up Analytics Tools",
+      "Task Description": "Integrate analytics tools such as Azure Synapse Analytics, Databricks, or Power BI with the data lake for data processing and visualization.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/synapse-analytics/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Monitoring and Alerts",
+      "Task Description": "Configure monitoring tools such as Azure Monitor to track data lake performance, storage usage, and access patterns. Set up alerts for anomalies.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/monitoring/",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Test Data Lake Functionality",
+      "Task Description": "Perform end-to-end testing of the data lake, including data ingestion, storage, security, and analytics workflows.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/data-lake-storage-troubleshooting",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Document Architecture and Processes",
+      "Task Description": "Create detailed documentation for the data lake architecture, configurations, and operational procedures. Share with relevant stakeholders.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Train Operations Team",
+      "Task Description": "Conduct training sessions for the operations team on managing, monitoring, and troubleshooting the data lake setup.",
+      "Task Type": "Project",
+      "Classification": "Support",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Compliance and Governance Policies",
+      "Task Description": "Ensure the data lake complies with regulatory requirements and implement governance policies for data access and usage.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/data-lake-storage-governance",
+      "Frequency": "Continuous"
+    }
+  ]
+}
