@@ -1,0 +1,104 @@
+{
+  "Service": "Azure vWAN Secure Hub (Firewall Manager)",
+  "Category": "Networking",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Requirements",
+      "Task Description": "Gather detailed requirements for network security, connectivity, and scalability. Identify the applications and services that will use Azure vWAN Secure Hub.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/firewall-manager/overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Network Architecture",
+      "Task Description": "Design the network architecture, including hub locations, spoke connections, and integration with existing on-premises and Azure networks.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-wan/virtual-wan-network-architecture",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Create Azure vWAN Hub",
+      "Task Description": "Provision the Azure vWAN hub in the desired region. Ensure the hub is configured to support secure connectivity and firewall management.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-wan/virtual-wan-how-to-create-hub",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Firewall Policies",
+      "Task Description": "Set up firewall policies in Firewall Manager, including rules for inbound and outbound traffic, threat intelligence, and application filtering.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/firewall-manager/policy-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Enable Secure Connectivity",
+      "Task Description": "Configure secure connectivity between the vWAN hub and spokes using VPN or ExpressRoute. Ensure encryption and failover mechanisms are in place.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-wan/virtual-wan-how-to-secure-connectivity",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Enable advanced security features such as Azure Firewall Premium, threat intelligence-based filtering, and DDoS protection.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/firewall-manager/firewall-manager-security",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Test Connectivity and Security",
+      "Task Description": "Perform thorough testing of the network connectivity and security configurations, including failover scenarios and firewall rule validation.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/firewall-manager/firewall-manager-troubleshooting",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring and alerting using Azure Monitor and Firewall Manager. Configure alerts for network performance, security incidents, and policy violations.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/firewall-manager/firewall-manager-monitoring",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Document Network Setup",
+      "Task Description": "Document the network architecture, firewall policies, and operational procedures. Ensure the documentation is accessible to the operations team.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/firewall-manager/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Conduct Training Sessions",
+      "Task Description": "Provide training to the operations team on managing and troubleshooting Azure vWAN Secure Hub and Firewall Manager configurations.",
+      "Task Type": "Project",
+      "Classification": "Support",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/firewall-manager/firewall-manager-training",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Perform Regular Audits",
+      "Task Description": "Implement regular auditing procedures to verify compliance with security policies and regulatory requirements.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/compliance/",
+      "Frequency": "Monthly"
+    },
+    {
+      "Task": "Optimize Network Performance",
+      "Task Description": "Regularly review and optimize network performance by analyzing traffic patterns and updating firewall policies as needed.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/firewall-manager/firewall-manager-performance",
+      "Frequency": "Monthly"
+    }
+  ]
+}
