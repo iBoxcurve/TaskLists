@@ -1,0 +1,176 @@
+{
+  "Service": "Azure Disk Storage",
+  "Category": "Storage",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Storage Requirements",
+      "Task Description": "Gather detailed requirements for storage capacity, performance (IOPS), and redundancy. Identify the applications and workloads that will use Azure Disk Storage.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/disks-types",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Storage Architecture",
+      "Task Description": "Design the storage architecture, including disk types (Standard HDD, Standard SSD, Premium SSD, Ultra Disk), disk sizes, and integration with virtual machines.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/disks-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Provision Azure Disk Storage",
+      "Task Description": "Create and configure Azure Disk Storage in the Azure portal or using Azure CLI/PowerShell. Ensure proper disk type and size selection based on workload requirements.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/disks-create",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Attach Disks to Virtual Machines",
+      "Task Description": "Attach the provisioned disks to the appropriate virtual machines. Configure disk settings such as caching and encryption.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/windows/attach-managed-disk-portal",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Enable encryption for Azure Disk Storage using Azure Disk Encryption or server-side encryption with customer-managed keys. Configure access control policies.",
+      "Task Type": "All",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-atrest",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Backup and Recovery",
+      "Task Description": "Set up Azure Backup or other backup solutions to ensure data protection and recovery options for Azure Disk Storage.",
+      "Task Type": "All",
+      "Classification": "Backup",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-overview",
+      "Frequency": "Daily"
+    },
+    {
+      "Task": "Monitor Disk Performance and Health",
+      "Task Description": "Set up monitoring and alerting using Azure Monitor to track disk performance metrics such as IOPS, latency, and throughput. Configure alerts for disk health issues.",
+      "Task Type": "All",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/monitoring-and-diagnostics/",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Test Storage Configuration",
+      "Task Description": "Perform testing to validate storage performance, redundancy, and failover mechanisms. Ensure the setup meets the required specifications.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/disks-performance",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Document Storage Setup",
+      "Task Description": "Document the storage architecture, configurations, and operational procedures. Provide detailed instructions for managing and troubleshooting Azure Disk Storage.",
+      "Task Type": "All",
+      "Classification": "Documentation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/disks-overview",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Compliance and Auditing",
+      "Task Description": "Ensure the storage setup meets all regulatory compliance requirements. Implement regular auditing procedures to verify compliance and security postures.",
+      "Task Type": "All",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/compliance/",
+      "Frequency": "Monthly"
+    },
+    {
+      "Task": "Review Disk Usage and Capacity",
+      "Task Description": "Analyze disk usage and capacity trends to ensure sufficient storage availability. Plan for scaling or resizing disks as needed.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage",
+      "Frequency": "Weekly"
+    },
+    {
+      "Task": "Audit Access Controls",
+      "Task Description": "Regularly audit access permissions for Azure Disk Storage to ensure compliance with security policies. Remove unnecessary or outdated permissions.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/security",
+      "Frequency": "Monthly"
+    },
+    {
+      "Task": "Test Disaster Recovery Procedures",
+      "Task Description": "Conduct failover and recovery tests to validate disaster recovery plans for Azure Disk Storage. Ensure data can be restored in case of failure.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/recovery",
+      "Frequency": "Quarterly"
+    },
+    {
+      "Task": "Update Disk Storage Policies",
+      "Task Description": "Review and update storage policies, including retention, encryption, and access policies, to align with organizational requirements and compliance standards.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage",
+      "Frequency": "Quarterly"
+    },
+    {
+      "Task": "Optimize Disk Performance",
+      "Task Description": "Analyze disk performance metrics and implement optimizations, such as resizing or changing disk types, to improve efficiency and reduce costs.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage",
+      "Frequency": "Monthly"
+    },
+    {
+      "Task": "Conduct Security Incident Drills",
+      "Task Description": "Perform security incident drills to prepare for potential breaches or vulnerabilities in Azure Disk Storage. Validate response protocols.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/security",
+      "Frequency": "Semi-Annually"
+    },
+    {
+      "Task": "Review Service Level Agreements (SLAs)",
+      "Task Description": "Evaluate Azure Disk Storage SLAs to ensure compliance with performance and availability metrics. Address any deviations with Microsoft support.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage",
+      "Frequency": "Quarterly"
+    },
+    {
+      "Task": "Plan for Storage Upgrades",
+      "Task Description": "Develop and execute plans for upgrading Azure Disk Storage to newer versions or higher performance tiers as needed.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage",
+      "Frequency": "Annually"
+    },
+    {
+      "Task": "Engage in Regular Training",
+      "Task Description": "Ensure the operations team participates in regular training to stay updated with new Azure Disk Storage features, best practices, and security measures.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage",
+      "Frequency": "Quarterly"
+    },
+    {
+      "Task": "Validate Disk Snapshots",
+      "Task Description": "Regularly validate the integrity and usability of disk snapshots to ensure they can be used for restoration or cloning purposes.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage",
+      "Frequency": "Weekly"
+    },
+    {
+      "Task": "User Feedback and Improvement",
+      "Task Description": "Collect and analyze user feedback regarding Azure Disk Storage performance and reliability. Implement continuous improvements based on this feedback.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage",
+      "Frequency": "Monthly"
+    }
+  ]
+}
