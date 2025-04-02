@@ -1,0 +1,104 @@
+{
+  "Service": "Power BI Embedded",
+  "Category": "Analytics",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Business Requirements",
+      "Task Description": "Gather detailed requirements for analytics, reporting, and visualization needs. Identify the data sources and user groups that will interact with Power BI Embedded.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/developer/embedded/overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Analytics Architecture",
+      "Task Description": "Design the architecture for embedding Power BI reports, including integration points, data flow, and security measures.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/developer/embedded/embed-scenarios",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Provision Power BI Embedded Capacity",
+      "Task Description": "Set up Power BI Embedded capacity in Azure. Choose the appropriate SKU based on performance and scalability requirements.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/developer/embedded/embedded-capacity",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Authentication and Authorization",
+      "Task Description": "Set up authentication mechanisms using Azure Active Directory (AAD). Configure role-based access control (RBAC) for secure access to Power BI resources.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/developer/embedded/embed-authentication",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Develop Embedded Application",
+      "Task Description": "Develop the application that will embed Power BI reports. Use Power BI REST APIs and SDKs to integrate analytics into the application.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/developer/embedded/embed-sample",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Apply security best practices, such as data encryption, secure API calls, and token expiration policies to protect embedded analytics.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/developer/embedded/embed-security",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Test Embedded Reports",
+      "Task Description": "Perform thorough testing of embedded reports, including functionality, performance, and security validation.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/developer/embedded/embed-testing",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Optimize Performance",
+      "Task Description": "Analyze and optimize the performance of embedded reports by tuning data models, queries, and capacity settings.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/developer/embedded/embed-performance",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring and alerting for Power BI Embedded capacity usage, report performance, and API calls using Azure Monitor.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/developer/embedded/embed-monitoring",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Document Architecture and Processes",
+      "Task Description": "Create detailed documentation for the embedded analytics architecture, configurations, and operational procedures.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/developer/embedded/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Train Operations Team",
+      "Task Description": "Conduct training sessions for the operations team on managing and troubleshooting Power BI Embedded analytics.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/developer/embedded/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Ensure Compliance and Auditing",
+      "Task Description": "Verify that the setup meets regulatory compliance requirements. Implement regular auditing procedures to ensure data security and privacy.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/developer/embedded/embed-compliance",
+      "Frequency": "Monthly"
+    }
+  ]
+}
