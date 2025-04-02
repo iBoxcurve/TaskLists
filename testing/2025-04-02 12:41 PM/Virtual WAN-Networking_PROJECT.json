@@ -1,0 +1,104 @@
+{
+  "Service": "Virtual WAN",
+  "Category": "Networking",
+  "dateCreated": "2023-10-17 14:30",
+  "dateModified": "2023-10-17 14:30",
+  "Tasks": [
+    {
+      "Task": "Assess Requirements",
+      "Task Description": "Gather detailed requirements for the Virtual WAN setup, including bandwidth, latency, redundancy, and security needs. Identify the applications and services that will use Virtual WAN.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-wan/overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Network Architecture",
+      "Task Description": "Design the network architecture, including hub locations, connections, and integration with existing on-premises and Azure networks.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-wan/design",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Create Virtual WAN Resource",
+      "Task Description": "Provision the Virtual WAN resource in the Azure portal, ensuring proper configuration of hubs and regions.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-wan/virtual-wan-portal",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Virtual Hubs",
+      "Task Description": "Set up virtual hubs within the Virtual WAN, including routing, security policies, and connectivity options.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-wan/virtual-hub",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Enable security features such as Azure Firewall, Network Security Groups (NSGs), and DDoS Protection within the Virtual WAN setup.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-wan/security",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Establish Connectivity",
+      "Task Description": "Connect on-premises networks, branch offices, and remote users to the Virtual WAN using VPN or ExpressRoute connections.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-wan/connectivity",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Routing Policies",
+      "Task Description": "Set up routing policies to manage traffic flow between hubs, branches, and Azure resources.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-wan/routing",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Test Connectivity and Performance",
+      "Task Description": "Perform thorough testing of the Virtual WAN setup, including failover scenarios, throughput tests, and latency measurements.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-wan/troubleshooting",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring and alerting using Azure Monitor and Network Watcher to track Virtual WAN performance and connectivity status.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-wan/monitoring",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Document Configuration and Procedures",
+      "Task Description": "Document the Virtual WAN setup, including architecture, configurations, and operational procedures. Share documentation with relevant teams.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-wan/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Compliance and Auditing",
+      "Task Description": "Ensure the Virtual WAN setup meets regulatory compliance requirements. Implement regular auditing procedures to verify compliance and security postures.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/compliance/",
+      "Frequency": "Monthly"
+    },
+    {
+      "Task": "Provide Training and Support",
+      "Task Description": "Conduct training sessions for the operations team on managing and troubleshooting the Virtual WAN setup. Offer ongoing support as needed.",
+      "Task Type": "Operational",
+      "Classification": "Support",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-wan/",
+      "Frequency": "Once"
+    }
+  ]
+}
