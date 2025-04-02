@@ -1,0 +1,152 @@
+{
+  "Service": "Network Security Groups (NSGs)",
+  "Category": "Networking",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Requirements",
+      "Task Description": "Gather detailed requirements for network security, including traffic flow, application needs, and compliance requirements.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/network-security-groups-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design NSG Rules",
+      "Task Description": "Design inbound and outbound security rules based on application and network requirements. Include considerations for ports, protocols, and IP ranges.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/network-security-groups-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Create NSGs",
+      "Task Description": "Create Network Security Groups in the Azure portal or using Azure CLI/PowerShell.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/network-security-groups-create",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Associate NSGs with Subnets or NICs",
+      "Task Description": "Associate the created NSGs with specific subnets or network interfaces to enforce security rules.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/network-security-groups-associate",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Enable advanced security measures such as logging and diagnostics for NSG flow logs to monitor traffic.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/network-security-groups-monitor",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Test NSG Rules",
+      "Task Description": "Perform testing to ensure that the NSG rules are correctly applied and traffic is being allowed or denied as expected.",
+      "Task Type": "All",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/network-security-groups-troubleshoot",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring and alerting for NSG activity using Azure Monitor and Network Watcher.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/network-security-groups-monitor",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Document NSG Configuration",
+      "Task Description": "Document the NSG setup, including rules, associations, and monitoring configurations. Share documentation with relevant stakeholders.",
+      "Task Type": "All",
+      "Classification": "Documentation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/network-security-groups-overview",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Review and Update NSG Rules",
+      "Task Description": "Periodically review and update NSG rules to ensure they align with changing application and network requirements.",
+      "Task Type": "All",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/network-security-groups-overview",
+      "Frequency": "Monthly"
+    },
+    {
+      "Task": "Compliance and Auditing",
+      "Task Description": "Conduct regular audits to ensure NSG configurations meet compliance and security standards.",
+      "Task Type": "All",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/compliance/",
+      "Frequency": "Monthly"
+    },
+    {
+      "Task": "Audit NSG Logs",
+      "Task Description": "Analyze NSG flow logs to identify unusual traffic patterns or potential security threats. Ensure logs are stored securely and accessible for compliance purposes.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/network-security-groups/network-security-group-flow-logging",
+      "Frequency": "Weekly"
+    },
+    {
+      "Task": "Validate NSG Associations",
+      "Task Description": "Verify that NSGs are correctly associated with the intended subnets or network interfaces. Ensure no misconfigurations that could lead to security vulnerabilities.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/network-security-groups/network-security-groups-overview",
+      "Frequency": "Quarterly"
+    },
+    {
+      "Task": "Perform Security Compliance Checks",
+      "Task Description": "Conduct regular compliance checks to ensure NSG configurations adhere to organizational and regulatory security standards.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/network-security-groups/network-security-groups-overview",
+      "Frequency": "Quarterly"
+    },
+    {
+      "Task": "Test NSG Rule Effectiveness",
+      "Task Description": "Simulate traffic scenarios to test the effectiveness of NSG rules. Ensure rules are blocking or allowing traffic as intended.",
+      "Task Type": "Operational",
+      "Classification": "Testing",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/network-security-groups/network-security-groups-overview",
+      "Frequency": "Semi-annually"
+    },
+    {
+      "Task": "Monitor NSG Performance",
+      "Task Description": "Use Azure Monitor to track the performance and health of NSGs. Investigate and resolve any issues impacting network security or connectivity.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/network-security-groups/network-security-groups-overview",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Backup NSG Configurations",
+      "Task Description": "Regularly back up NSG configurations to ensure quick recovery in case of accidental changes or failures.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/network-security-groups/network-security-groups-overview",
+      "Frequency": "Weekly"
+    },
+    {
+      "Task": "Rotate Security Keys",
+      "Task Description": "If NSGs are integrated with services requiring encryption keys, ensure regular rotation of keys to maintain security.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/network-security-groups/network-security-groups-overview",
+      "Frequency": "Quarterly"
+    },
+    {
+      "Task": "Incident Response Drills",
+      "Task Description": "Conduct drills to test the response to NSG-related security incidents. Ensure the team is familiar with procedures for mitigating threats.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/network-security-groups/network-security-groups-overview",
+      "Frequency": "Annually"
+    }
+  ]
+}
