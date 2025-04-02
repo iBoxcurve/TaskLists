@@ -1,0 +1,88 @@
+{
+  "Service": "Azure DNS",
+  "Category": "Networking",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2024-07-30 14:30",
+  "Tasks": [
+    {
+      "Task": "Assess Requirements",
+      "Task Description": "Gather detailed requirements for DNS zones, record types, and integration with existing on-premises or cloud-based networks.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/dns/dns-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design DNS Architecture",
+      "Task Description": "Design the DNS architecture, including the structure of DNS zones, record types, and failover mechanisms.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/dns/dns-domain-delegation",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Create DNS Zones",
+      "Task Description": "Set up DNS zones in Azure DNS to host domain names. Ensure proper naming conventions and configurations.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/dns/dns-getstarted-portal",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure DNS Records",
+      "Task Description": "Add DNS records such as A, AAAA, CNAME, MX, TXT, and SRV records to the DNS zones based on application requirements.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/dns/dns-record-types",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Enable DNS security features such as DNSSEC (if supported) and restrict access to DNS zones using Azure Role-Based Access Control (RBAC).",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/dns/dns-faq",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Integrate with Existing Networks",
+      "Task Description": "Integrate Azure DNS with existing on-premises or cloud-based networks. Configure conditional forwarding or private DNS zones if required.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/dns/private-dns-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Test DNS Resolution",
+      "Task Description": "Perform thorough testing of DNS resolution for all configured records. Validate failover scenarios and ensure proper propagation.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/dns/dns-troubleshooting",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring and alerting for DNS zone health and record changes using Azure Monitor and Azure Activity Logs.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/dns/dns-monitoring",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Document DNS Configuration",
+      "Task Description": "Document the DNS architecture, configurations, and operational procedures. Share documentation with relevant stakeholders.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/dns/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Compliance and Auditing",
+      "Task Description": "Ensure the DNS setup meets all regulatory compliance requirements. Implement regular auditing procedures to verify compliance and security postures.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/compliance/",
+      "Frequency": "Monthly"
+    }
+  ]
+}
