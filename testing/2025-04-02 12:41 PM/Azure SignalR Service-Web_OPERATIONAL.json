@@ -1,0 +1,112 @@
+{
+  "Service": "Azure SignalR Service",
+  "Category": "Web",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Service Health",
+      "Task Description": "Use Azure Monitor to continuously track the health and performance of the Azure SignalR Service. Set up alerts for any service disruptions or anomalies.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/signalr-service/monitoring"
+    },
+    {
+      "Task": "Review Connection Limits",
+      "Task Description": "Regularly check the connection limits and usage statistics to ensure the service is operating within expected thresholds. Scale the service if necessary.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/signalr-service/signalr-service-scale"
+    },
+    {
+      "Task": "Update Security Policies",
+      "Task Description": "Review and update security policies, including access keys and firewall rules, to ensure the service is protected against unauthorized access.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/signalr-service/security"
+    },
+    {
+      "Task": "Backup Configuration",
+      "Task Description": "Regularly back up the configuration settings of the Azure SignalR Service to ensure quick recovery in case of accidental changes or service issues.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/signalr-service/configuration"
+    },
+    {
+      "Task": "Conduct Failover Tests",
+      "Task Description": "Perform failover tests to verify that the service can recover from disruptions and maintain availability during outages.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/signalr-service/high-availability"
+    },
+    {
+      "Task": "Audit Service Usage",
+      "Task Description": "Conduct regular audits of service usage to ensure compliance with organizational policies and identify any unusual activity.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/signalr-service/usage"
+    },
+    {
+      "Task": "Optimize Performance",
+      "Task Description": "Analyze performance metrics and optimize the service configuration to improve latency and throughput.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/signalr-service/performance"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep documentation up-to-date, including operational procedures, configuration details, and troubleshooting guides for Azure SignalR Service.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/signalr-service/"
+    },
+    {
+      "Task": "Incident Response Drills",
+      "Task Description": "Conduct incident response drills to prepare the team for potential service outages or security incidents. Ensure familiarity with procedures and protocols.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/signalr-service/security"
+    },
+    {
+      "Task": "Review Service SLA",
+      "Task Description": "Evaluate the SLA performance of Azure SignalR Service. Address any issues or deviations from the agreed SLA metrics.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/signalr-service/sla"
+    },
+    {
+      "Task": "Plan for Upgrades and Expansions",
+      "Task Description": "Develop and execute plans for service upgrades or expansions as needed. Ensure minimal disruption during these activities.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/signalr-service/scale"
+    },
+    {
+      "Task": "Engage in Regular Training",
+      "Task Description": "Ensure the operations team participates in regular training to stay updated with new Azure SignalR Service features, best practices, and security measures.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/signalr-service/"
+    },
+    {
+      "Task": "User Feedback and Improvement",
+      "Task Description": "Collect and analyze user feedback regarding Azure SignalR Service performance and reliability. Implement continuous improvements based on this feedback.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/signalr-service/performance"
+    }
+  ]
+}
