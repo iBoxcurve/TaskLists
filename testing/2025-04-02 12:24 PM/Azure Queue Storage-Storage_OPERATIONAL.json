@@ -1,0 +1,120 @@
+{
+  "Service": "Azure Queue Storage",
+  "Category": "Storage",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Queue Metrics",
+      "Task Description": "Use Azure Monitor to track metrics such as queue length, message count, and processing latency. Identify and address any anomalies or performance issues.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/queues/storage-queue-monitoring"
+    },
+    {
+      "Task": "Implement Message Retention Policies",
+      "Task Description": "Configure message retention settings to ensure messages are automatically deleted after a specified period, reducing storage costs and maintaining compliance.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "once",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/queues/storage-queue-message-properties"
+    },
+    {
+      "Task": "Enable Secure Access with Shared Access Signatures (SAS)",
+      "Task Description": "Generate and manage SAS tokens to provide secure, time-limited access to queue storage resources.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/common/storage-sas-overview"
+    },
+    {
+      "Task": "Audit Access Logs",
+      "Task Description": "Review access logs to ensure only authorized users and applications are accessing the queue storage. Investigate any suspicious activity.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/common/storage-analytics-overview"
+    },
+    {
+      "Task": "Perform Queue Backup",
+      "Task Description": "Regularly back up queue data to ensure recoverability in case of accidental deletion or corruption.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/queues/storage-queue-backup"
+    },
+    {
+      "Task": "Optimize Queue Performance",
+      "Task Description": "Analyze queue performance metrics and adjust configurations, such as message visibility timeout, to optimize processing efficiency.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/queues/storage-queue-performance"
+    },
+    {
+      "Task": "Test Disaster Recovery Procedures",
+      "Task Description": "Conduct failover and recovery tests to ensure queue storage can be restored in case of a regional outage or other disaster scenarios.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/common/storage-disaster-recovery"
+    },
+    {
+      "Task": "Update Queue Storage Documentation",
+      "Task Description": "Maintain up-to-date documentation for queue storage configurations, operational procedures, and troubleshooting guides.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/queues/"
+    },
+    {
+      "Task": "Review Storage Account Security Settings",
+      "Task Description": "Ensure that the storage account hosting the queue storage is configured with the latest security settings, including encryption and firewall rules.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/common/storage-security-guide"
+    },
+    {
+      "Task": "Rotate Encryption Keys",
+      "Task Description": "Regularly rotate encryption keys used for securing queue storage data to comply with security best practices.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/common/storage-encryption-key-rotation"
+    },
+    {
+      "Task": "Conduct User Training",
+      "Task Description": "Provide training to users and administrators on best practices for managing and using Azure Queue Storage.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/queues/"
+    },
+    {
+      "Task": "Validate Queue Configuration",
+      "Task Description": "Periodically review and validate queue configurations to ensure they align with application requirements and best practices.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/queues/storage-queue-configurations"
+    },
+    {
+      "Task": "Perform Queue Cleanup",
+      "Task Description": "Remove unused queues and stale messages to optimize storage usage and reduce costs.",
+      "Task Type": "Operational",
+      "Classification": "Maintenance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/queues/storage-queue-cleanup"
+    },
+    {
+      "Task": "Review Billing and Usage Reports",
+      "Task Description": "Analyze billing and usage reports to identify cost-saving opportunities and ensure efficient use of queue storage resources.",
+      "Task Type": "Operational",
+      "Classification": "Cost Management",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/common/storage-account-billing"
+    }
+  ]
+}
