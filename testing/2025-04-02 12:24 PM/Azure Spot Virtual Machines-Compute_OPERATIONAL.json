@@ -1,0 +1,88 @@
+{
+  "Service": "Azure Spot Virtual Machines",
+  "Category": "Compute",
+  "dateCreated": "2023-10-07 12:00",
+  "dateModified": "2023-10-07 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Spot VM Availability",
+      "Task Description": "Continuously monitor the availability of Azure Spot Virtual Machines to ensure workloads are running as expected. Use Azure Monitor and alerts to track changes in availability.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/spot-vms"
+    },
+    {
+      "Task": "Implement Auto-Scaling Policies",
+      "Task Description": "Configure auto-scaling policies to dynamically adjust the number of Spot VMs based on workload demands and availability. Ensure policies align with cost optimization goals.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "once",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/spot-vms"
+    },
+    {
+      "Task": "Set Up Failover Mechanisms",
+      "Task Description": "Design and implement failover mechanisms to handle Spot VM evictions. Use alternative VM types or regions to ensure workload continuity.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "once",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/spot-vms"
+    },
+    {
+      "Task": "Optimize Cost Management",
+      "Task Description": "Regularly review and optimize cost management strategies for Spot VMs. Use Azure Cost Management tools to analyze spending and identify opportunities for savings.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cost-management-billing/"
+    },
+    {
+      "Task": "Update VM Images and Configurations",
+      "Task Description": "Ensure Spot VM images and configurations are up-to-date with the latest patches and software updates. Automate updates where possible to reduce manual effort.",
+      "Task Type": "Operational",
+      "Classification": "Maintenance",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/spot-vms"
+    },
+    {
+      "Task": "Test Eviction Scenarios",
+      "Task Description": "Conduct regular tests to simulate Spot VM eviction scenarios. Validate that failover mechanisms and workload recovery processes function as intended.",
+      "Task Type": "Operational",
+      "Classification": "Testing",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/spot-vms"
+    },
+    {
+      "Task": "Audit Resource Usage",
+      "Task Description": "Perform audits of Spot VM resource usage to ensure compliance with organizational policies and identify any inefficiencies in resource allocation.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/spot-vms"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep documentation for Spot VM configurations, policies, and operational procedures up-to-date. Include details on failover mechanisms and cost optimization strategies.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/spot-vms"
+    },
+    {
+      "Task": "Review Security Policies",
+      "Task Description": "Regularly review and update security policies for Spot VMs, including access controls and encryption settings. Ensure compliance with organizational and regulatory standards.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/security/"
+    },
+    {
+      "Task": "Conduct Training for Operations Team",
+      "Task Description": "Provide training to the operations team on managing Spot VMs, including handling evictions, optimizing costs, and maintaining security.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/spot-vms"
+    }
+  ]
+}
