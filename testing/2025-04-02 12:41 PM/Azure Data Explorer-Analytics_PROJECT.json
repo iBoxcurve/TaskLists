@@ -1,0 +1,104 @@
+{
+  "Service": "Azure Data Explorer",
+  "Category": "Analytics",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Analytics Requirements",
+      "Task Description": "Gather detailed requirements for data ingestion, query performance, scalability, and analytics use cases. Identify the data sources and expected query patterns.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/data-explorer/introduction",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Cluster Architecture",
+      "Task Description": "Design the Azure Data Explorer cluster architecture, including the number of nodes, storage capacity, and region placement to ensure optimal performance and redundancy.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/data-explorer/cluster-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Provision Azure Data Explorer Cluster",
+      "Task Description": "Create and configure the Azure Data Explorer cluster in the Azure portal, ensuring proper resource allocation and region selection.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/data-explorer/create-cluster-database",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Set Up Databases",
+      "Task Description": "Create databases within the Azure Data Explorer cluster to organize data and define retention policies.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/data-explorer/kusto-management",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Data Ingestion",
+      "Task Description": "Set up data ingestion pipelines to ingest data from various sources such as Azure Blob Storage, Event Hubs, or IoT Hub.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/data-explorer/ingest-data-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Configure security settings, including access control, encryption, and firewall rules to protect the cluster and data.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/data-explorer/security-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Define Query Patterns and Optimization",
+      "Task Description": "Develop and optimize query patterns for analytics use cases. Test query performance and adjust indexing strategies as needed.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/data-explorer/kusto-query-language/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring and alerting using Azure Monitor and other tools to track cluster health, query performance, and data ingestion metrics.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/data-explorer/monitor-cluster",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Test Analytics Workflows",
+      "Task Description": "Perform end-to-end testing of analytics workflows to ensure data ingestion, query execution, and visualization meet requirements.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/data-explorer/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Document Cluster Configuration and Usage",
+      "Task Description": "Document the cluster setup, database configurations, data ingestion pipelines, and query optimization strategies for future reference.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/data-explorer/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Train Operations Team",
+      "Task Description": "Conduct training sessions for the operations team on managing and troubleshooting the Azure Data Explorer cluster and analytics workflows.",
+      "Task Type": "Project",
+      "Classification": "Support",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/data-explorer/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Compliance and Auditing",
+      "Task Description": "Ensure the setup meets regulatory compliance requirements. Implement auditing procedures to verify data security and usage policies.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/data-explorer/security-overview",
+      "Frequency": "Monthly"
+    }
+  ]
+}
