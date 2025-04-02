@@ -1,0 +1,176 @@
+{
+  "Service": "Azure Orbital",
+  "Category": "Networking",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Requirements",
+      "Task Description": "Gather detailed requirements for satellite communication needs, including bandwidth, latency, and redundancy. Identify the applications and services that will use Azure Orbital.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/orbital/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Network Architecture",
+      "Task Description": "Design the network architecture for Azure Orbital, including ground station integration, satellite uplink/downlink paths, and connectivity to Azure services.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/orbital/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Obtain Authorizations and Approvals",
+      "Task Description": "Secure necessary regulatory approvals and authorizations for satellite communication, including spectrum licensing and compliance with local laws.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/orbital/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Provision Azure Orbital Resources",
+      "Task Description": "Set up Azure Orbital resources in the Azure portal, including ground station access and satellite configuration.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/orbital/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Networking Components",
+      "Task Description": "Set up virtual networks, VPN gateways, and ExpressRoute connections to ensure secure and reliable communication between Azure Orbital and other Azure services.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/orbital/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Apply security best practices, including encryption for data in transit, access control policies, and integration with Azure Sentinel for threat detection.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/orbital/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Test Connectivity and Performance",
+      "Task Description": "Perform thorough testing of satellite communication, including uplink/downlink performance, latency measurements, and failover scenarios.",
+      "Task Type": "All",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/orbital/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring and alerting using Azure Monitor and Network Watcher to track satellite communication performance and detect issues.",
+      "Task Type": "All",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/orbital/",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Document Configuration and Procedures",
+      "Task Description": "Create detailed documentation of the Azure Orbital setup, including network architecture, configurations, and operational procedures.",
+      "Task Type": "All",
+      "Classification": "Documentation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/orbital/",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Train Operations Team",
+      "Task Description": "Conduct training sessions for the operations team on managing and troubleshooting Azure Orbital networking components.",
+      "Task Type": "All",
+      "Classification": "Training",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/orbital/",
+      "Frequency": "Quarterly"
+    },
+    {
+      "Task": "Compliance and Auditing",
+      "Task Description": "Ensure the setup meets all regulatory compliance requirements. Implement regular auditing procedures to verify compliance and security postures.",
+      "Task Type": "All",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/orbital/",
+      "Frequency": "Monthly"
+    },
+    {
+      "Task": "Establish Network Connectivity",
+      "Task Description": "Ensure proper network connectivity between Azure Orbital ground stations and the Azure cloud. Validate the configuration of virtual networks and gateways.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Frequency": "Once",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/orbital/"
+    },
+    {
+      "Task": "Monitor Network Traffic",
+      "Task Description": "Use Azure Monitor and Network Watcher to continuously monitor network traffic between Azure Orbital ground stations and Azure cloud resources. Identify and resolve anomalies.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "Continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/network-watcher/"
+    },
+    {
+      "Task": "Validate VPN Configuration",
+      "Task Description": "Ensure VPN configurations are correctly set up for secure communication between Azure Orbital ground stations and Azure cloud resources. Test VPN failover mechanisms.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "Monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/vpn-gateway/"
+    },
+    {
+      "Task": "Perform Network Security Audits",
+      "Task Description": "Conduct regular audits of network security configurations, including firewalls, Network Security Groups (NSGs), and encryption protocols.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "Quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/security/"
+    },
+    {
+      "Task": "Test Failover Scenarios",
+      "Task Description": "Simulate failover scenarios to ensure redundancy and high availability of network connections between Azure Orbital ground stations and Azure cloud resources.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "Semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/networking/"
+    },
+    {
+      "Task": "Update Network Configurations",
+      "Task Description": "Review and update network configurations to align with changes in Azure Orbital architecture or security requirements.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "Quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/orbital/"
+    },
+    {
+      "Task": "Backup Network Settings",
+      "Task Description": "Regularly back up network configurations, including VPN settings, firewall rules, and routing tables, to ensure quick recovery in case of issues.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "Weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/"
+    },
+    {
+      "Task": "Optimize Network Performance",
+      "Task Description": "Analyze network performance metrics and implement optimizations to improve latency, throughput, and reliability of Azure Orbital connections.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "Monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/networking/"
+    },
+    {
+      "Task": "Incident Response Drills",
+      "Task Description": "Conduct drills to prepare the team for potential network outages or security incidents affecting Azure Orbital connections.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "Semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/security/"
+    },
+    {
+      "Task": "Review SLA Compliance",
+      "Task Description": "Evaluate the performance of Azure Orbital network connections against SLA metrics. Address any deviations or issues with the service provider.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "Quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/orbital/"
+    }
+  ]
+}
