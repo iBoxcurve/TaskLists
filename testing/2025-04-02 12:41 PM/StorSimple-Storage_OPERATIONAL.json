@@ -1,0 +1,128 @@
+{
+  "Service": "StorSimple",
+  "Category": "Storage",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Device Health",
+      "Task Description": "Use Azure Monitor to continuously track the health and status of StorSimple devices. Identify and address any hardware or software anomalies.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storsimple/storsimple-monitoring"
+    },
+    {
+      "Task": "Perform Firmware Updates",
+      "Task Description": "Regularly check for and apply firmware updates to StorSimple devices to ensure compatibility and security.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storsimple/storsimple-update-firmware"
+    },
+    {
+      "Task": "Validate Backup Integrity",
+      "Task Description": "Perform regular checks to ensure backups stored in StorSimple are complete and recoverable.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storsimple/storsimple-backup"
+    },
+    {
+      "Task": "Audit Access Controls",
+      "Task Description": "Review and update access controls for StorSimple devices to ensure compliance with security policies.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storsimple/storsimple-security"
+    },
+    {
+      "Task": "Test Disaster Recovery Procedures",
+      "Task Description": "Conduct failover and recovery tests to validate disaster recovery configurations and ensure readiness for potential outages.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storsimple/storsimple-disaster-recovery"
+    },
+    {
+      "Task": "Optimize Storage Performance",
+      "Task Description": "Analyze storage performance metrics and optimize configurations to ensure efficient use of StorSimple resources.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storsimple/storsimple-performance"
+    },
+    {
+      "Task": "Rotate Encryption Keys",
+      "Task Description": "Regularly rotate encryption keys used for securing data in StorSimple to maintain security best practices.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storsimple/storsimple-encryption"
+    },
+    {
+      "Task": "Review Storage Usage",
+      "Task Description": "Monitor and review storage usage trends to plan for capacity upgrades or adjustments.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storsimple/storsimple-capacity-planning"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Update operational documentation for StorSimple devices, including configuration details, troubleshooting guides, and maintenance logs.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storsimple/storsimple-documentation"
+    },
+    {
+      "Task": "Conduct Security Audits",
+      "Task Description": "Perform regular security audits to ensure StorSimple configurations adhere to organizational and industry standards.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storsimple/storsimple-security-best-practices"
+    },
+    {
+      "Task": "Incident Response Drills",
+      "Task Description": "Conduct drills to prepare for potential security incidents or storage outages. Ensure familiarity with response protocols.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storsimple/storsimple-incident-response"
+    },
+    {
+      "Task": "Plan for Upgrades and Expansions",
+      "Task Description": "Develop and execute plans for upgrading or expanding StorSimple storage capacity as needed.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storsimple/storsimple-upgrade"
+    },
+    {
+      "Task": "Engage in Regular Training",
+      "Task Description": "Ensure the operations team participates in regular training to stay updated with new StorSimple features and best practices.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storsimple/storsimple-training"
+    },
+    {
+      "Task": "Backup Configuration",
+      "Task Description": "Regularly back up configurations of StorSimple devices to ensure quick recovery in case of device failure.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storsimple/storsimple-configuration-backup"
+    },
+    {
+      "Task": "User Feedback and Improvement",
+      "Task Description": "Collect and analyze user feedback regarding StorSimple performance and reliability. Implement continuous improvements based on this feedback.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storsimple/storsimple-feedback"
+    }
+  ]
+}
