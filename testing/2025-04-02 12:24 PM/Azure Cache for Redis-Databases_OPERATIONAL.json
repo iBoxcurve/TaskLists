@@ -1,0 +1,120 @@
+{
+  "Service": "Azure Cache for Redis",
+  "Category": "Databases",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Cache Performance",
+      "Task Description": "Use Azure Monitor to continuously track metrics such as cache hit ratio, memory usage, and latency. Investigate anomalies and optimize performance as needed.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/cache-monitor"
+    },
+    {
+      "Task": "Perform Cache Backup",
+      "Task Description": "Regularly back up Redis cache data to ensure data recovery in case of failure. Store backups securely and verify their integrity.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/cache-backup"
+    },
+    {
+      "Task": "Update Redis Version",
+      "Task Description": "Check for updates to the Redis version and apply them to ensure compatibility, security, and access to new features.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/cache-upgrade"
+    },
+    {
+      "Task": "Review Security Settings",
+      "Task Description": "Audit and update security settings, including firewall rules, access controls, and SSL configurations, to ensure the cache is protected against unauthorized access.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/cache-security"
+    },
+    {
+      "Task": "Scale Cache Instances",
+      "Task Description": "Evaluate cache usage and scale instances vertically or horizontally to meet performance and capacity requirements.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "as needed",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/cache-scale"
+    },
+    {
+      "Task": "Test Failover Mechanisms",
+      "Task Description": "Conduct failover tests to ensure high availability and verify that the cache can recover from node failures without data loss.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/cache-failover"
+    },
+    {
+      "Task": "Optimize Cache Configuration",
+      "Task Description": "Review and adjust cache configuration settings, such as eviction policies and maxmemory settings, to optimize performance and resource utilization.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/cache-configure"
+    },
+    {
+      "Task": "Audit Cache Usage",
+      "Task Description": "Analyze cache usage patterns and identify opportunities for optimization, such as reducing unnecessary data storage or improving query efficiency.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/cache-usage"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep documentation up-to-date, including operational procedures, configuration details, and troubleshooting guides for Azure Cache for Redis.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/"
+    },
+    {
+      "Task": "Conduct Incident Response Drills",
+      "Task Description": "Perform drills to prepare the team for potential cache outages or security incidents. Ensure familiarity with recovery procedures and protocols.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/cache-troubleshooting"
+    },
+    {
+      "Task": "Review SLA Compliance",
+      "Task Description": "Evaluate the service's adherence to the SLA and address any deviations or performance issues with Azure support.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/cache-sla"
+    },
+    {
+      "Task": "Plan for Capacity Upgrades",
+      "Task Description": "Develop and execute plans for upgrading cache capacity or migrating to higher-tier instances as needed.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/cache-scale"
+    },
+    {
+      "Task": "Engage in Regular Training",
+      "Task Description": "Ensure the operations team participates in training to stay updated with new Azure Cache for Redis features and best practices.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/"
+    },
+    {
+      "Task": "Validate Data Integrity",
+      "Task Description": "Regularly validate the integrity of cached data to ensure consistency and accuracy across applications.",
+      "Task Type": "Operational",
+      "Classification": "Data Integrity",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/cache-data-integrity"
+    }
+  ]
+}
