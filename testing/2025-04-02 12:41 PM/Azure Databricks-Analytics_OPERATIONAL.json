@@ -1,0 +1,128 @@
+{
+  "Service": "Azure Databricks",
+  "Category": "Analytics",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Cluster Health",
+      "Task Description": "Use Azure Monitor and Databricks metrics to continuously monitor the health and performance of Databricks clusters. Identify and resolve any anomalies or issues.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/databricks/monitoring"
+    },
+    {
+      "Task": "Optimize Cluster Configuration",
+      "Task Description": "Review and optimize cluster configurations to ensure efficient resource utilization and cost management. Adjust settings based on workload requirements.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/databricks/clusters"
+    },
+    {
+      "Task": "Perform Security Audits",
+      "Task Description": "Conduct regular security audits to ensure compliance with organizational policies and industry standards. Verify access controls, encryption settings, and data protection measures.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/databricks/security"
+    },
+    {
+      "Task": "Backup Critical Data",
+      "Task Description": "Implement and maintain a backup strategy for critical data stored in Databricks. Ensure backups are secure and accessible for restoration if needed.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/databricks/data-management"
+    },
+    {
+      "Task": "Update Databricks Runtime",
+      "Task Description": "Regularly update the Databricks runtime to the latest version to benefit from new features, performance improvements, and security patches.",
+      "Task Type": "Operational",
+      "Classification": "Maintenance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/databricks/runtime"
+    },
+    {
+      "Task": "Validate Data Pipelines",
+      "Task Description": "Test and validate data pipelines to ensure they are functioning correctly and delivering accurate results. Address any errors or inefficiencies.",
+      "Task Type": "Operational",
+      "Classification": "Troubleshooting",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/databricks/data-pipelines"
+    },
+    {
+      "Task": "Review Cost Management Reports",
+      "Task Description": "Analyze cost management reports to identify opportunities for cost optimization. Ensure that Databricks usage aligns with budgetary constraints.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/databricks/cost-management"
+    },
+    {
+      "Task": "Conduct Failover Tests",
+      "Task Description": "Perform failover tests to ensure high availability and disaster recovery mechanisms are functioning as expected.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/databricks/high-availability"
+    },
+    {
+      "Task": "Audit User Access",
+      "Task Description": "Review and audit user access permissions to ensure compliance with least privilege principles. Remove unnecessary or outdated access rights.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/databricks/access-control"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep Databricks operational and configuration documentation up-to-date, including troubleshooting guides and best practices.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/databricks/documentation"
+    },
+    {
+      "Task": "Incident Response Drills",
+      "Task Description": "Conduct incident response drills to prepare the team for potential security incidents or Databricks service outages. Ensure familiarity with procedures and protocols.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/databricks/security-best-practices"
+    },
+    {
+      "Task": "Engage in Regular Training",
+      "Task Description": "Ensure the operations team participates in regular training to stay updated with new Databricks features, best practices, and security measures.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/databricks/training"
+    },
+    {
+      "Task": "Review SLA Performance",
+      "Task Description": "Evaluate the SLA performance of the Databricks service. Address any issues or deviations from the agreed SLA metrics.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/databricks/sla"
+    },
+    {
+      "Task": "Plan for Upgrades and Expansions",
+      "Task Description": "Develop and execute plans for Databricks workspace upgrades or expansions as needed. Ensure minimal disruption during these activities.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/databricks/workspace"
+    },
+    {
+      "Task": "User Feedback and Improvement",
+      "Task Description": "Collect and analyze user feedback regarding Databricks performance and reliability. Implement continuous improvements based on this feedback.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/databricks/troubleshooting"
+    }
+  ]
+}
