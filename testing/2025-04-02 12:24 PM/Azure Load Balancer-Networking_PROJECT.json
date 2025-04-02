@@ -1,0 +1,128 @@
+{
+  "Service": "Azure Load Balancer",
+  "Category": "Networking",
+  "dateCreated": "2023-10-07 12:00",
+  "dateModified": "2023-10-07 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Requirements",
+      "Task Description": "Gather detailed requirements for the Azure Load Balancer, including traffic distribution needs, redundancy, and failover requirements. Identify the applications and services that will use the load balancer.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Load Balancer Architecture",
+      "Task Description": "Design the architecture for the Azure Load Balancer, including frontend IP configurations, backend pools, health probes, and load balancing rules.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-get-started-portal",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Obtain Necessary Approvals",
+      "Task Description": "Secure necessary approvals and authorizations for deploying the Azure Load Balancer, including budgetary and compliance approvals.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/role-based-access-control/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Create Azure Load Balancer",
+      "Task Description": "Provision the Azure Load Balancer in the Azure portal or using Azure CLI/PowerShell. Choose between Basic and Standard SKU based on requirements.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/load-balancer/quickstart-load-balancer-standard-public-portal",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Frontend IP",
+      "Task Description": "Set up the frontend IP configuration for the load balancer, including public or private IP addresses as per the design.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-overview#frontend-ip-configuration",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Define Backend Pool",
+      "Task Description": "Configure the backend pool by adding the virtual machines or virtual machine scale sets that will receive traffic from the load balancer.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/load-balancer/backend-pool-management",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Set Up Health Probes",
+      "Task Description": "Create health probes to monitor the availability of backend instances. Define the protocol, port, and interval for the probes.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-custom-probe-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Load Balancing Rules",
+      "Task Description": "Define load balancing rules to map frontend traffic to backend pool instances. Specify the protocol, port, and session persistence settings.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-overview#load-balancing-rules",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Apply security best practices, such as configuring Network Security Groups (NSGs) and enabling DDoS Protection for the load balancer.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-security",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Test Load Balancer Configuration",
+      "Task Description": "Perform end-to-end testing of the load balancer setup, including traffic distribution, failover scenarios, and health probe functionality.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-troubleshoot",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Set Up Monitoring and Alerts",
+      "Task Description": "Configure monitoring and alerting for the load balancer using Azure Monitor and Network Watcher. Set up alerts for health probe failures and traffic anomalies.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-monitor-log",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Document Configuration and Procedures",
+      "Task Description": "Document the load balancer configuration, including architecture, settings, and operational procedures. Share the documentation with relevant teams.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/load-balancer/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Conduct Training for Operations Team",
+      "Task Description": "Provide training to the operations team on managing and troubleshooting the Azure Load Balancer setup.",
+      "Task Type": "Project",
+      "Classification": "Support",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/load-balancer/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Perform Regular Audits",
+      "Task Description": "Conduct periodic audits to ensure the load balancer configuration adheres to security and compliance requirements.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/security/",
+      "Frequency": "Monthly"
+    },
+    {
+      "Task": "Monitor Performance Continuously",
+      "Task Description": "Continuously monitor the performance of the load balancer and backend instances to ensure optimal operation.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-monitor-log",
+      "Frequency": "Continuous"
+    }
+  ]
+}
