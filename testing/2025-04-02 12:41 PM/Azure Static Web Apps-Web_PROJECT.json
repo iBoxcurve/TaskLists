@@ -1,0 +1,96 @@
+{
+  "Service": "Azure Static Web Apps",
+  "Category": "Web",
+  "dateCreated": "2024-07-30 14:30",
+  "dateModified": "2024-07-30 14:30",
+  "Tasks": [
+    {
+      "Task": "Assess Project Requirements",
+      "Task Description": "Gather detailed requirements for the web application, including hosting needs, supported frameworks, and integration with APIs or backend services.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/static-web-apps/overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Application Architecture",
+      "Task Description": "Design the architecture for the static web app, including folder structure, build pipelines, and integration points with Azure Functions or APIs.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/static-web-apps/overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Set Up GitHub Repository",
+      "Task Description": "Create a GitHub repository for the web application codebase. Ensure proper branching strategies and permissions are in place.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/static-web-apps/getting-started",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Deploy Azure Static Web App",
+      "Task Description": "Provision a new Azure Static Web App resource in the Azure portal or using CLI/PowerShell. Link it to the GitHub repository for CI/CD integration.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/static-web-apps/getting-started",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Build and Deployment Settings",
+      "Task Description": "Set up build and deployment settings in the Azure portal, including specifying the build folder, API location, and output folder.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/static-web-apps/build-configuration",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Enable security features such as custom domains with HTTPS, authentication providers, and role-based access control (RBAC) for the web app.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/static-web-apps/authentication-authorization",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Test Application Deployment",
+      "Task Description": "Perform testing of the deployed application to ensure functionality, performance, and security. Validate integration with APIs and backend services.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/static-web-apps/troubleshooting",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring and alerting for the web app using Azure Monitor and Application Insights. Configure alerts for performance metrics and errors.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/static-web-apps/monitor",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Document Application Setup",
+      "Task Description": "Create detailed documentation for the application setup, including architecture, deployment settings, and operational procedures.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/static-web-apps/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Conduct Training for Operations Team",
+      "Task Description": "Provide training to the operations team on managing and troubleshooting the Azure Static Web App setup.",
+      "Task Type": "Project",
+      "Classification": "Support",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/static-web-apps/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Perform Regular Compliance Checks",
+      "Task Description": "Ensure the web app setup adheres to organizational and regulatory compliance requirements. Conduct periodic audits to verify compliance.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/compliance/",
+      "Frequency": "Monthly"
+    }
+  ]
+}
