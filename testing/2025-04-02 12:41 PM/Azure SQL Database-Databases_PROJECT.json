@@ -1,0 +1,104 @@
+{
+  "Service": "Azure SQL Database",
+  "Category": "Databases",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Requirements",
+      "Task Description": "Gather detailed requirements for database size, performance, scalability, and redundancy. Identify the applications and services that will use the Azure SQL Database.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/database/introduction",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Database Architecture",
+      "Task Description": "Design the database architecture, including the choice of service tier, compute size, and storage requirements. Plan for high availability and disaster recovery.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/database/high-availability-disaster-recovery",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Provision Azure SQL Database",
+      "Task Description": "Create the Azure SQL Database instance in the Azure portal or using Azure CLI/PowerShell. Select the appropriate service tier and configure initial settings.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/database/create-database-portal",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Firewall Rules",
+      "Task Description": "Set up firewall rules to allow access to the Azure SQL Database from specific IP addresses or Azure services.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/database/firewall-configure",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Enable security features such as Transparent Data Encryption (TDE), Advanced Threat Protection, and Always Encrypted for sensitive data.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/database/security-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Set Up Backup and Restore Policies",
+      "Task Description": "Configure automated backups and define retention policies. Test the restore process to ensure data recovery capabilities.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/database/automated-backup",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring and alerting using Azure Monitor and SQL Analytics. Configure alerts for performance metrics, availability, and security events.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/database/monitoring-and-alerts",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Optimize Performance",
+      "Task Description": "Analyze query performance and configure indexes, partitioning, and other optimization techniques. Use tools like Query Performance Insights.",
+      "Task Type": "Operational",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/database/performance-tuning",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Document Database Configuration",
+      "Task Description": "Document the database architecture, configurations, and operational procedures. Include details on security settings, backup policies, and monitoring setup.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/database/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Compliance and Auditing",
+      "Task Description": "Ensure the database setup meets all regulatory compliance requirements. Implement auditing features to track database activities and changes.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/database/auditing",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Test Failover Scenarios",
+      "Task Description": "Simulate failover scenarios to ensure high availability and disaster recovery configurations are functioning as expected.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/database/high-availability-disaster-recovery",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Train Operations Team",
+      "Task Description": "Conduct training sessions for the operations team on managing, monitoring, and troubleshooting the Azure SQL Database setup.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-sql/database/",
+      "Frequency": "Once"
+    }
+  ]
+}
