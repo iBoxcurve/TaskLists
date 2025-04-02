@@ -1,0 +1,128 @@
+{
+  "Service": "Azure Application Gateway",
+  "Category": "Networking",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Application Gateway Health",
+      "Task Description": "Use Azure Monitor and Application Gateway diagnostics to continuously monitor the health and status of the Application Gateway. Investigate any anomalies or potential issues.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/application-gateway/application-gateway-diagnostics"
+    },
+    {
+      "Task": "Update SSL Certificates",
+      "Task Description": "Regularly update SSL/TLS certificates used by the Application Gateway to ensure secure communication. Verify expiration dates and replace certificates before they expire.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/application-gateway/ssl-overview"
+    },
+    {
+      "Task": "Review WAF Rules",
+      "Task Description": "Periodically review and update Web Application Firewall (WAF) rules to ensure protection against the latest threats and vulnerabilities.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/application-gateway/waf-overview"
+    },
+    {
+      "Task": "Validate Backend Health",
+      "Task Description": "Check the health of backend servers connected to the Application Gateway. Ensure that all servers are operational and responding correctly.",
+      "Task Type": "Operational",
+      "Classification": "Networking",
+      "Frequency": "daily",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/application-gateway/application-gateway-backend-health"
+    },
+    {
+      "Task": "Audit Application Gateway Configuration",
+      "Task Description": "Conduct regular audits of the Application Gateway configuration to ensure alignment with documented architecture and best practices.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/application-gateway/configuration-overview"
+    },
+    {
+      "Task": "Perform Failover Tests",
+      "Task Description": "Conduct failover tests to verify that redundant paths and configurations function correctly in case of primary path failures.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/application-gateway/high-availability"
+    },
+    {
+      "Task": "Optimize Routing Rules",
+      "Task Description": "Review and optimize routing rules to ensure efficient traffic distribution and minimize latency.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/application-gateway/configure-routing"
+    },
+    {
+      "Task": "Backup Configuration",
+      "Task Description": "Regularly back up the Application Gateway configuration to ensure recovery in case of accidental changes or failures.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/application-gateway/application-gateway-configuration-backup"
+    },
+    {
+      "Task": "Update Security Policies",
+      "Task Description": "Review and update security policies, including Network Security Groups (NSGs) and access controls, to adapt to changes in the network or security landscape.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/application-gateway/security-overview"
+    },
+    {
+      "Task": "Conduct Incident Response Drills",
+      "Task Description": "Perform incident response drills to prepare the team for potential security incidents or Application Gateway outages. Ensure familiarity with procedures and protocols.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/application-gateway/troubleshooting"
+    },
+    {
+      "Task": "Analyze Traffic Patterns",
+      "Task Description": "Analyze traffic patterns and usage data to identify potential bottlenecks or areas for improvement in the Application Gateway setup.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/application-gateway/monitor-traffic"
+    },
+    {
+      "Task": "Review SLA Compliance",
+      "Task Description": "Evaluate the SLA performance of the Application Gateway. Address any issues or deviations from the agreed SLA metrics.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/application-gateway/application-gateway-sla"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep Application Gateway service documentation up-to-date, including operational procedures, configuration details, and troubleshooting guides.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/application-gateway/"
+    },
+    {
+      "Task": "Engage in Regular Training",
+      "Task Description": "Ensure the operations team participates in regular training to stay updated with new Application Gateway features, best practices, and security measures.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/application-gateway/"
+    },
+    {
+      "Task": "User Feedback and Improvement",
+      "Task Description": "Collect and analyze user feedback regarding Application Gateway performance and reliability. Implement continuous improvements based on this feedback.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/application-gateway/troubleshooting"
+    }
+  ]
+}
