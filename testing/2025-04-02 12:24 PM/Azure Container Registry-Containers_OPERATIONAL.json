@@ -1,0 +1,120 @@
+{
+  "Service": "Azure Container Registry",
+  "Category": "Containers",
+  "dateCreated": "2024-07-30 14:30",
+  "dateModified": "2024-07-30 14:30",
+  "Tasks": [
+    {
+      "Task": "Enable and Monitor Geo-Replication",
+      "Task Description": "Configure geo-replication for the Azure Container Registry to ensure high availability and disaster recovery. Monitor the replication status to ensure data consistency across regions.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "once",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-registry/container-registry-geo-replication"
+    },
+    {
+      "Task": "Implement Content Trust",
+      "Task Description": "Enable content trust to ensure that only signed images are pulled from the registry. Regularly verify the integrity of signed images.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "once",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-registry/container-registry-content-trust"
+    },
+    {
+      "Task": "Set Up and Monitor Webhooks",
+      "Task Description": "Configure webhooks to trigger notifications for registry events such as image pushes or deletes. Monitor webhook activity to ensure proper functioning.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "once",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-registry/container-registry-webhooks"
+    },
+    {
+      "Task": "Perform Regular Vulnerability Scans",
+      "Task Description": "Use Azure Security Center or third-party tools to scan container images for vulnerabilities. Address any identified issues promptly.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-registry/container-registry-vulnerability-scanning"
+    },
+    {
+      "Task": "Rotate Access Keys",
+      "Task Description": "Regularly rotate access keys for the Azure Container Registry to enhance security. Update any dependent services or scripts with the new keys.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-registry/container-registry-authentication"
+    },
+    {
+      "Task": "Optimize Storage Usage",
+      "Task Description": "Review and clean up unused or outdated container images to optimize storage usage. Implement retention policies to automate this process.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-registry/container-registry-retention-policy"
+    },
+    {
+      "Task": "Backup Registry Data",
+      "Task Description": "Regularly back up the Azure Container Registry data to ensure recoverability in case of accidental deletions or corruption.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-registry/"
+    },
+    {
+      "Task": "Audit Access Logs",
+      "Task Description": "Review access logs to monitor and detect unauthorized access or unusual activity. Use Azure Monitor or Azure Security Center for detailed insights.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "daily",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-registry/container-registry-monitor-service"
+    },
+    {
+      "Task": "Update Registry Configuration",
+      "Task Description": "Periodically review and update the Azure Container Registry configuration to align with best practices and organizational requirements.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-registry/container-registry-best-practices"
+    },
+    {
+      "Task": "Test Disaster Recovery Plan",
+      "Task Description": "Conduct regular tests of the disaster recovery plan to ensure that the Azure Container Registry can be restored in case of a failure.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-registry/container-registry-geo-replication"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep documentation for Azure Container Registry operations, configurations, and troubleshooting up-to-date.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-registry/"
+    },
+    {
+      "Task": "Review and Update Network Security Rules",
+      "Task Description": "Ensure that network security rules for the Azure Container Registry are up-to-date and aligned with organizational policies.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-registry/container-registry-firewall-rules"
+    },
+    {
+      "Task": "Monitor Quotas and Limits",
+      "Task Description": "Regularly monitor the usage of Azure Container Registry quotas and limits to ensure that the service operates within its allocated resources.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-registry/container-registry-service-limits"
+    },
+    {
+      "Task": "Conduct Security Training for Team",
+      "Task Description": "Provide regular training to the operations team on Azure Container Registry security best practices and updates.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-registry/"
+    }
+  ]
+}
