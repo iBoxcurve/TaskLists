@@ -1,0 +1,120 @@
+{
+  "Service": "Azure Blob Storage",
+  "Category": "Storage",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Blob Storage Health",
+      "Task Description": "Use Azure Monitor to continuously track the health and performance of Azure Blob Storage. Identify and resolve any anomalies or issues.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-monitoring-diagnosing"
+    },
+    {
+      "Task": "Check Security Configurations",
+      "Task Description": "Verify the security settings of Blob Storage, including encryption at rest and in transit, access keys, and Shared Access Signatures (SAS). Rotate keys periodically.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/blobs/security-recommendations"
+    },
+    {
+      "Task": "Audit Access Control Policies",
+      "Task Description": "Review and update access control policies, including Azure RBAC roles and permissions, to ensure compliance with organizational security standards.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/blobs/authorize-access-azure-active-directory"
+    },
+    {
+      "Task": "Validate Data Redundancy Settings",
+      "Task Description": "Ensure that the selected redundancy option (e.g., LRS, ZRS, GRS, RA-GRS) aligns with business continuity requirements. Test failover scenarios if applicable.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy"
+    },
+    {
+      "Task": "Optimize Blob Storage Performance",
+      "Task Description": "Analyze performance metrics and optimize Blob Storage configurations, such as tiering (Hot, Cool, Archive) and caching settings, to meet workload demands.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-performance-checklist"
+    },
+    {
+      "Task": "Backup Blob Storage Data",
+      "Task Description": "Implement and verify backup solutions for Blob Storage data. Ensure backups are stored securely and can be restored in case of data loss.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-backup-solutions"
+    },
+    {
+      "Task": "Conduct Security Incident Drills",
+      "Task Description": "Perform drills to simulate security incidents, such as unauthorized access or data breaches, and validate response protocols.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/security/fundamentals/security-incident-response"
+    },
+    {
+      "Task": "Review Storage Costs and Usage",
+      "Task Description": "Analyze Blob Storage usage and associated costs. Identify opportunities for cost optimization, such as tier adjustments or data lifecycle management.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-cost-management"
+    },
+    {
+      "Task": "Update Documentation",
+      "Task Description": "Maintain up-to-date documentation for Blob Storage configurations, operational procedures, and troubleshooting guides.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/blobs/"
+    },
+    {
+      "Task": "Perform Compliance Checks",
+      "Task Description": "Ensure Blob Storage configurations comply with relevant regulations and industry standards, such as GDPR or HIPAA.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-compliance"
+    },
+    {
+      "Task": "Test Data Lifecycle Policies",
+      "Task Description": "Validate the effectiveness of data lifecycle management policies, including automatic tiering and deletion of expired data.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-policy-overview"
+    },
+    {
+      "Task": "Engage in Training and Skill Development",
+      "Task Description": "Ensure the operations team participates in regular training to stay updated with new Blob Storage features and best practices.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/blobs/"
+    },
+    {
+      "Task": "Validate Encryption Settings",
+      "Task Description": "Ensure that encryption settings for Blob Storage are correctly configured, including customer-managed keys if applicable.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/common/storage-encryption"
+    },
+    {
+      "Task": "Perform Failover Tests",
+      "Task Description": "Conduct failover tests to validate the resiliency of Blob Storage in case of regional outages or service disruptions.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/common/storage-disaster-recovery"
+    }
+  ]
+}
