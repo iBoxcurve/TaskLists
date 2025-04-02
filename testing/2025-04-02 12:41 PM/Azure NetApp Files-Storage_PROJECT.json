@@ -1,0 +1,112 @@
+{
+  "Service": "Azure NetApp Files",
+  "Category": "Storage",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Storage Requirements",
+      "Task Description": "Gather detailed requirements for storage capacity, performance tiers, and redundancy. Identify the applications and workloads that will use Azure NetApp Files.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-introduction",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Storage Architecture",
+      "Task Description": "Design the storage architecture, including volume configurations, performance tiers, and integration with existing on-premises and Azure environments.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-design",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Enable Azure NetApp Files Service",
+      "Task Description": "Request and enable the Azure NetApp Files service in the Azure portal. Ensure the subscription supports the service and is in a supported region.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-quickstart",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Create NetApp Account",
+      "Task Description": "Create a NetApp account in the Azure portal to manage Azure NetApp Files resources.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-account",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Virtual Network",
+      "Task Description": "Set up a virtual network and subnet for Azure NetApp Files. Ensure proper network security group (NSG) rules are applied.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-networking",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Create Capacity Pool",
+      "Task Description": "Create a capacity pool within the NetApp account to allocate storage capacity and performance tiers.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-capacity-pool",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Provision Volumes",
+      "Task Description": "Create and configure volumes within the capacity pool. Define volume size, performance tier, and protocol (NFS or SMB).",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volume",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Enable encryption for data at rest and configure access controls for volumes. Apply security best practices such as Active Directory integration for SMB volumes.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-security",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Backup and Recovery",
+      "Task Description": "Set up backup policies and recovery options for Azure NetApp Files volumes. Ensure snapshots are configured for data protection.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-backup",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Test Storage Performance and Connectivity",
+      "Task Description": "Perform thorough testing of storage performance and connectivity. Validate throughput, latency, and failover scenarios.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-performance",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring and alerting using Azure Monitor and NetApp tools. Configure alerts for storage capacity, performance metrics, and connectivity issues.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-monitoring",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Document Storage Setup",
+      "Task Description": "Document the storage architecture, configurations, and operational procedures. Provide training for the operations team on managing and troubleshooting Azure NetApp Files.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/azure-netapp-files/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Compliance and Auditing",
+      "Task Description": "Ensure the storage setup meets all regulatory compliance requirements. Implement regular auditing procedures to verify compliance and security postures.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/compliance/",
+      "Frequency": "Monthly"
+    }
+  ]
+}
