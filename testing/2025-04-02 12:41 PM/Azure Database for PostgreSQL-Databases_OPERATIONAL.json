@@ -1,0 +1,128 @@
+{
+  "Service": "Azure Database for PostgreSQL",
+  "Category": "Databases",
+  "dateCreated": "2024-07-30 14:30",
+  "dateModified": "2024-07-30 14:30",
+  "Tasks": [
+    {
+      "Task": "Monitor Database Performance",
+      "Task Description": "Use Azure Monitor to continuously track database performance metrics such as CPU usage, memory consumption, and query execution times. Identify and address performance bottlenecks.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/postgresql/monitoring"
+    },
+    {
+      "Task": "Apply Security Updates",
+      "Task Description": "Ensure that the PostgreSQL database is updated with the latest security patches and updates provided by Azure. Schedule updates during maintenance windows to minimize downtime.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/postgresql/security-updates"
+    },
+    {
+      "Task": "Backup Database",
+      "Task Description": "Configure and verify automated backups for the PostgreSQL database. Perform periodic manual backups to ensure data integrity and availability.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "daily",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/postgresql/backup-restore"
+    },
+    {
+      "Task": "Test Disaster Recovery",
+      "Task Description": "Conduct regular disaster recovery drills to ensure that backups can be restored successfully and that failover mechanisms are functioning as expected.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/postgresql/disaster-recovery"
+    },
+    {
+      "Task": "Optimize Query Performance",
+      "Task Description": "Analyze and optimize slow-running queries using the Query Performance Insights tool. Implement indexing and query optimization techniques as needed.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/postgresql/query-performance"
+    },
+    {
+      "Task": "Audit Database Access",
+      "Task Description": "Review and audit database access logs to ensure compliance with security policies. Identify and address unauthorized access attempts.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/postgresql/auditing"
+    },
+    {
+      "Task": "Scale Resources",
+      "Task Description": "Monitor resource utilization and scale up or down the database resources (CPU, memory, storage) as needed to meet workload demands.",
+      "Task Type": "Operational",
+      "Classification": "Scaling",
+      "Frequency": "as-needed",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/postgresql/scaling"
+    },
+    {
+      "Task": "Update Firewall Rules",
+      "Task Description": "Review and update firewall rules to ensure only authorized IP addresses can access the PostgreSQL database. Remove outdated or unnecessary rules.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/postgresql/firewall-rules"
+    },
+    {
+      "Task": "Review Logs for Anomalies",
+      "Task Description": "Regularly review database logs for any anomalies or unusual activity. Investigate and resolve any identified issues.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/postgresql/logging"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep all operational and configuration documentation for the PostgreSQL database up-to-date, including backup procedures, failover steps, and security configurations.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/postgresql/documentation"
+    },
+    {
+      "Task": "Perform Index Maintenance",
+      "Task Description": "Rebuild or reorganize database indexes to ensure optimal query performance and reduce fragmentation.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/postgresql/index-maintenance"
+    },
+    {
+      "Task": "Validate High Availability Configuration",
+      "Task Description": "Ensure that high availability configurations, such as read replicas or failover groups, are functioning correctly and meet the required SLA.",
+      "Task Type": "Operational",
+      "Classification": "High Availability",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/postgresql/high-availability"
+    },
+    {
+      "Task": "Conduct User Training",
+      "Task Description": "Provide training to database administrators and users on best practices for using and maintaining the PostgreSQL database.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/postgresql/training"
+    },
+    {
+      "Task": "Review SLA Compliance",
+      "Task Description": "Regularly review the database's performance and availability to ensure compliance with the SLA. Address any deviations promptly.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/postgresql/sla"
+    },
+    {
+      "Task": "Rotate Encryption Keys",
+      "Task Description": "Rotate encryption keys used for securing the PostgreSQL database to comply with security policies and best practices.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/postgresql/encryption"
+    }
+  ]
+}
