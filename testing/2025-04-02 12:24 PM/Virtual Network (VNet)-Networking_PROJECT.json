@@ -1,0 +1,112 @@
+{
+  "Service": "Virtual Network (VNet)",
+  "Category": "Networking",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Requirements",
+      "Task Description": "Gather detailed requirements for the Virtual Network, including IP address ranges, subnet configurations, and connectivity needs. Identify applications and services that will use the VNet.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design VNet Architecture",
+      "Task Description": "Design the architecture of the Virtual Network, including subnets, address spaces, and integration with on-premises networks or other VNets.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-design-best-practices",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Obtain Necessary Approvals",
+      "Task Description": "Secure approvals for the VNet design and address space allocation from relevant stakeholders.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-network/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Create Virtual Network",
+      "Task Description": "Provision the Virtual Network in the Azure portal, specifying the address space and subnets as per the design.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-network/quick-create-portal",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Subnets",
+      "Task Description": "Set up subnets within the Virtual Network, ensuring proper segmentation and alignment with the design requirements.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-manage-subnet",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Apply security controls such as Network Security Groups (NSGs) and Azure Firewall to protect the Virtual Network and its subnets.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure VPN Gateway",
+      "Task Description": "Deploy and configure a VPN Gateway if hybrid connectivity with on-premises networks is required.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Enable VNet Peering",
+      "Task Description": "Set up VNet peering to connect the Virtual Network with other VNets in the same or different regions.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Test Connectivity",
+      "Task Description": "Perform connectivity tests to ensure the Virtual Network is functioning as expected, including subnet communication and external connectivity.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-troubleshoot",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring and alerting for the Virtual Network using Azure Monitor and Network Watcher to track performance and detect issues.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-monitoring-overview",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Document VNet Configuration",
+      "Task Description": "Create detailed documentation of the Virtual Network setup, including address spaces, subnets, security measures, and connectivity configurations.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-network/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Conduct Training",
+      "Task Description": "Provide training to the operations team on managing and troubleshooting the Virtual Network.",
+      "Task Type": "Project",
+      "Classification": "Support",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-network/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Perform Regular Audits",
+      "Task Description": "Conduct periodic audits to ensure the Virtual Network complies with security and operational standards.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/security/",
+      "Frequency": "Monthly"
+    }
+  ]
+}
