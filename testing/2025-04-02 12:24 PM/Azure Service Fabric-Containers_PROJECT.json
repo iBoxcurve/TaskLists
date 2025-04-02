@@ -1,0 +1,96 @@
+{
+  "Service": "Azure Service Fabric",
+  "Category": "Containers",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Project Requirements",
+      "Task Description": "Gather detailed requirements for containerized applications, including scalability, availability, and resource needs. Identify the services and workloads to be deployed on Azure Service Fabric.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Service Fabric Cluster Architecture",
+      "Task Description": "Design the cluster architecture, including node types, durability levels, and placement constraints. Plan for high availability and fault tolerance.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-cluster-resource-manager",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Provision Azure Service Fabric Cluster",
+      "Task Description": "Create and configure the Service Fabric cluster in the Azure portal or using Azure CLI/PowerShell. Ensure proper configuration of node types and VM sizes.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-cluster-creation",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Networking for Cluster",
+      "Task Description": "Set up networking for the Service Fabric cluster, including virtual networks, subnets, and load balancers. Ensure secure communication between nodes and external services.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-cluster-networking",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Deploy Containerized Applications",
+      "Task Description": "Package and deploy containerized applications to the Service Fabric cluster. Use Docker images and ensure proper configuration of application parameters.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-deploy-container",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Enable security features such as certificate-based authentication, encryption for data in transit, and access control policies. Configure Azure Key Vault for managing secrets.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-security-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Set Up Monitoring and Diagnostics",
+      "Task Description": "Configure monitoring and diagnostics using Azure Monitor and Application Insights. Set up alerts for cluster health, node status, and application performance.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-monitoring",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Test Cluster and Application Performance",
+      "Task Description": "Perform thorough testing of the cluster and deployed applications, including failover scenarios, load testing, and performance benchmarking.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-test-cluster",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Document Cluster Configuration and Procedures",
+      "Task Description": "Create detailed documentation for the cluster setup, application deployment, and operational procedures. Include troubleshooting guides and escalation paths.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Conduct Training for Operations Team",
+      "Task Description": "Provide training sessions for the operations team on managing and troubleshooting the Service Fabric cluster and containerized applications.",
+      "Task Type": "Project",
+      "Classification": "Support",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Compliance and Auditing Procedures",
+      "Task Description": "Ensure the cluster and applications meet regulatory compliance requirements. Set up regular auditing procedures to verify security and operational standards.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/compliance/",
+      "Frequency": "Monthly"
+    }
+  ]
+}
