@@ -1,0 +1,128 @@
+{
+  "Service": "Azure Blob Storage",
+  "Category": "Storage",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Blob Storage Health",
+      "Task Description": "Use Azure Monitor and Storage Analytics to continuously monitor the health and performance of Azure Blob Storage. Identify and investigate any anomalies or potential issues.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-monitoring"
+    },
+    {
+      "Task": "Check Security Configurations",
+      "Task Description": "Verify the status and integrity of security measures, such as encryption at rest and in transit, access keys, and Shared Access Signatures (SAS). Rotate keys periodically as per security policies.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/common/storage-security-guide"
+    },
+    {
+      "Task": "Validate Access Control Policies",
+      "Task Description": "Review and update access control policies, including Azure RBAC roles and permissions, to ensure only authorized users and applications have access to Blob Storage.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/common/storage-auth"
+    },
+    {
+      "Task": "Audit Storage Account Configurations",
+      "Task Description": "Conduct audits of storage account configurations to ensure alignment with documented architecture and best practices for Azure Blob Storage.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview"
+    },
+    {
+      "Task": "Backup Blob Data",
+      "Task Description": "Implement and verify regular backups of critical blob data using Azure Backup or other third-party solutions. Ensure backups are stored securely and are accessible for restoration.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-overview"
+    },
+    {
+      "Task": "Optimize Blob Storage Performance",
+      "Task Description": "Analyze performance metrics and optimize Blob Storage configurations, such as tiering (Hot, Cool, Archive) and caching, to ensure efficient storage operations.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-performance-tuning"
+    },
+    {
+      "Task": "Conduct Failover Tests",
+      "Task Description": "Perform failover tests to verify that geo-redundant storage (GRS) or read-access geo-redundant storage (RA-GRS) configurations function correctly in case of primary region failures.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy"
+    },
+    {
+      "Task": "Update Security Policies",
+      "Task Description": "Review and update security policies, including firewall rules and virtual network configurations, to adapt to changes in the Blob Storage environment or security landscape.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/common/storage-network-security"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep Azure Blob Storage service documentation up-to-date, including operational procedures, configuration details, and troubleshooting guides.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/blobs/"
+    },
+    {
+      "Task": "Compliance Checks",
+      "Task Description": "Perform regular compliance checks to ensure the Blob Storage setup adheres to relevant regulations and industry standards.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/common/storage-security-guide"
+    },
+    {
+      "Task": "Incident Response Drills",
+      "Task Description": "Conduct incident response drills to prepare the team for potential security incidents or Blob Storage outages. Ensure familiarity with procedures and protocols.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/common/storage-troubleshooting"
+    },
+    {
+      "Task": "Review Storage Account SLA",
+      "Task Description": "Evaluate the SLA performance of the Azure Blob Storage service. Address any issues or deviations from the agreed SLA metrics.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview"
+    },
+    {
+      "Task": "Plan for Upgrades and Expansions",
+      "Task Description": "Develop and execute plans for Blob Storage upgrades or expansions as needed. Ensure minimal disruption during these activities.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/blobs/"
+    },
+    {
+      "Task": "Engage in Regular Training",
+      "Task Description": "Ensure the operations team participates in regular training to stay updated with new Blob Storage features, best practices, and security measures.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/blobs/"
+    },
+    {
+      "Task": "User Feedback and Improvement",
+      "Task Description": "Collect and analyze user feedback regarding Blob Storage performance and reliability. Implement continuous improvements based on this feedback.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-performance-tuning"
+    }
+  ]
+}
