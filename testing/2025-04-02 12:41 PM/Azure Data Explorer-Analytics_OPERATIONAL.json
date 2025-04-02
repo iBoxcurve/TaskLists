@@ -1,0 +1,120 @@
+{
+  "Service": "Azure Data Explorer",
+  "Category": "Analytics",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Cluster Health",
+      "Task Description": "Use Azure Monitor to continuously track the health and performance of Azure Data Explorer clusters. Identify and resolve any anomalies or issues.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-explorer/monitor-cluster"
+    },
+    {
+      "Task": "Optimize Query Performance",
+      "Task Description": "Analyze query performance metrics and optimize queries to ensure efficient data processing and analytics.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/"
+    },
+    {
+      "Task": "Backup Cluster Data",
+      "Task Description": "Regularly back up data stored in Azure Data Explorer clusters to ensure data resiliency and recovery in case of failures.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "daily",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-explorer/data-management"
+    },
+    {
+      "Task": "Review Security Configurations",
+      "Task Description": "Audit security settings, including access controls and encryption, to ensure compliance with organizational policies and industry standards.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-explorer/security-overview"
+    },
+    {
+      "Task": "Update Cluster Software",
+      "Task Description": "Apply updates and patches to Azure Data Explorer clusters to ensure the latest features and security enhancements are in place.",
+      "Task Type": "Operational",
+      "Classification": "Maintenance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-explorer/cluster-management"
+    },
+    {
+      "Task": "Validate Data Integrity",
+      "Task Description": "Perform regular checks to validate the integrity of data stored in Azure Data Explorer clusters.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-explorer/data-integrity"
+    },
+    {
+      "Task": "Scale Cluster Resources",
+      "Task Description": "Monitor resource utilization and scale cluster resources as needed to meet analytics demands.",
+      "Task Type": "Operational",
+      "Classification": "Scaling",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-explorer/scale-cluster"
+    },
+    {
+      "Task": "Conduct Failover Tests",
+      "Task Description": "Perform failover tests to ensure high availability and disaster recovery mechanisms are functioning correctly.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-explorer/high-availability"
+    },
+    {
+      "Task": "Audit User Access",
+      "Task Description": "Review and audit user access permissions to ensure only authorized personnel have access to Azure Data Explorer clusters.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-explorer/manage-access"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep operational and configuration documentation for Azure Data Explorer clusters up-to-date.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-explorer/"
+    },
+    {
+      "Task": "Incident Response Drills",
+      "Task Description": "Conduct drills to prepare for potential incidents affecting Azure Data Explorer clusters, ensuring readiness for quick resolution.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-explorer/troubleshooting"
+    },
+    {
+      "Task": "Analyze Usage Patterns",
+      "Task Description": "Review usage patterns and analytics to identify opportunities for optimization and cost savings.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-explorer/usage-patterns"
+    },
+    {
+      "Task": "Review SLA Compliance",
+      "Task Description": "Ensure Azure Data Explorer clusters meet the agreed Service Level Agreement (SLA) metrics.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-explorer/sla"
+    },
+    {
+      "Task": "Engage in Regular Training",
+      "Task Description": "Ensure the operations team participates in regular training to stay updated with new Azure Data Explorer features and best practices.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-explorer/"
+    }
+  ]
+}
