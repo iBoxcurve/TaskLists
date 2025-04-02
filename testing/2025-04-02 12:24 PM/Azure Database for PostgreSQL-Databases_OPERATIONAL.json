@@ -1,0 +1,128 @@
+{
+  "Service": "Azure Database for PostgreSQL",
+  "Category": "Databases",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Database Performance",
+      "Task Description": "Use Azure Monitor and Query Performance Insights to continuously monitor the performance of the PostgreSQL database. Identify slow queries and optimize them.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/postgresql/howto-monitor-performance"
+    },
+    {
+      "Task": "Apply Security Updates",
+      "Task Description": "Regularly check for and apply security updates to the PostgreSQL database to ensure protection against vulnerabilities.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/postgresql/security-overview"
+    },
+    {
+      "Task": "Backup Database",
+      "Task Description": "Schedule and verify regular backups of the PostgreSQL database using Azure Backup services. Ensure backups are stored securely and are recoverable.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "daily",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/postgresql/howto-backup-restore"
+    },
+    {
+      "Task": "Perform Database Failover Tests",
+      "Task Description": "Conduct failover tests to ensure high availability configurations are functioning correctly and can handle unexpected outages.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/postgresql/high-availability"
+    },
+    {
+      "Task": "Audit Database Access",
+      "Task Description": "Review and audit database access logs to ensure compliance with security policies and detect unauthorized access attempts.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/postgresql/howto-audit-logs"
+    },
+    {
+      "Task": "Optimize Database Configuration",
+      "Task Description": "Regularly review and optimize database configurations, such as memory allocation, connection limits, and indexing strategies, to improve performance.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/postgresql/howto-tune-performance"
+    },
+    {
+      "Task": "Update Security Policies",
+      "Task Description": "Review and update security policies, including firewall rules and virtual network configurations, to adapt to changes in the database environment.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/postgresql/security-best-practices"
+    },
+    {
+      "Task": "Test Database Restorations",
+      "Task Description": "Perform restoration tests using backup data to ensure the integrity and reliability of backups.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/postgresql/howto-backup-restore"
+    },
+    {
+      "Task": "Review Query Execution Plans",
+      "Task Description": "Analyze query execution plans to identify inefficiencies and recommend improvements for better database performance.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/postgresql/howto-query-performance"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep documentation up-to-date, including operational procedures, database configurations, and troubleshooting guides.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/postgresql/"
+    },
+    {
+      "Task": "Conduct Incident Response Drills",
+      "Task Description": "Perform incident response drills to prepare the team for potential database outages or security incidents.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/postgresql/security-best-practices"
+    },
+    {
+      "Task": "Review SLA Compliance",
+      "Task Description": "Evaluate the database's performance against the SLA metrics provided by Azure. Address any deviations or issues.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/postgresql/sla"
+    },
+    {
+      "Task": "Plan for Scaling and Upgrades",
+      "Task Description": "Develop and execute plans for scaling or upgrading the PostgreSQL database to meet growing demands.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/postgresql/howto-scale"
+    },
+    {
+      "Task": "Engage in Regular Training",
+      "Task Description": "Ensure the operations team participates in regular training to stay updated with new PostgreSQL features, best practices, and security measures.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/postgresql/"
+    },
+    {
+      "Task": "User Feedback and Improvement",
+      "Task Description": "Collect and analyze user feedback regarding database performance and reliability. Implement continuous improvements based on this feedback.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/postgresql/howto-query-performance"
+    }
+  ]
+}
