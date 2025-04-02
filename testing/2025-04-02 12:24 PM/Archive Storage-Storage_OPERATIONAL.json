@@ -1,0 +1,104 @@
+{
+  "Service": "Archive Storage",
+  "Category": "Storage",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Storage Health",
+      "Task Description": "Use Azure Monitor to continuously track the health and performance of Archive Storage accounts. Identify and resolve any anomalies or issues.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/archive-storage-monitoring"
+    },
+    {
+      "Task": "Verify Data Integrity",
+      "Task Description": "Perform regular checks to ensure the integrity of archived data using Azure Storage's built-in data integrity features.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/archive-storage-data-integrity"
+    },
+    {
+      "Task": "Review Access Policies",
+      "Task Description": "Audit and update access policies for Archive Storage accounts to ensure compliance with organizational security standards.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/archive-storage-access-policies"
+    },
+    {
+      "Task": "Optimize Storage Costs",
+      "Task Description": "Analyze storage usage patterns and adjust lifecycle management policies to optimize costs for archived data.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/archive-storage-cost-optimization"
+    },
+    {
+      "Task": "Test Data Retrieval",
+      "Task Description": "Conduct periodic tests to ensure archived data can be successfully retrieved within the expected timeframes.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/archive-storage-data-retrieval"
+    },
+    {
+      "Task": "Update Encryption Keys",
+      "Task Description": "Rotate encryption keys used for Archive Storage accounts to maintain security and compliance with organizational policies.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/archive-storage-encryption"
+    },
+    {
+      "Task": "Audit Storage Configurations",
+      "Task Description": "Perform regular audits of Archive Storage configurations to ensure alignment with best practices and organizational requirements.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/archive-storage-configuration-audit"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep documentation for Archive Storage operations up-to-date, including lifecycle policies, access controls, and troubleshooting guides.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/archive-storage-documentation"
+    },
+    {
+      "Task": "Incident Response Drills",
+      "Task Description": "Conduct drills to prepare for potential incidents affecting Archive Storage, such as data corruption or retrieval failures.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/archive-storage-incident-response"
+    },
+    {
+      "Task": "Review Storage Lifecycle Policies",
+      "Task Description": "Ensure lifecycle policies for Archive Storage are configured correctly to move data to the archive tier and delete expired data as needed.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/archive-storage-lifecycle-management"
+    },
+    {
+      "Task": "Backup Configuration Settings",
+      "Task Description": "Regularly back up configuration settings for Archive Storage accounts to ensure quick recovery in case of accidental changes or failures.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/archive-storage-backup-configuration"
+    },
+    {
+      "Task": "User Feedback and Improvement",
+      "Task Description": "Collect feedback from users regarding Archive Storage performance and reliability. Implement improvements based on this feedback.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/archive-storage-feedback"
+    }
+  ]
+}
