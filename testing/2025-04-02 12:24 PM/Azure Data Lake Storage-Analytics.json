@@ -1,0 +1,104 @@
+{
+  "Service": "Azure Data Lake Storage",
+  "Category": "Analytics",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Requirements",
+      "Task Description": "Gather detailed requirements for data storage, analytics workloads, scalability, and integration with existing systems. Identify the types of data and analytics processes that will be supported.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/data-lake-storage/introduction",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Data Architecture",
+      "Task Description": "Design the data architecture, including folder structure, naming conventions, and access patterns. Plan for data ingestion, processing, and analytics workflows.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/data-lake-storage/data-lake-storage-best-practices",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Provision Azure Data Lake Storage",
+      "Task Description": "Create and configure the Azure Data Lake Storage account. Ensure the account is set up with the required performance tier and redundancy options.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/data-lake-storage/data-lake-storage-create-account",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Configure security settings, including encryption at rest and in transit, access control lists (ACLs), and role-based access control (RBAC). Ensure compliance with organizational security policies.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/data-lake-storage/data-lake-storage-security",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Set Up Data Ingestion Pipelines",
+      "Task Description": "Configure data ingestion pipelines using Azure Data Factory or other tools. Ensure pipelines are optimized for performance and reliability.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/data-factory/introduction",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Integrate Analytics Tools",
+      "Task Description": "Integrate analytics tools such as Azure Synapse Analytics, Databricks, or HDInsight with Azure Data Lake Storage for data processing and analysis.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/synapse-analytics/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring and alerting using Azure Monitor and Log Analytics. Configure alerts for storage capacity, data access patterns, and pipeline failures.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/monitoring/",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Test Data Workflows",
+      "Task Description": "Perform testing of data ingestion, processing, and analytics workflows. Validate data accuracy, performance, and failover mechanisms.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/data-lake-storage/data-lake-storage-troubleshooting",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Optimize Storage and Analytics Performance",
+      "Task Description": "Analyze storage and analytics performance metrics. Implement optimizations such as partitioning, caching, and query tuning.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/data-lake-storage/data-lake-storage-performance",
+      "Frequency": "Monthly"
+    },
+    {
+      "Task": "Document Architecture and Processes",
+      "Task Description": "Create detailed documentation for the data architecture, security configurations, and operational procedures. Share documentation with relevant stakeholders.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/data-lake-storage/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Conduct Training Sessions",
+      "Task Description": "Train the operations and analytics teams on using Azure Data Lake Storage and integrated tools. Provide guidance on troubleshooting and best practices.",
+      "Task Type": "Project",
+      "Classification": "Support",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/data-lake-storage/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Compliance and Auditing",
+      "Task Description": "Ensure the setup meets regulatory compliance requirements. Implement regular auditing procedures to verify compliance and security postures.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/compliance/",
+      "Frequency": "Monthly"
+    }
+  ]
+}
