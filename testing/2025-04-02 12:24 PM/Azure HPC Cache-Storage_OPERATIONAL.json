@@ -1,0 +1,112 @@
+{
+  "Service": "Azure HPC Cache",
+  "Category": "Storage",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Cache Health",
+      "Task Description": "Use Azure Monitor to continuously track the health and performance of the HPC Cache service. Identify and resolve any anomalies or issues promptly.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hpc-cache/monitoring"
+    },
+    {
+      "Task": "Validate Cache Configuration",
+      "Task Description": "Regularly review and validate the HPC Cache configuration to ensure it aligns with storage requirements and best practices.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hpc-cache/configuration"
+    },
+    {
+      "Task": "Perform Security Audits",
+      "Task Description": "Conduct security audits to ensure the HPC Cache service complies with organizational security policies and standards. Verify encryption settings and access controls.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hpc-cache/security"
+    },
+    {
+      "Task": "Backup Cache Metadata",
+      "Task Description": "Regularly back up cache metadata to ensure data integrity and availability in case of service disruptions.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hpc-cache/backup"
+    },
+    {
+      "Task": "Optimize Cache Performance",
+      "Task Description": "Analyze performance metrics and optimize cache settings to ensure efficient storage operations and minimal latency.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hpc-cache/performance-tuning"
+    },
+    {
+      "Task": "Test Failover Scenarios",
+      "Task Description": "Conduct failover tests to verify the resiliency of the HPC Cache service and ensure that backup systems function correctly during outages.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hpc-cache/failover-testing"
+    },
+    {
+      "Task": "Update Cache Software",
+      "Task Description": "Apply updates and patches to the HPC Cache software to ensure the service remains secure and up-to-date with the latest features.",
+      "Task Type": "Operational",
+      "Classification": "Maintenance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hpc-cache/software-updates"
+    },
+    {
+      "Task": "Audit Access Logs",
+      "Task Description": "Review access logs to detect unauthorized access or unusual activity within the HPC Cache service.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hpc-cache/access-logs"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Ensure all operational procedures, configurations, and troubleshooting guides for HPC Cache are up-to-date and accessible.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hpc-cache/documentation"
+    },
+    {
+      "Task": "Review Service SLA Compliance",
+      "Task Description": "Evaluate the HPC Cache service against its SLA to ensure compliance and address any deviations.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hpc-cache/sla"
+    },
+    {
+      "Task": "Conduct Incident Response Drills",
+      "Task Description": "Perform incident response drills to prepare the team for potential service disruptions or security incidents.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hpc-cache/incident-response"
+    },
+    {
+      "Task": "Engage in Regular Training",
+      "Task Description": "Provide training to the operations team to stay updated with new HPC Cache features and best practices.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hpc-cache/training"
+    },
+    {
+      "Task": "Plan for Capacity Expansion",
+      "Task Description": "Develop and execute plans for expanding HPC Cache capacity as storage demands grow.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hpc-cache/capacity-planning"
+    }
+  ]
+}
