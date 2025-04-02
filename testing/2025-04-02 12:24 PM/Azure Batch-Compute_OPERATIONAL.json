@@ -1,0 +1,120 @@
+{
+  "Service": "Azure Batch",
+  "Category": "Compute",
+  "dateCreated": "2023-10-07 12:00",
+  "dateModified": "2023-10-07 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Batch Pool Health",
+      "Task Description": "Use Azure Monitor to continuously track the health and performance of Batch pools. Identify and resolve any anomalies or issues affecting compute nodes.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/batch/batch-monitoring"
+    },
+    {
+      "Task": "Update Compute Node Images",
+      "Task Description": "Regularly update the operating system images on compute nodes to ensure they are running the latest patches and updates.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/batch/batch-node-updates"
+    },
+    {
+      "Task": "Scale Batch Pools",
+      "Task Description": "Adjust the size of Batch pools based on workload requirements to optimize resource utilization and cost efficiency.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/batch/batch-scaling"
+    },
+    {
+      "Task": "Perform Security Audits",
+      "Task Description": "Conduct regular security audits to ensure compliance with organizational policies and industry standards. Verify access controls and encryption settings.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/batch/batch-security"
+    },
+    {
+      "Task": "Backup Batch Configuration",
+      "Task Description": "Create backups of Batch account configurations, including pool settings and job schedules, to ensure recoverability in case of accidental changes or failures.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/batch/batch-backup"
+    },
+    {
+      "Task": "Test Failover Scenarios",
+      "Task Description": "Simulate failover scenarios to validate the resiliency of Batch pools and ensure that workloads can recover seamlessly in case of node failures.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/batch/batch-failover"
+    },
+    {
+      "Task": "Optimize Job Scheduling",
+      "Task Description": "Review and optimize job scheduling configurations to ensure efficient execution of workloads and minimize idle compute resources.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/batch/batch-job-scheduling"
+    },
+    {
+      "Task": "Review Billing and Usage Reports",
+      "Task Description": "Analyze billing and usage reports to identify cost-saving opportunities and ensure that Batch resources are being utilized effectively.",
+      "Task Type": "Operational",
+      "Classification": "Cost Management",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/batch/batch-billing"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep documentation for Azure Batch operations up-to-date, including configuration details, troubleshooting guides, and best practices.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/batch/"
+    },
+    {
+      "Task": "Conduct Training for Operations Team",
+      "Task Description": "Provide regular training sessions for the operations team to ensure familiarity with Azure Batch features, updates, and best practices.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/batch/"
+    },
+    {
+      "Task": "Audit Resource Allocation",
+      "Task Description": "Perform audits of resource allocation within Batch pools to ensure alignment with workload requirements and prevent over-provisioning.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/batch/batch-resource-management"
+    },
+    {
+      "Task": "Incident Response Drills",
+      "Task Description": "Conduct drills to prepare the team for potential incidents, such as compute node failures or job execution errors. Ensure readiness to respond effectively.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/batch/batch-troubleshooting"
+    },
+    {
+      "Task": "Validate Network Connectivity",
+      "Task Description": "Ensure that compute nodes have stable and secure network connectivity to Azure Batch services and other required resources.",
+      "Task Type": "Operational",
+      "Classification": "Networking",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/batch/batch-networking"
+    },
+    {
+      "Task": "Review SLA Compliance",
+      "Task Description": "Evaluate Azure Batch service performance against SLA metrics. Address any deviations or issues with Microsoft support if necessary.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/batch/batch-sla"
+    }
+  ]
+}
