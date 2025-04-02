@@ -1,0 +1,112 @@
+{
+  "Service": "Azure Stream Analytics",
+  "Category": "Analytics",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Define Project Objectives",
+      "Task Description": "Identify the goals and objectives of the analytics project, including the data sources, expected outcomes, and key performance indicators (KPIs).",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/stream-analytics/overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Assess Data Sources",
+      "Task Description": "Evaluate the data sources to be ingested into Azure Stream Analytics, such as IoT devices, event hubs, or blob storage.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-inputs",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Query Logic",
+      "Task Description": "Develop the query logic using Stream Analytics Query Language to process and analyze the data streams.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-query-language",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Provision Azure Stream Analytics Job",
+      "Task Description": "Create and configure a Stream Analytics job in the Azure portal, specifying inputs, outputs, and query logic.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-job",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Inputs and Outputs",
+      "Task Description": "Set up the input sources (e.g., Event Hub, IoT Hub, Blob Storage) and output destinations (e.g., Power BI, SQL Database, Cosmos DB) for the Stream Analytics job.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-inputs-and-outputs",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Ensure data security by configuring encryption, access controls, and secure connections for all inputs and outputs.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/security/fundamentals/encryption-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Test Stream Analytics Job",
+      "Task Description": "Run test scenarios to validate the query logic, data flow, and output accuracy. Debug and optimize as needed.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-testing",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Deploy Stream Analytics Job",
+      "Task Description": "Deploy the Stream Analytics job to production and monitor its initial performance.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-job-deployment",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring and alerts using Azure Monitor to track job performance, errors, and resource utilization.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-monitoring",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Optimize Query Performance",
+      "Task Description": "Regularly review and optimize the query logic to improve performance and reduce costs.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-query-optimization",
+      "Frequency": "Monthly"
+    },
+    {
+      "Task": "Document Configuration and Processes",
+      "Task Description": "Create detailed documentation of the Stream Analytics job configuration, query logic, and operational procedures.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/stream-analytics/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Conduct Training for Operations Team",
+      "Task Description": "Train the operations team on managing, monitoring, and troubleshooting the Stream Analytics job.",
+      "Task Type": "Project",
+      "Classification": "Support",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/stream-analytics/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Perform Regular Audits",
+      "Task Description": "Conduct regular audits to ensure compliance with security and performance standards.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/compliance/",
+      "Frequency": "Monthly"
+    }
+  ]
+}
