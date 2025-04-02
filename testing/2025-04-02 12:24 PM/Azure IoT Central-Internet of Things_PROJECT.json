@@ -1,0 +1,92 @@
+{
+  "Service": "Azure IoT Central",
+  "Category": "Internet of Things",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Define Project Scope and Objectives",
+      "Task Description": "Identify the goals and requirements for the IoT solution, including device types, data collection needs, and integration points.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-central/"
+    },
+    {
+      "Task": "Select IoT Central Application Template",
+      "Task Description": "Choose an appropriate IoT Central application template based on the project requirements, such as retail, healthcare, or energy.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-central/core/howto-select-template"
+    },
+    {
+      "Task": "Create IoT Central Application",
+      "Task Description": "Provision a new IoT Central application in the Azure portal, specifying the application name, region, and pricing plan.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-central/core/howto-create-application"
+    },
+    {
+      "Task": "Configure Device Templates",
+      "Task Description": "Define device templates to model the devices that will connect to the IoT Central application, including telemetry, properties, and commands.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-central/core/howto-set-up-device-template"
+    },
+    {
+      "Task": "Set Up Device Connectivity",
+      "Task Description": "Configure device connectivity settings, including IoT Hub integration, device provisioning, and connection strings.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-central/core/howto-connect-devices"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Enable security features such as device authentication, data encryption, and role-based access control (RBAC) for the IoT Central application.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-central/core/howto-manage-users"
+    },
+    {
+      "Task": "Integrate with External Systems",
+      "Task Description": "Set up integrations with external systems such as Azure Data Explorer, Power BI, or third-party applications for data analysis and visualization.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-central/core/howto-export-data"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring and alerting for device health, telemetry thresholds, and application performance using IoT Central's built-in tools.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-central/core/howto-configure-rules"
+    },
+    {
+      "Task": "Test Device Connectivity and Data Flow",
+      "Task Description": "Perform end-to-end testing to ensure devices can connect to the IoT Central application and data flows correctly to the configured endpoints.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-central/core/howto-troubleshoot"
+    },
+    {
+      "Task": "Document Application Setup and Usage",
+      "Task Description": "Create detailed documentation for the IoT Central application setup, device templates, and operational procedures.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-central/"
+    },
+    {
+      "Task": "Train Operations Team",
+      "Task Description": "Conduct training sessions for the operations team on managing devices, monitoring data, and troubleshooting issues in IoT Central.",
+      "Task Type": "Project",
+      "Classification": "Support",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-central/core/"
+    },
+    {
+      "Task": "Ensure Compliance and Auditing",
+      "Task Description": "Verify that the IoT Central application meets regulatory compliance requirements and set up auditing procedures for ongoing compliance checks.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-central/core/"
+    }
+  ]
+}
