@@ -1,0 +1,112 @@
+{
+  "Service": "Microsoft Purview",
+  "Category": "Analytics",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Data Catalog Health",
+      "Task Description": "Use monitoring tools to continuously check the health and performance of the Microsoft Purview Data Catalog. Identify and resolve any anomalies or issues.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/purview/data-catalog-overview"
+    },
+    {
+      "Task": "Validate Data Lineage",
+      "Task Description": "Regularly review and validate data lineage information to ensure accuracy and completeness. Address any discrepancies or missing lineage data.",
+      "Task Type": "Operational",
+      "Classification": "Analytics",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/purview/data-lineage-overview"
+    },
+    {
+      "Task": "Audit Metadata Quality",
+      "Task Description": "Conduct audits of metadata quality in the Purview Data Catalog to ensure compliance with organizational standards and policies.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/purview/metadata-management"
+    },
+    {
+      "Task": "Update Classification Rules",
+      "Task Description": "Review and update data classification rules to align with evolving business requirements and regulatory changes.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/purview/data-classification"
+    },
+    {
+      "Task": "Perform Security Checks",
+      "Task Description": "Verify the security settings of Microsoft Purview, including access controls and encryption configurations, to ensure data protection.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/purview/security-overview"
+    },
+    {
+      "Task": "Optimize Analytics Queries",
+      "Task Description": "Analyze and optimize analytics queries to improve performance and reduce resource consumption.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/purview/analytics-overview"
+    },
+    {
+      "Task": "Backup Configuration and Metadata",
+      "Task Description": "Regularly back up configuration settings and metadata stored in Microsoft Purview to ensure recoverability in case of data loss.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/purview/backup-and-recovery"
+    },
+    {
+      "Task": "Conduct Training Sessions",
+      "Task Description": "Organize training sessions for users and administrators to ensure familiarity with Microsoft Purview features and best practices.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/purview/training-resources"
+    },
+    {
+      "Task": "Review Analytics Dashboards",
+      "Task Description": "Regularly review analytics dashboards to ensure they provide accurate and actionable insights. Update dashboards as needed.",
+      "Task Type": "Operational",
+      "Classification": "Analytics",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/purview/dashboard-overview"
+    },
+    {
+      "Task": "Incident Response Drills",
+      "Task Description": "Conduct incident response drills to prepare for potential security breaches or data integrity issues within Microsoft Purview.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/purview/incident-response"
+    },
+    {
+      "Task": "User Feedback and Improvement",
+      "Task Description": "Collect and analyze user feedback regarding Microsoft Purview's analytics features. Implement improvements based on this feedback.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/purview/user-feedback"
+    },
+    {
+      "Task": "Compliance Checks",
+      "Task Description": "Perform regular compliance checks to ensure Microsoft Purview analytics operations adhere to relevant regulations and industry standards.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/purview/compliance-overview"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep Microsoft Purview analytics documentation up-to-date, including operational procedures, configuration details, and troubleshooting guides.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/purview/documentation"
+    }
+  ]
+}
