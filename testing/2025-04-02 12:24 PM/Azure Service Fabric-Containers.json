@@ -1,0 +1,192 @@
+{
+  "Service": "Azure Service Fabric",
+  "Category": "Containers",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Project Requirements",
+      "Task Description": "Gather detailed requirements for containerized applications, including scalability, availability, and resource needs. Identify the services and workloads to be deployed on Azure Service Fabric.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Service Fabric Cluster Architecture",
+      "Task Description": "Design the cluster architecture, including node types, durability levels, and placement constraints. Plan for high availability and fault tolerance.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-cluster-resource-manager",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Provision Azure Service Fabric Cluster",
+      "Task Description": "Create and configure the Service Fabric cluster in the Azure portal or using Azure CLI/PowerShell. Ensure proper configuration of node types and VM sizes.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-cluster-creation",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Networking for Cluster",
+      "Task Description": "Set up networking for the Service Fabric cluster, including virtual networks, subnets, and load balancers. Ensure secure communication between nodes and external services.",
+      "Task Type": "All",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-cluster-networking",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Deploy Containerized Applications",
+      "Task Description": "Package and deploy containerized applications to the Service Fabric cluster. Use Docker images and ensure proper configuration of application parameters.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-deploy-container",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Enable security features such as certificate-based authentication, encryption for data in transit, and access control policies. Configure Azure Key Vault for managing secrets.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-security-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Set Up Monitoring and Diagnostics",
+      "Task Description": "Configure monitoring and diagnostics using Azure Monitor and Application Insights. Set up alerts for cluster health, node status, and application performance.",
+      "Task Type": "All",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-monitoring",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Test Cluster and Application Performance",
+      "Task Description": "Perform thorough testing of the cluster and deployed applications, including failover scenarios, load testing, and performance benchmarking.",
+      "Task Type": "All",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-test-cluster",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Document Cluster Configuration and Procedures",
+      "Task Description": "Create detailed documentation for the cluster setup, application deployment, and operational procedures. Include troubleshooting guides and escalation paths.",
+      "Task Type": "All",
+      "Classification": "Documentation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Conduct Training for Operations Team",
+      "Task Description": "Provide training sessions for the operations team on managing and troubleshooting the Service Fabric cluster and containerized applications.",
+      "Task Type": "All",
+      "Classification": "Training",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/",
+      "Frequency": "Quarterly"
+    },
+    {
+      "Task": "Implement Compliance and Auditing Procedures",
+      "Task Description": "Ensure the cluster and applications meet regulatory compliance requirements. Set up regular auditing procedures to verify security and operational standards.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/compliance/",
+      "Frequency": "Monthly"
+    },
+    {
+      "Task": "Monitor Cluster Health",
+      "Task Description": "Use Azure Monitor and Service Fabric Explorer to continuously monitor the health and status of the Service Fabric cluster hosting containers. Identify and investigate any anomalies or potential issues.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "Continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-monitoring"
+    },
+    {
+      "Task": "Update Container Images",
+      "Task Description": "Regularly update container images to ensure they include the latest security patches and performance improvements. Use Azure Container Registry or other repositories for image management.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "Weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-containers-overview"
+    },
+    {
+      "Task": "Validate Resource Allocation",
+      "Task Description": "Ensure that containers are allocated sufficient resources (CPU, memory, etc.) within the Service Fabric cluster. Adjust resource limits as needed to optimize performance.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "Monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-resource-governance"
+    },
+    {
+      "Task": "Perform Cluster Upgrades",
+      "Task Description": "Upgrade the Service Fabric cluster to the latest version to ensure compatibility with container workloads and access to new features.",
+      "Task Type": "Operational",
+      "Classification": "Implementation",
+      "Frequency": "Quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-upgrade-cluster"
+    },
+    {
+      "Task": "Backup Cluster Configuration",
+      "Task Description": "Regularly back up the Service Fabric cluster configuration and container deployment settings to ensure quick recovery in case of failure.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "Weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-backup-restore"
+    },
+    {
+      "Task": "Audit Security Policies",
+      "Task Description": "Review and update security policies for containers running in Service Fabric, including access controls and encryption settings.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "Quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-security-overview"
+    },
+    {
+      "Task": "Test Failover Scenarios",
+      "Task Description": "Conduct failover tests to ensure container workloads can recover seamlessly in case of node or cluster failures.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "Monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-reliable-services-failover"
+    },
+    {
+      "Task": "Optimize Container Placement",
+      "Task Description": "Analyze container placement within the Service Fabric cluster to ensure optimal distribution and performance. Adjust placement constraints as needed.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "Monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-cluster-resource-management"
+    },
+    {
+      "Task": "Conduct Incident Response Drills",
+      "Task Description": "Perform regular incident response drills to prepare the team for potential security incidents or container workload outages.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "Semi-Annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-troubleshooting"
+    },
+    {
+      "Task": "Review Container Logs",
+      "Task Description": "Analyze container logs for errors, warnings, or performance issues. Use Azure Monitor or other logging tools for detailed insights.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "Daily",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-diagnostics"
+    },
+    {
+      "Task": "Validate Networking Configuration",
+      "Task Description": "Ensure that networking configurations for containers, such as DNS and IP routing, are functioning correctly within the Service Fabric cluster.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "Monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-networking"
+    },
+    {
+      "Task": "Plan for Scaling",
+      "Task Description": "Develop and execute plans for scaling container workloads within the Service Fabric cluster based on usage trends and forecasts.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Frequency": "Annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-scale"
+    }
+  ]
+}
