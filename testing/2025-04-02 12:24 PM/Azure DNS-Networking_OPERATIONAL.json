@@ -1,0 +1,112 @@
+{
+  "Service": "Azure DNS",
+  "Category": "Networking",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor DNS Zone Health",
+      "Task Description": "Use Azure Monitor to continuously track the health and performance of DNS zones. Identify and resolve any anomalies or issues.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dns/dns-overview"
+    },
+    {
+      "Task": "Validate DNS Records",
+      "Task Description": "Regularly review DNS records to ensure they are accurate and up-to-date. Verify that all records align with the intended configurations.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dns/dns-record-types"
+    },
+    {
+      "Task": "Implement DNS Security Measures",
+      "Task Description": "Enable DNS security features such as DNSSEC to protect against spoofing and other DNS-related attacks. Regularly review security configurations.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dns/dns-security"
+    },
+    {
+      "Task": "Audit DNS Zone Configurations",
+      "Task Description": "Conduct audits of DNS zone configurations to ensure compliance with organizational policies and best practices.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dns/dns-best-practices"
+    },
+    {
+      "Task": "Backup DNS Zone Data",
+      "Task Description": "Regularly back up DNS zone data to ensure recoverability in case of accidental deletion or corruption.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dns/dns-zone-backup"
+    },
+    {
+      "Task": "Test Failover Scenarios",
+      "Task Description": "Perform failover tests to ensure DNS redundancy and high availability configurations are functioning as expected.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dns/dns-high-availability"
+    },
+    {
+      "Task": "Update DNS Zone Documentation",
+      "Task Description": "Maintain up-to-date documentation for DNS zones, including operational procedures, configurations, and troubleshooting guides.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dns/"
+    },
+    {
+      "Task": "Review DNS Performance Metrics",
+      "Task Description": "Analyze DNS performance metrics to ensure optimal resolution times and identify any bottlenecks or issues.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dns/dns-performance"
+    },
+    {
+      "Task": "Conduct Incident Response Drills",
+      "Task Description": "Simulate DNS-related incidents to test the team's readiness and response protocols. Ensure familiarity with recovery procedures.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dns/dns-troubleshooting"
+    },
+    {
+      "Task": "Plan for DNS Zone Expansions",
+      "Task Description": "Develop and execute plans for expanding DNS zones or adding new records as needed. Ensure minimal disruption during these activities.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dns/dns-zone-management"
+    },
+    {
+      "Task": "Engage in Regular Training",
+      "Task Description": "Ensure the operations team participates in regular training to stay updated with new Azure DNS features, best practices, and security measures.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dns/"
+    },
+    {
+      "Task": "Review DNS Provider SLA",
+      "Task Description": "Evaluate the SLA performance of Azure DNS. Address any issues or deviations from the agreed SLA metrics.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dns/dns-sla"
+    },
+    {
+      "Task": "Optimize DNS Query Performance",
+      "Task Description": "Analyze and optimize DNS query performance to ensure fast and reliable resolution for end-users.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dns/dns-performance"
+    }
+  ]
+}
