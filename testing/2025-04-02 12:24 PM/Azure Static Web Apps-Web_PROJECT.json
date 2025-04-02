@@ -1,0 +1,112 @@
+{
+  "Service": "Azure Static Web Apps",
+  "Category": "Web",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Project Requirements",
+      "Task Description": "Gather detailed requirements for the web application, including hosting needs, supported frameworks, and integration with APIs or backend services.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/static-web-apps/overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Application Architecture",
+      "Task Description": "Plan the architecture of the web application, including static content hosting, API integration, and CI/CD workflows.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/static-web-apps/overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Set Up Azure Subscription",
+      "Task Description": "Ensure an active Azure subscription is available and assign necessary permissions for the team to deploy and manage resources.",
+      "Task Type": "Operational",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/static-web-apps/get-started-portal",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Create Azure Static Web App Resource",
+      "Task Description": "Provision a new Azure Static Web App resource in the Azure portal, specifying the repository and branch for deployment.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/static-web-apps/get-started-portal",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Deployment Source",
+      "Task Description": "Link the Azure Static Web App to a GitHub or Azure DevOps repository for automated deployments.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/static-web-apps/get-started-portal",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Set Up CI/CD Pipeline",
+      "Task Description": "Configure a CI/CD pipeline to automate the build and deployment process using GitHub Actions or Azure DevOps.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/static-web-apps/github-actions-workflow",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Enable security features such as custom authentication providers, role-based access control, and HTTPS enforcement.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/static-web-apps/authentication-authorization",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Custom Domain",
+      "Task Description": "Set up a custom domain for the web application and configure DNS settings to point to the Azure Static Web App.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/static-web-apps/custom-domain",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Test Application Deployment",
+      "Task Description": "Verify the deployment of the web application, including functionality, performance, and integration with APIs.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/static-web-apps/troubleshooting",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Set Up Monitoring and Alerts",
+      "Task Description": "Configure monitoring and alerting for the web application using Azure Monitor and Application Insights.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/static-web-apps/monitoring",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Document Application Setup",
+      "Task Description": "Create detailed documentation for the application setup, including architecture, deployment process, and troubleshooting steps.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/static-web-apps/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Conduct Training for Operations Team",
+      "Task Description": "Provide training to the operations team on managing and maintaining the Azure Static Web App.",
+      "Task Type": "Project",
+      "Classification": "Support",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/static-web-apps/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Perform Regular Audits",
+      "Task Description": "Conduct periodic audits to ensure compliance with security and performance standards.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/static-web-apps/",
+      "Frequency": "Monthly"
+    }
+  ]
+}
