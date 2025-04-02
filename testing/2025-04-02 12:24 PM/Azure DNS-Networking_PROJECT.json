@@ -1,0 +1,120 @@
+{
+  "Service": "Azure DNS",
+  "Category": "Networking",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess DNS Requirements",
+      "Task Description": "Gather detailed requirements for DNS zones, record types, and expected traffic. Identify the domains and subdomains to be managed using Azure DNS.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dns/dns-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design DNS Architecture",
+      "Task Description": "Design the DNS architecture, including the structure of DNS zones, record hierarchy, and integration with existing DNS systems.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dns/dns-domain-delegation",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Create DNS Zones",
+      "Task Description": "Create DNS zones in Azure DNS for the required domains. Ensure proper naming conventions and configurations are followed.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dns/dns-getstarted-portal",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure DNS Records",
+      "Task Description": "Add and configure DNS records such as A, CNAME, MX, TXT, and SRV records as per the project requirements.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dns/dns-getstarted-portal",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Enable DNS security features such as DNSSEC (if supported) and restrict access to DNS zones using Azure Role-Based Access Control (RBAC).",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dns/dns-operations-security",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Delegate Domain to Azure DNS",
+      "Task Description": "Update the domain registrar to delegate the domain to Azure DNS by configuring the name server (NS) records.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dns/dns-domain-delegation",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Test DNS Resolution",
+      "Task Description": "Verify that DNS records are resolving correctly by performing DNS lookups and testing application connectivity.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dns/dns-troubleshoot",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring for DNS zone health and configure alerts for changes or failures using Azure Monitor.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dns/dns-monitoring",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Document DNS Configuration",
+      "Task Description": "Document the DNS architecture, zone configurations, and operational procedures. Share the documentation with relevant stakeholders.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dns/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Train Operations Team",
+      "Task Description": "Conduct training sessions for the operations team on managing and troubleshooting Azure DNS configurations.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dns/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Establish Backup and Recovery Plan",
+      "Task Description": "Develop a backup and recovery plan for DNS configurations to ensure quick restoration in case of accidental changes or failures.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dns/dns-operations-backup",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Perform Regular Audits",
+      "Task Description": "Schedule and perform regular audits of DNS configurations to ensure compliance with organizational policies and security standards.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dns/dns-operations-security",
+      "Frequency": "Monthly"
+    },
+    {
+      "Task": "Update DNS Records as Needed",
+      "Task Description": "Periodically update DNS records to reflect changes in application configurations or infrastructure.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dns/dns-getstarted-portal",
+      "Frequency": "As Needed"
+    },
+    {
+      "Task": "Monitor DNS Performance",
+      "Task Description": "Continuously monitor DNS performance and troubleshoot any latency or resolution issues.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/dns/dns-monitoring",
+      "Frequency": "Continuous"
+    }
+  ]
+}
