@@ -1,0 +1,128 @@
+{
+  "Service": "Azure Cloud Services",
+  "Category": "Compute",
+  "dateCreated": "2023-10-07 12:00",
+  "dateModified": "2023-10-07 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Project Requirements",
+      "Task Description": "Gather detailed requirements for the compute resources, including scalability, availability, and performance needs. Identify the applications and workloads to be hosted on Azure Cloud Services.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Service Architecture",
+      "Task Description": "Design the architecture for the Azure Cloud Services deployment, including roles (web and worker), instance sizes, and deployment regions.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-architecture",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Create Azure Subscription",
+      "Task Description": "Ensure an active Azure subscription is available for deploying Cloud Services. Verify billing and resource limits.",
+      "Task Type": "Operational",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/create-subscription",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Develop Application Code",
+      "Task Description": "Develop or modify the application code to be deployed on Azure Cloud Services. Ensure compatibility with Azure SDKs and deployment models.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-develop-deploy",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Package Application for Deployment",
+      "Task Description": "Package the application into a format suitable for Azure Cloud Services deployment, including configuration files and service definitions.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-package-app",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Deploy Cloud Services",
+      "Task Description": "Deploy the packaged application to Azure Cloud Services using the Azure portal, PowerShell, or CLI. Verify deployment success.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-deploy",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Autoscaling",
+      "Task Description": "Set up autoscaling rules to ensure the compute resources scale dynamically based on workload demands.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-autoscale",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Apply security best practices, including role-based access control (RBAC), encryption, and secure communication protocols.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/security/fundamentals/overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Set Up Monitoring and Alerts",
+      "Task Description": "Configure Azure Monitor and Application Insights to track performance, availability, and errors. Set up alerts for critical metrics.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/monitoring-and-diagnostics/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Test Application Functionality",
+      "Task Description": "Perform thorough testing of the deployed application, including load testing, failover scenarios, and functionality validation.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-test-app",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Optimize Performance",
+      "Task Description": "Analyze application performance and optimize configurations, such as instance sizes and caching mechanisms.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-performance",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Document Deployment and Configuration",
+      "Task Description": "Create detailed documentation for the deployment process, architecture, and configurations. Share with relevant stakeholders.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Conduct Training for Operations Team",
+      "Task Description": "Train the operations team on managing and troubleshooting Azure Cloud Services deployments.",
+      "Task Type": "Project",
+      "Classification": "Support",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-training",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Perform Regular Maintenance",
+      "Task Description": "Schedule regular maintenance tasks, including updates to application code, Azure SDKs, and security patches.",
+      "Task Type": "Operational",
+      "Classification": "Support",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-maintenance",
+      "Frequency": "Monthly"
+    },
+    {
+      "Task": "Audit and Compliance Checks",
+      "Task Description": "Perform regular audits to ensure compliance with organizational and regulatory standards.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/compliance/",
+      "Frequency": "Monthly"
+    }
+  ]
+}
