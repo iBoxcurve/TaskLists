@@ -1,0 +1,112 @@
+{
+  "Service": "Azure Container Registry",
+  "Category": "Containers",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Requirements",
+      "Task Description": "Gather detailed requirements for container image storage, access control, and integration with CI/CD pipelines. Identify the applications and services that will use the Azure Container Registry.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-registry/container-registry-introduction",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Registry Architecture",
+      "Task Description": "Design the architecture for the Azure Container Registry, including the tier (Basic, Standard, Premium), geographic replication needs, and integration with Azure Kubernetes Service (AKS) or other container platforms.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-registry/container-registry-skus",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Create Azure Container Registry",
+      "Task Description": "Provision the Azure Container Registry in the Azure portal or using Azure CLI/PowerShell. Select the appropriate SKU and configure the registry settings.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-registry/container-registry-get-started-azure-cli",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Enable Geo-Replication",
+      "Task Description": "Configure geo-replication for the Azure Container Registry to ensure high availability and disaster recovery across multiple regions.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-registry/container-registry-geo-replication",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Access Control",
+      "Task Description": "Set up role-based access control (RBAC) for the registry to manage permissions for users and applications. Define roles such as Reader, Contributor, and Owner.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-registry/container-registry-roles",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Enable Content Trust",
+      "Task Description": "Configure content trust to ensure that only signed container images are pulled from the registry.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-registry/container-registry-content-trust",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Integrate with CI/CD Pipelines",
+      "Task Description": "Set up integration with CI/CD pipelines to automate the build, push, and deployment of container images. Use tools like Azure DevOps or GitHub Actions.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-registry/container-registry-tasks",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Image Scanning",
+      "Task Description": "Enable image scanning to detect vulnerabilities in container images stored in the registry.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-registry/container-registry-vulnerability-scanning",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Set Up Monitoring and Alerts",
+      "Task Description": "Configure monitoring and alerting for the registry using Azure Monitor. Set up alerts for storage usage, image pull failures, and other critical metrics.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-registry/container-registry-monitor",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Test Registry Functionality",
+      "Task Description": "Perform testing to ensure the registry is functioning as expected. Test image push, pull, and integration with container platforms.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-registry/container-registry-troubleshoot",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Document Configuration and Usage",
+      "Task Description": "Document the registry setup, configurations, and usage guidelines. Include instructions for developers and operations teams.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-registry/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Backup and Recovery",
+      "Task Description": "Set up backup and recovery procedures for the registry to ensure data integrity and availability in case of failures.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-registry/container-registry-geo-replication",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Compliance and Auditing",
+      "Task Description": "Ensure the registry setup meets compliance requirements. Implement regular auditing procedures to verify security and operational standards.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/compliance/",
+      "Frequency": "Monthly"
+    }
+  ]
+}
