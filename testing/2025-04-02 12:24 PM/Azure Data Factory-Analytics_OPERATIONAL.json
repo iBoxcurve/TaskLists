@@ -1,0 +1,120 @@
+{
+  "Service": "Azure Data Factory",
+  "Category": "Analytics",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Pipeline Runs",
+      "Task Description": "Use Azure Monitor and Data Factory monitoring tools to track the status of pipeline runs. Identify and resolve any failed or delayed executions.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/monitoring-overview"
+    },
+    {
+      "Task": "Validate Data Integrity",
+      "Task Description": "Regularly check the integrity of data processed by Azure Data Factory pipelines. Ensure that transformations and data movements are accurate and complete.",
+      "Task Type": "Operational",
+      "Classification": "Quality Assurance",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/data-flow-overview"
+    },
+    {
+      "Task": "Optimize Pipeline Performance",
+      "Task Description": "Analyze pipeline performance metrics and optimize configurations to reduce execution time and resource consumption.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/optimize-data-flow-performance"
+    },
+    {
+      "Task": "Update Linked Services",
+      "Task Description": "Review and update linked services configurations to ensure connectivity to data sources and destinations remains secure and functional.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/linked-services-overview"
+    },
+    {
+      "Task": "Audit Access Controls",
+      "Task Description": "Perform regular audits of access controls and permissions for Azure Data Factory to ensure compliance with security policies.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/security-overview"
+    },
+    {
+      "Task": "Backup Pipeline Configurations",
+      "Task Description": "Create backups of pipeline configurations and store them securely to ensure recovery in case of accidental changes or deletions.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/continuous-integration-deployment"
+    },
+    {
+      "Task": "Test Disaster Recovery Procedures",
+      "Task Description": "Conduct regular tests of disaster recovery procedures to ensure pipelines can be restored quickly in case of failures.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/continuous-integration-deployment"
+    },
+    {
+      "Task": "Review Pipeline Dependencies",
+      "Task Description": "Analyze pipeline dependencies to ensure that changes in upstream or downstream systems do not disrupt data processing workflows.",
+      "Task Type": "Operational",
+      "Classification": "Dependency Management",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/control-flow-overview"
+    },
+    {
+      "Task": "Update Documentation",
+      "Task Description": "Maintain up-to-date documentation for all pipelines, configurations, and operational procedures to ensure clarity and continuity.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/"
+    },
+    {
+      "Task": "Conduct Security Reviews",
+      "Task Description": "Perform security reviews to identify vulnerabilities in pipeline configurations, linked services, and data flows.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/security-overview"
+    },
+    {
+      "Task": "Implement Feedback for Improvement",
+      "Task Description": "Collect feedback from users and stakeholders to identify areas for improvement in pipeline design and performance.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/"
+    },
+    {
+      "Task": "Validate Compliance with Regulations",
+      "Task Description": "Ensure that Azure Data Factory pipelines comply with relevant data protection and privacy regulations.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/security-overview"
+    },
+    {
+      "Task": "Train Operations Team",
+      "Task Description": "Provide regular training to the operations team on new features, best practices, and troubleshooting techniques for Azure Data Factory.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/"
+    },
+    {
+      "Task": "Monitor Cost and Usage Metrics",
+      "Task Description": "Track cost and usage metrics for Azure Data Factory to ensure efficient resource utilization and budget adherence.",
+      "Task Type": "Operational",
+      "Classification": "Cost Management",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/pricing"
+    }
+  ]
+}
