@@ -1,0 +1,104 @@
+{
+  "Service": "Azure IoT Edge",
+  "Category": "Internet of Things",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Define Project Scope and Objectives",
+      "Task Description": "Identify the goals and requirements for the IoT Edge deployment, including device types, data processing needs, and integration with cloud services.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/iot-edge/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Select IoT Edge Devices",
+      "Task Description": "Choose hardware devices that meet the requirements for running IoT Edge modules, considering factors like processing power, connectivity, and environmental conditions.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/iot-edge/hardware-requirements",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Provision Azure IoT Hub",
+      "Task Description": "Set up an Azure IoT Hub to manage IoT Edge devices and enable communication between devices and the cloud.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-create-through-portal",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Register IoT Edge Devices",
+      "Task Description": "Register IoT Edge devices in the Azure IoT Hub and generate device connection strings for secure communication.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/iot-edge/how-to-register-device",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Install IoT Edge Runtime",
+      "Task Description": "Install the IoT Edge runtime on the selected devices to enable them to run IoT Edge modules.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/iot-edge/how-to-install-iot-edge",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Develop and Deploy IoT Edge Modules",
+      "Task Description": "Create custom IoT Edge modules or use pre-built modules to process data locally on devices. Deploy these modules to IoT Edge devices via IoT Hub.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/iot-edge/tutorial-deploy-module",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Security Measures",
+      "Task Description": "Implement security measures such as device authentication, module encryption, and secure communication protocols to protect data and devices.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/iot-edge/security",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Set Up Monitoring and Diagnostics",
+      "Task Description": "Configure monitoring tools to track device health, module performance, and connectivity status. Set up alerts for critical issues.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/iot-edge/how-to-monitor",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Test IoT Edge Deployment",
+      "Task Description": "Perform end-to-end testing of the IoT Edge setup, including device connectivity, module functionality, and data processing workflows.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/iot-edge/troubleshoot",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Document Configuration and Procedures",
+      "Task Description": "Create detailed documentation of the IoT Edge setup, including device configurations, module deployments, and operational procedures.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/iot-edge/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Train Operations Team",
+      "Task Description": "Provide training to the operations team on managing IoT Edge devices, troubleshooting issues, and deploying new modules.",
+      "Task Type": "Project",
+      "Classification": "Support",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/iot-edge/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Compliance and Auditing",
+      "Task Description": "Ensure the IoT Edge deployment adheres to regulatory compliance requirements and establish regular auditing procedures.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/iot-edge/security",
+      "Frequency": "Monthly"
+    }
+  ]
+}
