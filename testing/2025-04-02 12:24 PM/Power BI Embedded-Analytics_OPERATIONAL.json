@@ -1,0 +1,120 @@
+{
+  "Service": "Power BI Embedded",
+  "Category": "Analytics",
+  "dateCreated": "2024-07-30 14:30",
+  "dateModified": "2024-07-30 14:30",
+  "Tasks": [
+    {
+      "Task": "Monitor Embedded Capacity Utilization",
+      "Task Description": "Continuously monitor the utilization of Power BI Embedded capacity to ensure optimal performance and avoid overloading. Adjust capacity as needed.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/developer/embedded-capacity-monitoring"
+    },
+    {
+      "Task": "Update Power BI Reports and Dashboards",
+      "Task Description": "Regularly update and maintain Power BI reports and dashboards to reflect the latest data and business requirements.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/create-reports"
+    },
+    {
+      "Task": "Perform Security Audits",
+      "Task Description": "Conduct regular security audits to ensure that Power BI Embedded environments comply with organizational security policies and best practices.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/admin/service-security"
+    },
+    {
+      "Task": "Backup Power BI Workspaces",
+      "Task Description": "Ensure that Power BI workspaces and their associated data are backed up regularly to prevent data loss.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/admin/service-backup"
+    },
+    {
+      "Task": "Optimize Report Performance",
+      "Task Description": "Analyze and optimize the performance of Power BI reports to ensure fast loading times and efficient data processing.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/guidance/report-performance"
+    },
+    {
+      "Task": "Review API Usage and Limits",
+      "Task Description": "Monitor and review the usage of Power BI APIs to ensure compliance with usage limits and avoid disruptions.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/developer/embedded-api-limits"
+    },
+    {
+      "Task": "Test Embedded Scenarios",
+      "Task Description": "Regularly test embedded scenarios to ensure that Power BI Embedded integrations are functioning as expected.",
+      "Task Type": "Operational",
+      "Classification": "Testing",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/developer/embedded-scenarios"
+    },
+    {
+      "Task": "Update Embedded SDKs and Libraries",
+      "Task Description": "Ensure that the latest versions of Power BI Embedded SDKs and libraries are used to maintain compatibility and security.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/developer/embedded-sdk"
+    },
+    {
+      "Task": "Conduct User Access Reviews",
+      "Task Description": "Review and update user access permissions to ensure that only authorized users have access to Power BI Embedded resources.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/admin/service-admin-roles"
+    },
+    {
+      "Task": "Document Maintenance Activities",
+      "Task Description": "Maintain detailed documentation of all maintenance activities, including updates, optimizations, and security audits.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/documentation"
+    },
+    {
+      "Task": "Plan for Capacity Scaling",
+      "Task Description": "Develop and execute plans for scaling Power BI Embedded capacity based on usage trends and future requirements.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/developer/embedded-capacity-planning"
+    },
+    {
+      "Task": "Engage in Training and Skill Development",
+      "Task Description": "Ensure that the team responsible for Power BI Embedded operations participates in regular training to stay updated with new features and best practices.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/training"
+    },
+    {
+      "Task": "Review and Update Data Sources",
+      "Task Description": "Regularly review and update data sources connected to Power BI Embedded to ensure data accuracy and reliability.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/connect-data"
+    },
+    {
+      "Task": "Perform Incident Response Drills",
+      "Task Description": "Conduct drills to prepare for potential incidents affecting Power BI Embedded, ensuring the team is familiar with response protocols.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/admin/service-incident-management"
+    }
+  ]
+}
