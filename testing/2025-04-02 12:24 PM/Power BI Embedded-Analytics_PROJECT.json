@@ -1,0 +1,88 @@
+{
+  "Service": "Power BI Embedded",
+  "Category": "Analytics",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Business Requirements",
+      "Task Description": "Gather detailed requirements for analytics, reporting, and embedding capabilities. Identify the data sources, user roles, and expected outcomes.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/developer/embedded/overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Solution Architecture",
+      "Task Description": "Design the architecture for Power BI Embedded, including workspace setup, dataset configurations, and embedding strategies.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Provision Power BI Embedded Capacity",
+      "Task Description": "Set up Power BI Embedded capacity in Azure. Choose the appropriate SKU based on performance and scalability requirements.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/developer/embedded/embedded-capacity",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Workspaces and Datasets",
+      "Task Description": "Create and configure workspaces in Power BI. Upload datasets and configure data refresh schedules.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Set up Row-Level Security (RLS) and other access controls to ensure data security and compliance.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/admin/service-security",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Embed Reports and Dashboards",
+      "Task Description": "Use Power BI APIs to embed reports and dashboards into applications. Ensure proper authentication and authorization mechanisms are in place.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Test Embedded Analytics",
+      "Task Description": "Perform testing to ensure embedded reports and dashboards function correctly. Validate performance, responsiveness, and security.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring for Power BI Embedded capacity usage and performance. Configure alerts for capacity thresholds and data refresh failures.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/admin/service-monitoring",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Document Solution and Train Users",
+      "Task Description": "Document the solution architecture, configurations, and operational procedures. Provide training to users and administrators on using and managing Power BI Embedded.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/developer/embedded/overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Compliance and Auditing",
+      "Task Description": "Ensure the solution meets regulatory compliance requirements. Conduct regular audits to verify security and data integrity.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/power-bi/admin/service-security",
+      "Frequency": "Monthly"
+    }
+  ]
+}
