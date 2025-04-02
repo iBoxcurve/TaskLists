@@ -1,0 +1,128 @@
+{
+  "Service": "Azure Virtual Machines",
+  "Category": "Compute",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor VM Health and Performance",
+      "Task Description": "Use Azure Monitor to continuously track the health and performance of Virtual Machines. Set up alerts for CPU, memory, and disk usage thresholds.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-monitor/overview"
+    },
+    {
+      "Task": "Apply Security Updates and Patches",
+      "Task Description": "Regularly update the operating system and applications on Virtual Machines with the latest security patches to mitigate vulnerabilities.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/windows/update-management"
+    },
+    {
+      "Task": "Backup Virtual Machines",
+      "Task Description": "Schedule regular backups of Virtual Machines using Azure Backup to ensure data resiliency and recovery options.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "daily",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-overview"
+    },
+    {
+      "Task": "Review and Optimize VM Performance",
+      "Task Description": "Analyze performance metrics and optimize Virtual Machine configurations, such as resizing or changing disk types, to meet workload requirements.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/windows/performance"
+    },
+    {
+      "Task": "Conduct Failover and Disaster Recovery Tests",
+      "Task Description": "Test failover and disaster recovery mechanisms to ensure Virtual Machines can recover in case of outages or failures.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/site-recovery/overview"
+    },
+    {
+      "Task": "Audit VM Security Configurations",
+      "Task Description": "Perform regular audits of Virtual Machine security settings, including firewall rules, access controls, and encryption configurations.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/security/fundamentals/secure-vm"
+    },
+    {
+      "Task": "Update VM Images",
+      "Task Description": "Ensure Virtual Machines are using the latest base images for operating systems and applications. Replace outdated images as needed.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/windows/create-vm-generalized"
+    },
+    {
+      "Task": "Maintain VM Documentation",
+      "Task Description": "Keep documentation for Virtual Machine configurations, operational procedures, and troubleshooting guides up-to-date.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/"
+    },
+    {
+      "Task": "Perform Compliance Checks",
+      "Task Description": "Verify that Virtual Machines comply with organizational policies and industry regulations, such as GDPR or HIPAA.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/governance/policy/overview"
+    },
+    {
+      "Task": "Rotate Access Credentials",
+      "Task Description": "Regularly rotate access credentials, such as SSH keys or passwords, to enhance security for Virtual Machines.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/linux/secure-ssh"
+    },
+    {
+      "Task": "Review VM Cost and Usage",
+      "Task Description": "Analyze Virtual Machine usage and costs to identify opportunities for savings, such as shutting down unused VMs or resizing instances.",
+      "Task Type": "Operational",
+      "Classification": "Cost Management",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cost-management-billing/cost-management-overview"
+    },
+    {
+      "Task": "Test VM Connectivity",
+      "Task Description": "Regularly test network connectivity for Virtual Machines to ensure they can communicate with required resources and services.",
+      "Task Type": "Operational",
+      "Classification": "Networking",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-check-connectivity"
+    },
+    {
+      "Task": "Enable and Monitor Diagnostics",
+      "Task Description": "Enable diagnostic settings for Virtual Machines and monitor logs for any unusual activity or errors.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/windows/monitor"
+    },
+    {
+      "Task": "Plan for VM Upgrades and Expansions",
+      "Task Description": "Develop and execute plans for upgrading or expanding Virtual Machine resources to meet future workload demands.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/windows/resize-vm"
+    },
+    {
+      "Task": "Engage in Regular Training",
+      "Task Description": "Ensure the operations team participates in regular training to stay updated with new Virtual Machine features and best practices.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/"
+    }
+  ]
+}
