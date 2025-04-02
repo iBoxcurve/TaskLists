@@ -1,0 +1,160 @@
+{
+  "Service": "Network Watcher",
+  "Category": "Networking",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Requirements",
+      "Task Description": "Identify the specific monitoring and diagnostic needs for the network, including traffic analysis, connection troubleshooting, and packet capture requirements.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Enable Network Watcher",
+      "Task Description": "Activate Network Watcher in the Azure portal for the required regions. Ensure it is enabled for all virtual networks that need monitoring.",
+      "Task Type": "All",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-enable",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Diagnostic Tools",
+      "Task Description": "Set up diagnostic tools such as Connection Monitor, Packet Capture, and IP Flow Verify to monitor and troubleshoot network issues.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-diagnostic-tools",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Ensure that access to Network Watcher is restricted using Role-Based Access Control (RBAC). Configure logging and auditing for all diagnostic activities.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-security",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Set Up Alerts and Monitoring",
+      "Task Description": "Configure alerts for network anomalies and performance metrics using Azure Monitor and Network Watcher integration.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-alerts",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Test Network Watcher Functionality",
+      "Task Description": "Perform tests to ensure that Network Watcher tools such as Connection Monitor and Packet Capture are functioning as expected.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-troubleshooting",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Document Configuration and Procedures",
+      "Task Description": "Create detailed documentation of the Network Watcher setup, including configurations, monitoring tools, and troubleshooting procedures.",
+      "Task Type": "All",
+      "Classification": "Documentation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/network-watcher/",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Provide Training for Operations Team",
+      "Task Description": "Conduct training sessions for the operations team on using Network Watcher tools and interpreting diagnostic data.",
+      "Task Type": "Project",
+      "Classification": "Support",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/network-watcher/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Perform Regular Audits",
+      "Task Description": "Schedule regular audits to ensure Network Watcher is functioning correctly and meeting the organization's monitoring requirements.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-auditing",
+      "Frequency": "Monthly"
+    },
+    {
+      "Task": "Update Configuration as Needed",
+      "Task Description": "Periodically review and update Network Watcher configurations to align with changes in the network architecture or monitoring requirements.",
+      "Task Type": "All",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-update",
+      "Frequency": "As Needed"
+    },
+    {
+      "Task": "Monitor Network Traffic",
+      "Task Description": "Use Network Watcher Traffic Analytics to monitor and analyze network traffic patterns for security and performance insights.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "Continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/network-watcher/traffic-analytics"
+    },
+    {
+      "Task": "Perform Connection Troubleshooting",
+      "Task Description": "Utilize Network Watcher's connection troubleshoot feature to diagnose connectivity issues between Azure resources.",
+      "Task Type": "Operational",
+      "Classification": "Troubleshooting",
+      "Frequency": "As Needed",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-connectivity-check-overview"
+    },
+    {
+      "Task": "Validate Security Group Rules",
+      "Task Description": "Use Network Watcher to validate the effectiveness of Network Security Group (NSG) rules and ensure proper traffic filtering.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "Weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-nsg-flow-logs-overview"
+    },
+    {
+      "Task": "Capture Network Packets",
+      "Task Description": "Perform packet capture using Network Watcher to analyze network traffic and diagnose issues at the packet level.",
+      "Task Type": "Operational",
+      "Classification": "Troubleshooting",
+      "Frequency": "As Needed",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-packet-capture-overview"
+    },
+    {
+      "Task": "Review Network Topology",
+      "Task Description": "Generate and review network topology diagrams using Network Watcher to ensure proper network design and identify potential issues.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Frequency": "Monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-topology"
+    },
+    {
+      "Task": "Audit Network Logs",
+      "Task Description": "Regularly audit NSG flow logs and other network logs generated by Network Watcher to identify anomalies or security threats.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "Weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-nsg-flow-logs-overview"
+    },
+    {
+      "Task": "Test VPN Connectivity",
+      "Task Description": "Use Network Watcher to test and validate VPN connectivity between on-premises and Azure resources.",
+      "Task Type": "Operational",
+      "Classification": "Networking",
+      "Frequency": "Monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-connectivity-check-overview"
+    },
+    {
+      "Task": "Conduct Network Performance Tests",
+      "Task Description": "Use Network Watcher tools to conduct performance tests and ensure optimal network throughput and latency.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "Quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-connectivity-check-overview"
+    },
+    {
+      "Task": "Incident Response Drills",
+      "Task Description": "Conduct drills to simulate network incidents and validate the effectiveness of Network Watcher in diagnosing and resolving issues.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "Semi-Annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/network-watcher/"
+    }
+  ]
+}
