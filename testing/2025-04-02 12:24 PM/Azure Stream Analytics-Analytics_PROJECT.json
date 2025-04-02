@@ -1,0 +1,128 @@
+{
+  "Service": "Azure Stream Analytics",
+  "Category": "Analytics",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Define Project Objectives",
+      "Task Description": "Identify the goals and objectives of the analytics project, including the type of data to be processed, insights to be derived, and expected outcomes.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/stream-analytics/overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Assess Data Sources",
+      "Task Description": "Evaluate the data sources that will feed into Azure Stream Analytics, such as IoT devices, event hubs, or blob storage.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-inputs",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Query Logic",
+      "Task Description": "Develop the query logic using Stream Analytics Query Language to process and analyze incoming data streams.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-query-patterns",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Set Up Input Sources",
+      "Task Description": "Configure input sources in Azure Stream Analytics, such as Event Hubs, IoT Hubs, or Blob Storage.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-inputs",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Output Destinations",
+      "Task Description": "Set up output destinations for processed data, such as Power BI, Azure SQL Database, or Blob Storage.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-outputs",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Ensure data security by configuring access controls, encryption, and secure connections for input and output sources.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Test Query Performance",
+      "Task Description": "Run tests to validate the performance and accuracy of the query logic under different data loads.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-query-patterns",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Optimize Query Logic",
+      "Task Description": "Refine query logic to improve performance and reduce latency based on test results.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-query-patterns",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring and alerting for job performance, errors, and resource utilization using Azure Monitor.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-monitoring",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Document Configuration and Processes",
+      "Task Description": "Create detailed documentation of the Stream Analytics job configuration, query logic, and operational procedures.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/stream-analytics/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Train Operations Team",
+      "Task Description": "Conduct training sessions for the operations team on managing and troubleshooting Azure Stream Analytics jobs.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/stream-analytics/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Compliance Measures",
+      "Task Description": "Ensure the analytics setup adheres to regulatory compliance requirements and implement auditing procedures.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/compliance/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Deploy Stream Analytics Job",
+      "Task Description": "Deploy the Stream Analytics job in Azure and verify its functionality in the production environment.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-job",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Monitor Job Performance",
+      "Task Description": "Continuously monitor the performance of the Stream Analytics job and address any issues promptly.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-monitoring",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Perform Regular Maintenance",
+      "Task Description": "Conduct regular maintenance tasks, such as updating query logic, scaling resources, and reviewing job performance.",
+      "Task Type": "Operational",
+      "Classification": "Support",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/stream-analytics/",
+      "Frequency": "Monthly"
+    }
+  ]
+}
