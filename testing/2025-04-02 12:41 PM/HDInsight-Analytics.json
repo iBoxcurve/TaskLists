@@ -1,0 +1,200 @@
+{
+  "Service": "HDInsight",
+  "Category": "Analytics",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Business Requirements",
+      "Task Description": "Gather detailed requirements for analytics workloads, including data volume, processing speed, and integration needs. Identify the use cases for HDInsight.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Cluster Architecture",
+      "Task Description": "Design the HDInsight cluster architecture, including the type of cluster (Hadoop, Spark, Kafka, etc.), node configurations, and storage options.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-architecture",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Select Region and Pricing Tier",
+      "Task Description": "Choose the Azure region and pricing tier for the HDInsight cluster based on performance and cost considerations.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-pricing",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Provision HDInsight Cluster",
+      "Task Description": "Create the HDInsight cluster in the Azure portal or using Azure CLI/PowerShell. Specify the cluster type, size, and storage account.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-provision-clusters",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Security Settings",
+      "Task Description": "Set up security measures such as encryption, access control, and integration with Azure Active Directory. Ensure compliance with organizational security policies.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-security-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Integrate Data Sources",
+      "Task Description": "Connect the HDInsight cluster to required data sources, such as Azure Blob Storage, Data Lake, or on-premises databases.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-connect-to-data-sources",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Monitoring and Alerts",
+      "Task Description": "Set up monitoring and alerting using Azure Monitor and HDInsight-specific tools. Configure alerts for cluster health, performance, and job failures.",
+      "Task Type": "All",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-monitoring",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Optimize Cluster Performance",
+      "Task Description": "Tune the cluster settings for optimal performance based on workload requirements. Adjust configurations such as caching, parallelism, and resource allocation.",
+      "Task Type": "All",
+      "Classification": "Optimization",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-performance-tuning",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Test Analytics Workloads",
+      "Task Description": "Run test analytics workloads to validate the cluster setup and ensure it meets performance and reliability requirements.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-troubleshooting",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Document Cluster Configuration",
+      "Task Description": "Document the cluster setup, including architecture, configurations, and operational procedures. Share documentation with relevant stakeholders.",
+      "Task Type": "All",
+      "Classification": "Documentation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/hdinsight/",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Train Operations Team",
+      "Task Description": "Conduct training sessions for the operations team on managing and troubleshooting HDInsight clusters.",
+      "Task Type": "All",
+      "Classification": "Training",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/hdinsight/",
+      "Frequency": "Quarterly"
+    },
+    {
+      "Task": "Implement Backup and Disaster Recovery",
+      "Task Description": "Set up backup and disaster recovery mechanisms for the HDInsight cluster to ensure data resiliency and availability.",
+      "Task Type": "All",
+      "Classification": "Disaster Recovery",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-disaster-recovery",
+      "Frequency": "Monthly"
+    },
+    {
+      "Task": "Perform Regular Audits",
+      "Task Description": "Conduct regular audits of the HDInsight cluster to ensure compliance with security and performance standards.",
+      "Task Type": "All",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-security-overview",
+      "Frequency": "Monthly"
+    },
+    {
+      "Task": "Cluster Health Monitoring",
+      "Task Description": "Use Azure Monitor to continuously monitor the health and performance of HDInsight clusters. Identify and resolve any anomalies or issues.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "Continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-monitoring"
+    },
+    {
+      "Task": "Security Configuration Review",
+      "Task Description": "Regularly review security configurations, including firewall rules, access controls, and encryption settings, to ensure compliance with organizational policies.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "Monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-security-overview"
+    },
+    {
+      "Task": "Cluster Scaling and Optimization",
+      "Task Description": "Analyze cluster usage and scale resources up or down based on workload requirements to optimize performance and cost.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "Weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-scale-cluster"
+    },
+    {
+      "Task": "Patch Management",
+      "Task Description": "Ensure HDInsight clusters are updated with the latest patches and updates to address vulnerabilities and improve performance.",
+      "Task Type": "Operational",
+      "Classification": "Maintenance",
+      "Frequency": "Quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-maintenance"
+    },
+    {
+      "Task": "Audit Logs Review",
+      "Task Description": "Review audit logs to monitor user activities and detect any unauthorized access or suspicious behavior.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "Weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-audit-logs"
+    },
+    {
+      "Task": "Data Encryption Validation",
+      "Task Description": "Verify that all data stored and processed in HDInsight clusters is encrypted both at rest and in transit.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "Quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-encryption"
+    },
+    {
+      "Task": "Cluster Configuration Audit",
+      "Task Description": "Conduct regular audits of cluster configurations to ensure alignment with best practices and organizational standards.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "Quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-configuration"
+    },
+    {
+      "Task": "Incident Response Drills",
+      "Task Description": "Conduct drills to prepare the team for potential security incidents or cluster outages. Ensure familiarity with response protocols.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "Semi-Annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-security-best-practices"
+    },
+    {
+      "Task": "User Access Review",
+      "Task Description": "Review user access permissions to ensure that only authorized personnel have access to HDInsight clusters.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "Monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-access-control"
+    },
+    {
+      "Task": "Compliance Checks",
+      "Task Description": "Perform regular compliance checks to ensure HDInsight clusters adhere to relevant regulations and industry standards.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "Quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-compliance"
+    },
+    {
+      "Task": "Resource Cost Analysis",
+      "Task Description": "Analyze resource usage and costs associated with HDInsight clusters to identify opportunities for cost optimization.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "Monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-cost-management"
+    }
+  ]
+}
