@@ -1,0 +1,120 @@
+{
+  "Service": "Azure Analysis Services",
+  "Category": "Analytics",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Server Health",
+      "Task Description": "Use Azure Monitor to continuously track the health and performance of Azure Analysis Services servers. Identify and resolve any anomalies or issues.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/analysis-services/analysis-services-monitor"
+    },
+    {
+      "Task": "Backup Model Data",
+      "Task Description": "Regularly back up model data to ensure data recovery in case of unexpected failures. Store backups securely in Azure Blob Storage or other secure locations.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/analysis-services/analysis-services-backup"
+    },
+    {
+      "Task": "Optimize Model Performance",
+      "Task Description": "Analyze and optimize the performance of data models by reviewing query performance and resource utilization. Implement changes to improve efficiency.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/analysis-services/analysis-services-performance-tuning"
+    },
+    {
+      "Task": "Update Security Policies",
+      "Task Description": "Review and update security policies, including role-based access control (RBAC) and firewall settings, to ensure compliance with organizational security standards.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/analysis-services/analysis-services-security"
+    },
+    {
+      "Task": "Audit User Access",
+      "Task Description": "Conduct regular audits of user access permissions to ensure only authorized users have access to Azure Analysis Services resources.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/analysis-services/analysis-services-security"
+    },
+    {
+      "Task": "Scale Resources Based on Demand",
+      "Task Description": "Monitor resource usage and scale Azure Analysis Services instances up or down based on demand to optimize cost and performance.",
+      "Task Type": "Operational",
+      "Classification": "Scaling",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/analysis-services/analysis-services-scale"
+    },
+    {
+      "Task": "Test Disaster Recovery Plan",
+      "Task Description": "Perform regular tests of the disaster recovery plan to ensure the ability to restore services and data in case of a major outage.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/analysis-services/analysis-services-disaster-recovery"
+    },
+    {
+      "Task": "Update Service Documentation",
+      "Task Description": "Maintain up-to-date documentation for Azure Analysis Services, including operational procedures, configurations, and troubleshooting guides.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/analysis-services/"
+    },
+    {
+      "Task": "Review Query Performance Logs",
+      "Task Description": "Analyze query performance logs to identify slow-running queries and optimize them for better performance.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/analysis-services/analysis-services-performance-tuning"
+    },
+    {
+      "Task": "Apply Service Updates and Patches",
+      "Task Description": "Regularly apply updates and patches to Azure Analysis Services to ensure the service is running on the latest version and is secure.",
+      "Task Type": "Operational",
+      "Classification": "Maintenance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/analysis-services/analysis-services-updates"
+    },
+    {
+      "Task": "Conduct Incident Response Drills",
+      "Task Description": "Perform incident response drills to prepare the team for potential security incidents or service outages. Ensure familiarity with procedures and protocols.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/analysis-services/analysis-services-security"
+    },
+    {
+      "Task": "Validate Data Refresh Processes",
+      "Task Description": "Ensure that data refresh processes are running as expected and troubleshoot any issues with data synchronization.",
+      "Task Type": "Operational",
+      "Classification": "Data Management",
+      "Frequency": "daily",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/analysis-services/analysis-services-data-refresh"
+    },
+    {
+      "Task": "Review SLA Compliance",
+      "Task Description": "Evaluate the service's adherence to SLA metrics and address any deviations or issues with Azure support.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/analysis-services/analysis-services-sla"
+    },
+    {
+      "Task": "Engage in Regular Training",
+      "Task Description": "Ensure the operations team participates in regular training to stay updated with new Azure Analysis Services features, best practices, and security measures.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/analysis-services/"
+    }
+  ]
+}
