@@ -1,0 +1,112 @@
+{
+  "Service": "Azure Cognitive Search (now Azure AI Search)",
+  "Category": "Web",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Project Requirements",
+      "Task Description": "Gather detailed requirements for the search functionality, including data sources, indexing needs, query capabilities, and expected user experience.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/search/search-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Search Architecture",
+      "Task Description": "Design the architecture for the search solution, including the integration of Azure Cognitive Search with the web application and other services.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/search/search-architecture",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Provision Azure Cognitive Search Service",
+      "Task Description": "Create and configure the Azure Cognitive Search service in the Azure portal, selecting the appropriate tier and region based on project requirements.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/search/search-create-service-portal",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Indexes",
+      "Task Description": "Define and configure indexes based on the data structure and search requirements. Include fields, analyzers, and scoring profiles.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/search/search-what-is-an-index",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Set Up Data Sources",
+      "Task Description": "Connect the search service to data sources such as Azure Blob Storage, SQL Database, or Cosmos DB. Configure data import and refresh schedules.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/search/search-indexer-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Enable security features such as API keys, role-based access control (RBAC), and encryption for data at rest and in transit.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/search/search-security-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Develop Query Logic",
+      "Task Description": "Implement query logic in the web application to interact with the Azure Cognitive Search service. Include filters, facets, and autocomplete functionality.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/search/search-query-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Test Search Functionality",
+      "Task Description": "Perform thorough testing of the search functionality, including indexing, query performance, and relevance of search results.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/search/search-performance-tuning",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Optimize Search Performance",
+      "Task Description": "Optimize the search service for performance by tuning indexes, query logic, and scaling the service as needed.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/search/search-performance-tuning",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring and alerting for the search service using Azure Monitor to track service health, query performance, and indexing status.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/search/search-monitoring",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Document Search Solution",
+      "Task Description": "Create detailed documentation for the search solution, including architecture, configurations, and operational procedures.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/search/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Train Operations Team",
+      "Task Description": "Conduct training sessions for the operations team on managing and troubleshooting the Azure Cognitive Search service.",
+      "Task Type": "Project",
+      "Classification": "Support",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/search/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Compliance and Auditing",
+      "Task Description": "Ensure the search solution meets regulatory compliance requirements and implement regular auditing procedures.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/compliance/",
+      "Frequency": "Monthly"
+    }
+  ]
+}
