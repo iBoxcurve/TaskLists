@@ -1,0 +1,112 @@
+{
+  "Service": "Azure Data Box",
+  "Category": "Storage",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Data Transfer Requirements",
+      "Task Description": "Identify the volume of data to be transferred, the source and destination locations, and the timeline for the transfer. Determine if Azure Data Box is the appropriate solution based on these requirements.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/databox/data-box-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Request Azure Data Box Device",
+      "Task Description": "Order the Azure Data Box device through the Azure portal, specifying the required storage capacity and delivery details.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/databox/data-box-order-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Prepare Source Data",
+      "Task Description": "Ensure the data to be transferred is organized and ready for migration. Verify that the data complies with Azure Data Box requirements, such as file formats and size limitations.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/databox/data-box-preparing-data",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Azure Storage Account",
+      "Task Description": "Set up the destination Azure Storage account where the data will be uploaded. Configure access permissions and security settings for the account.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Receive and Set Up Azure Data Box",
+      "Task Description": "Unpack and set up the Azure Data Box device upon delivery. Connect it to the local network and ensure it is powered on and operational.",
+      "Task Type": "Operational",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/databox/data-box-setup",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Transfer Data to Azure Data Box",
+      "Task Description": "Copy the prepared data from the source location to the Azure Data Box device using the recommended tools and methods.",
+      "Task Type": "Operational",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/databox/data-box-copy-data",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Secure Azure Data Box for Shipment",
+      "Task Description": "Ensure the Azure Data Box device is securely packed and ready for shipment back to the Azure data center. Follow the provided instructions for packaging and labeling.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/databox/data-box-return",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Track Shipment and Delivery",
+      "Task Description": "Monitor the shipment of the Azure Data Box device to the Azure data center using the tracking information provided.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/databox/data-box-shipping",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Verify Data Upload to Azure",
+      "Task Description": "Confirm that the data has been successfully uploaded to the Azure Storage account. Validate the integrity and completeness of the transferred data.",
+      "Task Type": "Operational",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/databox/data-box-data-upload",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Ensure that the data in the Azure Storage account is encrypted and access controls are properly configured. Apply additional security measures as needed.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/security/fundamentals/encryption-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Document Process and Results",
+      "Task Description": "Create detailed documentation of the data transfer process, including configurations, issues encountered, and resolutions. Share the documentation with relevant stakeholders.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/databox/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Monitor Storage Usage and Performance",
+      "Task Description": "Set up monitoring for the Azure Storage account to track usage, performance, and potential issues. Configure alerts for unusual activity or capacity thresholds.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/storage/common/storage-monitoring-diagnostics",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Conduct Post-Transfer Audit",
+      "Task Description": "Perform an audit to ensure compliance with organizational and regulatory requirements. Verify that the data transfer process adhered to security and operational standards.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/compliance/",
+      "Frequency": "Once"
+    }
+  ]
+}
