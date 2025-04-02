@@ -1,0 +1,120 @@
+{
+  "Service": "Azure Files",
+  "Category": "Storage",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Storage Performance",
+      "Task Description": "Use Azure Monitor to continuously track the performance metrics of Azure Files, such as latency, throughput, and IOPS. Investigate and resolve any anomalies.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/storage-files-monitoring"
+    },
+    {
+      "Task": "Check File Share Quotas",
+      "Task Description": "Regularly review file share quotas to ensure they are within limits and adjust as necessary to prevent disruptions.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/storage-files-how-to-create-file-share"
+    },
+    {
+      "Task": "Validate Security Configurations",
+      "Task Description": "Ensure that Azure Files security settings, such as access control lists (ACLs) and shared access signatures (SAS), are correctly configured and meet organizational security policies.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/storage-files-security"
+    },
+    {
+      "Task": "Backup File Shares",
+      "Task Description": "Implement and regularly verify backup solutions for Azure Files using Azure Backup or other third-party tools. Ensure backups are stored securely and are recoverable.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "daily",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-files"
+    },
+    {
+      "Task": "Audit Access Logs",
+      "Task Description": "Review access logs for Azure Files to detect unauthorized access or unusual activity. Investigate and address any security concerns.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/storage-files-monitoring"
+    },
+    {
+      "Task": "Update Storage Policies",
+      "Task Description": "Review and update storage policies, including lifecycle management rules, to optimize costs and ensure compliance with data retention requirements.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/storage-files-lifecycle-management"
+    },
+    {
+      "Task": "Test Disaster Recovery Procedures",
+      "Task Description": "Conduct regular tests of disaster recovery procedures to ensure file shares can be restored quickly in case of an outage or data loss.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/storage-files-disaster-recovery"
+    },
+    {
+      "Task": "Optimize File Share Performance",
+      "Task Description": "Analyze usage patterns and optimize file share configurations, such as tiering and caching, to improve performance and reduce costs.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/storage-files-performance"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Ensure that all operational procedures, configurations, and troubleshooting guides for Azure Files are up-to-date and accessible to the team.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/"
+    },
+    {
+      "Task": "Review Billing and Usage Reports",
+      "Task Description": "Analyze billing and usage reports for Azure Files to identify cost-saving opportunities and ensure alignment with budgetary constraints.",
+      "Task Type": "Operational",
+      "Classification": "Cost Management",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/storage-files-pricing"
+    },
+    {
+      "Task": "Rotate Shared Access Signatures (SAS)",
+      "Task Description": "Regularly rotate SAS tokens to enhance security and prevent unauthorized access to Azure Files.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/storage-files-sas"
+    },
+    {
+      "Task": "Conduct Training for Operations Team",
+      "Task Description": "Provide regular training sessions for the operations team to ensure they are familiar with Azure Files features, best practices, and troubleshooting techniques.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/"
+    },
+    {
+      "Task": "Perform Compliance Checks",
+      "Task Description": "Verify that Azure Files configurations and operations comply with organizational policies and regulatory requirements.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/storage-files-security"
+    },
+    {
+      "Task": "Troubleshoot Connectivity Issues",
+      "Task Description": "Investigate and resolve any connectivity issues affecting Azure Files, including network latency or access errors.",
+      "Task Type": "Operational",
+      "Classification": "Troubleshooting",
+      "Frequency": "as-needed",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/storage-files-troubleshooting"
+    }
+  ]
+}
