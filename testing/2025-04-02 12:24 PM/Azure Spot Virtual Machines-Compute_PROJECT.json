@@ -1,0 +1,112 @@
+{
+  "Service": "Azure Spot Virtual Machines",
+  "Category": "Compute",
+  "dateCreated": "2023-10-07 12:00",
+  "dateModified": "2023-10-07 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Workload Suitability",
+      "Task Description": "Evaluate the workloads to determine if they are suitable for Azure Spot Virtual Machines, considering their interruptible nature and cost benefits.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/spot-vms",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Define Cost Optimization Goals",
+      "Task Description": "Set clear cost optimization goals and identify the maximum price you are willing to pay for Spot VMs.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/spot-vms-pricing",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design VM Deployment Strategy",
+      "Task Description": "Plan the deployment strategy, including VM sizes, regions, and scaling policies to maximize cost savings and resiliency.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/spot-vms-deployment",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Spot VM Parameters",
+      "Task Description": "Set up Spot VM parameters such as eviction policies, maximum price, and scaling rules in the Azure portal or using CLI/PowerShell.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/spot-vms-configuration",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Resiliency Measures",
+      "Task Description": "Design and implement failover strategies, such as using Azure Standard VMs as backups or leveraging Azure Kubernetes Service (AKS) for workload distribution.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/spot-vms-resiliency",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Deploy Spot Virtual Machines",
+      "Task Description": "Provision Spot Virtual Machines in the Azure portal or using automation tools like ARM templates, Terraform, or Azure CLI.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/spot-vms-deployment",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring and alerts for Spot VM usage, eviction rates, and cost metrics using Azure Monitor and Log Analytics.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/monitoring/",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Test Workload Performance",
+      "Task Description": "Run performance tests to ensure workloads function correctly under Spot VM conditions and validate failover mechanisms.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/spot-vms-testing",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Optimize Scaling Policies",
+      "Task Description": "Refine scaling policies based on workload performance and eviction patterns to ensure cost efficiency and reliability.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/spot-vms-scaling",
+      "Frequency": "Monthly"
+    },
+    {
+      "Task": "Document Deployment and Policies",
+      "Task Description": "Create detailed documentation of the Spot VM deployment, including configurations, scaling policies, and failover strategies.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/spot-vms-documentation",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Conduct Training for Operations Team",
+      "Task Description": "Train the operations team on managing Spot VMs, handling evictions, and optimizing costs.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/spot-vms-training",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Review Compliance and Security",
+      "Task Description": "Ensure the Spot VM setup complies with organizational security policies and regulatory requirements.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/security/",
+      "Frequency": "Monthly"
+    },
+    {
+      "Task": "Audit Cost Savings and Performance",
+      "Task Description": "Perform regular audits to evaluate cost savings and workload performance on Spot VMs.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/spot-vms-audit",
+      "Frequency": "Quarterly"
+    }
+  ]
+}
