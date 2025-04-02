@@ -1,0 +1,184 @@
+{
+  "Service": "Azure Data Factory",
+  "Category": "Analytics",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Define Project Scope and Objectives",
+      "Task Description": "Identify the analytics requirements, data sources, and expected outcomes for the Azure Data Factory project. Document the scope and objectives clearly.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/introduction",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Assess Data Sources and Integration Needs",
+      "Task Description": "Evaluate the data sources to be integrated, including on-premises databases, cloud storage, and third-party APIs. Determine the data formats and connectivity requirements.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/data-movement-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Data Pipeline Architecture",
+      "Task Description": "Create a detailed design for the data pipelines, including data ingestion, transformation, and loading processes. Define dependencies and scheduling requirements.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Set Up Azure Data Factory Instance",
+      "Task Description": "Provision a new Azure Data Factory instance in the Azure portal. Configure the instance with the appropriate region and resource group.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory-portal",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Linked Services",
+      "Task Description": "Set up linked services to connect Azure Data Factory to data sources and destinations, such as Azure Blob Storage, SQL databases, or external APIs.",
+      "Task Type": "All",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/linked-services",
+      "Frequency": "Once, Quarterly"
+    },
+    {
+      "Task": "Develop Data Pipelines",
+      "Task Description": "Create and configure data pipelines in Azure Data Factory. Define activities for data ingestion, transformation, and loading based on the project requirements.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/control-flow",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Configure security settings, including role-based access control (RBAC), managed identities, and encryption for data at rest and in transit.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/security-concepts",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Test Data Pipelines",
+      "Task Description": "Perform end-to-end testing of the data pipelines to ensure data is ingested, transformed, and loaded correctly. Validate data accuracy and pipeline performance.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/debug-pipelines",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Set Up Monitoring and Alerts",
+      "Task Description": "Configure monitoring and alerting for pipeline runs using Azure Monitor and Data Factory's built-in monitoring tools. Set up alerts for failures and performance issues.",
+      "Task Type": "All",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/monitor-visually",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Optimize Pipeline Performance",
+      "Task Description": "Analyze pipeline performance metrics and optimize activities, data flows, and resource usage to improve efficiency and reduce costs.",
+      "Task Type": "All",
+      "Classification": "Troubleshooting, Performance",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/data-flow-performance",
+      "Frequency": "Continuous, Monthly"
+    },
+    {
+      "Task": "Document Pipeline Configurations",
+      "Task Description": "Create detailed documentation for the pipeline configurations, including linked services, activities, and schedules. Share documentation with the operations team.",
+      "Task Type": "All",
+      "Classification": "Documentation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/",
+      "Frequency": "Once, Continuous"
+    },
+    {
+      "Task": "Conduct Training for Operations Team",
+      "Task Description": "Provide training sessions for the operations team on managing and troubleshooting Azure Data Factory pipelines and monitoring tools.",
+      "Task Type": "All",
+      "Classification": "Support, Training",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/",
+      "Frequency": "Once, Quarterly"
+    },
+    {
+      "Task": "Implement Compliance and Auditing",
+      "Task Description": "Ensure the Azure Data Factory setup complies with organizational and regulatory requirements. Implement auditing mechanisms to track data pipeline activities.",
+      "Task Type": "All",
+      "Classification": "Security, Compliance",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/security-concepts",
+      "Frequency": "Continuous, Quarterly"
+    },
+    {
+      "Task": "Monitor Pipeline Runs",
+      "Task Description": "Use Azure Monitor to track the status of pipeline runs, identify failures, and ensure timely resolution of issues.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/monitoring-with-azure-monitor",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Validate Data Integrity",
+      "Task Description": "Regularly check the accuracy and completeness of data processed by Azure Data Factory pipelines to ensure analytics reliability.",
+      "Task Type": "Operational",
+      "Classification": "Quality Assurance",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/data-flow-overview",
+      "Frequency": "Weekly"
+    },
+    {
+      "Task": "Backup Pipeline Configurations",
+      "Task Description": "Create backups of pipeline configurations to safeguard against accidental changes or deletions.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/continuous-integration-deployment",
+      "Frequency": "Weekly"
+    },
+    {
+      "Task": "Test Disaster Recovery Scenarios",
+      "Task Description": "Conduct failover and recovery tests to ensure Azure Data Factory pipelines can recover from unexpected outages.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/high-availability-disaster-recovery",
+      "Frequency": "Semi-annually"
+    },
+    {
+      "Task": "Review Pipeline Dependencies",
+      "Task Description": "Analyze pipeline dependencies to identify and resolve potential bottlenecks or conflicts in data processing workflows.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/control-flow-overview",
+      "Frequency": "Monthly"
+    },
+    {
+      "Task": "Conduct Security Patch Reviews",
+      "Task Description": "Ensure that Azure Data Factory and its dependencies are updated with the latest security patches and updates.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/security-center/security-center-intro",
+      "Frequency": "Monthly"
+    },
+    {
+      "Task": "Analyze Cost Efficiency",
+      "Task Description": "Review Azure Data Factory usage and cost metrics to identify opportunities for cost optimization.",
+      "Task Type": "Operational",
+      "Classification": "Cost Management",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/pricing",
+      "Frequency": "Monthly"
+    },
+    {
+      "Task": "Perform Compliance Checks",
+      "Task Description": "Ensure Azure Data Factory pipelines adhere to organizational and regulatory compliance requirements.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/data-factory-security",
+      "Frequency": "Quarterly"
+    },
+    {
+      "Task": "Resolve Incident Reports",
+      "Task Description": "Investigate and resolve incidents reported by users or monitoring systems related to Azure Data Factory pipelines.",
+      "Task Type": "Operational",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-factory/troubleshoot-guide",
+      "Frequency": "As needed"
+    }
+  ]
+}
