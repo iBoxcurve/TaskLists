@@ -1,0 +1,120 @@
+{
+  "Service": "Azure Cognitive Search (now Azure AI Search)",
+  "Category": "Web",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Project Requirements",
+      "Task Description": "Gather detailed requirements for the web application, including search functionality, data sources, indexing needs, and expected user traffic.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/search/search-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Search Architecture",
+      "Task Description": "Design the architecture for Azure Cognitive Search integration with the web application, including index structure, query patterns, and scalability considerations.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/search/search-architecture",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Provision Azure Cognitive Search Service",
+      "Task Description": "Create and configure the Azure Cognitive Search service in the Azure portal, selecting the appropriate pricing tier and region.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/search/search-create-service-portal",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Set Up Data Sources",
+      "Task Description": "Connect the search service to data sources such as Azure SQL Database, Blob Storage, or Cosmos DB. Ensure proper access permissions are configured.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/search/search-indexer-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Define Index Schema",
+      "Task Description": "Design and configure the index schema, including fields, data types, analyzers, and scoring profiles based on the application's search requirements.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/search/search-what-is-an-index",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Enable security features such as API keys, role-based access control (RBAC), and encryption for data at rest and in transit.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/search/search-security-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Develop Search Queries",
+      "Task Description": "Create and test search queries using the Azure Cognitive Search REST API or SDKs. Optimize queries for relevance and performance.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/search/search-query-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Integrate Search with Web Application",
+      "Task Description": "Embed the search functionality into the web application using APIs or SDKs. Ensure seamless user experience and responsiveness.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/search/search-howto-dotnet-sdk",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring and alerting for the search service using Azure Monitor to track performance, query latency, and service availability.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/search/search-monitoring",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Test Search Functionality",
+      "Task Description": "Perform end-to-end testing of the search functionality, including indexing, query execution, and relevance tuning. Validate against user requirements.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/search/search-testing",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Optimize Indexing and Query Performance",
+      "Task Description": "Analyze and optimize indexing and query performance using tools like Azure Search Traffic Analytics and query logs.",
+      "Task Type": "Operational",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/search/search-performance-tuning",
+      "Frequency": "Monthly"
+    },
+    {
+      "Task": "Document Configuration and Usage",
+      "Task Description": "Create detailed documentation for the search service configuration, integration steps, and operational procedures for future reference.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/search/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Provide Training to Team",
+      "Task Description": "Conduct training sessions for the development and operations teams on managing and troubleshooting Azure Cognitive Search.",
+      "Task Type": "Project",
+      "Classification": "Support",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/search/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Ensure Compliance and Security Audits",
+      "Task Description": "Verify that the search service complies with organizational and regulatory security standards. Conduct regular audits to ensure ongoing compliance.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/compliance/",
+      "Frequency": "Quarterly"
+    }
+  ]
+}
