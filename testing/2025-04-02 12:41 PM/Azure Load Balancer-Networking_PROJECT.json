@@ -1,0 +1,104 @@
+{
+  "Service": "Azure Load Balancer",
+  "Category": "Networking",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Requirements",
+      "Task Description": "Gather detailed requirements for load balancing, including traffic distribution, redundancy, and failover needs. Identify the applications and services that will use the Azure Load Balancer.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": null,
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Load Balancer Architecture",
+      "Task Description": "Design the architecture for the Azure Load Balancer, including frontend IP configurations, backend pools, health probes, and load balancing rules.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": null,
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Provision Azure Load Balancer",
+      "Task Description": "Create the Azure Load Balancer in the Azure portal or using Azure CLI/PowerShell. Configure the basic settings such as SKU (Standard or Basic) and region.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": null,
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Frontend IP",
+      "Task Description": "Set up the frontend IP configuration for the Load Balancer, including public or private IP addresses based on the requirements.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": null,
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Define Backend Pool",
+      "Task Description": "Create and configure the backend pool, specifying the virtual machines or virtual machine scale sets that will receive traffic.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": null,
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Set Up Health Probes",
+      "Task Description": "Configure health probes to monitor the availability of backend resources. Define probe settings such as protocol, port, and interval.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": null,
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Create Load Balancing Rules",
+      "Task Description": "Define load balancing rules to specify how traffic is distributed across the backend pool. Configure settings such as protocol, port, and session persistence.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": null,
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Apply security best practices such as Network Security Groups (NSGs), Azure DDoS Protection, and access control policies to secure the Load Balancer.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": null,
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Test Load Balancer Configuration",
+      "Task Description": "Perform thorough testing of the Load Balancer setup, including traffic distribution, failover scenarios, and backend resource availability.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": null,
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring and alerting using Azure Monitor and Network Watcher. Configure alerts for health probe failures, backend pool availability, and traffic metrics.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": null,
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Document Configuration and Procedures",
+      "Task Description": "Document the Load Balancer architecture, configurations, and operational procedures. Provide training for the operations team on managing and troubleshooting the setup.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": null,
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Compliance and Auditing",
+      "Task Description": "Ensure the Load Balancer setup meets all regulatory compliance requirements. Implement regular auditing procedures to verify compliance and security postures.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": null,
+      "Frequency": "Monthly"
+    }
+  ]
+}
