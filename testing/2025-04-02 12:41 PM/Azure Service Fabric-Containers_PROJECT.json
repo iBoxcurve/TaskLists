@@ -1,0 +1,112 @@
+{
+  "Service": "Azure Service Fabric",
+  "Category": "Containers",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Project Requirements",
+      "Task Description": "Gather detailed requirements for the containerized application, including scalability, availability, and performance needs. Identify the services and components to be deployed on Azure Service Fabric.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": null,
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Service Fabric Cluster Architecture",
+      "Task Description": "Design the cluster architecture, including node types, durability levels, and placement constraints. Plan for high availability and fault tolerance.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": null,
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Provision Service Fabric Cluster",
+      "Task Description": "Create and configure the Service Fabric cluster in Azure, specifying the number of nodes, VM sizes, and networking configurations.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": null,
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Container Hosting",
+      "Task Description": "Set up the cluster to host containers, including enabling container support and configuring runtime settings.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": null,
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Apply security best practices, such as enabling encryption for data in transit and at rest, configuring access control policies, and securing the cluster endpoints.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": null,
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Deploy Containerized Applications",
+      "Task Description": "Deploy the containerized applications to the Service Fabric cluster, ensuring proper configuration of container images, resource limits, and networking settings.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": null,
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring and alerting for the Service Fabric cluster and containerized applications using Azure Monitor and Application Insights.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": null,
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Test Cluster and Application Performance",
+      "Task Description": "Perform thorough testing of the cluster and containerized applications, including failover scenarios, load testing, and performance benchmarking.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": null,
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Backup and Disaster Recovery",
+      "Task Description": "Set up backup and disaster recovery mechanisms for the Service Fabric cluster and containerized applications to ensure data resiliency.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": null,
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Document Cluster Configuration and Procedures",
+      "Task Description": "Create detailed documentation for the cluster architecture, configurations, and operational procedures. Include troubleshooting guides and escalation paths.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": null,
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Train Operations Team",
+      "Task Description": "Conduct training sessions for the operations team on managing and troubleshooting the Service Fabric cluster and containerized applications.",
+      "Task Type": "Project",
+      "Classification": "Support",
+      "Documentation Link": null,
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Perform Regular Maintenance and Updates",
+      "Task Description": "Schedule and perform regular maintenance tasks, such as updating the Service Fabric runtime, patching the cluster nodes, and updating container images.",
+      "Task Type": "Operational",
+      "Classification": "Support",
+      "Documentation Link": null,
+      "Frequency": "Monthly"
+    },
+    {
+      "Task": "Audit Security and Compliance",
+      "Task Description": "Conduct regular audits to ensure the cluster and applications meet security and compliance requirements.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Documentation Link": null,
+      "Frequency": "Monthly"
+    }
+  ]
+}
