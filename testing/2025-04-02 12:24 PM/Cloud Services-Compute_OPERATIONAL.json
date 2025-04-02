@@ -1,0 +1,128 @@
+{
+  "Service": "Cloud Services",
+  "Category": "Compute",
+  "dateCreated": "2023-10-07 12:00",
+  "dateModified": "2023-10-07 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Service Health",
+      "Task Description": "Use Azure Monitor to continuously track the health and performance of Cloud Services instances. Identify and resolve any anomalies or issues.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-monitoring"
+    },
+    {
+      "Task": "Apply Security Updates",
+      "Task Description": "Regularly apply security patches and updates to the operating system and application components of Cloud Services instances.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-security-updates"
+    },
+    {
+      "Task": "Backup Configuration and Data",
+      "Task Description": "Perform regular backups of configuration settings and application data to ensure recoverability in case of failures.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-backup"
+    },
+    {
+      "Task": "Scale Resources",
+      "Task Description": "Monitor resource utilization and scale Cloud Services instances up or down based on demand to optimize performance and cost.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-scaling"
+    },
+    {
+      "Task": "Conduct Failover Tests",
+      "Task Description": "Perform failover tests to ensure high availability and verify that redundant systems are functioning correctly.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-disaster-recovery"
+    },
+    {
+      "Task": "Audit Access Controls",
+      "Task Description": "Review and update access controls and permissions to ensure compliance with security policies and prevent unauthorized access.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-access-control"
+    },
+    {
+      "Task": "Optimize Application Performance",
+      "Task Description": "Analyze application performance metrics and implement optimizations to improve efficiency and reduce latency.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-performance-optimization"
+    },
+    {
+      "Task": "Update Documentation",
+      "Task Description": "Maintain up-to-date documentation for Cloud Services configurations, operational procedures, and troubleshooting guides.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-documentation"
+    },
+    {
+      "Task": "Perform Compliance Checks",
+      "Task Description": "Conduct regular compliance checks to ensure Cloud Services adhere to organizational and regulatory standards.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-compliance"
+    },
+    {
+      "Task": "Incident Response Drills",
+      "Task Description": "Conduct drills to prepare for potential incidents, ensuring the team is familiar with response protocols and procedures.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-incident-response"
+    },
+    {
+      "Task": "Review Resource Utilization",
+      "Task Description": "Analyze resource utilization trends and adjust configurations to optimize cost and performance.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-resource-utilization"
+    },
+    {
+      "Task": "Plan for Upgrades",
+      "Task Description": "Develop and execute plans for upgrading Cloud Services instances to newer versions or configurations as needed.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-upgrades"
+    },
+    {
+      "Task": "Engage in Training",
+      "Task Description": "Ensure the operations team participates in regular training to stay updated with new Cloud Services features and best practices.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-training"
+    },
+    {
+      "Task": "Test Application Updates",
+      "Task Description": "Test application updates in a staging environment before deploying them to production to ensure stability and compatibility.",
+      "Task Type": "Operational",
+      "Classification": "Testing",
+      "Frequency": "as needed",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-application-updates"
+    },
+    {
+      "Task": "Review SLA Metrics",
+      "Task Description": "Evaluate the SLA performance of Cloud Services and address any deviations from agreed metrics.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-sla"
+    }
+  ]
+}
