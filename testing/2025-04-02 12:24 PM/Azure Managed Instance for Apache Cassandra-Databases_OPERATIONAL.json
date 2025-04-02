@@ -1,0 +1,128 @@
+{
+  "Service": "Azure Managed Instance for Apache Cassandra",
+  "Category": "Databases",
+  "dateCreated": "2023-10-07 12:00",
+  "dateModified": "2023-10-07 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Cluster Health",
+      "Task Description": "Use Azure Monitor to continuously track the health and performance of the Cassandra cluster. Identify and resolve any anomalies or issues.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/managed-instance-apache-cassandra/monitoring"
+    },
+    {
+      "Task": "Backup Data Regularly",
+      "Task Description": "Implement automated backups for Cassandra databases to ensure data recovery in case of failure. Verify backup integrity periodically.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "daily",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/managed-instance-apache-cassandra/backup"
+    },
+    {
+      "Task": "Apply Security Updates",
+      "Task Description": "Regularly review and apply security patches and updates to the managed instance to protect against vulnerabilities.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/managed-instance-apache-cassandra/security"
+    },
+    {
+      "Task": "Optimize Query Performance",
+      "Task Description": "Analyze query performance and optimize database configurations to ensure efficient data retrieval and storage.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/managed-instance-apache-cassandra/performance-tuning"
+    },
+    {
+      "Task": "Conduct Failover Tests",
+      "Task Description": "Perform failover tests to validate the resiliency of the Cassandra cluster and ensure high availability during outages.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/managed-instance-apache-cassandra/failover"
+    },
+    {
+      "Task": "Audit Access Controls",
+      "Task Description": "Review and update access controls and permissions to ensure compliance with security policies and prevent unauthorized access.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/managed-instance-apache-cassandra/access-control"
+    },
+    {
+      "Task": "Update Configuration Settings",
+      "Task Description": "Periodically review and update configuration settings to align with best practices and evolving application requirements.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/managed-instance-apache-cassandra/configuration"
+    },
+    {
+      "Task": "Perform Schema Validation",
+      "Task Description": "Validate database schemas to ensure consistency and compatibility with application requirements.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/managed-instance-apache-cassandra/schema-management"
+    },
+    {
+      "Task": "Review Resource Utilization",
+      "Task Description": "Analyze resource utilization metrics to identify bottlenecks and optimize the allocation of compute, memory, and storage resources.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/managed-instance-apache-cassandra/resource-management"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep operational and configuration documentation up-to-date, including troubleshooting guides and best practices.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/managed-instance-apache-cassandra/documentation"
+    },
+    {
+      "Task": "Conduct Incident Response Drills",
+      "Task Description": "Simulate incident scenarios to test the team's readiness and validate disaster recovery procedures.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/managed-instance-apache-cassandra/incident-response"
+    },
+    {
+      "Task": "Review SLA Compliance",
+      "Task Description": "Evaluate the service's adherence to SLA metrics and address any deviations or performance issues.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/managed-instance-apache-cassandra/sla"
+    },
+    {
+      "Task": "Plan for Capacity Scaling",
+      "Task Description": "Develop and execute plans for scaling the Cassandra cluster to accommodate growth or changing workloads.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/managed-instance-apache-cassandra/scaling"
+    },
+    {
+      "Task": "Engage in Regular Training",
+      "Task Description": "Ensure the operations team participates in training sessions to stay updated with new features and best practices for Apache Cassandra.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/managed-instance-apache-cassandra/training"
+    },
+    {
+      "Task": "Validate Data Consistency",
+      "Task Description": "Perform regular checks to ensure data consistency across nodes and regions in the Cassandra cluster.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/managed-instance-apache-cassandra/data-consistency"
+    }
+  ]
+}
