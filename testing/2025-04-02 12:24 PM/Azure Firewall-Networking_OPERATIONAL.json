@@ -1,0 +1,120 @@
+{
+  "Service": "Azure Firewall",
+  "Category": "Networking",
+  "dateCreated": "2023-10-07 12:00",
+  "dateModified": "2023-10-07 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Firewall Health",
+      "Task Description": "Use Azure Monitor and Azure Firewall logs to continuously monitor the health and performance of the Azure Firewall. Investigate any anomalies or potential issues.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/firewall/logs-and-metrics"
+    },
+    {
+      "Task": "Update Firewall Rules",
+      "Task Description": "Regularly review and update Azure Firewall rules to ensure they align with current security policies and business requirements.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/firewall/rule-processing"
+    },
+    {
+      "Task": "Perform Security Audits",
+      "Task Description": "Conduct security audits to ensure Azure Firewall configurations comply with organizational and regulatory security standards.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/firewall/security-best-practices"
+    },
+    {
+      "Task": "Backup Firewall Configuration",
+      "Task Description": "Regularly back up Azure Firewall configurations to ensure quick recovery in case of accidental changes or failures.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/firewall/configuration-backup"
+    },
+    {
+      "Task": "Test Failover Scenarios",
+      "Task Description": "Perform failover tests to verify the resilience of Azure Firewall and ensure it can handle network disruptions effectively.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/firewall/high-availability"
+    },
+    {
+      "Task": "Review Firewall Logs",
+      "Task Description": "Analyze Azure Firewall logs to identify potential threats, unusual traffic patterns, or misconfigurations.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "daily",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/firewall/logs-and-metrics"
+    },
+    {
+      "Task": "Optimize Firewall Performance",
+      "Task Description": "Review and optimize Azure Firewall performance settings to ensure efficient handling of network traffic.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/firewall/performance-tuning"
+    },
+    {
+      "Task": "Update Firewall Software",
+      "Task Description": "Ensure Azure Firewall is running the latest software version to benefit from new features and security patches.",
+      "Task Type": "Operational",
+      "Classification": "Maintenance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/firewall/update-management"
+    },
+    {
+      "Task": "Conduct Incident Response Drills",
+      "Task Description": "Run incident response drills to prepare the team for potential security incidents involving Azure Firewall.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/firewall/security-best-practices"
+    },
+    {
+      "Task": "Validate Network Connectivity",
+      "Task Description": "Regularly test and validate network connectivity through Azure Firewall to ensure uninterrupted service.",
+      "Task Type": "Operational",
+      "Classification": "Networking",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/firewall/network-connectivity"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep Azure Firewall documentation up-to-date, including operational procedures, configuration details, and troubleshooting guides.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/firewall/"
+    },
+    {
+      "Task": "Review Firewall SLA Compliance",
+      "Task Description": "Evaluate Azure Firewall's performance against its SLA and address any deviations.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/firewall/sla"
+    },
+    {
+      "Task": "Engage in Regular Training",
+      "Task Description": "Ensure the operations team participates in regular training to stay updated with new Azure Firewall features and best practices.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/firewall/"
+    },
+    {
+      "Task": "User Feedback and Improvement",
+      "Task Description": "Collect and analyze user feedback regarding Azure Firewall performance and reliability. Implement continuous improvements based on this feedback.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/firewall/performance-tuning"
+    }
+  ]
+}
