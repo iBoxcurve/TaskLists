@@ -1,0 +1,120 @@
+{
+  "Service": "Azure Load Balancer",
+  "Category": "Networking",
+  "dateCreated": "2023-10-07 12:00",
+  "dateModified": "2023-10-07 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Load Balancer Health",
+      "Task Description": "Use Azure Monitor to continuously track the health and performance of the Azure Load Balancer. Investigate any anomalies or potential issues.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-monitoring"
+    },
+    {
+      "Task": "Validate Backend Pool Configuration",
+      "Task Description": "Ensure that the backend pool is correctly configured and all instances are healthy. Verify that the pool aligns with the intended architecture.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/load-balancer/backend-pool"
+    },
+    {
+      "Task": "Check Load Balancer Rules",
+      "Task Description": "Review and validate load balancing rules to ensure proper distribution of traffic and adherence to security policies.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-overview"
+    },
+    {
+      "Task": "Audit Network Security Groups (NSGs)",
+      "Task Description": "Perform regular audits of NSGs associated with the Load Balancer to ensure compliance with security policies and best practices.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/load-balancer/security-best-practices"
+    },
+    {
+      "Task": "Conduct Failover Tests",
+      "Task Description": "Perform failover tests to verify that the Load Balancer can handle traffic rerouting during outages or disruptions.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-failover"
+    },
+    {
+      "Task": "Update Security Policies",
+      "Task Description": "Review and update security policies related to the Load Balancer to adapt to changes in the network or security landscape.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/load-balancer/security-best-practices"
+    },
+    {
+      "Task": "Optimize Load Balancer Performance",
+      "Task Description": "Analyze performance metrics and optimize Load Balancer settings to ensure efficient traffic distribution and minimal latency.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-performance"
+    },
+    {
+      "Task": "Backup Configuration",
+      "Task Description": "Regularly back up Load Balancer configurations to ensure quick recovery in case of accidental changes or failures.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-configuration"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep documentation related to the Load Balancer up-to-date, including operational procedures, configuration details, and troubleshooting guides.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/load-balancer/"
+    },
+    {
+      "Task": "Incident Response Drills",
+      "Task Description": "Conduct incident response drills to prepare the team for potential security incidents or Load Balancer outages. Ensure familiarity with procedures and protocols.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-troubleshooting"
+    },
+    {
+      "Task": "Review Connectivity Provider SLA",
+      "Task Description": "Evaluate the SLA performance of the Load Balancer connectivity provider. Address any issues or deviations from the agreed SLA metrics.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-sla"
+    },
+    {
+      "Task": "Plan for Upgrades and Expansions",
+      "Task Description": "Develop and execute plans for Load Balancer upgrades or expansions as needed. Ensure minimal disruption during these activities.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-upgrades"
+    },
+    {
+      "Task": "Engage in Regular Training",
+      "Task Description": "Ensure the operations team participates in regular training to stay updated with new Load Balancer features, best practices, and security measures.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/load-balancer/"
+    },
+    {
+      "Task": "User Feedback and Improvement",
+      "Task Description": "Collect and analyze user feedback regarding Load Balancer performance and reliability. Implement continuous improvements based on this feedback.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-performance"
+    }
+  ]
+}
