@@ -1,0 +1,104 @@
+{
+  "Service": "Azure Managed Lustre",
+  "Category": "Storage",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Storage Requirements",
+      "Task Description": "Gather detailed requirements for storage capacity, performance, and scalability. Identify the applications and workloads that will use Azure Managed Lustre.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/managed-lustre/introduction",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Storage Architecture",
+      "Task Description": "Design the storage architecture, including the placement of Lustre file systems, integration with existing Azure resources, and access patterns.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/managed-lustre/design-best-practices",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Request Authorization for Deployment",
+      "Task Description": "Obtain necessary approvals and authorizations for deploying Azure Managed Lustre, including budgetary and compliance checks.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/managed-lustre/authorization-process",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Provision Lustre File System",
+      "Task Description": "Create and configure the Lustre file system in the Azure portal or using Azure CLI/PowerShell. Specify storage capacity and performance tiers.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/managed-lustre/how-to-create-file-system",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Network Access",
+      "Task Description": "Set up virtual networks, subnets, and Network Security Groups (NSGs) to ensure secure access to the Lustre file system.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/managed-lustre/network-configuration",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Enable encryption for data at rest and in transit. Configure access control policies and integrate with Azure Active Directory for authentication.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/managed-lustre/security-best-practices",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Test File System Performance",
+      "Task Description": "Perform thorough testing of the Lustre file system, including IOPS, throughput, and latency measurements to ensure it meets performance requirements.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/managed-lustre/performance-testing",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring and alerting using Azure Monitor and other tools. Configure alerts for storage capacity, performance metrics, and file system health.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/managed-lustre/monitoring-and-alerts",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Document Configuration and Usage",
+      "Task Description": "Document the Lustre file system configuration, usage guidelines, and troubleshooting procedures. Share documentation with relevant teams.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/managed-lustre/documentation-guidelines",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Train Operations Team",
+      "Task Description": "Conduct training sessions for the operations team on managing and troubleshooting Azure Managed Lustre file systems.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/managed-lustre/training-materials",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Backup and Recovery Plan",
+      "Task Description": "Set up backup and recovery mechanisms for the Lustre file system to ensure data resiliency and availability.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/managed-lustre/backup-recovery",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Perform Compliance Checks",
+      "Task Description": "Ensure the Lustre file system setup meets all regulatory compliance requirements. Implement regular auditing procedures to verify compliance.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/managed-lustre/compliance-checks",
+      "Frequency": "Monthly"
+    }
+  ]
+}
