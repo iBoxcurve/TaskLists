@@ -1,0 +1,104 @@
+{
+  "Service": "Azure Table Storage",
+  "Category": "Storage",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2024-07-30 14:30",
+  "Tasks": [
+    {
+      "Task": "Assess Storage Requirements",
+      "Task Description": "Gather detailed requirements for data storage, including capacity, scalability, and access patterns. Identify the applications and services that will use Azure Table Storage.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Storage Architecture",
+      "Task Description": "Design the storage architecture, including partitioning strategies, table schema, and integration with existing systems.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-design-guide",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Create Azure Storage Account",
+      "Task Description": "Provision a new Azure Storage Account in the Azure portal or using Azure CLI/PowerShell. Ensure the account is configured for Table Storage.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/common/storage-account-create",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Access Controls",
+      "Task Description": "Set up role-based access control (RBAC) and shared access signatures (SAS) to secure access to the storage account and tables.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/common/storage-auth",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Encryption",
+      "Task Description": "Enable encryption for data at rest and in transit. Configure customer-managed keys if required.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/common/storage-service-encryption",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Create Tables",
+      "Task Description": "Create tables within the Azure Storage Account using the Azure portal, Azure CLI, or SDKs. Define table schemas and partition keys.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-how-to-use-portal",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring and alerting using Azure Monitor and Storage Analytics. Configure alerts for storage capacity, performance metrics, and access patterns.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/common/storage-monitoring-diagnostics",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Test Storage Performance",
+      "Task Description": "Perform testing to validate storage performance, including read/write operations, latency, and scalability under load.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-performance",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Backup and Recovery",
+      "Task Description": "Set up backup and recovery mechanisms for Azure Table Storage. Configure periodic backups and test recovery procedures.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/common/storage-backup-options",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Document Storage Configuration",
+      "Task Description": "Document the storage architecture, configurations, and operational procedures. Ensure the documentation is accessible to the operations team.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Train Operations Team",
+      "Task Description": "Conduct training sessions for the operations team on managing and troubleshooting Azure Table Storage.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Compliance and Auditing",
+      "Task Description": "Ensure the storage setup meets all regulatory compliance requirements. Implement regular auditing procedures to verify compliance and security postures.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/compliance/",
+      "Frequency": "Continuous"
+    }
+  ]
+}
