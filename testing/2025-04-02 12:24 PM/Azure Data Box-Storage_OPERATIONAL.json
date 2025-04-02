@@ -1,0 +1,120 @@
+{
+  "Service": "Azure Data Box",
+  "Category": "Storage",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Inspect Device Health",
+      "Task Description": "Regularly check the physical and operational health of the Azure Data Box device, ensuring there are no hardware issues or signs of wear and tear.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/databox/databox-overview"
+    },
+    {
+      "Task": "Verify Data Integrity",
+      "Task Description": "Ensure the integrity of data transferred to and from the Azure Data Box by performing checksum validations and comparing source and destination data.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "daily",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/databox/databox-data-transfer"
+    },
+    {
+      "Task": "Update Firmware",
+      "Task Description": "Check for and apply firmware updates to the Azure Data Box device to ensure compatibility with the latest Azure features and security patches.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/databox/databox-update-firmware"
+    },
+    {
+      "Task": "Perform Security Audits",
+      "Task Description": "Conduct regular security audits to ensure the device and data are protected against unauthorized access or vulnerabilities.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/databox/databox-security"
+    },
+    {
+      "Task": "Clean Device Storage",
+      "Task Description": "After data transfer is complete, securely wipe the Azure Data Box device to prevent unauthorized access to sensitive data.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "once",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/databox/databox-data-erasure"
+    },
+    {
+      "Task": "Monitor Transfer Logs",
+      "Task Description": "Review transfer logs to ensure all data has been successfully moved and identify any errors or incomplete transfers.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "daily",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/databox/databox-monitor-transfer"
+    },
+    {
+      "Task": "Validate Network Connectivity",
+      "Task Description": "Ensure the Azure Data Box is properly connected to the network and troubleshoot any connectivity issues that may arise.",
+      "Task Type": "Operational",
+      "Classification": "Troubleshooting",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/databox/databox-network-setup"
+    },
+    {
+      "Task": "Backup Configuration Settings",
+      "Task Description": "Regularly back up the configuration settings of the Azure Data Box to ensure quick recovery in case of device failure.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/databox/databox-configuration-backup"
+    },
+    {
+      "Task": "Test Failover Procedures",
+      "Task Description": "Simulate failover scenarios to ensure the Azure Data Box can recover data and resume operations in case of unexpected failures.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/databox/databox-disaster-recovery"
+    },
+    {
+      "Task": "Review Usage Metrics",
+      "Task Description": "Analyze usage metrics and performance data to optimize the Azure Data Box operations and identify areas for improvement.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/databox/databox-performance-metrics"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep operational documentation up-to-date, including device configurations, transfer procedures, and troubleshooting guides.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/databox/databox-documentation"
+    },
+    {
+      "Task": "Conduct Training Sessions",
+      "Task Description": "Provide regular training to the operations team on Azure Data Box features, best practices, and security protocols.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/databox/databox-training"
+    },
+    {
+      "Task": "Schedule Device Maintenance",
+      "Task Description": "Plan and execute regular maintenance activities for the Azure Data Box, including hardware inspections and software updates.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/databox/databox-maintenance"
+    },
+    {
+      "Task": "Dispose of Device Securely",
+      "Task Description": "When the Azure Data Box is no longer needed, follow secure disposal procedures to ensure no data can be recovered from the device.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "once",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/databox/databox-disposal"
+    }
+  ]
+}
