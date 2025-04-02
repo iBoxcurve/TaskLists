@@ -1,0 +1,104 @@
+{
+  "Service": "Azure Application Gateway",
+  "Category": "Networking",
+  "dateCreated": "2024-07-30 14:30",
+  "dateModified": "2024-07-30 14:30",
+  "Tasks": [
+    {
+      "Task": "Assess Requirements",
+      "Task Description": "Gather detailed requirements for the Azure Application Gateway setup, including traffic routing, SSL termination, Web Application Firewall (WAF) needs, and scalability requirements.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/application-gateway/introduction",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Network Architecture",
+      "Task Description": "Design the network architecture, including subnet allocation, integration with virtual networks, and placement of the Application Gateway.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/application-gateway/configuration-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Provision Application Gateway",
+      "Task Description": "Create and configure the Azure Application Gateway in the Azure portal, including selecting the appropriate tier and size.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/application-gateway/quick-create-portal",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Frontend IP and Listeners",
+      "Task Description": "Set up frontend IP configurations and listeners to define how incoming traffic is received and processed.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/application-gateway/configure-frontend-ip",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Set Up Backend Pools",
+      "Task Description": "Define backend pools to specify the servers or services that will handle the incoming traffic.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/application-gateway/configure-backend-pool",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Routing Rules",
+      "Task Description": "Set up routing rules to define how traffic is routed from the frontend to the backend pools.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/application-gateway/configure-routing-rules",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Enable SSL Termination",
+      "Task Description": "Configure SSL termination to secure traffic between clients and the Application Gateway. Upload SSL certificates as needed.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/application-gateway/configure-ssl",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Web Application Firewall (WAF)",
+      "Task Description": "Enable and configure WAF to protect against common web vulnerabilities and attacks.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/application-gateway/waf-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring and alerting using Azure Monitor and Application Gateway diagnostics to track performance and detect issues.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/application-gateway/monitor-application-gateway",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Test Configuration",
+      "Task Description": "Perform thorough testing of the Application Gateway setup, including traffic routing, SSL termination, and WAF functionality.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/application-gateway/troubleshoot",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Document Configuration and Procedures",
+      "Task Description": "Document the Application Gateway setup, including configurations, routing rules, and operational procedures.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/application-gateway/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Compliance and Security Auditing",
+      "Task Description": "Ensure the setup meets compliance requirements and conduct regular security audits to verify the security posture.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/security/",
+      "Frequency": "Monthly"
+    }
+  ]
+}
