@@ -1,0 +1,120 @@
+{
+  "Service": "Azure Data Explorer",
+  "Category": "Analytics",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2024-07-30 14:30",
+  "Tasks": [
+    {
+      "Task": "Define Project Objectives",
+      "Task Description": "Identify the specific analytics goals and use cases for Azure Data Explorer, such as real-time data analysis, log analytics, or telemetry data processing.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-explorer/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Assess Data Sources",
+      "Task Description": "Evaluate the data sources to be ingested into Azure Data Explorer, including their formats, volumes, and update frequencies.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-explorer/ingest-data-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Data Model",
+      "Task Description": "Design the schema and data model for the Azure Data Explorer database, ensuring it aligns with the analytics requirements.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-explorer/kusto/concepts/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Provision Azure Data Explorer Cluster",
+      "Task Description": "Create an Azure Data Explorer cluster in the Azure portal, specifying the appropriate region, performance tier, and scaling options.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-explorer/create-cluster-database-portal",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Set Up Databases",
+      "Task Description": "Create one or more databases within the Azure Data Explorer cluster to organize and store data.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-explorer/create-cluster-database-portal",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Data Ingestion",
+      "Task Description": "Set up data ingestion pipelines to bring data into Azure Data Explorer from various sources, such as Azure Event Hubs, Azure Blob Storage, or on-premises systems.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-explorer/ingest-data-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Configure role-based access control (RBAC), encryption, and network security settings to secure the Azure Data Explorer cluster and its data.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-explorer/security-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Develop Queries and Dashboards",
+      "Task Description": "Write KQL (Kusto Query Language) queries and create dashboards to visualize and analyze the ingested data.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-explorer/kql/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Test Data Ingestion and Queries",
+      "Task Description": "Validate the data ingestion pipelines and test the KQL queries to ensure they meet the analytics requirements.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-explorer/ingest-data-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Set Up Monitoring and Alerts",
+      "Task Description": "Configure monitoring and alerting for the Azure Data Explorer cluster using Azure Monitor to track performance, usage, and potential issues.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-explorer/monitor-cluster",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Document Configuration and Processes",
+      "Task Description": "Document the cluster setup, data ingestion pipelines, queries, and operational procedures for future reference and team training.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-explorer/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Conduct Training for Team",
+      "Task Description": "Provide training sessions for the team on using Azure Data Explorer, writing KQL queries, and managing the cluster.",
+      "Task Type": "Project",
+      "Classification": "Support",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-explorer/kql/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Establish Maintenance Schedule",
+      "Task Description": "Define a schedule for regular maintenance tasks, such as updating cluster configurations, optimizing queries, and reviewing security settings.",
+      "Task Type": "Operational",
+      "Classification": "Support",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-explorer/",
+      "Frequency": "Monthly"
+    },
+    {
+      "Task": "Perform Regular Audits",
+      "Task Description": "Conduct periodic audits to ensure compliance with security and performance standards.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-explorer/security-overview",
+      "Frequency": "Monthly"
+    }
+  ]
+}
