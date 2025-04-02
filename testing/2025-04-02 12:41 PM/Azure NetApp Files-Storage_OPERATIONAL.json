@@ -1,0 +1,128 @@
+{
+  "Service": "Azure NetApp Files",
+  "Category": "Storage",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Storage Performance",
+      "Task Description": "Use Azure Monitor to continuously track the performance metrics of Azure NetApp Files, including latency, throughput, and IOPS. Investigate and address any anomalies.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-netapp-files/monitor"
+    },
+    {
+      "Task": "Validate Backup and Restore Procedures",
+      "Task Description": "Regularly test backup and restore processes to ensure data integrity and availability. Verify that snapshots are created and retained according to the defined policies.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-netapp-files/snapshots-backup"
+    },
+    {
+      "Task": "Review Security Configurations",
+      "Task Description": "Audit security settings, including encryption and access controls, to ensure compliance with organizational policies and industry standards.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-netapp-files/security"
+    },
+    {
+      "Task": "Update Network Configurations",
+      "Task Description": "Ensure that network configurations, such as virtual network peering and firewall rules, are optimized for Azure NetApp Files connectivity and security.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-netapp-files/networking"
+    },
+    {
+      "Task": "Perform Capacity Planning",
+      "Task Description": "Analyze storage usage trends and plan for capacity upgrades to avoid disruptions due to insufficient storage space.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-netapp-files/capacity-planning"
+    },
+    {
+      "Task": "Conduct Failover Tests",
+      "Task Description": "Perform failover tests to validate the resiliency of Azure NetApp Files in case of service disruptions. Ensure that data remains accessible during failover scenarios.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-netapp-files/disaster-recovery"
+    },
+    {
+      "Task": "Audit Compliance with Policies",
+      "Task Description": "Conduct regular audits to ensure Azure NetApp Files configurations comply with organizational policies and regulatory requirements.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-netapp-files/compliance"
+    },
+    {
+      "Task": "Optimize Storage Performance",
+      "Task Description": "Review and adjust storage tiering and performance settings to ensure optimal performance for workloads hosted on Azure NetApp Files.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-netapp-files/performance-optimization"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep documentation up-to-date, including operational procedures, configuration details, and troubleshooting guides for Azure NetApp Files.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-netapp-files/documentation"
+    },
+    {
+      "Task": "Incident Response Drills",
+      "Task Description": "Conduct incident response drills to prepare the team for potential security incidents or service outages. Ensure familiarity with procedures and protocols.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-netapp-files/incident-response"
+    },
+    {
+      "Task": "Review Service Level Agreement (SLA)",
+      "Task Description": "Evaluate the SLA performance of Azure NetApp Files. Address any issues or deviations from the agreed SLA metrics.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-netapp-files/sla"
+    },
+    {
+      "Task": "Plan for Upgrades and Expansions",
+      "Task Description": "Develop and execute plans for Azure NetApp Files upgrades or expansions as needed. Ensure minimal disruption during these activities.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-netapp-files/upgrade-expansion"
+    },
+    {
+      "Task": "Engage in Regular Training",
+      "Task Description": "Ensure the operations team participates in regular training to stay updated with new Azure NetApp Files features, best practices, and security measures.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-netapp-files/training"
+    },
+    {
+      "Task": "Backup Configuration",
+      "Task Description": "Regularly back up configurations of Azure NetApp Files to ensure secure and accessible storage of backups for potential restoration.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-netapp-files/backup-configuration"
+    },
+    {
+      "Task": "User Feedback and Improvement",
+      "Task Description": "Collect and analyze user feedback regarding Azure NetApp Files performance and reliability. Implement continuous improvements based on this feedback.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-netapp-files/user-feedback"
+    }
+  ]
+}
