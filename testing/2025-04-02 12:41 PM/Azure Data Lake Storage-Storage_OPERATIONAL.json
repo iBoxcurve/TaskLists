@@ -1,0 +1,120 @@
+{
+  "Service": "Azure Data Lake Storage",
+  "Category": "Storage",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Storage Utilization",
+      "Task Description": "Continuously monitor the storage utilization of Azure Data Lake Storage to ensure it remains within allocated limits and identify any unusual spikes in usage.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/monitoring"
+    },
+    {
+      "Task": "Review Access Control Policies",
+      "Task Description": "Regularly review and update access control policies to ensure that only authorized users and applications have access to the data stored in Azure Data Lake Storage.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/access-control"
+    },
+    {
+      "Task": "Perform Data Integrity Checks",
+      "Task Description": "Conduct periodic checks to verify the integrity of data stored in Azure Data Lake Storage and ensure there is no corruption or loss.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/data-integrity"
+    },
+    {
+      "Task": "Audit Storage Configuration",
+      "Task Description": "Perform audits of the storage configuration to ensure compliance with organizational policies and best practices.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/configuration-audit"
+    },
+    {
+      "Task": "Backup Critical Data",
+      "Task Description": "Implement and maintain a backup strategy for critical data stored in Azure Data Lake Storage to ensure data recovery in case of accidental deletion or corruption.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/backup-strategy"
+    },
+    {
+      "Task": "Optimize Storage Performance",
+      "Task Description": "Analyze storage performance metrics and optimize configurations to ensure efficient data access and processing.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/performance-optimization"
+    },
+    {
+      "Task": "Rotate Encryption Keys",
+      "Task Description": "Regularly rotate encryption keys used for securing data in Azure Data Lake Storage to enhance security and comply with organizational policies.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/encryption-key-rotation"
+    },
+    {
+      "Task": "Test Disaster Recovery Plan",
+      "Task Description": "Conduct tests of the disaster recovery plan to ensure that data can be restored quickly and effectively in case of a major incident.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/disaster-recovery"
+    },
+    {
+      "Task": "Update Documentation",
+      "Task Description": "Maintain up-to-date documentation for Azure Data Lake Storage configurations, operational procedures, and troubleshooting guides.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/documentation"
+    },
+    {
+      "Task": "Conduct Security Audits",
+      "Task Description": "Perform regular security audits to identify vulnerabilities and ensure compliance with security standards.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/security-audit"
+    },
+    {
+      "Task": "Analyze Cost Efficiency",
+      "Task Description": "Review storage costs and usage patterns to identify opportunities for cost optimization and ensure budget adherence.",
+      "Task Type": "Operational",
+      "Classification": "Cost Management",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/cost-management"
+    },
+    {
+      "Task": "Validate Data Lifecycle Policies",
+      "Task Description": "Ensure that data lifecycle policies are correctly implemented and align with organizational data retention requirements.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/data-lifecycle"
+    },
+    {
+      "Task": "Perform Incident Response Drills",
+      "Task Description": "Conduct drills to prepare the team for responding to potential security incidents or data breaches.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/incident-response"
+    },
+    {
+      "Task": "Review Service Level Agreements (SLAs)",
+      "Task Description": "Evaluate the performance of Azure Data Lake Storage against SLAs and address any deviations.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/sla"
+    }
+  ]
+}
