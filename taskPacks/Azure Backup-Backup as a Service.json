@@ -4,7 +4,6 @@
   "dateCreated": "2024-07-30 14:30",
   "dateModified": "2024-07-30 14:30",
   "Tasks": [
-   [
   {
     "TaskSortId": "AAA",
     "Task": "Assess Backup Requirements",
@@ -239,7 +238,5 @@
     "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-incident-response",
     "Frequency": "Semi-Annually"
   }
-]
-
   ]
 }
