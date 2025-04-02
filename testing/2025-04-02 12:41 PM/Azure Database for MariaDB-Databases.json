@@ -1,0 +1,92 @@
+{
+  "Service": "Azure Database for MariaDB",
+  "Category": "Databases",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2024-07-30 14:30",
+  "Tasks": [
+    {
+      "Task": "Assess Requirements",
+      "Task Description": "Gather detailed requirements for database size, performance, scalability, and redundancy. Identify the applications and services that will use the database.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/mariadb/"
+    },
+    {
+      "Task": "Design Database Architecture",
+      "Task Description": "Design the database architecture, including the number of servers, storage requirements, and high availability configurations.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/mariadb/concepts-high-availability"
+    },
+    {
+      "Task": "Select Pricing Tier",
+      "Task Description": "Choose the appropriate pricing tier based on the performance and scalability requirements.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/mariadb/concepts-pricing-tiers"
+    },
+    {
+      "Task": "Provision Database Instance",
+      "Task Description": "Create and configure the Azure Database for MariaDB instance in the Azure portal or using Azure CLI/PowerShell.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/mariadb/quickstart-create-mariadb-server-database-portal"
+    },
+    {
+      "Task": "Configure Firewall Rules",
+      "Task Description": "Set up firewall rules to allow access to the database from specific IP addresses or Azure services.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/mariadb/howto-manage-firewall-rules"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Enable SSL enforcement for secure connections and configure user roles and permissions for database access.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/mariadb/howto-configure-ssl"
+    },
+    {
+      "Task": "Backup Configuration",
+      "Task Description": "Set up automated backups and define retention policies to ensure data recovery in case of failure.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/mariadb/concepts-backup"
+    },
+    {
+      "Task": "Performance Tuning",
+      "Task Description": "Optimize database performance by configuring query performance insights and adjusting server parameters as needed.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/mariadb/howto-performance-tuning"
+    },
+    {
+      "Task": "Monitoring and Alerts",
+      "Task Description": "Set up monitoring and alerting using Azure Monitor to track database health, performance, and usage metrics.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/mariadb/howto-monitor"
+    },
+    {
+      "Task": "Test Database Connectivity",
+      "Task Description": "Verify that the database is accessible from the intended applications and services. Test failover scenarios if high availability is configured.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/mariadb/howto-connect"
+    },
+    {
+      "Task": "Documentation and Training",
+      "Task Description": "Document the database setup, configurations, and operational procedures. Conduct training sessions for the operations team on managing and troubleshooting the database.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/mariadb/"
+    },
+    {
+      "Task": "Compliance and Auditing",
+      "Task Description": "Ensure the database setup meets all regulatory compliance requirements. Implement regular auditing procedures to verify compliance and security postures.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/mariadb/concepts-security"
+    }
+  ]
+}
