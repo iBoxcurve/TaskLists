@@ -1,0 +1,120 @@
+{
+  "Service": "Azure Backup",
+  "Category": "Backup as a Service",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Backup Jobs",
+      "Task Description": "Regularly monitor the status of backup jobs to ensure successful completion and identify any failures or errors.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "daily",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-monitoring"
+    },
+    {
+      "Task": "Verify Backup Integrity",
+      "Task Description": "Perform periodic checks to ensure the integrity of backed-up data and confirm that it can be restored successfully.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-verify-integrity"
+    },
+    {
+      "Task": "Update Backup Policies",
+      "Task Description": "Review and update backup policies to align with organizational requirements and compliance standards.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-policy"
+    },
+    {
+      "Task": "Test Restore Operations",
+      "Task Description": "Conduct regular restore tests to validate the reliability of backup data and ensure recovery processes are functional.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-restore-test"
+    },
+    {
+      "Task": "Monitor Storage Usage",
+      "Task Description": "Track the storage consumption of backup data and optimize usage to avoid unnecessary costs.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-storage-monitoring"
+    },
+    {
+      "Task": "Rotate Encryption Keys",
+      "Task Description": "Ensure encryption keys used for securing backup data are rotated periodically to maintain security standards.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-encryption"
+    },
+    {
+      "Task": "Audit Backup Configurations",
+      "Task Description": "Perform regular audits of backup configurations to ensure compliance with organizational policies and best practices.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-audit"
+    },
+    {
+      "Task": "Update Documentation",
+      "Task Description": "Maintain up-to-date documentation for backup configurations, policies, and procedures to ensure operational consistency.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-documentation"
+    },
+    {
+      "Task": "Review Backup Retention Policies",
+      "Task Description": "Ensure backup retention policies meet organizational and regulatory requirements, and adjust as necessary.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-retention-policy"
+    },
+    {
+      "Task": "Respond to Backup Alerts",
+      "Task Description": "Investigate and resolve any alerts or notifications related to backup failures or issues.",
+      "Task Type": "Operational",
+      "Classification": "Troubleshooting",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-alerts"
+    },
+    {
+      "Task": "Optimize Backup Performance",
+      "Task Description": "Analyze backup performance metrics and implement optimizations to improve efficiency and reduce backup times.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-performance"
+    },
+    {
+      "Task": "Conduct Training for Backup Operations",
+      "Task Description": "Provide regular training to the operations team on Azure Backup features, best practices, and troubleshooting techniques.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-training"
+    },
+    {
+      "Task": "Plan for Backup Capacity Expansion",
+      "Task Description": "Assess future backup storage needs and plan for capacity expansion to ensure uninterrupted operations.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-capacity-planning"
+    },
+    {
+      "Task": "Perform Incident Response Drills",
+      "Task Description": "Conduct drills to prepare for backup-related incidents, ensuring the team is familiar with response protocols.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-incident-response"
+    }
+  ]
+}
