@@ -108,5 +108,16 @@
     "VendorIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/Microsoft_logo.svg",
     "PlatformIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/microsoft-azure.svg",
     "ServiceIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/Azure%20Container%20Apps.svg"
+  },
+  {
+    "UID": "00000011",
+    "Vendor": "Microsoft",
+    "Platform": "Microsoft Azure",
+    "Service": "Azure Backup",
+    "Link": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/taskPacks/Azure%20Backup-Backup%20as%20a%20Service.json",
+    "Description": "",
+    "VendorIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/Microsoft_logo.svg",
+    "PlatformIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/microsoft-azure.svg",
+    "ServiceIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/refs/heads/main/icons/Azure%20Backup.svg"
   }
 ]
