@@ -1,0 +1,128 @@
+{
+  "Service": "Azure IoT Edge",
+  "Category": "Internet of Things",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Edge Device Health",
+      "Task Description": "Use Azure Monitor and IoT Hub metrics to continuously monitor the health and status of IoT Edge devices. Identify and investigate any anomalies or potential issues.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-edge/how-to-monitor"
+    },
+    {
+      "Task": "Update IoT Edge Runtime",
+      "Task Description": "Regularly update the IoT Edge runtime to the latest version to ensure compatibility, security, and access to new features.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-edge/how-to-update-runtime"
+    },
+    {
+      "Task": "Validate Module Deployment",
+      "Task Description": "Ensure that IoT Edge modules are deployed correctly and functioning as expected. Test module functionality after deployment.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "once",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-edge/how-to-deploy-modules"
+    },
+    {
+      "Task": "Perform Security Audits",
+      "Task Description": "Conduct regular security audits to ensure IoT Edge devices and modules comply with organizational security policies and best practices.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-edge/security"
+    },
+    {
+      "Task": "Backup Device Configuration",
+      "Task Description": "Regularly back up IoT Edge device configurations to ensure quick recovery in case of device failure or accidental misconfiguration.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-edge/how-to-manage-backup"
+    },
+    {
+      "Task": "Monitor Network Connectivity",
+      "Task Description": "Ensure IoT Edge devices maintain stable network connectivity to IoT Hub and other required services. Investigate and resolve connectivity issues promptly.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "daily",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-edge/troubleshoot-connectivity"
+    },
+    {
+      "Task": "Rotate Security Certificates",
+      "Task Description": "Regularly rotate security certificates used by IoT Edge devices to maintain compliance with security policies and prevent unauthorized access.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-edge/how-to-manage-certificates"
+    },
+    {
+      "Task": "Test Failover Scenarios",
+      "Task Description": "Conduct failover tests to ensure IoT Edge devices can recover from network or hardware failures without data loss or service disruption.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-edge/disaster-recovery"
+    },
+    {
+      "Task": "Optimize Module Performance",
+      "Task Description": "Analyze performance metrics of IoT Edge modules and optimize configurations to ensure efficient resource utilization and responsiveness.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-edge/how-to-optimize-modules"
+    },
+    {
+      "Task": "Review Device Logs",
+      "Task Description": "Regularly review logs from IoT Edge devices to identify and address errors, warnings, or unexpected behavior.",
+      "Task Type": "Operational",
+      "Classification": "Troubleshooting",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-edge/how-to-collect-logs"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep IoT Edge operational procedures, configuration details, and troubleshooting guides up-to-date.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-edge/"
+    },
+    {
+      "Task": "Conduct Training Sessions",
+      "Task Description": "Organize regular training sessions for the operations team to stay updated with new IoT Edge features, best practices, and security measures.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-edge/"
+    },
+    {
+      "Task": "Audit Compliance with Regulations",
+      "Task Description": "Perform regular compliance checks to ensure IoT Edge devices and operations adhere to relevant regulations and industry standards.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-edge/compliance"
+    },
+    {
+      "Task": "Incident Response Drills",
+      "Task Description": "Conduct incident response drills to prepare the team for potential security incidents or IoT Edge device outages. Ensure familiarity with procedures and protocols.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-edge/security-best-practices"
+    },
+    {
+      "Task": "Plan for Device Upgrades",
+      "Task Description": "Develop and execute plans for upgrading IoT Edge devices or modules as needed. Ensure minimal disruption during these activities.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/iot-edge/how-to-upgrade"
+    }
+  ]
+}
