@@ -1,0 +1,112 @@
+{
+  "Service": "Azure Virtual Machines",
+  "Category": "Compute",
+  "dateCreated": "2024-07-30 14:30",
+  "dateModified": "2024-07-30 14:30",
+  "Tasks": [
+    {
+      "Task": "Define Project Requirements",
+      "Task Description": "Gather detailed requirements for the virtual machines, including operating system, size, region, and expected workload.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design VM Architecture",
+      "Task Description": "Design the architecture for the virtual machines, including network configuration, storage options, and integration with other Azure services.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/design",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Select VM Sizes and Types",
+      "Task Description": "Choose appropriate VM sizes and types based on workload requirements and cost considerations.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/sizes",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Provision Virtual Machines",
+      "Task Description": "Create and configure virtual machines in the Azure portal or using Azure CLI/PowerShell.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/create",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Networking",
+      "Task Description": "Set up virtual networks, subnets, and Network Security Groups (NSGs) to ensure secure and efficient communication.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Enable security features such as Azure Defender, encryption, and access control policies to protect the virtual machines.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/security-center/security-center-introduction",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Backup and Recovery",
+      "Task Description": "Set up Azure Backup and disaster recovery solutions to ensure data protection and business continuity.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/backup/backup-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Test VM Performance",
+      "Task Description": "Perform testing to validate the performance and reliability of the virtual machines under expected workloads.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/linux/benchmarking",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring and alerting using Azure Monitor to track VM performance, availability, and security.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/monitoring/monitoring-overview",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Document VM Setup",
+      "Task Description": "Create detailed documentation of the virtual machine configurations, architecture, and operational procedures.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/documentation",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Train Operations Team",
+      "Task Description": "Conduct training sessions for the operations team on managing and troubleshooting the virtual machines.",
+      "Task Type": "Project",
+      "Classification": "Support",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/training",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Perform Regular Maintenance",
+      "Task Description": "Schedule regular maintenance tasks, such as patching, updates, and performance optimization.",
+      "Task Type": "Operational",
+      "Classification": "Support",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/maintenance",
+      "Frequency": "Monthly"
+    },
+    {
+      "Task": "Audit and Compliance Checks",
+      "Task Description": "Conduct regular audits to ensure compliance with organizational and regulatory standards.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/compliance/",
+      "Frequency": "Monthly"
+    }
+  ]
+}
