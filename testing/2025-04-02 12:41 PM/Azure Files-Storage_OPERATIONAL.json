@@ -1,0 +1,112 @@
+{
+  "Service": "Azure Files",
+  "Category": "Storage",
+  "dateCreated": "2024-07-30 14:30",
+  "dateModified": "2024-07-30 14:30",
+  "Tasks": [
+    {
+      "Task": "Monitor Storage Performance",
+      "Task Description": "Use Azure Monitor to continuously track the performance metrics of Azure Files, such as latency, throughput, and IOPS. Investigate and resolve any anomalies.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/storage-files-monitoring"
+    },
+    {
+      "Task": "Check Security Configurations",
+      "Task Description": "Verify the security settings of Azure Files, including access control lists (ACLs), encryption settings, and shared access signatures (SAS). Ensure compliance with organizational security policies.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/storage-files-security"
+    },
+    {
+      "Task": "Validate Backup and Restore Procedures",
+      "Task Description": "Test backup and restore processes for Azure Files to ensure data integrity and availability in case of accidental deletion or corruption.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/storage-files-backup"
+    },
+    {
+      "Task": "Audit File Share Usage",
+      "Task Description": "Review file share usage and storage quotas to ensure optimal utilization and prevent overages. Adjust quotas as necessary.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/storage-files-quota"
+    },
+    {
+      "Task": "Update Security Policies",
+      "Task Description": "Review and update security policies for Azure Files, including network security groups (NSGs) and firewall rules, to adapt to changes in the security landscape.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/storage-files-network-security"
+    },
+    {
+      "Task": "Conduct Failover Tests",
+      "Task Description": "Perform failover tests to verify the resiliency of Azure Files in case of regional outages or service disruptions.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/storage-files-disaster-recovery"
+    },
+    {
+      "Task": "Optimize File Share Performance",
+      "Task Description": "Analyze performance data and implement optimizations, such as tiering or caching, to improve Azure Files performance.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/storage-files-performance"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep Azure Files documentation up-to-date, including operational procedures, configuration details, and troubleshooting guides.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/"
+    },
+    {
+      "Task": "Review Storage Account Configuration",
+      "Task Description": "Audit the configuration of the storage account hosting Azure Files to ensure alignment with best practices and organizational standards.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/storage-files-best-practices"
+    },
+    {
+      "Task": "Incident Response Drills",
+      "Task Description": "Conduct incident response drills to prepare the team for potential security incidents or Azure Files outages. Ensure familiarity with procedures and protocols.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/storage-files-troubleshooting"
+    },
+    {
+      "Task": "Plan for Upgrades and Expansions",
+      "Task Description": "Develop and execute plans for Azure Files upgrades or expansions as needed. Ensure minimal disruption during these activities.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/storage-files-upgrade"
+    },
+    {
+      "Task": "Engage in Regular Training",
+      "Task Description": "Ensure the operations team participates in regular training to stay updated with new Azure Files features, best practices, and security measures.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/"
+    },
+    {
+      "Task": "User Feedback and Improvement",
+      "Task Description": "Collect and analyze user feedback regarding Azure Files performance and reliability. Implement continuous improvements based on this feedback.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/storage/files/storage-files-performance"
+    }
+  ]
+}
