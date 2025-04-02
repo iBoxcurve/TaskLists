@@ -1,0 +1,128 @@
+{
+  "Service": "Azure Kubernetes Service (AKS)",
+  "Category": "Containers",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Cluster Health Monitoring",
+      "Task Description": "Continuously monitor the health and performance of the AKS cluster using Azure Monitor and Kubernetes-native tools. Identify and resolve any anomalies or issues.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/aks/monitor-aks"
+    },
+    {
+      "Task": "Node Scaling and Autoscaling Configuration",
+      "Task Description": "Ensure the AKS cluster is configured for autoscaling to handle workload changes. Regularly review and adjust node pool scaling settings as needed.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/aks/cluster-autoscaler"
+    },
+    {
+      "Task": "Security Patch Management",
+      "Task Description": "Apply security patches to the AKS cluster nodes and ensure the Kubernetes version is up-to-date. Review and implement security updates promptly.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/aks/security-best-practices"
+    },
+    {
+      "Task": "Backup and Disaster Recovery Planning",
+      "Task Description": "Implement and test backup solutions for AKS workloads and configurations. Ensure disaster recovery plans are in place and tested regularly.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/aks/backup-restore"
+    },
+    {
+      "Task": "Cluster Upgrades",
+      "Task Description": "Plan and execute upgrades for the AKS cluster to newer Kubernetes versions. Ensure minimal disruption during the upgrade process.",
+      "Task Type": "Operational",
+      "Classification": "Implementation",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/aks/upgrade-cluster"
+    },
+    {
+      "Task": "Network Policy Review",
+      "Task Description": "Review and update network policies to ensure secure communication between pods and services within the AKS cluster.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/aks/use-network-policies"
+    },
+    {
+      "Task": "Resource Utilization Analysis",
+      "Task Description": "Analyze resource utilization within the AKS cluster to identify inefficiencies and optimize workloads.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/aks/monitor-aks"
+    },
+    {
+      "Task": "Incident Response and Troubleshooting",
+      "Task Description": "Develop and execute incident response plans for AKS cluster issues. Use Kubernetes logs and Azure diagnostics to troubleshoot and resolve problems.",
+      "Task Type": "Operational",
+      "Classification": "Troubleshooting",
+      "Frequency": "as needed",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/aks/troubleshooting"
+    },
+    {
+      "Task": "Role-Based Access Control (RBAC) Management",
+      "Task Description": "Review and update RBAC settings to ensure proper access control for AKS resources. Audit permissions regularly.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/aks/manage-rbac"
+    },
+    {
+      "Task": "Container Image Vulnerability Scanning",
+      "Task Description": "Scan container images for vulnerabilities before deploying them to the AKS cluster. Use Azure Security Center or third-party tools for scanning.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/aks/deploy-container-image"
+    },
+    {
+      "Task": "Audit Logs Review",
+      "Task Description": "Regularly review audit logs for the AKS cluster to detect unauthorized access or suspicious activities.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/aks/view-logs"
+    },
+    {
+      "Task": "Pod and Service Health Checks",
+      "Task Description": "Perform regular health checks on pods and services running in the AKS cluster. Ensure workloads are functioning as expected.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "daily",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/aks/monitor-aks"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep AKS cluster documentation up-to-date, including operational procedures, configurations, and troubleshooting guides.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/aks/"
+    },
+    {
+      "Task": "Compliance Checks",
+      "Task Description": "Perform regular compliance checks to ensure the AKS cluster adheres to relevant regulations and industry standards.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/aks/security-best-practices"
+    },
+    {
+      "Task": "User Feedback and Improvement",
+      "Task Description": "Collect and analyze user feedback regarding AKS performance and reliability. Implement continuous improvements based on this feedback.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/aks/"
+    }
+  ]
+}
