@@ -1,0 +1,128 @@
+{
+  "Service": "Azure Virtual Machine Scale Sets",
+  "Category": "Compute",
+  "dateCreated": "2023-10-07 12:00",
+  "dateModified": "2023-10-07 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor VM Scale Set Health",
+      "Task Description": "Use Azure Monitor to continuously track the health and performance of Virtual Machine Scale Sets. Investigate and resolve any anomalies or issues.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/monitoring"
+    },
+    {
+      "Task": "Apply Security Updates",
+      "Task Description": "Ensure all Virtual Machine Scale Set instances are updated with the latest security patches and updates. Use Azure Update Management for automation.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/automation/update-management/overview"
+    },
+    {
+      "Task": "Scale Set Capacity Review",
+      "Task Description": "Regularly review and adjust the capacity of the Virtual Machine Scale Set to meet workload demands while optimizing costs.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview"
+    },
+    {
+      "Task": "Backup VM Scale Set Configurations",
+      "Task Description": "Create backups of Virtual Machine Scale Set configurations to ensure recovery in case of accidental changes or failures.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/backup"
+    },
+    {
+      "Task": "Test Auto-Scaling Rules",
+      "Task Description": "Perform regular tests of auto-scaling rules to ensure they are functioning as expected and meeting workload requirements.",
+      "Task Type": "Operational",
+      "Classification": "Testing",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/autoscale"
+    },
+    {
+      "Task": "Audit Access Controls",
+      "Task Description": "Review and update access controls for Virtual Machine Scale Sets to ensure compliance with security policies.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/role-based-access-control/overview"
+    },
+    {
+      "Task": "Optimize VM Scale Set Performance",
+      "Task Description": "Analyze performance metrics and optimize Virtual Machine Scale Set configurations to improve efficiency and reduce costs.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview"
+    },
+    {
+      "Task": "Conduct Failover Tests",
+      "Task Description": "Perform failover tests to ensure Virtual Machine Scale Sets can recover from failures and maintain availability.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/availability"
+    },
+    {
+      "Task": "Update Scale Set Images",
+      "Task Description": "Regularly update the base images used by Virtual Machine Scale Sets to ensure they include the latest features and security updates.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep documentation for Virtual Machine Scale Sets up-to-date, including operational procedures, configurations, and troubleshooting guides.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/"
+    },
+    {
+      "Task": "Incident Response Drills",
+      "Task Description": "Conduct incident response drills to prepare the team for potential security incidents or Virtual Machine Scale Set outages.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/availability"
+    },
+    {
+      "Task": "Review SLA Compliance",
+      "Task Description": "Evaluate the SLA performance of Virtual Machine Scale Sets and address any deviations from agreed metrics.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview"
+    },
+    {
+      "Task": "Plan for Upgrades and Expansions",
+      "Task Description": "Develop and execute plans for Virtual Machine Scale Set upgrades or expansions as needed. Ensure minimal disruption during these activities.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview"
+    },
+    {
+      "Task": "Engage in Regular Training",
+      "Task Description": "Ensure the operations team participates in regular training to stay updated with new Virtual Machine Scale Set features, best practices, and security measures.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/"
+    },
+    {
+      "Task": "User Feedback and Improvement",
+      "Task Description": "Collect and analyze user feedback regarding Virtual Machine Scale Set performance and reliability. Implement continuous improvements based on this feedback.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview"
+    }
+  ]
+}
