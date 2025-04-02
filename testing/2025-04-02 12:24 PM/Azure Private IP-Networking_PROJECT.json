@@ -1,0 +1,78 @@
+{
+  "Service": "Azure Private IP",
+  "Category": "Networking",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Requirements",
+      "Task Description": "Gather detailed requirements for private IP address allocation, subnet configuration, and integration with existing on-premises and Azure networks.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-network/ip-services"
+    },
+    {
+      "Task": "Design IP Addressing Scheme",
+      "Task Description": "Design the IP addressing scheme, including subnet sizes, address ranges, and reserved IPs for critical services.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-network/subnet-overview"
+    },
+    {
+      "Task": "Create Virtual Network",
+      "Task Description": "Set up a virtual network in Azure to host the private IPs. Define subnets and configure address spaces.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-network/quick-create-portal"
+    },
+    {
+      "Task": "Configure Private IPs",
+      "Task Description": "Assign private IP addresses to Azure resources such as virtual machines, load balancers, and application gateways.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-network/ip-services"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Apply security controls such as Network Security Groups (NSGs) and Azure Firewall to protect resources using private IPs.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/network-security-groups"
+    },
+    {
+      "Task": "Integrate with On-Premises Network",
+      "Task Description": "Set up VPN or ExpressRoute connections to integrate the Azure private IP network with the on-premises network.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/expressroute/expressroute-introduction"
+    },
+    {
+      "Task": "Test Connectivity",
+      "Task Description": "Perform connectivity tests to ensure private IPs are reachable within the virtual network and across hybrid connections.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-connectivity-check-overview"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring and alerting for private IP usage, network traffic, and resource health using Azure Monitor and Network Watcher.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-monitoring-overview"
+    },
+    {
+      "Task": "Document Configuration",
+      "Task Description": "Document the private IP setup, including IP ranges, subnet configurations, and security measures. Share documentation with relevant teams.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-network/"
+    },
+    {
+      "Task": "Compliance and Auditing",
+      "Task Description": "Ensure the private IP setup complies with organizational and regulatory standards. Conduct regular audits to verify compliance.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/compliance/"
+    }
+  ]
+}
