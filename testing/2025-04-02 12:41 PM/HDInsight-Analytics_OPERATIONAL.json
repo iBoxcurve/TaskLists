@@ -1,0 +1,128 @@
+{
+  "Service": "HDInsight",
+  "Category": "Analytics",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Cluster Health Monitoring",
+      "Task Description": "Use Azure Monitor to continuously monitor the health and performance of HDInsight clusters. Identify and resolve any anomalies or issues.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-monitoring"
+    },
+    {
+      "Task": "Security Configuration Review",
+      "Task Description": "Regularly review security configurations, including firewall rules, access controls, and encryption settings, to ensure compliance with organizational policies.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-security-overview"
+    },
+    {
+      "Task": "Cluster Scaling and Optimization",
+      "Task Description": "Analyze cluster usage and scale resources up or down based on workload requirements to optimize performance and cost.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-scale-cluster"
+    },
+    {
+      "Task": "Patch Management",
+      "Task Description": "Ensure HDInsight clusters are updated with the latest patches and updates to address vulnerabilities and improve performance.",
+      "Task Type": "Operational",
+      "Classification": "Maintenance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-maintenance"
+    },
+    {
+      "Task": "Backup and Disaster Recovery Testing",
+      "Task Description": "Perform regular backups of critical data and conduct disaster recovery tests to ensure data integrity and availability during outages.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-backup-recovery"
+    },
+    {
+      "Task": "Audit Logs Review",
+      "Task Description": "Review audit logs to monitor user activities and detect any unauthorized access or suspicious behavior.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-audit-logs"
+    },
+    {
+      "Task": "Performance Tuning",
+      "Task Description": "Regularly analyze cluster performance metrics and tune configurations to improve query execution times and resource utilization.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-performance-tuning"
+    },
+    {
+      "Task": "Data Encryption Validation",
+      "Task Description": "Verify that all data stored and processed in HDInsight clusters is encrypted both at rest and in transit.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-encryption"
+    },
+    {
+      "Task": "Cluster Configuration Audit",
+      "Task Description": "Conduct regular audits of cluster configurations to ensure alignment with best practices and organizational standards.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-configuration"
+    },
+    {
+      "Task": "Incident Response Drills",
+      "Task Description": "Conduct drills to prepare the team for potential security incidents or cluster outages. Ensure familiarity with response protocols.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-security-best-practices"
+    },
+    {
+      "Task": "User Access Review",
+      "Task Description": "Review user access permissions to ensure that only authorized personnel have access to HDInsight clusters.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-access-control"
+    },
+    {
+      "Task": "Documentation Updates",
+      "Task Description": "Maintain up-to-date documentation for HDInsight cluster configurations, operational procedures, and troubleshooting guides.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hdinsight/"
+    },
+    {
+      "Task": "Compliance Checks",
+      "Task Description": "Perform regular compliance checks to ensure HDInsight clusters adhere to relevant regulations and industry standards.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-compliance"
+    },
+    {
+      "Task": "Training and Skill Development",
+      "Task Description": "Ensure the operations team participates in regular training to stay updated with new HDInsight features, best practices, and security measures.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hdinsight/"
+    },
+    {
+      "Task": "Resource Cost Analysis",
+      "Task Description": "Analyze resource usage and costs associated with HDInsight clusters to identify opportunities for cost optimization.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-cost-management"
+    }
+  ]
+}
