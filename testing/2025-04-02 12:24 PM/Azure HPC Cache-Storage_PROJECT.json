@@ -1,0 +1,88 @@
+{
+  "Service": "Azure HPC Cache",
+  "Category": "Storage",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Storage Requirements",
+      "Task Description": "Gather detailed requirements for storage capacity, performance, and latency. Identify the applications and workloads that will use Azure HPC Cache.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/hpc-cache/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Cache Architecture",
+      "Task Description": "Design the cache architecture, including the placement of cache clusters, integration with existing storage systems, and network topology.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/hpc-cache/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Select Cache Tier and Configuration",
+      "Task Description": "Choose the appropriate cache tier and configuration based on workload requirements and budget constraints.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/hpc-cache/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Provision HPC Cache",
+      "Task Description": "Create and configure the Azure HPC Cache instance in the Azure portal or using Azure CLI/PowerShell.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/hpc-cache/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Integrate with Storage Systems",
+      "Task Description": "Connect the HPC Cache to the required storage systems, such as Azure Blob Storage or on-premises NAS systems.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/hpc-cache/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Enable required security measures, such as encryption for data in transit and at rest. Configure access control policies and ensure compliance with organizational security standards.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/hpc-cache/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Test Cache Performance",
+      "Task Description": "Perform thorough testing of the cache performance, including throughput, latency, and failover scenarios to ensure it meets the required specifications.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/hpc-cache/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring and alerting using Azure Monitor and other tools. Configure alerts for cache performance, capacity thresholds, and error conditions.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/hpc-cache/",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Document Cache Setup and Procedures",
+      "Task Description": "Document the cache architecture, configurations, and operational procedures. Provide training for the operations team on managing and troubleshooting the setup.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/hpc-cache/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Compliance and Auditing",
+      "Task Description": "Ensure the cache setup meets all regulatory compliance requirements. Implement regular auditing procedures to verify compliance and security postures.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/compliance/",
+      "Frequency": "Monthly"
+    }
+  ]
+}
