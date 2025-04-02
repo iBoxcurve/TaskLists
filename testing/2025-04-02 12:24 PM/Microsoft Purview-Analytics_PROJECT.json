@@ -1,0 +1,120 @@
+{
+  "Service": "Microsoft Purview",
+  "Category": "Analytics",
+  "dateCreated": "2023-10-11 14:30",
+  "dateModified": "2023-10-11 14:30",
+  "Tasks": [
+    {
+      "Task": "Assess Business Requirements",
+      "Task Description": "Gather detailed requirements for data governance, analytics, and compliance. Identify the data sources, types, and analytics use cases to be addressed by Microsoft Purview.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/purview/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Data Governance Architecture",
+      "Task Description": "Design the architecture for data governance and analytics, including the integration of Microsoft Purview with existing data sources and analytics tools.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/purview/concept-data-governance",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Set Up Microsoft Purview Account",
+      "Task Description": "Create a Microsoft Purview account in the Azure portal and configure the initial settings, such as region and resource group.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/purview/create-catalog-portal",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Data Sources",
+      "Task Description": "Connect Microsoft Purview to the required data sources, such as Azure Data Lake, SQL databases, or on-premises data stores.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/purview/register-scan-data-sources",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Set Up Scanning and Classification",
+      "Task Description": "Configure scanning and classification rules to automatically discover and classify data assets in connected data sources.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/purview/how-to-scan-and-classify-data",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security and Access Controls",
+      "Task Description": "Set up role-based access control (RBAC) and data access policies to ensure secure access to data assets and analytics.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/purview/manage-access",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Define Data Governance Policies",
+      "Task Description": "Establish data governance policies, including data retention, data quality, and compliance requirements.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/purview/concept-data-policy",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Enable Data Lineage Tracking",
+      "Task Description": "Configure data lineage tracking to visualize the flow of data across systems and processes.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/purview/data-lineage-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Set Up Monitoring and Alerts",
+      "Task Description": "Configure monitoring and alerting for data governance activities using Azure Monitor or other tools.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/purview/how-to-monitor",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Test and Validate Setup",
+      "Task Description": "Perform testing to validate the configuration, including data scanning, classification, and lineage tracking. Ensure all policies and access controls are functioning as expected.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/purview/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Document Configuration and Policies",
+      "Task Description": "Document the setup, including configurations, policies, and operational procedures. Share the documentation with relevant stakeholders.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/purview/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Conduct Training for Users",
+      "Task Description": "Provide training sessions for users and administrators on how to use Microsoft Purview for data governance and analytics.",
+      "Task Type": "Project",
+      "Classification": "Support",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/purview/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Establish Ongoing Maintenance Plan",
+      "Task Description": "Develop a plan for ongoing maintenance, including periodic scanning, policy updates, and monitoring.",
+      "Task Type": "Project",
+      "Classification": "Support",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/purview/",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Perform Regular Audits",
+      "Task Description": "Conduct regular audits to ensure compliance with data governance policies and identify areas for improvement.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/purview/",
+      "Frequency": "Monthly"
+    }
+  ]
+}
