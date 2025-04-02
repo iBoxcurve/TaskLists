@@ -1,0 +1,120 @@
+{
+  "Service": "Azure Peering Service",
+  "Category": "Networking",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Peering Service Performance",
+      "Task Description": "Use Azure Monitor to continuously track the performance metrics of Azure Peering Service, including latency, packet loss, and jitter. Investigate anomalies promptly.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/peering-service/monitoring"
+    },
+    {
+      "Task": "Validate ISP Connectivity",
+      "Task Description": "Regularly verify the connectivity and performance of the Internet Service Provider (ISP) linked to Azure Peering Service. Ensure compliance with SLA agreements.",
+      "Task Type": "Operational",
+      "Classification": "Networking",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/peering-service/isp-connectivity"
+    },
+    {
+      "Task": "Check Route Advertisements",
+      "Task Description": "Review BGP route advertisements to ensure proper routing and avoid misconfigurations that could impact connectivity.",
+      "Task Type": "Operational",
+      "Classification": "Networking",
+      "Frequency": "daily",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/peering-service/bgp-routing"
+    },
+    {
+      "Task": "Audit Security Configurations",
+      "Task Description": "Conduct regular audits of security configurations, including encryption settings and access controls, to ensure compliance with organizational policies.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/peering-service/security-best-practices"
+    },
+    {
+      "Task": "Perform Failover Tests",
+      "Task Description": "Test failover mechanisms to ensure redundancy and high availability in case of ISP outages or service disruptions.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/peering-service/failover-testing"
+    },
+    {
+      "Task": "Update ISP Peering Policies",
+      "Task Description": "Review and update ISP peering policies to align with changes in network architecture or business requirements.",
+      "Task Type": "Operational",
+      "Classification": "Networking",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/peering-service/isp-policy-updates"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Ensure all documentation related to Azure Peering Service configurations, operational procedures, and troubleshooting guides is up-to-date.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/peering-service/documentation"
+    },
+    {
+      "Task": "Conduct Compliance Checks",
+      "Task Description": "Perform regular compliance checks to ensure Azure Peering Service adheres to regulatory and industry standards.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/peering-service/compliance"
+    },
+    {
+      "Task": "Incident Response Drills",
+      "Task Description": "Conduct drills to prepare the team for potential security incidents or service outages. Ensure familiarity with response protocols.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/peering-service/incident-response"
+    },
+    {
+      "Task": "Review ISP SLA Performance",
+      "Task Description": "Evaluate the SLA performance of the ISP providing Azure Peering Service. Address any deviations from agreed metrics.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/peering-service/sla-performance"
+    },
+    {
+      "Task": "Plan for Service Upgrades",
+      "Task Description": "Develop and execute plans for Azure Peering Service upgrades or expansions as needed. Ensure minimal disruption during these activities.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/peering-service/service-upgrades"
+    },
+    {
+      "Task": "Engage in Regular Training",
+      "Task Description": "Ensure the operations team participates in regular training to stay updated with new Azure Peering Service features and best practices.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/peering-service/training"
+    },
+    {
+      "Task": "Backup Configuration",
+      "Task Description": "Regularly back up configurations of network devices and settings related to Azure Peering Service. Ensure secure storage of backups for restoration purposes.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/peering-service/configuration-backup"
+    },
+    {
+      "Task": "User Feedback and Improvement",
+      "Task Description": "Collect and analyze user feedback regarding Azure Peering Service performance and reliability. Implement continuous improvements based on this feedback.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/peering-service/user-feedback"
+    }
+  ]
+}
