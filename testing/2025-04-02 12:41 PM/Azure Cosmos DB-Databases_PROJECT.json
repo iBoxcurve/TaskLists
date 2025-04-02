@@ -1,0 +1,120 @@
+{
+  "Service": "Azure Cosmos DB",
+  "Category": "Databases",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Requirements",
+      "Task Description": "Gather detailed requirements for the database, including data model, scalability, consistency levels, and throughput needs. Identify the applications and services that will use Azure Cosmos DB.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/cosmos-db/introduction",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Database Architecture",
+      "Task Description": "Design the database architecture, including partitioning strategy, indexing policies, and data distribution across regions.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/cosmos-db/partitioning-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Select API Model",
+      "Task Description": "Choose the appropriate API model for the database (e.g., SQL, MongoDB, Cassandra, Gremlin, Table) based on application requirements.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/cosmos-db/choose-api",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Provision Azure Cosmos DB Account",
+      "Task Description": "Create an Azure Cosmos DB account in the Azure portal, specifying the desired API model, regions, and consistency level.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/cosmos-db/how-to-manage-database-account",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Global Distribution",
+      "Task Description": "Set up global distribution for the database to ensure high availability and low latency for users across different regions.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/cosmos-db/how-to-distribute-data",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Enable security features such as IP firewall, private endpoints, and encryption at rest. Configure role-based access control (RBAC) for database access.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/cosmos-db/how-to-configure-firewall",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Set Up Backup and Restore",
+      "Task Description": "Configure backup policies and test restore procedures to ensure data resiliency.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/cosmos-db/backup-and-restore",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Define Indexing Policies",
+      "Task Description": "Customize indexing policies to optimize query performance based on application requirements.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/cosmos-db/indexing-policies",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Consistency Levels",
+      "Task Description": "Set the appropriate consistency level (e.g., strong, bounded staleness, session, consistent prefix, eventual) based on application needs.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/cosmos-db/consistency-levels",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Monitor Performance and Alerts",
+      "Task Description": "Set up monitoring and alerting using Azure Monitor to track database performance, throughput, and latency.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/cosmos-db/monitor-resource-usage",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Test Database Functionality",
+      "Task Description": "Perform thorough testing of the database, including CRUD operations, query performance, and failover scenarios.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/cosmos-db/troubleshoot-performance",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Optimize Throughput",
+      "Task Description": "Adjust throughput settings to optimize cost and performance based on application usage patterns.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/cosmos-db/how-to-provision-throughput",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Document Configuration and Procedures",
+      "Task Description": "Document the database architecture, configurations, and operational procedures. Provide training for the operations team.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/cosmos-db/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Compliance and Auditing",
+      "Task Description": "Ensure the database setup meets regulatory compliance requirements. Implement regular auditing procedures to verify compliance and security postures.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/compliance/",
+      "Frequency": "Monthly"
+    }
+  ]
+}
