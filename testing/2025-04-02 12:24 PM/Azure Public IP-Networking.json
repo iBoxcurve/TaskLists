@@ -1,0 +1,184 @@
+{
+  "Service": "Azure Public IP",
+  "Category": "Networking",
+  "dateCreated": "2023-10-07 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Requirements",
+      "Task Description": "Gather detailed requirements for the Azure Public IP, including the type of IP (static or dynamic), SKU (standard or basic), and region. Identify the applications and services that will use the Public IP.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/public-ip-address-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design IP Allocation Strategy",
+      "Task Description": "Plan the allocation of Public IP addresses, ensuring proper segmentation and alignment with the organization's network architecture.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/ip-services",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Obtain Necessary Approvals",
+      "Task Description": "Secure approvals from stakeholders and network administrators for the allocation and use of Public IP addresses.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/public-ip-address-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Create Public IP Address Resource",
+      "Task Description": "Provision a Public IP address in the Azure portal, CLI, or PowerShell. Specify the type, SKU, and region during creation.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/public-ip-create",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure DNS Settings",
+      "Task Description": "Set up DNS name labels for the Public IP if required. Ensure proper naming conventions and alignment with organizational standards.",
+      "Task Type": "All",
+      "Classification": "Configuration",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/public-ip-address-overview#dns-name-label",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Apply security controls such as Network Security Groups (NSGs) and Azure Firewall to protect resources associated with the Public IP.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/network-security/network-security-groups-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Test Connectivity",
+      "Task Description": "Verify the functionality of the Public IP by testing connectivity to associated resources. Ensure proper routing and DNS resolution.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/troubleshoot-public-ip",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring for the Public IP using Azure Monitor and Network Watcher. Configure alerts for availability and performance metrics.",
+      "Task Type": "All",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-monitor/",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Document Configuration",
+      "Task Description": "Create detailed documentation of the Public IP setup, including configurations, DNS settings, and security measures.",
+      "Task Type": "All",
+      "Classification": "Documentation",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/public-ip-address-overview",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Compliance and Auditing",
+      "Task Description": "Ensure the Public IP setup complies with organizational policies and regulatory requirements. Conduct regular audits to verify compliance.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/compliance/",
+      "Frequency": "Monthly"
+    },
+    {
+      "Task": "Monitor Public IP Health",
+      "Task Description": "Use Azure Monitor to continuously track the health and availability of Azure Public IP addresses. Investigate any anomalies or downtime.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "Continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/public-ip-address-overview"
+    },
+    {
+      "Task": "Validate DNS Configuration",
+      "Task Description": "Ensure DNS settings associated with Azure Public IP addresses are correctly configured and resolve to the intended endpoints.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "Weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/public-ip-address-overview"
+    },
+    {
+      "Task": "Review IP Allocation",
+      "Task Description": "Audit the allocation of Public IP addresses to ensure optimal usage and compliance with organizational policies.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "Monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/public-ip-address-overview"
+    },
+    {
+      "Task": "Update Security Policies",
+      "Task Description": "Review and update Network Security Groups (NSGs) and firewall rules to ensure secure access to resources using Azure Public IP addresses.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "Quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview"
+    },
+    {
+      "Task": "Backup Configuration",
+      "Task Description": "Regularly back up configurations related to Azure Public IP addresses, including DNS settings and associated resources.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "Weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/public-ip-address-overview"
+    },
+    {
+      "Task": "Conduct Failover Tests",
+      "Task Description": "Perform failover tests to ensure that resources using Azure Public IP addresses can recover seamlessly in case of outages.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "Monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/public-ip-address-overview"
+    },
+    {
+      "Task": "Audit IP Address Usage",
+      "Task Description": "Conduct regular audits to ensure that Azure Public IP addresses are being used efficiently and are not exceeding cost thresholds.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "Quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/public-ip-address-overview"
+    },
+    {
+      "Task": "Rotate Access Keys",
+      "Task Description": "Rotate access keys and credentials associated with resources using Azure Public IP addresses to maintain security compliance.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "Semi-Annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/security/key-management"
+    },
+    {
+      "Task": "Incident Response Drills",
+      "Task Description": "Conduct incident response drills to prepare for potential security incidents or outages involving Azure Public IP addresses.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "Semi-Annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/security/incident-response"
+    },
+    {
+      "Task": "Review IP Address Expiry",
+      "Task Description": "Check expiration dates for reserved Public IP addresses and renew them as necessary to avoid service disruptions.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Frequency": "Monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/public-ip-address-overview"
+    },
+    {
+      "Task": "Optimize IP Address Allocation",
+      "Task Description": "Analyze usage patterns and optimize the allocation of Azure Public IP addresses to reduce costs and improve efficiency.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "Quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/public-ip-address-overview"
+    },
+    {
+      "Task": "Engage in Regular Training",
+      "Task Description": "Ensure the operations team participates in regular training to stay updated with new features and best practices for Azure Public IP management.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "Quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/public-ip-address-overview"
+    }
+  ]
+}
