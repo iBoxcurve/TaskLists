@@ -1,0 +1,208 @@
+{
+  "Service": "Azure Data Lake Storage",
+  "Category": "Storage",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Assess Storage Requirements",
+      "Task Description": "Gather detailed requirements for data storage, including capacity, scalability, and performance needs. Identify the types of data to be stored and access patterns.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/storage/data-lake-storage-introduction",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Storage Architecture",
+      "Task Description": "Design the storage architecture, including folder structure, naming conventions, and integration with other Azure services. Plan for data lifecycle management and retention policies.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/storage/data-lake-storage-best-practices",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Create Azure Data Lake Storage Account",
+      "Task Description": "Provision a new Azure Data Lake Storage account in the Azure portal. Choose the appropriate performance tier and redundancy options.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/storage/data-lake-storage-create-account",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Access Control",
+      "Task Description": "Set up role-based access control (RBAC) and Azure Active Directory (AAD) integration to manage permissions for users and applications.",
+      "Task Type": "All",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/storage/data-lake-storage-access-control",
+      "Frequency": "Once, Monthly"
+    },
+    {
+      "Task": "Enable Encryption",
+      "Task Description": "Ensure data is encrypted at rest and in transit using Azure Storage encryption features. Configure customer-managed keys if required.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/storage/data-lake-storage-encryption",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Set Up Networking and Security",
+      "Task Description": "Configure virtual network (VNet) integration, private endpoints, and firewall rules to secure access to the storage account.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/storage/data-lake-storage-networking",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Data Ingestion Pipeline",
+      "Task Description": "Set up pipelines for ingesting data into Azure Data Lake Storage using Azure Data Factory or other tools. Ensure data is validated and transformed as needed.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/data-factory/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring and alerting using Azure Monitor and Storage Analytics to track storage usage, performance, and security events.",
+      "Task Type": "All",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/storage/data-lake-storage-monitoring",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Test Storage Setup",
+      "Task Description": "Perform testing to ensure the storage account is configured correctly. Validate access controls, encryption, and data ingestion pipelines.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/storage/data-lake-storage-troubleshooting",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Document Storage Configuration",
+      "Task Description": "Create detailed documentation of the storage account setup, including architecture, access controls, and operational procedures.",
+      "Task Type": "All",
+      "Classification": "Documentation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/storage/",
+      "Frequency": "Once, Continuous"
+    },
+    {
+      "Task": "Train Operations Team",
+      "Task Description": "Conduct training sessions for the operations team on managing and troubleshooting Azure Data Lake Storage.",
+      "Task Type": "Project",
+      "Classification": "Support",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/storage/data-lake-storage-training",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Data Governance Policies",
+      "Task Description": "Define and implement data governance policies, including data classification, access reviews, and compliance monitoring.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/storage/data-lake-storage-governance",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Perform Regular Audits",
+      "Task Description": "Conduct regular audits to ensure compliance with security and governance policies. Review access logs and storage usage reports.",
+      "Task Type": "All",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/storage/data-lake-storage-auditing",
+      "Frequency": "Monthly, Quarterly"
+    },
+    {
+      "Task": "Monitor Storage Utilization",
+      "Task Description": "Continuously monitor the storage utilization of Azure Data Lake Storage to ensure it remains within allocated limits and identify any unusual spikes in usage.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "Continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/monitoring"
+    },
+    {
+      "Task": "Perform Data Integrity Checks",
+      "Task Description": "Conduct periodic checks to verify the integrity of data stored in Azure Data Lake Storage and ensure there is no corruption or loss.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "Quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/data-integrity"
+    },
+    {
+      "Task": "Audit Storage Configuration",
+      "Task Description": "Perform audits of the storage configuration to ensure compliance with organizational policies and best practices.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "Quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/configuration-audit"
+    },
+    {
+      "Task": "Backup Critical Data",
+      "Task Description": "Implement and maintain a backup strategy for critical data stored in Azure Data Lake Storage to ensure data recovery in case of accidental deletion or corruption.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "Weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/backup-strategy"
+    },
+    {
+      "Task": "Optimize Storage Performance",
+      "Task Description": "Analyze storage performance metrics and optimize configurations to ensure efficient data access and processing.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "Monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/performance-optimization"
+    },
+    {
+      "Task": "Rotate Encryption Keys",
+      "Task Description": "Regularly rotate encryption keys used for securing data in Azure Data Lake Storage to enhance security and comply with organizational policies.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "Semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/encryption-key-rotation"
+    },
+    {
+      "Task": "Test Disaster Recovery Plan",
+      "Task Description": "Conduct tests of the disaster recovery plan to ensure that data can be restored quickly and effectively in case of a major incident.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "Annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/disaster-recovery"
+    },
+    {
+      "Task": "Conduct Security Audits",
+      "Task Description": "Perform regular security audits to identify vulnerabilities and ensure compliance with security standards.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "Quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/security-audit"
+    },
+    {
+      "Task": "Analyze Cost Efficiency",
+      "Task Description": "Review storage costs and usage patterns to identify opportunities for cost optimization and ensure budget adherence.",
+      "Task Type": "Operational",
+      "Classification": "Cost Management",
+      "Frequency": "Monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/cost-management"
+    },
+    {
+      "Task": "Validate Data Lifecycle Policies",
+      "Task Description": "Ensure that data lifecycle policies are correctly implemented and align with organizational data retention requirements.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "Semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/data-lifecycle"
+    },
+    {
+      "Task": "Perform Incident Response Drills",
+      "Task Description": "Conduct drills to prepare the team for responding to potential security incidents or data breaches.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "Semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/incident-response"
+    },
+    {
+      "Task": "Review Service Level Agreements (SLAs)",
+      "Task Description": "Evaluate the performance of Azure Data Lake Storage against SLAs and address any deviations.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "Quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/data-lake-storage/sla"
+    }
+  ]
+}
