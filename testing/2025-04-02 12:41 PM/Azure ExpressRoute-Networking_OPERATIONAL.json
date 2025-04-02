@@ -1,0 +1,120 @@
+{
+  "Service": "Azure ExpressRoute",
+  "Category": "Networking",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Circuit Health",
+      "Task Description": "Use Azure Monitor and Network Watcher to continuously monitor the health and status of ExpressRoute circuits. Identify and investigate any anomalies or potential issues.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/expressroute/monitor-expressroute"
+    },
+    {
+      "Task": "Validate BGP Sessions",
+      "Task Description": "Check the stability of BGP sessions. Monitor for route flaps or unexpected changes in route advertisements that could impact ExpressRoute connectivity.",
+      "Task Type": "Operational",
+      "Classification": "Networking",
+      "Frequency": "daily",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/expressroute/expressroute-routing"
+    },
+    {
+      "Task": "Review Network Performance",
+      "Task Description": "Analyze ExpressRoute circuit performance data to ensure operations within expected parameters. Investigate and address any performance deviations.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/expressroute/expressroute-troubleshooting-network-performance"
+    },
+    {
+      "Task": "Conduct Failover Tests",
+      "Task Description": "Perform failover tests to verify that redundant paths, including VPN backups, function correctly and can take over in case of primary ExpressRoute path failures.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/expressroute/designing-for-disaster-recovery-with-expressroute-privatepeering"
+    },
+    {
+      "Task": "Audit Network Configurations",
+      "Task Description": "Conduct audits of ExpressRoute configurations to ensure alignment with documented architecture and best practices for the service.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/expressroute/expressroute-optimize-routing"
+    },
+    {
+      "Task": "Backup Configuration",
+      "Task Description": "Regularly back up configurations of on-premises routers, firewalls, and other critical network devices connected to ExpressRoute. Ensure secure and accessible storage of backups for potential restoration.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/expressroute/expressroute-howto-routing-portal-resource-manager"
+    },
+    {
+      "Task": "Update Security Policies",
+      "Task Description": "Review and update security policies, Network Security Groups (NSGs), and access controls to adapt to changes in the ExpressRoute network or security landscape.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/expressroute/expressroute-security-best-practices"
+    },
+    {
+      "Task": "Incident Response Drills",
+      "Task Description": "Conduct incident response drills to prepare the team for potential security incidents or ExpressRoute network outages. Ensure familiarity with procedures and protocols.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/expressroute/expressroute-howto-routing-portal-resource-manager"
+    },
+    {
+      "Task": "Compliance Checks",
+      "Task Description": "Perform regular compliance checks to ensure the ExpressRoute setup adheres to relevant regulations and industry standards.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/expressroute/expressroute-security-best-practices"
+    },
+    {
+      "Task": "Review Connectivity Provider SLA",
+      "Task Description": "Evaluate the SLA performance of the ExpressRoute connectivity provider. Address any issues or deviations from the agreed SLA metrics.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/expressroute/expressroute-sla"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Keep ExpressRoute service documentation up-to-date, including operational procedures, configuration details, and troubleshooting guides.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/expressroute/"
+    },
+    {
+      "Task": "Plan for Upgrades and Expansions",
+      "Task Description": "Develop and execute plans for ExpressRoute circuit upgrades or expansions as needed. Ensure minimal disruption during these activities.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/expressroute/expressroute-workflows"
+    },
+    {
+      "Task": "Engage in Regular Training",
+      "Task Description": "Ensure the operations team participates in regular training to stay updated with new ExpressRoute features, best practices, and security measures.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/expressroute/"
+    },
+    {
+      "Task": "User Feedback and Improvement",
+      "Task Description": "Collect and analyze user feedback regarding ExpressRoute performance and reliability. Implement continuous improvements based on this feedback.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/expressroute/expressroute-troubleshooting-network-performance"
+    }
+  ]
+}
