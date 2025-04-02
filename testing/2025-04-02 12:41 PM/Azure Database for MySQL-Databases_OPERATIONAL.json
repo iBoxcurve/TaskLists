@@ -1,0 +1,128 @@
+{
+  "Service": "Azure Database for MySQL",
+  "Category": "Databases",
+  "dateCreated": "2024-07-30 14:30",
+  "dateModified": "2024-07-30 14:30",
+  "Tasks": [
+    {
+      "Task": "Monitor Database Performance",
+      "Task Description": "Use Azure Monitor and Query Performance Insights to continuously monitor the performance of the MySQL database. Identify slow queries and optimize them.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/mysql/concepts-performance-insights"
+    },
+    {
+      "Task": "Backup Database",
+      "Task Description": "Ensure regular backups of the MySQL database are configured and functioning correctly. Verify backup integrity and retention policies.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "daily",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/mysql/howto-configure-backup"
+    },
+    {
+      "Task": "Apply Security Updates",
+      "Task Description": "Regularly check for and apply security updates to the MySQL database service. Ensure compliance with organizational security policies.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/mysql/howto-update-server"
+    },
+    {
+      "Task": "Audit Database Access",
+      "Task Description": "Review and audit database access logs to ensure only authorized users have access. Investigate any suspicious activity.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/mysql/howto-configure-audit-logs"
+    },
+    {
+      "Task": "Optimize Database Configuration",
+      "Task Description": "Review and optimize database configurations, such as connection limits, query cache, and storage settings, to ensure optimal performance.",
+      "Task Type": "Operational",
+      "Classification": "Configuration",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/mysql/howto-configure-server-parameters"
+    },
+    {
+      "Task": "Test Disaster Recovery",
+      "Task Description": "Conduct regular failover and disaster recovery tests to ensure the database can recover quickly in case of an outage.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/mysql/howto-configure-replication"
+    },
+    {
+      "Task": "Scale Resources",
+      "Task Description": "Monitor resource utilization and scale up or down the database resources (CPU, memory, storage) as needed to meet demand.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/mysql/howto-scale-resources"
+    },
+    {
+      "Task": "Update Documentation",
+      "Task Description": "Maintain up-to-date documentation for the MySQL database, including configurations, operational procedures, and troubleshooting guides.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/mysql/"
+    },
+    {
+      "Task": "Perform Compliance Checks",
+      "Task Description": "Ensure the MySQL database adheres to organizational and regulatory compliance standards. Address any identified gaps.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/mysql/concepts-security-compliance"
+    },
+    {
+      "Task": "Conduct Incident Response Drills",
+      "Task Description": "Simulate database incidents to test the team's response and ensure readiness for real-world scenarios.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/mysql/howto-troubleshoot"
+    },
+    {
+      "Task": "Review Query Performance",
+      "Task Description": "Analyze query performance metrics and optimize queries to reduce execution time and improve database efficiency.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/mysql/concepts-performance-insights"
+    },
+    {
+      "Task": "Validate High Availability Configuration",
+      "Task Description": "Ensure high availability configurations are correctly set up and functioning as expected. Test failover mechanisms periodically.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/mysql/concepts-high-availability"
+    },
+    {
+      "Task": "Engage in Regular Training",
+      "Task Description": "Provide training to the operations team on new features, best practices, and security measures for Azure Database for MySQL.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/mysql/"
+    },
+    {
+      "Task": "Review SLA Metrics",
+      "Task Description": "Evaluate the database service's SLA performance and address any deviations from the agreed metrics.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/mysql/concepts-sla"
+    },
+    {
+      "Task": "Perform Index Maintenance",
+      "Task Description": "Regularly review and maintain database indexes to ensure efficient query execution and optimal performance.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/mysql/concepts-indexing"
+    }
+  ]
+}
