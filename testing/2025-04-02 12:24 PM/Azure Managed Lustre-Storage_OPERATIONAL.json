@@ -1,0 +1,112 @@
+{
+  "Service": "Azure Managed Lustre",
+  "Category": "Storage",
+  "dateCreated": "2023-10-17 12:00",
+  "dateModified": "2023-10-17 12:00",
+  "Tasks": [
+    {
+      "Task": "Monitor Storage Performance",
+      "Task Description": "Continuously monitor the performance metrics of Azure Managed Lustre storage, including IOPS, throughput, and latency. Use Azure Monitor and other tools to identify and address performance bottlenecks.",
+      "Task Type": "Operational",
+      "Classification": "Monitoring",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/managed-lustre/monitoring"
+    },
+    {
+      "Task": "Check Storage Capacity",
+      "Task Description": "Regularly review storage capacity utilization to ensure sufficient space is available for workloads. Plan for scaling or optimization as needed.",
+      "Task Type": "Operational",
+      "Classification": "Capacity Management",
+      "Frequency": "weekly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/managed-lustre/scaling"
+    },
+    {
+      "Task": "Validate Backup Integrity",
+      "Task Description": "Perform regular checks to ensure backups of Azure Managed Lustre data are complete, consistent, and restorable. Test restoration processes periodically.",
+      "Task Type": "Operational",
+      "Classification": "Backup",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/managed-lustre/backup"
+    },
+    {
+      "Task": "Update Security Policies",
+      "Task Description": "Review and update security policies for Azure Managed Lustre storage, including access controls and encryption settings, to align with organizational and regulatory requirements.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/managed-lustre/security"
+    },
+    {
+      "Task": "Audit Storage Configuration",
+      "Task Description": "Conduct regular audits of Azure Managed Lustre configurations to ensure compliance with best practices and organizational standards.",
+      "Task Type": "Operational",
+      "Classification": "Compliance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/managed-lustre/configuration"
+    },
+    {
+      "Task": "Perform Failover Tests",
+      "Task Description": "Test failover mechanisms to ensure high availability and disaster recovery capabilities of Azure Managed Lustre storage.",
+      "Task Type": "Operational",
+      "Classification": "Disaster Recovery",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/managed-lustre/disaster-recovery"
+    },
+    {
+      "Task": "Optimize Storage Performance",
+      "Task Description": "Analyze storage performance data and implement optimizations to improve efficiency and reduce costs.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/managed-lustre/performance-optimization"
+    },
+    {
+      "Task": "Maintain Documentation",
+      "Task Description": "Ensure all documentation related to Azure Managed Lustre storage operations, configurations, and troubleshooting is up-to-date and accessible.",
+      "Task Type": "Operational",
+      "Classification": "Documentation",
+      "Frequency": "continuous",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/managed-lustre/documentation"
+    },
+    {
+      "Task": "Conduct Incident Response Drills",
+      "Task Description": "Simulate storage-related incidents to test the team's readiness and response protocols. Update procedures based on lessons learned.",
+      "Task Type": "Operational",
+      "Classification": "Security",
+      "Frequency": "semi-annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/managed-lustre/incident-response"
+    },
+    {
+      "Task": "Review SLA Compliance",
+      "Task Description": "Evaluate the performance of Azure Managed Lustre against the service-level agreement (SLA). Address any deviations or issues.",
+      "Task Type": "Operational",
+      "Classification": "Performance",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/managed-lustre/sla"
+    },
+    {
+      "Task": "Plan for Upgrades and Expansions",
+      "Task Description": "Develop and execute plans for upgrading or expanding Azure Managed Lustre storage as needed. Ensure minimal disruption during these activities.",
+      "Task Type": "Operational",
+      "Classification": "Planning",
+      "Frequency": "annually",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/managed-lustre/upgrades"
+    },
+    {
+      "Task": "Engage in Regular Training",
+      "Task Description": "Ensure the operations team participates in regular training to stay updated with new Azure Managed Lustre features, best practices, and security measures.",
+      "Task Type": "Operational",
+      "Classification": "Training",
+      "Frequency": "quarterly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/managed-lustre/training"
+    },
+    {
+      "Task": "User Feedback and Improvement",
+      "Task Description": "Collect and analyze user feedback regarding Azure Managed Lustre performance and reliability. Implement continuous improvements based on this feedback.",
+      "Task Type": "Operational",
+      "Classification": "Optimization",
+      "Frequency": "monthly",
+      "Documentation Link": "https://learn.microsoft.com/en-us/azure/managed-lustre/feedback"
+    }
+  ]
+}
