@@ -1,0 +1,88 @@
+{
+  "Service": "Azure Container Instances",
+  "Category": "Compute",
+  "dateCreated": "2024-07-30 14:30",
+  "dateModified": "2024-07-30 14:30",
+  "Tasks": [
+    {
+      "Task": "Assess Requirements",
+      "Task Description": "Gather detailed requirements for containerized workloads, including resource allocation, scalability, and redundancy. Identify the applications and services that will use Azure Container Instances.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/container-instances/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Design Container Architecture",
+      "Task Description": "Design the container architecture, including the placement of containers, networking requirements, and integration with existing Azure services.",
+      "Task Type": "Project",
+      "Classification": "Planning",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/container-instances/container-instances-overview",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Provision Azure Container Instances",
+      "Task Description": "Create and configure Azure Container Instances in the Azure portal or using Azure CLI/PowerShell. Ensure proper resource allocation and region selection.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/container-instances/container-instances-quickstart",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Networking",
+      "Task Description": "Set up networking for the container instances, including virtual networks, subnets, and DNS configurations. Ensure secure communication between containers and other Azure services.",
+      "Task Type": "Project",
+      "Classification": "Configuration",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/container-instances/container-instances-vnet",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Implement Security Measures",
+      "Task Description": "Enable required security measures, such as encryption for data in transit and at rest, and configure access control policies for container instances.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/container-instances/container-instances-security",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Deploy Containers",
+      "Task Description": "Deploy containerized applications to Azure Container Instances. Ensure proper configuration of environment variables, storage mounts, and container images.",
+      "Task Type": "Project",
+      "Classification": "Implementation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/container-instances/container-instances-tutorial",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Test Container Functionality",
+      "Task Description": "Perform thorough testing of the container instances, including application functionality, scalability, and failover scenarios.",
+      "Task Type": "Project",
+      "Classification": "Troubleshooting",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/container-instances/container-instances-troubleshooting",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Configure Monitoring and Alerts",
+      "Task Description": "Set up monitoring and alerting using Azure Monitor and Container Insights. Configure alerts for container performance, resource usage, and availability.",
+      "Task Type": "Project",
+      "Classification": "Monitoring",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/container-instances/container-instances-monitor",
+      "Frequency": "Continuous"
+    },
+    {
+      "Task": "Document Configuration and Procedures",
+      "Task Description": "Document the container architecture, configurations, and operational procedures. Provide training for the operations team on managing and troubleshooting container instances.",
+      "Task Type": "Project",
+      "Classification": "Documentation",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/container-instances/",
+      "Frequency": "Once"
+    },
+    {
+      "Task": "Compliance and Auditing",
+      "Task Description": "Ensure the container setup meets all regulatory compliance requirements. Implement regular auditing procedures to verify compliance and security postures.",
+      "Task Type": "Project",
+      "Classification": "Security",
+      "Documentation Link": "https://docs.microsoft.com/en-us/azure/compliance/",
+      "Frequency": "Monthly"
+    }
+  ]
+}
