@@ -8,7 +8,8 @@
     "Description": "",
     "VendorIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/Microsoft_logo.svg",
     "PlatformIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/microsoft-azure.svg",
-    "ServiceIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/azure-express-route.svg"
+    "ServiceIconURL": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/main/icons/azure-express-route.svg",
+    "Domain": "beta"
   },
   {
     "UID": "00000002",
