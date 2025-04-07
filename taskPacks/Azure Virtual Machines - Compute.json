@@ -1,7 +1,7 @@
 {
     "Category": "Compute",
     "Service": "Azure Virtual Machines",
-    "Task": [
+    "Tasks": [
         {
             "Classification": "Planningz",
             "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/overview added link",
@@ -100,5 +100,5 @@
         }
     ],
     "dateCreated": "2025-04-03 20:30",
-    "dateModified": "2025-04-07 11:54"
+    "dateModified": "2025-04-07 12:07"
 }
