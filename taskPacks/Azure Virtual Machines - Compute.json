@@ -3,7 +3,7 @@
     "Service": "Azure Virtual Machines",
     "Task": [
         {
-            "Classification": "Planning",
+            "Classification": "Planning-addded",
             "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/overview",
             "Task": "Define Project Requirements",
             "Task Description": "Gather detailed requirements for the virtual machines, including operating system, size, region, and expected workload.",
