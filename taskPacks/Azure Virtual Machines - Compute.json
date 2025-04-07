@@ -3,11 +3,11 @@
     "Service": "Azure Virtual Machines",
     "Task": [
         {
-            "Classification": "Planning",
-            "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/overview",
-            "Task": "Define Project Requirements",
-            "Task Description": "Gather detailed requirements for the virtual machines, including operating system, size, region, and expected workload.",
-            "Task Type": "Project",
+            "Classification": "Planningz",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/overview added link",
+            "Task": "Define Project Requirements 55",
+            "Task Description": "Gather detailed requirements for the virtual machines, including operating system, size, region, and expected workload.  Added description",
+            "Task Type": "Operational",
             "TaskSortId": "ABC"
         },
         {
@@ -100,5 +100,5 @@
         }
     ],
     "dateCreated": "2025-04-03 20:30",
-    "dateModified": "2025-04-07 11:32"
+    "dateModified": "2025-04-07 11:54"
 }
