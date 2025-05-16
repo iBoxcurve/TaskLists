@@ -1,0 +1,216 @@
+{
+    "Category": "Compute",
+    "Service": "Azure Virtual Machines",
+    "Tasks": [
+        {
+            "Classification": "Planning",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/overview",
+            "Task": "Define Project Requirements",
+            "Task Description": "Gather detailed requirements for the virtual machines, including operating system, size, region, and expected workload. Identify the applications and services that will run on the VMs.",
+            "Task Type": "Project",
+            "TaskSortId": "ABC"
+        },
+        {
+            "Classification": "Planning",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/design",
+            "Task": "Design VM Architecture",
+            "Task Description": "Design the architecture for the virtual machines, including network configurations, storage options, and integration with other Azure services.",
+            "Task Type": "Project",
+            "TaskSortId": "ABD"
+        },
+        {
+            "Classification": "Implementation",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/sizes",
+            "Task": "Select VM Sizes and Types",
+            "Task Description": "Choose appropriate VM sizes and types based on workload requirements, cost considerations, and performance needs.",
+            "Task Type": "Project",
+            "TaskSortId": "ABE"
+        },
+        {
+            "Classification": "Implementation",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/create",
+            "Task": "Provision Virtual Machines",
+            "Task Description": "Create and configure virtual machines in the Azure portal or using Azure CLI/PowerShell. Ensure proper placement in the selected region and resource group.",
+            "Task Type": "Project",
+            "TaskSortId": "ABF"
+        },
+        {
+            "Classification": "Configuration",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-overview",
+            "Task": "Configure Networking",
+            "Task Description": "Set up virtual networks, subnets, and Network Security Groups (NSGs) to ensure secure and efficient communication for the VMs.",
+            "Task Type": "Project",
+            "TaskSortId": "ABG"
+        },
+        {
+            "Classification": "Security",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/security-center/security-center-intro",
+            "Task": "Implement Security Measures",
+            "Task Description": "Enable security features such as Azure Defender, disk encryption, and access control policies to protect the virtual machines.",
+            "Task Type": "All",
+            "TaskSortId": "ABH"
+        },
+        {
+            "Classification": "Configuration",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/backup/backup-overview",
+            "Task": "Configure Backup and Recovery",
+            "Task Description": "Set up Azure Backup to ensure data protection and recovery options for the virtual machines.",
+            "Task Type": "All",
+            "TaskSortId": "ABI"
+        },
+        {
+            "Classification": "Troubleshooting",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/linux/benchmarking",
+            "Task": "Test VM Performance",
+            "Task Description": "Perform thorough testing of the virtual machines, including workload simulations, performance benchmarks, and failover scenarios.",
+            "Task Type": "All",
+            "TaskSortId": "ABJ"
+        },
+        {
+            "Classification": "Monitoring",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/monitoring/monitoring-overview",
+            "Task": "Configure Monitoring and Alerts",
+            "Task Description": "Set up monitoring and alerting using Azure Monitor to track VM performance, availability, and security metrics.",
+            "Task Type": "All",
+            "TaskSortId": "ABK"
+        },
+        {
+            "Classification": "Documentation",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/documentation",
+            "Task": "Document VM Setup and Procedures",
+            "Task Description": "Document the virtual machine configurations, operational procedures, and troubleshooting steps. Share documentation with the operations team.",
+            "Task Type": "All",
+            "TaskSortId": "ABL"
+        },
+        {
+            "Classification": "Support",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/virtual-machines/training",
+            "Task": "Conduct Training for Operations Team",
+            "Task Description": "Provide training sessions for the operations team on managing, monitoring, and troubleshooting the virtual machines.",
+            "Task Type": "Project",
+            "TaskSortId": "ABM"
+        },
+        {
+            "Classification": "Security",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/compliance/",
+            "Task": "Perform Compliance Checks",
+            "Task Description": "Ensure the virtual machine setup meets all regulatory compliance requirements. Implement regular auditing procedures to verify compliance and security postures.",
+            "Task Type": "All",
+            "TaskSortId": "ABN"
+        },
+        {
+            "Classification": "Monitoring",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/monitor",
+            "Task": "Review VM Performance Metrics",
+            "Task Description": "Monitor and analyze performance metrics such as CPU, memory, and disk usage to ensure the virtual machine is operating within expected parameters.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABO"
+        },
+        {
+            "Classification": "Security",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/security-updates",
+            "Task": "Apply Security Updates",
+            "Task Description": "Ensure that the latest security patches and updates are applied to the operating system and installed software on the virtual machine.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABP"
+        },
+        {
+            "Classification": "Backup",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-vms",
+            "Task": "Backup Virtual Machines",
+            "Task Description": "Perform regular backups of the virtual machine, including its data and configuration, to ensure recoverability in case of failure.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABQ"
+        },
+        {
+            "Classification": "Backup",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-vms-verify",
+            "Task": "Validate VM Backups",
+            "Task Description": "Test and validate the integrity of backups to ensure they can be restored successfully when needed.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABR"
+        },
+        {
+            "Classification": "Security",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/audit-access",
+            "Task": "Audit VM Access Logs",
+            "Task Description": "Review access logs to ensure that only authorized users and applications are accessing the virtual machine.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABS"
+        },
+        {
+            "Classification": "Optimization",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/resize",
+            "Task": "Optimize VM Performance",
+            "Task Description": "Analyze and optimize the virtual machine's configuration, such as resizing the VM or adjusting disk types, to improve performance and cost efficiency.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABT"
+        },
+        {
+            "Classification": "Configuration",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/extensions",
+            "Task": "Update VM Extensions",
+            "Task Description": "Ensure that all installed VM extensions are updated to their latest versions to maintain compatibility and security.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABU"
+        },
+        {
+            "Classification": "Disaster Recovery",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/site-recovery/azure-to-azure-tutorial-dr-drill",
+            "Task": "Conduct Failover Testing",
+            "Task Description": "Test failover scenarios to ensure that the virtual machine can recover from unexpected outages or disasters.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABV"
+        },
+        {
+            "Classification": "Security",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/security-best-practices",
+            "Task": "Review and Update Security Policies",
+            "Task Description": "Review and update security policies, including firewall rules and network security groups, to ensure the virtual machine is protected against threats.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABW"
+        },
+        {
+            "Classification": "Security",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/automation/update-management/overview",
+            "Task": "Patch Management",
+            "Task Description": "Implement a patch management strategy to ensure that all software and operating systems on the virtual machine are up-to-date.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABX"
+        },
+        {
+            "Classification": "Monitoring",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/disks",
+            "Task": "Monitor Disk Health",
+            "Task Description": "Regularly check the health of attached disks to ensure they are functioning correctly and have sufficient space.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABY"
+        },
+        {
+            "Classification": "Optimization",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/cost-management-billing/costs-analyze-cost-data",
+            "Task": "Review VM Cost and Usage",
+            "Task Description": "Analyze the cost and usage of the virtual machine to identify opportunities for cost savings and efficiency improvements.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABZ"
+        },
+        {
+            "Classification": "Compliance",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/security/fundamentals/overview",
+            "Task": "Perform Security Audits",
+            "Task Description": "Conduct regular security audits to ensure compliance with organizational and regulatory requirements.",
+            "Task Type": "Operational",
+            "TaskSortId": "ACA"
+        },
+        {
+            "Classification": "Disaster Recovery",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-vms-restore",
+            "Task": "Test VM Restore Procedures",
+            "Task Description": "Periodically test the restore procedures for the virtual machine to ensure backups can be restored successfully in a timely manner.",
+            "Task Type": "Operational",
+            "TaskSortId": "ACB"
+        }
+    ],
+    "dateCreated": "2025-05-16 08:40",
+    "dateModified": "2025-05-16 08:50"
+}
