@@ -1,0 +1,208 @@
+{
+    "Category": "Compute",
+    "Service": "Azure Service Fabric",
+    "Tasks": [
+        {
+            "Classification": "Planning",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-overview",
+            "Task": "Assess Requirements",
+            "Task Description": "Gather detailed requirements for the application, including scalability, reliability, and performance needs. Identify the services and workloads that will run on Azure Service Fabric.",
+            "Task Type": "Project",
+            "TaskSortId": "ABC"
+        },
+        {
+            "Classification": "Planning",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-cluster-resource-manager-schema",
+            "Task": "Design Service Fabric Cluster Architecture",
+            "Task Description": "Design the cluster architecture, including the number of nodes, node types, and placement constraints. Plan for high availability and fault tolerance.",
+            "Task Type": "Project",
+            "TaskSortId": "ABD"
+        },
+        {
+            "Classification": "Implementation",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-cluster-creation-overview",
+            "Task": "Provision Service Fabric Cluster",
+            "Task Description": "Create and configure the Service Fabric cluster in the Azure portal or using Azure CLI/PowerShell. Ensure the cluster is provisioned in multiple regions for resiliency.",
+            "Task Type": "Project",
+            "TaskSortId": "ABE"
+        },
+        {
+            "Classification": "Security",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-cluster-security",
+            "Task": "Configure Security Settings",
+            "Task Description": "Set up security for the cluster, including certificate-based authentication, role-based access control (RBAC), and encryption for data in transit and at rest.",
+            "Task Type": "Project",
+            "TaskSortId": "ABF"
+        },
+        {
+            "Classification": "Implementation",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-deploy-remove-applications",
+            "Task": "Deploy Applications to Service Fabric",
+            "Task Description": "Package and deploy applications to the Service Fabric cluster using Visual Studio, Azure DevOps, or other CI/CD tools.",
+            "Task Type": "Project",
+            "TaskSortId": "ABG"
+        },
+        {
+            "Classification": "Monitoring",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-diagnostics-overview",
+            "Task": "Implement Monitoring and Diagnostics",
+            "Task Description": "Set up monitoring and diagnostics for the cluster using Azure Monitor, Application Insights, and Service Fabric Explorer. Configure alerts for cluster health and application performance.",
+            "Task Type": "All",
+            "TaskSortId": "ABH"
+        },
+        {
+            "Classification": "Troubleshooting",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-testability-overview",
+            "Task": "Test Cluster and Application Performance",
+            "Task Description": "Perform thorough testing of the cluster and deployed applications, including failover scenarios, load testing, and performance benchmarking.",
+            "Task Type": "All",
+            "TaskSortId": "ABI"
+        },
+        {
+            "Classification": "Security",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-reliable-services-backup-restore",
+            "Task": "Implement Backup and Disaster Recovery",
+            "Task Description": "Set up backup and disaster recovery mechanisms for the cluster and applications. Ensure data replication and recovery processes are in place.",
+            "Task Type": "All",
+            "TaskSortId": "ABJ"
+        },
+        {
+            "Classification": "Configuration",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-cluster-capacity-planning",
+            "Task": "Optimize Cluster Configuration",
+            "Task Description": "Regularly review and optimize the cluster configuration for performance, cost, and scalability. Adjust node types and resource allocation as needed.",
+            "Task Type": "All",
+            "TaskSortId": "ABK"
+        },
+        {
+            "Classification": "Documentation",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/",
+            "Task": "Document Cluster and Application Setup",
+            "Task Description": "Create detailed documentation for the cluster architecture, security settings, application deployment processes, and operational procedures.",
+            "Task Type": "All",
+            "TaskSortId": "ABL"
+        },
+        {
+            "Classification": "Support",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/",
+            "Task": "Conduct Training for Operations Team",
+            "Task Description": "Provide training sessions for the operations team on managing and troubleshooting the Service Fabric cluster and applications.",
+            "Task Type": "All",
+            "TaskSortId": "ABM"
+        },
+        {
+            "Classification": "Security",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/compliance/",
+            "Task": "Perform Regular Compliance Audits",
+            "Task Description": "Ensure the cluster and applications meet regulatory compliance requirements. Conduct regular audits to verify security and operational standards.",
+            "Task Type": "All",
+            "TaskSortId": "ABN"
+        },
+        {
+            "Classification": "Monitoring",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-health-introduction",
+            "Task": "Monitor Cluster Health",
+            "Task Description": "Use Azure Monitor and Service Fabric Explorer to continuously monitor the health and status of the Service Fabric cluster. Identify and investigate any anomalies or potential issues.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABO"
+        },
+        {
+            "Classification": "Implementation",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-cluster-upgrade",
+            "Task": "Perform Cluster Upgrades",
+            "Task Description": "Plan and execute upgrades to the Service Fabric cluster to ensure it is running the latest version. Validate the upgrade process in a test environment before applying to production.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABP"
+        },
+        {
+            "Classification": "Backup",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-backup-restore",
+            "Task": "Backup Application Data",
+            "Task Description": "Regularly back up application data and configurations running on the Service Fabric cluster to ensure data resiliency and recovery in case of failures.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABQ"
+        },
+        {
+            "Classification": "Security",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-cluster-security",
+            "Task": "Validate Security Configurations",
+            "Task Description": "Review and validate security configurations, including certificates, access controls, and encryption settings, to ensure the cluster is secure.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABR"
+        },
+        {
+            "Classification": "Compliance",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-cluster-resource-manager",
+            "Task": "Audit Cluster Configuration",
+            "Task Description": "Conduct regular audits of the Service Fabric cluster configuration to ensure compliance with best practices and organizational policies.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABS"
+        },
+        {
+            "Classification": "Disaster Recovery",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-cluster-reliability",
+            "Task": "Test Failover Scenarios",
+            "Task Description": "Perform failover tests to validate the cluster's ability to handle node failures and ensure high availability of applications.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABT"
+        },
+        {
+            "Classification": "Performance",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-performance-tuning",
+            "Task": "Optimize Cluster Performance",
+            "Task Description": "Analyze cluster performance metrics and optimize resource allocation to ensure efficient operation of applications.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABU"
+        },
+        {
+            "Classification": "Security",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-cluster-upgrade",
+            "Task": "Update Node Operating Systems",
+            "Task Description": "Ensure the operating systems of nodes in the Service Fabric cluster are updated with the latest patches and security updates.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABV"
+        },
+        {
+            "Classification": "Security",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-cluster-reliability",
+            "Task": "Incident Response Drills",
+            "Task Description": "Conduct incident response drills to prepare the team for potential security incidents or cluster outages. Ensure familiarity with procedures and protocols.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABW"
+        },
+        {
+            "Classification": "Performance",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-cluster-monitoring",
+            "Task": "Review Application SLA Compliance",
+            "Task Description": "Evaluate the performance of applications running on the Service Fabric cluster against their SLA requirements. Address any issues or deviations.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABX"
+        },
+        {
+            "Classification": "Planning",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-cluster-capacity-planning",
+            "Task": "Plan for Cluster Expansion",
+            "Task Description": "Develop and execute plans for expanding the Service Fabric cluster as needed to accommodate increased workloads or new applications.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABY"
+        },
+        {
+            "Classification": "Training",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/",
+            "Task": "Engage in Regular Training",
+            "Task Description": "Ensure the operations team participates in regular training to stay updated with new Service Fabric features, best practices, and security measures.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABZ"
+        },
+        {
+            "Classification": "Optimization",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-cluster-monitoring",
+            "Task": "User Feedback and Improvement",
+            "Task Description": "Collect and analyze user feedback regarding Service Fabric cluster performance and reliability. Implement continuous improvements based on this feedback.",
+            "Task Type": "Operational",
+            "TaskSortId": "ACA"
+        }
+    ],
+    "dateCreated": "2025-05-16 09:13",
+    "dateModified": "2025-05-16 09:16"
+}
