@@ -1,0 +1,112 @@
+{
+    "Category": "Compute",
+    "Service": "Azure Container Instances",
+    "Tasks": [
+        {
+            "Classification": "Planning",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-instances/container-instances-overview",
+            "Task": "Assess Project Requirements",
+            "Task Description": "Gather detailed requirements for the containerized application, including resource needs (CPU, memory), storage, and networking. Identify the container images to be used and their source (e.g., Azure Container Registry, Docker Hub).",
+            "Task Type": "Project",
+            "TaskSortId": "ABC"
+        },
+        {
+            "Classification": "Planning",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-instances/container-instances-vnet",
+            "Task": "Design Container Architecture",
+            "Task Description": "Plan the architecture for deploying containers, including the number of instances, scaling requirements, and integration with other Azure services such as Azure Virtual Network or Azure Key Vault.",
+            "Task Type": "Project",
+            "TaskSortId": "ABD"
+        },
+        {
+            "Classification": "Implementation",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-registry/container-registry-introduction",
+            "Task": "Set Up Azure Container Registry (ACR)",
+            "Task Description": "If using Azure Container Registry, create and configure the registry to store container images. Ensure proper access controls and permissions are in place.",
+            "Task Type": "Project",
+            "TaskSortId": "ABE"
+        },
+        {
+            "Classification": "Planning",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/governance/",
+            "Task": "Obtain Necessary Approvals",
+            "Task Description": "Secure necessary approvals and authorizations for deploying Azure Container Instances, including budgetary and compliance approvals.",
+            "Task Type": "Project",
+            "TaskSortId": "ABF"
+        },
+        {
+            "Classification": "Implementation",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-instances/container-instances-quickstart",
+            "Task": "Deploy Azure Container Instances",
+            "Task Description": "Deploy the container instances using the Azure portal, CLI, or ARM templates. Specify the container image, resource requirements, and networking configurations.",
+            "Task Type": "Project",
+            "TaskSortId": "ABG"
+        },
+        {
+            "Classification": "Configuration",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-instances/container-instances-vnet",
+            "Task": "Configure Networking",
+            "Task Description": "Set up networking for the container instances, including Virtual Network integration, DNS settings, and firewall rules. Ensure secure communication between containers and other Azure services.",
+            "Task Type": "Project",
+            "TaskSortId": "ABH"
+        },
+        {
+            "Classification": "Security",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-instances/container-instances-using-managed-identity",
+            "Task": "Implement Security Measures",
+            "Task Description": "Enable security features such as managed identities, secure environment variables, and encryption for data in transit and at rest. Configure role-based access control (RBAC) for managing access to the container instances.",
+            "Task Type": "Project",
+            "TaskSortId": "ABI"
+        },
+        {
+            "Classification": "Troubleshooting",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-instances/container-instances-troubleshooting",
+            "Task": "Test Container Deployment",
+            "Task Description": "Perform functional and performance testing of the deployed containers. Validate that the application behaves as expected and meets performance requirements.",
+            "Task Type": "Project",
+            "TaskSortId": "ABJ"
+        },
+        {
+            "Classification": "Monitoring",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-instances/container-instances-monitor",
+            "Task": "Set Up Monitoring and Alerts",
+            "Task Description": "Configure monitoring for the container instances using Azure Monitor or other tools. Set up alerts for resource usage, application errors, and other critical metrics.",
+            "Task Type": "Project",
+            "TaskSortId": "ABK"
+        },
+        {
+            "Classification": "Documentation",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-instances/",
+            "Task": "Document Deployment Process",
+            "Task Description": "Create detailed documentation for the deployment process, including architecture diagrams, configurations, and operational procedures. Share the documentation with relevant stakeholders.",
+            "Task Type": "Project",
+            "TaskSortId": "ABL"
+        },
+        {
+            "Classification": "Support",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-instances/",
+            "Task": "Conduct Training for Operations Team",
+            "Task Description": "Provide training to the operations team on managing and troubleshooting Azure Container Instances. Include best practices for scaling, monitoring, and security.",
+            "Task Type": "Project",
+            "TaskSortId": "ABM"
+        },
+        {
+            "Classification": "Security",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/container-instances/",
+            "Task": "Establish Backup and Recovery Plan",
+            "Task Description": "Develop a backup and recovery plan for container configurations and data. Ensure that the plan is tested and meets business continuity requirements.",
+            "Task Type": "Project",
+            "TaskSortId": "ABN"
+        },
+        {
+            "Classification": "Security",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/security/",
+            "Task": "Perform Regular Audits",
+            "Task Description": "Schedule and conduct regular audits to ensure compliance with security and operational standards. Review access controls, resource usage, and application performance.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABO"
+        }
+    ],
+    "dateCreated": "2025-05-16 09:10",
+    "dateModified": "2025-05-16 09:11"
+}
