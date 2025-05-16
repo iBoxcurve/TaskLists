@@ -1,0 +1,208 @@
+{
+    "Category": "Compute",
+    "Service": "Azure Virtual Machine Scale Sets",
+    "Tasks": [
+        {
+            "Classification": "Planning",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview",
+            "Task": "Assess Requirements",
+            "Task Description": "Gather detailed requirements for the Virtual Machine Scale Sets, including the expected workload, scaling needs, and performance requirements.",
+            "Task Type": "Project",
+            "TaskSortId": "ABC"
+        },
+        {
+            "Classification": "Planning",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-design-overview",
+            "Task": "Design Architecture",
+            "Task Description": "Design the architecture for the Virtual Machine Scale Sets, including the number of instances, load balancing, and integration with other Azure services.",
+            "Task Type": "Project",
+            "TaskSortId": "ABD"
+        },
+        {
+            "Classification": "Planning",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/sizes",
+            "Task": "Select VM Image and Size",
+            "Task Description": "Choose the appropriate VM image and size based on the workload requirements and cost considerations.",
+            "Task Type": "Project",
+            "TaskSortId": "ABE"
+        },
+        {
+            "Classification": "Implementation",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal",
+            "Task": "Create Resource Group",
+            "Task Description": "Create a new Azure Resource Group to organize and manage the resources for the Virtual Machine Scale Sets.",
+            "Task Type": "Project",
+            "TaskSortId": "ABF"
+        },
+        {
+            "Classification": "Implementation",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/quick-create-portal",
+            "Task": "Deploy Virtual Machine Scale Set",
+            "Task Description": "Deploy the Virtual Machine Scale Set using the Azure portal, CLI, or ARM templates.",
+            "Task Type": "Project",
+            "TaskSortId": "ABG"
+        },
+        {
+            "Classification": "Configuration",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-autoscale-overview",
+            "Task": "Configure Autoscaling",
+            "Task Description": "Set up autoscaling rules based on CPU usage, memory, or custom metrics to ensure the scale set adjusts to workload demands.",
+            "Task Type": "All",
+            "TaskSortId": "ABH"
+        },
+        {
+            "Classification": "Configuration",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-overview",
+            "Task": "Implement Load Balancer",
+            "Task Description": "Configure an Azure Load Balancer to distribute traffic across the instances in the scale set.",
+            "Task Type": "All",
+            "TaskSortId": "ABI"
+        },
+        {
+            "Classification": "Monitoring",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-monitor/overview",
+            "Task": "Enable Monitoring and Alerts",
+            "Task Description": "Set up monitoring and alerts using Azure Monitor to track the performance and health of the Virtual Machine Scale Sets.",
+            "Task Type": "All",
+            "TaskSortId": "ABJ"
+        },
+        {
+            "Classification": "Security",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/security/fundamentals/overview",
+            "Task": "Implement Security Measures",
+            "Task Description": "Apply security best practices, such as enabling Azure Defender, configuring Network Security Groups (NSGs), and ensuring data encryption.",
+            "Task Type": "Project",
+            "TaskSortId": "ABK"
+        },
+        {
+            "Classification": "Troubleshooting",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-troubleshoot",
+            "Task": "Test Deployment",
+            "Task Description": "Perform testing to ensure the Virtual Machine Scale Sets are functioning as expected, including scaling operations and load balancing.",
+            "Task Type": "Project",
+            "TaskSortId": "ABL"
+        },
+        {
+            "Classification": "Documentation",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/",
+            "Task": "Document Configuration",
+            "Task Description": "Document the configuration, architecture, and operational procedures for the Virtual Machine Scale Sets.",
+            "Task Type": "All",
+            "TaskSortId": "ABM"
+        },
+        {
+            "Classification": "Training",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/",
+            "Task": "Conduct Training",
+            "Task Description": "Provide training to the operations team on managing and troubleshooting the Virtual Machine Scale Sets.",
+            "Task Type": "All",
+            "TaskSortId": "ABN"
+        },
+        {
+            "Classification": "Security",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/security/fundamentals/overview",
+            "Task": "Set Up Compliance Auditing",
+            "Task Description": "Ensure compliance with organizational and regulatory requirements by setting up auditing and logging for the Virtual Machine Scale Sets.",
+            "Task Type": "Project",
+            "TaskSortId": "ABO"
+        },
+        {
+            "Classification": "Planning",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-maintenance",
+            "Task": "Plan Maintenance Windows",
+            "Task Description": "Define and schedule maintenance windows for Virtual Machine Scale Sets to minimize disruption to workloads. Coordinate with stakeholders to ensure alignment with business needs.",
+            "Task Type": "Project",
+            "TaskSortId": "ABP"
+        },
+        {
+            "Classification": "Configuration",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-automatic-upgrade",
+            "Task": "Enable Automatic OS Image Updates",
+            "Task Description": "Configure automatic OS image updates for Virtual Machine Scale Sets to ensure instances are running the latest security patches and updates.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABQ"
+        },
+        {
+            "Classification": "Monitoring",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-monitor",
+            "Task": "Monitor Instance Health",
+            "Task Description": "Use Azure Monitor to continuously track the health of Virtual Machine Scale Set instances. Set up alerts for any anomalies or failures.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABR"
+        },
+        {
+            "Classification": "Testing",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-scale-instances",
+            "Task": "Perform Manual Scaling Tests",
+            "Task Description": "Test manual scaling operations to ensure that the scale set can handle increases or decreases in instance count without issues.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABS"
+        },
+        {
+            "Classification": "Configuration",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-networking",
+            "Task": "Review and Update Load Balancer Rules",
+            "Task Description": "Periodically review and update load balancer rules to ensure optimal traffic distribution across Virtual Machine Scale Set instances.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABT"
+        },
+        {
+            "Classification": "Backup",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-backup",
+            "Task": "Backup Configuration Settings",
+            "Task Description": "Regularly back up the configuration settings of the Virtual Machine Scale Sets to ensure quick recovery in case of accidental changes or failures.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABU"
+        },
+        {
+            "Classification": "Security",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-security",
+            "Task": "Audit Security Settings",
+            "Task Description": "Conduct regular audits of security settings, including network security groups and access controls, to ensure compliance with organizational policies.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABV"
+        },
+        {
+            "Classification": "Disaster Recovery",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-failover",
+            "Task": "Test Failover Scenarios",
+            "Task Description": "Simulate failover scenarios to validate the resiliency of Virtual Machine Scale Sets and ensure that workloads can recover seamlessly.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABW"
+        },
+        {
+            "Classification": "Optimization",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-instance-sizes",
+            "Task": "Optimize Instance Sizes",
+            "Task Description": "Review and optimize the instance sizes used in the scale set to balance performance and cost efficiency.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABX"
+        },
+        {
+            "Classification": "Configuration",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-update",
+            "Task": "Update Scale Set Model",
+            "Task Description": "Update the scale set model to incorporate new configurations, such as updated VM sizes or disk types, as needed.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABY"
+        },
+        {
+            "Classification": "Optimization",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-cost-management",
+            "Task": "Perform Cost Analysis",
+            "Task Description": "Analyze the cost of running Virtual Machine Scale Sets and identify opportunities for cost optimization.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABZ"
+        },
+        {
+            "Classification": "Performance",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-performance",
+            "Task": "Validate Application Performance",
+            "Task Description": "Test and validate the performance of applications running on Virtual Machine Scale Sets to ensure they meet SLAs and performance benchmarks.",
+            "Task Type": "Operational",
+            "TaskSortId": "ACA"
+        }
+    ],
+    "dateCreated": "2025-05-16 08:42",
+    "dateModified": "2025-05-16 08:46"
+}
