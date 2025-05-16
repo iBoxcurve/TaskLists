@@ -1,0 +1,184 @@
+{
+    "Category": "Compute",
+    "Service": "Azure Spot Virtual Machines",
+    "Tasks": [
+        {
+            "Classification": "Planning",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/spot-vms",
+            "Task": "Assess Workload Suitability",
+            "Task Description": "Evaluate the workloads to determine if they are suitable for Azure Spot Virtual Machines, considering their interruptible nature and cost benefits.",
+            "Task Type": "Project",
+            "TaskSortId": "ABC"
+        },
+        {
+            "Classification": "Planning",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/spot-vms-pricing",
+            "Task": "Estimate Cost Savings",
+            "Task Description": "Calculate potential cost savings by using Spot VMs compared to standard VMs for the identified workloads.",
+            "Task Type": "Project",
+            "TaskSortId": "ABD"
+        },
+        {
+            "Classification": "Planning",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/spot-vms-deployment",
+            "Task": "Design VM Deployment Strategy",
+            "Task Description": "Plan the deployment strategy, including VM sizes, regions, and scaling requirements. Consider fallback options for when Spot VMs are evicted.",
+            "Task Type": "Project",
+            "TaskSortId": "ABE"
+        },
+        {
+            "Classification": "Implementation",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal",
+            "Task": "Set Up Azure Subscription and Resource Groups",
+            "Task Description": "Ensure an active Azure subscription and create resource groups to organize Spot VM resources.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABF"
+        },
+        {
+            "Classification": "Configuration",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/spot-vms-configuration",
+            "Task": "Configure Spot VM Parameters",
+            "Task Description": "Define Spot VM parameters such as maximum price, eviction policy, and priority settings during VM creation.",
+            "Task Type": "Project",
+            "TaskSortId": "ABG"
+        },
+        {
+            "Classification": "Implementation",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview",
+            "Task": "Implement Scaling Mechanisms",
+            "Task Description": "Set up scaling mechanisms using Azure Virtual Machine Scale Sets to manage Spot VM availability and ensure workload continuity.",
+            "Task Type": "Project",
+            "TaskSortId": "ABH"
+        },
+        {
+            "Classification": "Configuration",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/batch/",
+            "Task": "Integrate with Workload Management Tools",
+            "Task Description": "Integrate Spot VMs with workload management tools such as Azure Batch or Kubernetes to handle interruptions effectively.",
+            "Task Type": "Project",
+            "TaskSortId": "ABI"
+        },
+        {
+            "Classification": "Security",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/security/fundamentals/overview",
+            "Task": "Implement Security Best Practices",
+            "Task Description": "Apply security measures such as Azure Disk Encryption, Network Security Groups (NSGs), and Azure Defender for the Spot VMs.",
+            "Task Type": "Project",
+            "TaskSortId": "ABJ"
+        },
+        {
+            "Classification": "Troubleshooting",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/spot-vms-eviction",
+            "Task": "Test Spot VM Behavior",
+            "Task Description": "Conduct tests to simulate Spot VM evictions and validate the workload's ability to handle interruptions gracefully.",
+            "Task Type": "Project",
+            "TaskSortId": "ABK"
+        },
+        {
+            "Classification": "Monitoring",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-monitor/",
+            "Task": "Monitor Spot VM Performance",
+            "Task Description": "Set up monitoring for Spot VM performance and availability using Azure Monitor and configure alerts for eviction events.",
+            "Task Type": "All",
+            "TaskSortId": "ABL"
+        },
+        {
+            "Classification": "Documentation",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/",
+            "Task": "Document Deployment and Configuration",
+            "Task Description": "Create detailed documentation of the Spot VM deployment, including configurations, scaling strategies, and security measures.",
+            "Task Type": "Project",
+            "TaskSortId": "ABM"
+        },
+        {
+            "Classification": "Documentation",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/spot-vms",
+            "Task": "Train Operations Team",
+            "Task Description": "Provide training to the operations team on managing Spot VMs, handling evictions, and monitoring performance.",
+            "Task Type": "All",
+            "TaskSortId": "ABN"
+        },
+        {
+            "Classification": "Support",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/spot-vms",
+            "Task": "Review and Optimize Deployment",
+            "Task Description": "Periodically review the Spot VM deployment to optimize costs, performance, and scaling strategies.",
+            "Task Type": "All",
+            "TaskSortId": "ABO"
+        },
+        {
+            "Classification": "Monitoring",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/spot-vms",
+            "Task": "Monitor Spot VM Eviction Rates",
+            "Task Description": "Continuously monitor the eviction rates of Spot VMs to ensure workloads are not disrupted unexpectedly. Use Azure Monitor to track eviction trends and adjust workloads accordingly.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABP"
+        },
+        {
+            "Classification": "Configuration",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/spot-vms",
+            "Task": "Implement Eviction Handling Strategies",
+            "Task Description": "Configure applications and workloads to handle Spot VM evictions gracefully. Use Azure tools like Azure Batch or custom scripts to manage failover or reallocation of workloads.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABQ"
+        },
+        {
+            "Classification": "Optimization",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/spot-vms",
+            "Task": "Optimize Cost Savings",
+            "Task Description": "Regularly review and optimize the cost savings achieved by using Spot VMs. Compare costs with standard VMs and adjust configurations to maximize savings.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABR"
+        },
+        {
+            "Classification": "Testing",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/spot-vms",
+            "Task": "Test Workload Resiliency",
+            "Task Description": "Conduct regular tests to ensure workloads running on Spot VMs can handle interruptions and evictions without data loss or significant downtime.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABS"
+        },
+        {
+            "Classification": "Planning",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/spot-vms",
+            "Task": "Review Spot VM Allocation Policies",
+            "Task Description": "Periodically review and update Spot VM allocation policies to align with workload requirements and business priorities.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABT"
+        },
+        {
+            "Classification": "Monitoring",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/spot-vms",
+            "Task": "Monitor Pricing Trends",
+            "Task Description": "Track Spot VM pricing trends in the Azure portal to identify opportunities for cost optimization and adjust bidding strategies accordingly.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABU"
+        },
+        {
+            "Classification": "Backup",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/spot-vms",
+            "Task": "Backup Critical Data",
+            "Task Description": "Ensure that critical data and workloads running on Spot VMs are backed up regularly to prevent data loss in case of unexpected evictions.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABV"
+        },
+        {
+            "Classification": "Documentation",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/spot-vms",
+            "Task": "Update Documentation",
+            "Task Description": "Maintain up-to-date documentation for Spot VM configurations, eviction handling strategies, and workload resiliency plans.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABW"
+        },
+        {
+            "Classification": "Compliance",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-machines/spot-vms",
+            "Task": "Audit Spot VM Usage",
+            "Task Description": "Conduct periodic audits of Spot VM usage to ensure compliance with organizational policies and identify areas for improvement.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABX"
+        }
+    ],
+    "dateCreated": "2025-05-16 09:16",
+    "dateModified": "2025-05-16 09:18"
+}
