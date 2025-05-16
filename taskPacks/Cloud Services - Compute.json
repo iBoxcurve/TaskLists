@@ -1,0 +1,224 @@
+{
+    "Category": "Compute",
+    "Service": "Cloud Services",
+    "Tasks": [
+        {
+            "Classification": "Planning",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/",
+            "Task": "Assess Project Requirements",
+            "Task Description": "Gather detailed requirements for the compute resources, including scalability, performance, and redundancy needs. Identify the applications and workloads to be hosted on Azure Cloud Services.",
+            "Task Type": "Project",
+            "TaskSortId": "ABC"
+        },
+        {
+            "Classification": "Planning",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-architecture-overview",
+            "Task": "Design Solution Architecture",
+            "Task Description": "Design the architecture for the Azure Cloud Services deployment, including the roles, instances, and network configurations. Ensure the design aligns with best practices for resiliency and security.",
+            "Task Type": "Project",
+            "TaskSortId": "ABD"
+        },
+        {
+            "Classification": "Implementation",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/create-subscription",
+            "Task": "Create Azure Subscription",
+            "Task Description": "Set up or verify the Azure subscription where the Cloud Services will be deployed. Ensure proper billing and access controls are configured.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABE"
+        },
+        {
+            "Classification": "Implementation",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-create-and-deploy",
+            "Task": "Provision Cloud Services",
+            "Task Description": "Deploy the Azure Cloud Services environment, including web roles and worker roles. Configure the instances based on the solution architecture.",
+            "Task Type": "Project",
+            "TaskSortId": "ABF"
+        },
+        {
+            "Classification": "Configuration",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-networking-overview",
+            "Task": "Configure Networking",
+            "Task Description": "Set up virtual networks, subnets, and IP configurations for the Cloud Services. Ensure proper connectivity and isolation as per the design.",
+            "Task Type": "Project",
+            "TaskSortId": "ABG"
+        },
+        {
+            "Classification": "Security",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/security/fundamentals/network-best-practices",
+            "Task": "Implement Security Measures",
+            "Task Description": "Apply security best practices, including encryption, access controls, and firewalls. Configure Network Security Groups (NSGs) and Azure DDoS Protection as needed.",
+            "Task Type": "Project",
+            "TaskSortId": "ABH"
+        },
+        {
+            "Classification": "Implementation",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-deploy-app",
+            "Task": "Deploy Application Code",
+            "Task Description": "Upload and deploy the application code to the Azure Cloud Services environment. Ensure proper configuration of deployment packages and runtime settings.",
+            "Task Type": "Project",
+            "TaskSortId": "ABI"
+        },
+        {
+            "Classification": "Troubleshooting",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-test-deployment",
+            "Task": "Test Deployment",
+            "Task Description": "Perform thorough testing of the deployed application, including functionality, performance, and failover scenarios. Validate that the environment meets the project requirements.",
+            "Task Type": "Project",
+            "TaskSortId": "ABJ"
+        },
+        {
+            "Classification": "Monitoring",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/monitoring-and-diagnostics/",
+            "Task": "Configure Monitoring and Alerts",
+            "Task Description": "Set up monitoring and alerting using Azure Monitor and Application Insights. Configure alerts for resource utilization, application errors, and performance metrics.",
+            "Task Type": "All",
+            "TaskSortId": "ABK"
+        },
+        {
+            "Classification": "Documentation",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/",
+            "Task": "Document Configuration and Procedures",
+            "Task Description": "Create detailed documentation for the Cloud Services setup, including architecture diagrams, configurations, and operational procedures. Share documentation with relevant stakeholders.",
+            "Task Type": "All",
+            "TaskSortId": "ABL"
+        },
+        {
+            "Classification": "Support",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/",
+            "Task": "Train Operations Team",
+            "Task Description": "Conduct training sessions for the operations team on managing and troubleshooting the Azure Cloud Services environment.",
+            "Task Type": "Project",
+            "TaskSortId": "ABM"
+        },
+        {
+            "Classification": "Security",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/",
+            "Task": "Implement Backup and Disaster Recovery",
+            "Task Description": "Set up backup and disaster recovery mechanisms for the Cloud Services environment. Ensure regular backups and test recovery procedures.",
+            "Task Type": "All",
+            "TaskSortId": "ABN"
+        },
+        {
+            "Classification": "Security",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/compliance/",
+            "Task": "Perform Compliance Checks",
+            "Task Description": "Verify that the Cloud Services setup complies with organizational and regulatory requirements. Conduct regular audits to ensure ongoing compliance.",
+            "Task Type": "Project",
+            "TaskSortId": "ABO"
+        },
+        {
+            "Classification": "Monitoring",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-performance-optimization",
+            "Task": "Optimize Performance",
+            "Task Description": "Regularly review and optimize the performance of the Cloud Services environment. Adjust instance sizes, scaling settings, and configurations as needed.",
+            "Task Type": "All",
+            "TaskSortId": "ABP"
+        },
+        {
+            "Classification": "Monitoring",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/azure-monitor/",
+            "Task": "Monitor Service Health",
+            "Task Description": "Continuously monitor the health and performance of deployed cloud services using Azure Monitor. Set up alerts for any anomalies or performance degradation.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABQ"
+        },
+        {
+            "Classification": "Security",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-patching",
+            "Task": "Apply Security Updates",
+            "Task Description": "Regularly apply security patches and updates to the operating system and application components of the cloud service to mitigate vulnerabilities.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABR"
+        },
+        {
+            "Classification": "Backup",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/",
+            "Task": "Backup Configuration and Data",
+            "Task Description": "Ensure regular backups of service configurations and critical data. Verify the integrity of backups and test restoration processes periodically.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABS"
+        },
+        {
+            "Classification": "Performance",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-how-to-scale",
+            "Task": "Scale Resources Based on Demand",
+            "Task Description": "Monitor resource utilization and scale up or down the compute resources to meet demand while optimizing costs.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABT"
+        },
+        {
+            "Classification": "Disaster Recovery",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-disaster-recovery",
+            "Task": "Conduct Failover Testing",
+            "Task Description": "Perform failover tests to ensure high availability and validate that the service can recover from failures without data loss or downtime.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABU"
+        },
+        {
+            "Classification": "Security",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/security/",
+            "Task": "Audit Access Controls",
+            "Task Description": "Review and update access controls and permissions to ensure only authorized personnel have access to the cloud service resources.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABV"
+        },
+        {
+            "Classification": "Optimization",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/",
+            "Task": "Optimize Service Configuration",
+            "Task Description": "Review and optimize the configuration of the cloud service to ensure it aligns with best practices and operational requirements.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABW"
+        },
+        {
+            "Classification": "Compliance",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-sla",
+            "Task": "Review Service Level Agreements (SLAs)",
+            "Task Description": "Periodically review the SLAs for the cloud service to ensure compliance with organizational requirements and address any deviations.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABX"
+        },
+        {
+            "Classification": "Security",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/security/",
+            "Task": "Perform Incident Response Drills",
+            "Task Description": "Conduct incident response drills to prepare the team for potential outages or security incidents. Ensure familiarity with response protocols.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABY"
+        },
+        {
+            "Classification": "Cost Management",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/cost-management/",
+            "Task": "Analyze Cost and Usage Reports",
+            "Task Description": "Review cost and usage reports to identify opportunities for cost optimization and ensure the service remains within budget.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABZ"
+        },
+        {
+            "Classification": "Testing",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/cloud-services-deploy",
+            "Task": "Test Application Updates",
+            "Task Description": "Test application updates in a staging environment before deploying them to production to ensure compatibility and stability.",
+            "Task Type": "Operational",
+            "TaskSortId": "ACA"
+        },
+        {
+            "Classification": "Security",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/security/",
+            "Task": "Review and Rotate Encryption Keys",
+            "Task Description": "Regularly review and rotate encryption keys used for securing data in the cloud service to maintain compliance and security.",
+            "Task Type": "Operational",
+            "TaskSortId": "ACB"
+        },
+        {
+            "Classification": "Training",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/cloud-services/",
+            "Task": "Engage in Training and Skill Development",
+            "Task Description": "Ensure the operations team participates in regular training to stay updated with new features, best practices, and security measures for cloud services.",
+            "Task Type": "Operational",
+            "TaskSortId": "ACC"
+        }
+    ],
+    "dateCreated": "2025-05-16 09:18",
+    "dateModified": "2025-05-16 09:19"
+}
