@@ -1,0 +1,112 @@
+{
+    "Category": "Compute",
+    "Service": "Azure Kubernetes Service (AKS)",
+    "Tasks": [
+        {
+            "Classification": "Planning",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/aks/intro-kubernetes",
+            "Task": "Assess Requirements",
+            "Task Description": "Gather detailed requirements for the AKS cluster, including compute capacity, scalability, and workload types. Identify the applications and services that will run on the cluster.",
+            "Task Type": "Project",
+            "TaskSortId": "ABC"
+        },
+        {
+            "Classification": "Planning",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/aks/concepts-clusters-workloads",
+            "Task": "Design Cluster Architecture",
+            "Task Description": "Design the architecture for the AKS cluster, including node pools, VM sizes, and integration with other Azure services. Plan for high availability and disaster recovery.",
+            "Task Type": "Project",
+            "TaskSortId": "ABD"
+        },
+        {
+            "Classification": "Planning",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/aks/security-baseline",
+            "Task": "Obtain Necessary Approvals",
+            "Task Description": "Secure approvals and authorizations for the AKS deployment, including budget, compliance, and security reviews.",
+            "Task Type": "Project",
+            "TaskSortId": "ABE"
+        },
+        {
+            "Classification": "Implementation",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough",
+            "Task": "Provision AKS Cluster",
+            "Task Description": "Create the AKS cluster in the Azure portal or using Azure CLI/PowerShell. Configure node pools, VM sizes, and Kubernetes versions.",
+            "Task Type": "Project",
+            "TaskSortId": "ABF"
+        },
+        {
+            "Classification": "Configuration",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/aks/configure-advanced-networking",
+            "Task": "Configure Networking",
+            "Task Description": "Set up networking for the AKS cluster, including virtual networks, subnets, and network security groups. Configure ingress and egress traffic rules.",
+            "Task Type": "Project",
+            "TaskSortId": "ABG"
+        },
+        {
+            "Classification": "Security",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/aks/security-baseline",
+            "Task": "Implement Security Measures",
+            "Task Description": "Enable security features such as Azure Active Directory integration, role-based access control (RBAC), and pod security policies. Configure encryption for data at rest and in transit.",
+            "Task Type": "Project",
+            "TaskSortId": "ABH"
+        },
+        {
+            "Classification": "Implementation",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/aks/tutorial-kubernetes-application-deployment",
+            "Task": "Deploy Applications",
+            "Task Description": "Deploy containerized applications to the AKS cluster using Kubernetes manifests or Helm charts. Ensure proper resource allocation and scaling configurations.",
+            "Task Type": "Project",
+            "TaskSortId": "ABI"
+        },
+        {
+            "Classification": "Monitoring",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/aks/monitor-aks",
+            "Task": "Configure Monitoring and Alerts",
+            "Task Description": "Set up monitoring and alerting for the AKS cluster using Azure Monitor and Kubernetes tools. Configure alerts for node health, pod performance, and resource utilization.",
+            "Task Type": "Project",
+            "TaskSortId": "ABJ"
+        },
+        {
+            "Classification": "Security",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/aks/backup-and-restore",
+            "Task": "Implement Backup and Disaster Recovery",
+            "Task Description": "Set up backup solutions for AKS workloads and configure disaster recovery plans. Test failover scenarios to ensure resiliency.",
+            "Task Type": "Project",
+            "TaskSortId": "ABK"
+        },
+        {
+            "Classification": "Troubleshooting",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/aks/scale-cluster",
+            "Task": "Test Cluster Performance",
+            "Task Description": "Perform thorough testing of the AKS cluster, including load testing, failover scenarios, and resource scaling. Validate that the cluster meets performance requirements.",
+            "Task Type": "Project",
+            "TaskSortId": "ABL"
+        },
+        {
+            "Classification": "Documentation",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/aks/",
+            "Task": "Document Cluster Configuration",
+            "Task Description": "Document the AKS cluster setup, including architecture, configurations, and operational procedures. Share documentation with the operations team.",
+            "Task Type": "Project",
+            "TaskSortId": "ABM"
+        },
+        {
+            "Classification": "Documentation",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/aks/best-practices",
+            "Task": "Conduct Training for Operations Team",
+            "Task Description": "Provide training sessions for the operations team on managing and troubleshooting the AKS cluster. Include best practices for Kubernetes management.",
+            "Task Type": "Project",
+            "TaskSortId": "ABN"
+        },
+        {
+            "Classification": "Security",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/aks/compliance",
+            "Task": "Ensure Compliance and Auditing",
+            "Task Description": "Verify that the AKS cluster meets regulatory compliance requirements. Implement regular auditing procedures to ensure security and operational standards.",
+            "Task Type": "Project",
+            "TaskSortId": "ABO"
+        }
+    ],
+    "dateCreated": "2025-05-16 08:44",
+    "dateModified": "2025-05-16 08:47"
+}
