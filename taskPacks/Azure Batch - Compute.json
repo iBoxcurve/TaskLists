@@ -1,0 +1,200 @@
+{
+    "Category": "Compute",
+    "Service": "Azure Batch",
+    "Tasks": [
+        {
+            "Classification": "Planning",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/batch/batch-technical-overview",
+            "Task": "Assess Project Requirements",
+            "Task Description": "Gather detailed requirements for compute workloads, including job types, resource needs, and expected performance metrics.",
+            "Task Type": "Project",
+            "TaskSortId": "ABC"
+        },
+        {
+            "Classification": "Planning",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/batch/batch-pool-overview",
+            "Task": "Design Batch Architecture",
+            "Task Description": "Design the Azure Batch architecture, including pool configurations, job scheduling, and integration with other Azure services.",
+            "Task Type": "Project",
+            "TaskSortId": "ABD"
+        },
+        {
+            "Classification": "Implementation",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/batch/batch-account-create-portal",
+            "Task": "Create Azure Batch Account",
+            "Task Description": "Set up an Azure Batch account in the Azure portal, ensuring proper subscription and resource group selection.",
+            "Task Type": "Project",
+            "TaskSortId": "ABE"
+        },
+        {
+            "Classification": "Configuration",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/batch/batch-pool-create-portal",
+            "Task": "Configure Batch Pools",
+            "Task Description": "Define and configure Batch pools, including VM sizes, autoscaling policies, and node communication settings.",
+            "Task Type": "Project",
+            "TaskSortId": "ABF"
+        },
+        {
+            "Classification": "Configuration",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/batch/batch-jobs-tasks",
+            "Task": "Set Up Job Scheduling",
+            "Task Description": "Configure job scheduling policies, including priority settings, dependencies, and retry policies.",
+            "Task Type": "All",
+            "TaskSortId": "ABG"
+        },
+        {
+            "Classification": "Security",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/batch/batch-security",
+            "Task": "Implement Security Measures",
+            "Task Description": "Enable security features such as encryption for data at rest and in transit, and configure access control policies for the Batch account.",
+            "Task Type": "Project",
+            "TaskSortId": "ABH"
+        },
+        {
+            "Classification": "Implementation",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/batch/batch-storage",
+            "Task": "Integrate with Storage Solutions",
+            "Task Description": "Set up Azure Storage accounts for input and output data, and configure Batch to access these storage accounts securely.",
+            "Task Type": "Project",
+            "TaskSortId": "ABI"
+        },
+        {
+            "Classification": "Troubleshooting",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/batch/batch-tutorial",
+            "Task": "Test Batch Workflows",
+            "Task Description": "Run test jobs to validate the Batch setup, including pool configurations, job scheduling, and data processing workflows.",
+            "Task Type": "Project",
+            "TaskSortId": "ABJ"
+        },
+        {
+            "Classification": "Monitoring",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/batch/batch-monitoring",
+            "Task": "Configure Monitoring and Alerts",
+            "Task Description": "Set up monitoring and alerting for Batch pools and jobs using Azure Monitor and Batch metrics.",
+            "Task Type": "Project",
+            "TaskSortId": "ABK"
+        },
+        {
+            "Classification": "Documentation",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/batch/",
+            "Task": "Document Configuration and Processes",
+            "Task Description": "Create detailed documentation for the Batch setup, including architecture diagrams, configuration settings, and operational procedures.",
+            "Task Type": "All",
+            "TaskSortId": "ABL"
+        },
+        {
+            "Classification": "Training",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/batch/",
+            "Task": "Train Operations Team",
+            "Task Description": "Conduct training sessions for the operations team on managing and troubleshooting Azure Batch workflows.",
+            "Task Type": "All",
+            "TaskSortId": "ABM"
+        },
+        {
+            "Classification": "Security",
+            "Documentation Link": "https://docs.microsoft.com/en-us/azure/batch/batch-security",
+            "Task": "Perform Regular Audits",
+            "Task Description": "Implement regular audits to ensure compliance with security and performance standards.",
+            "Task Type": "All",
+            "TaskSortId": "ABN"
+        },
+        {
+            "Classification": "Monitoring",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/batch/batch-monitoring",
+            "Task": "Monitor Batch Node Health",
+            "Task Description": "Use Azure Monitor to continuously track the health and status of compute nodes in the Azure Batch pool. Investigate and resolve any anomalies or failures.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABO"
+        },
+        {
+            "Classification": "Configuration",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/batch/batch-node-agent-updates",
+            "Task": "Update Node Agent Versions",
+            "Task Description": "Ensure that the node agent versions on compute nodes are up-to-date to maintain compatibility and security. Schedule updates during low-usage periods.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABP"
+        },
+        {
+            "Classification": "Performance",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/batch/batch-automatic-scaling",
+            "Task": "Scale Compute Resources",
+            "Task Description": "Adjust the number of compute nodes in the Batch pool based on workload requirements. Use auto-scaling rules to optimize resource utilization.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABQ"
+        },
+        {
+            "Classification": "Security",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/batch/batch-security",
+            "Task": "Perform Security Audits",
+            "Task Description": "Conduct regular security audits of the Batch environment, including access controls, network configurations, and compliance with security policies.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABR"
+        },
+        {
+            "Classification": "Backup",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/batch/batch-backup-restore",
+            "Task": "Backup Batch Configuration",
+            "Task Description": "Regularly back up Azure Batch pool configurations, job schedules, and other critical settings to ensure recoverability in case of accidental changes or failures.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABS"
+        },
+        {
+            "Classification": "Disaster Recovery",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/batch/batch-disaster-recovery",
+            "Task": "Test Failover Scenarios",
+            "Task Description": "Simulate failover scenarios to ensure that Batch jobs can recover and continue processing in case of node or region failures.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABT"
+        },
+        {
+            "Classification": "Optimization",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/batch/batch-job-scheduling",
+            "Task": "Optimize Job Scheduling",
+            "Task Description": "Review and optimize job scheduling configurations to ensure efficient use of compute resources and minimize job execution time.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABU"
+        },
+        {
+            "Classification": "Planning",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/batch/batch-quota-limits",
+            "Task": "Review Pool Quotas",
+            "Task Description": "Check and adjust Azure Batch pool quotas to ensure sufficient resources are available for current and future workloads.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABV"
+        },
+        {
+            "Classification": "Cost Management",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/batch/batch-pricing",
+            "Task": "Analyze Cost Efficiency",
+            "Task Description": "Review Azure Batch usage and associated costs to identify opportunities for cost optimization, such as resizing pools or adjusting auto-scaling rules.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABW"
+        },
+        {
+            "Classification": "Security",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/batch/batch-troubleshooting",
+            "Task": "Incident Response Drills",
+            "Task Description": "Conduct incident response drills to prepare the team for potential outages or security incidents in the Azure Batch environment.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABX"
+        },
+        {
+            "Classification": "Networking",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/batch/batch-networking",
+            "Task": "Validate Network Connectivity",
+            "Task Description": "Ensure that network connectivity between Azure Batch compute nodes and other required resources is stable and secure.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABY"
+        },
+        {
+            "Classification": "Compliance",
+            "Documentation Link": "https://learn.microsoft.com/en-us/azure/batch/batch-sla",
+            "Task": "Review SLA Compliance",
+            "Task Description": "Evaluate Azure Batch service performance against SLA metrics and address any deviations or issues.",
+            "Task Type": "Operational",
+            "TaskSortId": "ABZ"
+        }
+    ],
+    "dateCreated": "2025-05-16 08:49",
+    "dateModified": "2025-05-16 08:50"
+}
