@@ -1,0 +1,1651 @@
+[
+  {
+    "Service": "Azure Backup & Recovery",
+    "Category": "Azure Backup",
+    "dateCreated": "2025-01-27 10:00",
+    "dateModified": "2025-01-27 10:00",
+    "Tasks": [
+      {
+        "TaskSortId": "AAA",
+        "Task": "Develop Bank-Specific Azure Backup & Recovery Policy",
+        "Task Description": "Create comprehensive backup and recovery policy tailored for banking operations including regulatory compliance requirements",
+        "Task Type": "Project",
+        "Classification": "Critical",
+        "Documentation Link": "https://internal.bank.nz/policies/backup",
+        "RACI": {
+          "R": [
+            "Cloud Architect"
+          ],
+          "A": [
+            "Compliance Officer"
+          ],
+          "C": [
+            "Cloud Engineer/Operator",
+            "Security Architect/Engineer",
+            "IT Service Manager",
+            "Application Owner/Business Owner"
+          ],
+          "I": [
+            "IT Management/Leadership"
+          ]
+        }
+      },
+      {
+        "TaskSortId": "AAB",
+        "Task": "Establish & Document Detailed Backup Procedures for Critical Financial Systems",
+        "Task Description": "Document step-by-step backup procedures for all critical financial systems with clear escalation paths",
+        "Task Type": "Project",
+        "Classification": "Critical",
+        "Documentation Link": "https://internal.bank.nz/procedures/backup",
+        "RACI": {
+          "R": [
+            "Cloud Architect",
+            "Cloud Engineer/Operator"
+          ],
+          "A": [
+            "IT Service Manager"
+          ],
+          "C": [
+            "Security Architect/Engineer",
+            "Compliance Officer",
+            "Application Owner/Business Owner",
+            "Risk Management Officer"
+          ],
+          "I": [
+            "IT Management/Leadership"
+          ]
+        }
+      },
+      {
+        "TaskSortId": "AAC",
+        "Task": "Define & Implement Data Retention Schedules Aligned with Financial Regulations",
+        "Task Description": "Establish data retention schedules that comply with RBNZ and other financial regulatory requirements",
+        "Task Type": "Project",
+        "Classification": "Critical",
+        "Documentation Link": "https://internal.bank.nz/compliance/retention",
+        "RACI": {
+          "R": [
+            "Risk Management Officer"
+          ],
+          "A": [
+            "Compliance Officer"
+          ],
+          "C": [
+            "Cloud Architect",
+            "Cloud Engineer/Operator",
+            "Security Architect/Engineer",
+            "IT Service Manager",
+            "Application Owner/Business Owner"
+          ],
+          "I": [
+            "IT Management/Leadership",
+            "Data Governance Lead",
+            "Internal Audit Team"
+          ]
+        }
+      },
+      {
+        "TaskSortId": "AAD",
+        "Task": "Create Azure Backup Governance Framework",
+        "Task Description": "Develop governance framework for Azure backup operations including roles and responsibilities",
+        "Task Type": "Project",
+        "Classification": "Critical",
+        "Documentation Link": "https://internal.bank.nz/governance/backup",
+        "RACI": {
+          "R": [
+            "IT Service Manager",
+            "IT Management/Leadership"
+          ],
+          "A": [
+            "Compliance Officer"
+          ],
+          "C": [
+            "Cloud Architect",
+            "Cloud Engineer/Operator",
+            "Security Architect/Engineer",
+            "Application Owner/Business Owner"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "AAE",
+        "Task": "Establish Backup Policy Exception Management Process",
+        "Task Description": "Create process for managing exceptions to standard backup policies with appropriate approvals",
+        "Task Type": "Project",
+        "Classification": "Critical",
+        "Documentation Link": "https://internal.bank.nz/processes/exceptions",
+        "RACI": {
+          "R": [
+            "IT Service Manager",
+            "IT Management/Leadership",
+            "Risk Management Officer"
+          ],
+          "A": [
+            "Compliance Officer"
+          ],
+          "C": [
+            "Cloud Architect",
+            "Cloud Engineer/Operator",
+            "Security Architect/Engineer",
+            "Application Owner/Business Owner"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "AAF",
+        "Task": "Ensure Backup Compliance with RBNZ Requirements",
+        "Task Description": "Validate backup processes meet Reserve Bank of New Zealand regulatory requirements",
+        "Task Type": "Operations",
+        "Classification": "Critical",
+        "Documentation Link": "https://rbnz.govt.nz/regulation/prudential-requirements",
+        "RACI": {
+          "R": [
+            "IT Management/Leadership",
+            "Database Administrator"
+          ],
+          "A": [
+            "Compliance Officer"
+          ],
+          "C": [
+            "IT Service Manager"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "AAG",
+        "Task": "Conduct Regular Backup Compliance Audits",
+        "Task Description": "Perform regular audits of backup processes to ensure ongoing compliance",
+        "Task Type": "Operations",
+        "Classification": "Critical",
+        "Documentation Link": "https://internal.bank.nz/audit/backup",
+        "RACI": {
+          "R": [
+            "Compliance Officer"
+          ],
+          "A": [
+            "Database Administrator"
+          ],
+          "C": [
+            "IT Service Manager",
+            "IT Management/Leadership"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "AAH",
+        "Task": "Document Backup Compliance Evidence",
+        "Task Description": "Maintain documentation of backup compliance for regulatory reporting",
+        "Task Type": "Operations",
+        "Classification": "Critical",
+        "Documentation Link": "https://internal.bank.nz/compliance/evidence",
+        "RACI": {
+          "R": [
+            "Compliance Officer",
+            "IT Service Manager",
+            "Data Governance Lead",
+            "Risk Management Officer"
+          ],
+          "A": [
+            "Database Administrator"
+          ],
+          "C": [
+            "IT Management/Leadership"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "AAI",
+        "Task": "Prepare Regulatory Backup Reports",
+        "Task Description": "Generate reports for regulatory bodies demonstrating backup compliance",
+        "Task Type": "Operations",
+        "Classification": "Critical",
+        "Documentation Link": "https://internal.bank.nz/reporting/regulatory",
+        "RACI": {
+          "R": [
+            "Compliance Officer",
+            "IT Service Manager",
+            "Data Governance Lead",
+            "Risk Management Officer"
+          ],
+          "A": [
+            "Database Administrator"
+          ],
+          "C": [
+            "IT Management/Leadership"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "AAJ",
+        "Task": "Manage Backup Data Sovereignty Requirements",
+        "Task Description": "Ensure backup data storage complies with New Zealand data sovereignty laws",
+        "Task Type": "Operations",
+        "Classification": "Critical",
+        "Documentation Link": "https://internal.bank.nz/compliance/sovereignty",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator",
+            "Security Architect/Engineer",
+            "Data Governance Lead",
+            "Risk Management Officer",
+            "Internal Audit Team"
+          ],
+          "A": [
+            "Compliance Officer"
+          ],
+          "C": [
+            "Cloud Architect",
+            "IT Service Manager",
+            "IT Management/Leadership"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "AAK",
+        "Task": "Coordinate External Audit Backup Reviews",
+        "Task Description": "Support external auditors during backup system reviews",
+        "Task Type": "Operations",
+        "Classification": "Critical",
+        "Documentation Link": "https://internal.bank.nz/audit/external",
+        "RACI": {
+          "R": [
+            "Compliance Officer",
+            "IT Service Manager"
+          ],
+          "A": [
+            "Database Administrator"
+          ],
+          "C": [
+            "Cloud Engineer/Operator",
+            "Security Architect/Engineer",
+            "IT Management/Leadership"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "AAL",
+        "Task": "Implement Azure Backup Vault Encryption with Customer-Managed Keys",
+        "Task Description": "Configure vault encryption using customer-managed keys stored in Azure Key Vault",
+        "Task Type": "Project",
+        "Classification": "Critical",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-encryption",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator",
+            "Security Architect/Engineer"
+          ],
+          "A": [
+            "Cloud Architect"
+          ],
+          "C": [
+            "Compliance Officer"
+          ],
+          "I": [
+            "IT Management/Leadership"
+          ]
+        }
+      },
+      {
+        "TaskSortId": "AAM",
+        "Task": "Configure Immutable Backup Storage for Critical Financial Data",
+        "Task Description": "Enable immutable storage for critical financial data backups to prevent tampering",
+        "Task Type": "Project",
+        "Classification": "Critical",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-immutable-vault",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator",
+            "Security Architect/Engineer"
+          ],
+          "A": [
+            "Cloud Architect"
+          ],
+          "C": [
+            "Compliance Officer"
+          ],
+          "I": [
+            "IT Management/Leadership"
+          ]
+        }
+      },
+      {
+        "TaskSortId": "AAN",
+        "Task": "Implement Multi-Factor Authentication for Backup Operations",
+        "Task Description": "Enforce MFA for all backup-related operations and administrative access",
+        "Task Type": "Project",
+        "Classification": "Critical",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-rbac-rs-vault",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator",
+            "Security Operations Analyst"
+          ],
+          "A": [
+            "Security Architect/Engineer"
+          ],
+          "C": [
+            "Cloud Architect",
+            "Compliance Officer"
+          ],
+          "I": [
+            "IT Management/Leadership"
+          ]
+        }
+      },
+      {
+        "TaskSortId": "AAO",
+        "Task": "Enable Soft Delete and Enhanced Security Features",
+        "Task Description": "Configure soft delete and enhanced security features for backup protection",
+        "Task Type": "Project",
+        "Classification": "Critical",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-security-feature",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator",
+            "Security Architect/Engineer"
+          ],
+          "A": [
+            "Cloud Architect"
+          ],
+          "C": [
+            "Compliance Officer"
+          ],
+          "I": [
+            "IT Management/Leadership"
+          ]
+        }
+      },
+      {
+        "TaskSortId": "AAP",
+        "Task": "Configure Private Endpoints for Backup Traffic",
+        "Task Description": "Implement private endpoints to secure backup traffic within the virtual network",
+        "Task Type": "Project",
+        "Classification": "Critical",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/private-endpoints",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator",
+            "Security Architect/Engineer"
+          ],
+          "A": [
+            "Cloud Architect"
+          ],
+          "C": [
+            "Compliance Officer"
+          ],
+          "I": [
+            "IT Management/Leadership"
+          ]
+        }
+      },
+      {
+        "TaskSortId": "AAQ",
+        "Task": "Implement Network Security Groups for Backup Infrastructure",
+        "Task Description": "Configure NSGs to control network access to backup infrastructure",
+        "Task Type": "Project",
+        "Classification": "Critical",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator",
+            "Security Operations Analyst"
+          ],
+          "A": [
+            "Security Architect/Engineer"
+          ],
+          "C": [
+            "Cloud Architect",
+            "Compliance Officer"
+          ],
+          "I": [
+            "IT Management/Leadership"
+          ]
+        }
+      },
+      {
+        "TaskSortId": "AAR",
+        "Task": "Implement Role-Based Access Control for Backup Operations",
+        "Task Description": "Configure RBAC to ensure appropriate access levels for backup operations",
+        "Task Type": "Project",
+        "Classification": "Critical",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-rbac-rs-vault",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator",
+            "Security Operations Analyst",
+            "Compliance Officer",
+            "IT Management/Leadership"
+          ],
+          "A": [
+            "Security Architect/Engineer"
+          ],
+          "C": [
+            "Cloud Architect"
+          ],
+          "I": [
+            "Application Owner/Business Owner"
+          ]
+        }
+      },
+      {
+        "TaskSortId": "AAS",
+        "Task": "Configure Privileged Access Management for Backup Administrators",
+        "Task Description": "Implement PAM for backup administrator accounts with time-limited access",
+        "Task Type": "Project",
+        "Classification": "Critical",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/active-directory/privileged-identity-management/",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator",
+            "Security Operations Analyst",
+            "Compliance Officer",
+            "IT Management/Leadership"
+          ],
+          "A": [
+            "Security Architect/Engineer"
+          ],
+          "C": [
+            "Cloud Architect"
+          ],
+          "I": [
+            "Application Owner/Business Owner"
+          ]
+        }
+      },
+      {
+        "TaskSortId": "AAT",
+        "Task": "Establish Backup Access Review Process",
+        "Task Description": "Implement regular review process for backup system access permissions",
+        "Task Type": "Operations",
+        "Classification": "Critical",
+        "Documentation Link": "https://internal.bank.nz/security/access-review",
+        "RACI": {
+          "R": [
+            "Security Operations Analyst",
+            "Compliance Officer",
+            "IT Management/Leadership"
+          ],
+          "A": [
+            "Security Architect/Engineer"
+          ],
+          "C": [
+            "Cloud Architect",
+            "IT Service Manager"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "AAU",
+        "Task": "Monitor and Log Backup Access Activities",
+        "Task Description": "Monitor and log all backup-related access and activities for security auditing",
+        "Task Type": "Operations",
+        "Classification": "Critical",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-monitoring-built-in-monitor",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator",
+            "Security Architect/Engineer",
+            "Compliance Officer"
+          ],
+          "A": [
+            "Security Operations Analyst"
+          ],
+          "C": [
+            "IT Service Manager",
+            "IT Management/Leadership"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "AAV",
+        "Task": "Configure Azure Backup Security Alerts",
+        "Task Description": "Set up security alerts for backup-related security events",
+        "Task Type": "Project",
+        "Classification": "Critical",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-monitoring-built-in-monitor",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator",
+            "Security Architect/Engineer",
+            "Compliance Officer"
+          ],
+          "A": [
+            "Security Operations Analyst"
+          ],
+          "C": [
+            "Cloud Architect",
+            "IT Service Manager",
+            "IT Management/Leadership"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "AAW",
+        "Task": "Implement Backup Security Incident Response",
+        "Task Description": "Develop and implement incident response procedures for backup security events",
+        "Task Type": "Project",
+        "Classification": "Critical",
+        "Documentation Link": "https://internal.bank.nz/security/incident-response",
+        "RACI": {
+          "R": [
+            "Security Architect/Engineer",
+            "Compliance Officer",
+            "IT Service Manager",
+            "Financial Operations Analyst"
+          ],
+          "A": [
+            "Security Operations Analyst"
+          ],
+          "C": [
+            "Cloud Architect",
+            "Cloud Engineer/Operator",
+            "IT Management/Leadership"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "AAX",
+        "Task": "Monitor Backup Data Exfiltration Attempts",
+        "Task Description": "Monitor for unauthorized backup data access or exfiltration attempts",
+        "Task Type": "Operations",
+        "Classification": "Critical",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-monitoring-built-in-monitor",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator",
+            "Security Architect/Engineer",
+            "Compliance Officer"
+          ],
+          "A": [
+            "Security Operations Analyst"
+          ],
+          "C": [
+            "IT Service Manager",
+            "IT Management/Leadership"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "AAY",
+        "Task": "Conduct Regular Backup Security Assessments",
+        "Task Description": "Perform regular security assessments of backup infrastructure and processes",
+        "Task Type": "Operations",
+        "Classification": "Critical",
+        "Documentation Link": "https://internal.bank.nz/security/assessments",
+        "RACI": {
+          "R": [
+            "Security Architect/Engineer",
+            "Security Operations Analyst",
+            "Compliance Officer",
+            "Financial Operations Analyst"
+          ],
+          "A": [
+            "Database Administrator"
+          ],
+          "C": [
+            "Cloud Architect",
+            "Cloud Engineer/Operator",
+            "IT Service Manager",
+            "IT Management/Leadership"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "AAZ",
+        "Task": "Maintain Backup Security Documentation",
+        "Task Description": "Keep security documentation current for backup systems and procedures",
+        "Task Type": "Operations",
+        "Classification": "Critical",
+        "Documentation Link": "https://internal.bank.nz/security/documentation",
+        "RACI": {
+          "R": [
+            "Security Architect/Engineer",
+            "Security Operations Analyst",
+            "Compliance Officer",
+            "Financial Operations Analyst"
+          ],
+          "A": [
+            "IT Service Manager"
+          ],
+          "C": [
+            "Cloud Engineer/Operator",
+            "IT Management/Leadership",
+            "Database Administrator"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ABA",
+        "Task": "Configure Automated Backup Schedules for Critical Financial Systems",
+        "Task Description": "Set up automated backup schedules for all critical financial systems",
+        "Task Type": "Operations",
+        "Classification": "Critical",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-policy-supported-skus",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator",
+            "IT Service Manager",
+            "Application Owner/Business Owner"
+          ],
+          "A": [
+            "Cloud Architect"
+          ],
+          "C": [
+            "Security Architect/Engineer",
+            "Compliance Officer"
+          ],
+          "I": [
+            "IT Management/Leadership"
+          ]
+        }
+      },
+      {
+        "TaskSortId": "ABB",
+        "Task": "Perform Daily Backup Validation for Core Banking Systems",
+        "Task Description": "Validate daily backups for core banking systems to ensure data integrity",
+        "Task Type": "Operations",
+        "Classification": "Critical",
+        "Documentation Link": "https://internal.bank.nz/operations/validation",
+        "RACI": {
+          "R": [
+            "IT Service Manager",
+            "Application Owner/Business Owner"
+          ],
+          "A": [
+            "Cloud Engineer/Operator"
+          ],
+          "C": [
+            "Cloud Architect",
+            "Compliance Officer"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ABC",
+        "Task": "Execute Weekly Full Backup Verification",
+        "Task Description": "Perform comprehensive weekly verification of all backup systems",
+        "Task Type": "Operations",
+        "Classification": "Critical",
+        "Documentation Link": "https://internal.bank.nz/operations/verification",
+        "RACI": {
+          "R": [
+            "IT Service Manager",
+            "Application Owner/Business Owner"
+          ],
+          "A": [
+            "Cloud Engineer/Operator"
+          ],
+          "C": [
+            "Cloud Architect",
+            "Compliance Officer"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ABD",
+        "Task": "Manage Backup Storage Capacity and Optimization",
+        "Task Description": "Monitor and optimize backup storage capacity and costs",
+        "Task Type": "Operations",
+        "Classification": "Important",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-monitoring-built-in-monitor",
+        "RACI": {
+          "R": [
+            "IT Service Manager",
+            "Data Governance Lead"
+          ],
+          "A": [
+            "Cloud Engineer/Operator"
+          ],
+          "C": [
+            "Cloud Architect",
+            "Compliance Officer"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ABE",
+        "Task": "Coordinate Cross-Region Backup Replication",
+        "Task Description": "Manage backup replication across multiple Azure regions for disaster recovery",
+        "Task Type": "Operations",
+        "Classification": "Critical",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/restore-sql-database-azure-vm",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator",
+            "Application Owner/Business Owner"
+          ],
+          "A": [
+            "Cloud Architect"
+          ],
+          "C": [
+            "Compliance Officer",
+            "IT Service Manager"
+          ],
+          "I": [
+            "IT Management/Leadership"
+          ]
+        }
+      },
+      {
+        "TaskSortId": "ABF",
+        "Task": "Handle Backup Operation Escalations",
+        "Task Description": "Manage escalations for failed or problematic backup operations",
+        "Task Type": "Operations",
+        "Classification": "Critical",
+        "Documentation Link": "https://internal.bank.nz/operations/escalation",
+        "RACI": {
+          "R": [
+            "IT Service Manager",
+            "Application Owner/Business Owner",
+            "IT Management/Leadership"
+          ],
+          "A": [
+            "Cloud Engineer/Operator"
+          ],
+          "C": [
+            "Cloud Architect",
+            "Compliance Officer"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ABG",
+        "Task": "Monitor Azure Backup Costs and Usage",
+        "Task Description": "Monitor backup costs and usage across all Azure services",
+        "Task Type": "Operations",
+        "Classification": "Important",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-monitoring-built-in-monitor",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator"
+          ],
+          "A": [
+            "ServiceNow Administrator"
+          ],
+          "C": [
+            "Cloud Architect",
+            "Compliance Officer",
+            "IT Service Manager"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ABH",
+        "Task": "Optimize Backup Storage Costs",
+        "Task Description": "Identify and implement backup storage cost optimization opportunities",
+        "Task Type": "Operations",
+        "Classification": "Important",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-optimize-backup-cost",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator"
+          ],
+          "A": [
+            "ServiceNow Administrator"
+          ],
+          "C": [
+            "Cloud Architect",
+            "Compliance Officer",
+            "IT Service Manager"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ABI",
+        "Task": "Plan Backup Capacity Requirements",
+        "Task Description": "Plan future backup capacity requirements based on business growth",
+        "Task Type": "Operations",
+        "Classification": "Important",
+        "Documentation Link": "https://internal.bank.nz/capacity/planning",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator",
+            "Application Owner/Business Owner"
+          ],
+          "A": [
+            "Data Governance Lead"
+          ],
+          "C": [
+            "Cloud Architect",
+            "Compliance Officer",
+            "IT Service Manager",
+            "IT Management/Leadership"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ABJ",
+        "Task": "Generate Backup Cost Reports for Finance",
+        "Task Description": "Generate detailed backup cost reports for financial analysis",
+        "Task Type": "Operations",
+        "Classification": "Important",
+        "Documentation Link": "https://internal.bank.nz/reporting/costs",
+        "RACI": {
+          "R": [],
+          "A": [
+            "ServiceNow Administrator"
+          ],
+          "C": [
+            "Cloud Engineer/Operator",
+            "Compliance Officer",
+            "IT Service Manager"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ABK",
+        "Task": "Conduct Backup ROI Analysis",
+        "Task Description": "Conduct return on investment analysis for backup solutions",
+        "Task Type": "Operations",
+        "Classification": "Important",
+        "Documentation Link": "https://internal.bank.nz/analysis/roi",
+        "RACI": {
+          "R": [],
+          "A": [
+            "Data Governance Lead"
+          ],
+          "C": [
+            "Cloud Engineer/Operator",
+            "Compliance Officer",
+            "IT Service Manager",
+            "Application Owner/Business Owner",
+            "IT Management/Leadership"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ABL",
+        "Task": "Execute Critical System Disaster Recovery",
+        "Task Description": "Execute disaster recovery procedures for critical financial systems",
+        "Task Type": "Operations",
+        "Classification": "Critical",
+        "Documentation Link": "https://internal.bank.nz/dr/procedures",
+        "RACI": {
+          "R": [
+            "IT Service Manager",
+            "Application Owner/Business Owner",
+            "IT Management/Leadership"
+          ],
+          "A": [
+            "Cloud Engineer/Operator"
+          ],
+          "C": [
+            "Cloud Architect",
+            "Compliance Officer"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ABM",
+        "Task": "Perform Regular Disaster Recovery Testing",
+        "Task Description": "Conduct regular disaster recovery tests to validate recovery capabilities",
+        "Task Type": "Operations",
+        "Classification": "Critical",
+        "Documentation Link": "https://internal.bank.nz/dr/testing",
+        "RACI": {
+          "R": [
+            "IT Service Manager",
+            "Application Owner/Business Owner",
+            "IT Management/Leadership"
+          ],
+          "A": [
+            "Cloud Engineer/Operator"
+          ],
+          "C": [
+            "Cloud Architect",
+            "Compliance Officer"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ABN",
+        "Task": "Coordinate Cross-Region Recovery Operations",
+        "Task Description": "Coordinate recovery operations across multiple Azure regions",
+        "Task Type": "Operations",
+        "Classification": "Critical",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-arm-restore-vms",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator",
+            "IT Service Manager",
+            "Application Owner/Business Owner"
+          ],
+          "A": [
+            "Cloud Architect"
+          ],
+          "C": [
+            "Compliance Officer",
+            "IT Management/Leadership"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ABO",
+        "Task": "Validate Data Integrity Post-Recovery",
+        "Task Description": "Validate data integrity after recovery operations",
+        "Task Type": "Operations",
+        "Classification": "Critical",
+        "Documentation Link": "https://internal.bank.nz/validation/post-recovery",
+        "RACI": {
+          "R": [
+            "IT Service Manager",
+            "Application Owner/Business Owner",
+            "Data Governance Lead"
+          ],
+          "A": [
+            "Cloud Engineer/Operator"
+          ],
+          "C": [
+            "Cloud Architect",
+            "Security Architect/Engineer",
+            "Compliance Officer"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ABP",
+        "Task": "Document Recovery Operations",
+        "Task Description": "Document all recovery operations for audit and compliance purposes",
+        "Task Type": "Operations",
+        "Classification": "Critical",
+        "Documentation Link": "https://internal.bank.nz/documentation/recovery",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator",
+            "Compliance Officer",
+            "Data Governance Lead",
+            "Database Administrator"
+          ],
+          "A": [
+            "IT Service Manager"
+          ],
+          "C": [
+            "Application Owner/Business Owner"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ABQ",
+        "Task": "Communicate Recovery Status to Leadership",
+        "Task Description": "Communicate recovery status and progress to executive leadership",
+        "Task Type": "Operations",
+        "Classification": "Critical",
+        "Documentation Link": "https://internal.bank.nz/communication/recovery",
+        "RACI": {
+          "R": [
+            "IT Service Manager",
+            "Application Owner/Business Owner"
+          ],
+          "A": [
+            "IT Management/Leadership"
+          ],
+          "C": [
+            "Cloud Engineer/Operator",
+            "Compliance Officer"
+          ],
+          "I": [
+            "CFO"
+          ]
+        }
+      },
+      {
+        "TaskSortId": "ABR",
+        "Task": "Configure Critical Backup Failure Alerts",
+        "Task Description": "Configure alerts for critical backup failure events",
+        "Task Type": "Project",
+        "Classification": "Critical",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-monitoring-built-in-monitor",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator",
+            "Security Operations Analyst",
+            "IT Service Manager"
+          ],
+          "A": [
+            "Cloud Architect"
+          ],
+          "C": [
+            "Security Architect/Engineer",
+            "Compliance Officer",
+            "Application Owner/Business Owner"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ABS",
+        "Task": "Set up Executive Notification for Major Incidents",
+        "Task Description": "Configure notifications to executives for major backup incidents",
+        "Task Type": "Project",
+        "Classification": "Critical",
+        "Documentation Link": "https://internal.bank.nz/notifications/executive",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator",
+            "Application Owner/Business Owner",
+            "IT Management/Leadership"
+          ],
+          "A": [
+            "IT Service Manager"
+          ],
+          "C": [
+            "Cloud Architect",
+            "Compliance Officer"
+          ],
+          "I": [
+            "CFO"
+          ]
+        }
+      },
+      {
+        "TaskSortId": "ABT",
+        "Task": "Configure Automated Stakeholder Notifications",
+        "Task Description": "Set up automated notifications to relevant stakeholders for backup events",
+        "Task Type": "Operations",
+        "Classification": "Important",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-monitoring-built-in-monitor",
+        "RACI": {
+          "R": [
+            "IT Service Manager",
+            "Application Owner/Business Owner"
+          ],
+          "A": [
+            "Cloud Engineer/Operator"
+          ],
+          "C": [
+            "Cloud Architect",
+            "Compliance Officer",
+            "IT Management/Leadership"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ABU",
+        "Task": "Manage Alert Escalation Procedures",
+        "Task Description": "Manage escalation procedures for backup alerts",
+        "Task Type": "Operations",
+        "Classification": "Important",
+        "Documentation Link": "https://internal.bank.nz/escalation/alerts",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator",
+            "Application Owner/Business Owner",
+            "IT Management/Leadership"
+          ],
+          "A": [
+            "IT Service Manager"
+          ],
+          "C": [
+            "Cloud Architect",
+            "Compliance Officer"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ABV",
+        "Task": "Test Alert Notification Systems",
+        "Task Description": "Test alert notification systems to ensure reliability",
+        "Task Type": "Operations",
+        "Classification": "Important",
+        "Documentation Link": "https://internal.bank.nz/testing/alerts",
+        "RACI": {
+          "R": [
+            "IT Service Manager"
+          ],
+          "A": [
+            "Cloud Engineer/Operator"
+          ],
+          "C": [
+            "Compliance Officer",
+            "Application Owner/Business Owner",
+            "IT Management/Leadership"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ABW",
+        "Task": "Configure Azure Monitor for Backup Monitoring",
+        "Task Description": "Set up Azure Monitor to monitor backup operations",
+        "Task Type": "Project",
+        "Classification": "Critical",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-monitoring-built-in-monitor",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator",
+            "Security Operations Analyst"
+          ],
+          "A": [
+            "Cloud Architect"
+          ],
+          "C": [
+            "Security Architect/Engineer",
+            "Compliance Officer",
+            "IT Service Manager"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ABX",
+        "Task": "Set up Log Analytics Workspace for Backup Logs",
+        "Task Description": "Configure Log Analytics workspace for backup log collection",
+        "Task Type": "Project",
+        "Classification": "Critical",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-monitoring-built-in-monitor",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator",
+            "Security Operations Analyst"
+          ],
+          "A": [
+            "Cloud Architect"
+          ],
+          "C": [
+            "Security Architect/Engineer",
+            "Compliance Officer",
+            "IT Service Manager"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ABY",
+        "Task": "Create Custom Backup Monitoring Dashboards",
+        "Task Description": "Create custom dashboards for backup monitoring",
+        "Task Type": "Project",
+        "Classification": "Important",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-monitoring-built-in-monitor",
+        "RACI": {
+          "R": [],
+          "A": [
+            "Cloud Engineer/Operator"
+          ],
+          "C": [
+            "Cloud Architect",
+            "Security Architect/Engineer",
+            "Security Operations Analyst",
+            "Compliance Officer",
+            "IT Service Manager"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ABZ",
+        "Task": "Configure Backup Performance Metrics",
+        "Task Description": "Set up performance metrics and KPIs for backup operations",
+        "Task Type": "Project",
+        "Classification": "Important",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-monitoring-built-in-monitor",
+        "RACI": {
+          "R": [],
+          "A": [
+            "Cloud Engineer/Operator"
+          ],
+          "C": [
+            "Cloud Architect",
+            "Security Architect/Engineer",
+            "Security Operations Analyst",
+            "Compliance Officer",
+            "IT Service Manager"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ACA",
+        "Task": "Implement Backup Trend Analysis",
+        "Task Description": "Implement trend analysis for backup operations",
+        "Task Type": "Operations",
+        "Classification": "Important",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-monitoring-built-in-monitor",
+        "RACI": {
+          "R": [],
+          "A": [
+            "Cloud Engineer/Operator"
+          ],
+          "C": [
+            "Cloud Architect",
+            "Security Architect/Engineer",
+            "Security Operations Analyst",
+            "Compliance Officer",
+            "IT Service Manager"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ACB",
+        "Task": "Generate Backup Monitoring Reports",
+        "Task Description": "Generate regular monitoring reports for backup operations",
+        "Task Type": "Operations",
+        "Classification": "Important",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-monitoring-built-in-monitor",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator"
+          ],
+          "A": [
+            "IT Service Manager"
+          ],
+          "C": [
+            "Compliance Officer",
+            "Application Owner/Business Owner",
+            "IT Management/Leadership"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ACC",
+        "Task": "Monitor Backup Job Success Rates",
+        "Task Description": "Monitor and report on backup job success rates",
+        "Task Type": "Operations",
+        "Classification": "Important",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-monitoring-built-in-monitor",
+        "RACI": {
+          "R": [
+            "Security Operations Analyst",
+            "IT Service Manager"
+          ],
+          "A": [
+            "Cloud Engineer/Operator"
+          ],
+          "C": [
+            "Compliance Officer",
+            "Application Owner/Business Owner"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ACD",
+        "Task": "Track Backup Storage Utilization",
+        "Task Description": "Track and report backup storage utilization trends",
+        "Task Type": "Operations",
+        "Classification": "Important",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-monitoring-built-in-monitor",
+        "RACI": {
+          "R": [
+            "ServiceNow Administrator"
+          ],
+          "A": [
+            "Cloud Engineer/Operator"
+          ],
+          "C": [
+            "Cloud Architect",
+            "Compliance Officer",
+            "IT Service Manager"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ACE",
+        "Task": "Analyze Backup Performance Bottlenecks",
+        "Task Description": "Analyze backup performance to identify bottlenecks",
+        "Task Type": "Operations",
+        "Classification": "Important",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-monitoring-built-in-monitor",
+        "RACI": {
+          "R": [],
+          "A": [
+            "Cloud Engineer/Operator"
+          ],
+          "C": [
+            "Cloud Architect",
+            "Security Architect/Engineer",
+            "Compliance Officer",
+            "IT Service Manager"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ACF",
+        "Task": "Implement Predictive Analytics for Backup Planning",
+        "Task Description": "Use predictive analytics for backup capacity and performance planning",
+        "Task Type": "Operations",
+        "Classification": "Important",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-monitoring-built-in-monitor",
+        "RACI": {
+          "R": [],
+          "A": [
+            "Cloud Engineer/Operator"
+          ],
+          "C": [
+            "Cloud Architect",
+            "Security Architect/Engineer",
+            "Compliance Officer",
+            "IT Service Manager",
+            "Application Owner/Business Owner"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ACG",
+        "Task": "Configure SQL/MySQL/MariaDB Databases Automated Backup with Long-term Retention",
+        "Task Description": "Configure automated backup for all database platforms with long-term retention for compliance",
+        "Task Type": "Operations",
+        "Classification": "Critical",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-sql-database",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator",
+            "Application Owner/Business Owner",
+            "Data Governance Lead"
+          ],
+          "A": [
+            "Database Administrator"
+          ],
+          "C": [
+            "Cloud Architect",
+            "Security Architect/Engineer",
+            "Compliance Officer",
+            "IT Service Manager"
+          ],
+          "I": [
+            "IT Management/Leadership"
+          ]
+        }
+      },
+      {
+        "TaskSortId": "ACH",
+        "Task": "Implement Transparent Data Encryption (TDE) for SQL/MySQL/MariaDB Databases Backups",
+        "Task Description": "Implement TDE for all database platform backups",
+        "Task Type": "Project",
+        "Classification": "Critical",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-sql-database",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator",
+            "Security Architect/Engineer",
+            "Compliance Officer",
+            "Data Governance Lead"
+          ],
+          "A": [
+            "Database Administrator"
+          ],
+          "C": [
+            "Cloud Architect",
+            "IT Service Manager",
+            "Application Owner/Business Owner"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ACI",
+        "Task": "Perform Regular SQL/MySQL/MariaDB Databases Backup Testing and Validation",
+        "Task Description": "Perform regular backup testing and validation for all database platforms",
+        "Task Type": "Operations",
+        "Classification": "Critical",
+        "Documentation Link": "https://internal.bank.nz/testing/database-backup",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator",
+            "IT Service Manager",
+            "Application Owner/Business Owner",
+            "Data Governance Lead"
+          ],
+          "A": [
+            "Database Administrator"
+          ],
+          "C": [
+            "Cloud Architect",
+            "Compliance Officer"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ACJ",
+        "Task": "Monitor SQL/MySQL/MariaDB Databases Backup Storage and Cost Optimization",
+        "Task Description": "Monitor database backup storage and optimize costs across all platforms",
+        "Task Type": "Operations",
+        "Classification": "Important",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-monitoring-built-in-monitor",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator",
+            "Data Governance Lead",
+            "Financial Operations Analyst"
+          ],
+          "A": [
+            "Database Administrator"
+          ],
+          "C": [
+            "Cloud Architect",
+            "Compliance Officer",
+            "IT Service Manager",
+            "Application Owner/Business Owner"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ACK",
+        "Task": "Configure PostgreSQL/Other NoSQL Flexible Server Backup with Enhanced Security",
+        "Task Description": "Configure backup for PostgreSQL and other NoSQL databases with enhanced security",
+        "Task Type": "Operations",
+        "Classification": "Critical",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-database-postgresql",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator",
+            "Application Owner/Business Owner",
+            "Data Governance Lead"
+          ],
+          "A": [
+            "Database Administrator"
+          ],
+          "C": [
+            "Cloud Architect",
+            "Security Architect/Engineer",
+            "Compliance Officer",
+            "IT Service Manager"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ACL",
+        "Task": "Implement PostgreSQL/Other NoSQL Database Backup Testing and Recovery Validation",
+        "Task Description": "Implement backup testing and recovery validation for NoSQL databases",
+        "Task Type": "Operations",
+        "Classification": "Critical",
+        "Documentation Link": "https://internal.bank.nz/testing/nosql-backup",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator",
+            "IT Service Manager",
+            "Application Owner/Business Owner",
+            "Data Governance Lead"
+          ],
+          "A": [
+            "Database Administrator"
+          ],
+          "C": [
+            "Cloud Architect",
+            "Compliance Officer"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ACM",
+        "Task": "Configure Azure Files Backup with Enhanced Security",
+        "Task Description": "Configure backup for Azure Files with enhanced security features",
+        "Task Type": "Operations",
+        "Classification": "Important",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-files",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator",
+            "Application Owner/Business Owner",
+            "Data Governance Lead"
+          ],
+          "A": [
+            "Cloud Architect"
+          ],
+          "C": [
+            "Security Architect/Engineer",
+            "Compliance Officer",
+            "IT Service Manager"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ACN",
+        "Task": "Implement NetApp Files Backup and Recovery",
+        "Task Description": "Implement backup and recovery for NetApp Files",
+        "Task Type": "Operations",
+        "Classification": "Important",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-netapp-files",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator",
+            "Application Owner/Business Owner",
+            "Data Governance Lead"
+          ],
+          "A": [
+            "Cloud Architect"
+          ],
+          "C": [
+            "Security Architect/Engineer",
+            "Compliance Officer",
+            "IT Service Manager"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ACO",
+        "Task": "Configure Blob Storage Backup with Operational Backup",
+        "Task Description": "Configure operational backup for Blob storage",
+        "Task Type": "Operations",
+        "Classification": "Important",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/blob-backup-overview",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator",
+            "Application Owner/Business Owner",
+            "Data Governance Lead"
+          ],
+          "A": [
+            "Cloud Architect"
+          ],
+          "C": [
+            "Security Architect/Engineer",
+            "Compliance Officer",
+            "IT Service Manager"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ACP",
+        "Task": "Implement Managed Disk Backup Solutions",
+        "Task Description": "Implement backup solutions for Azure Managed Disks",
+        "Task Type": "Operations",
+        "Classification": "Important",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/disk-backup-overview",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator",
+            "Application Owner/Business Owner"
+          ],
+          "A": [
+            "Cloud Architect"
+          ],
+          "C": [
+            "Security Architect/Engineer",
+            "Compliance Officer",
+            "IT Service Manager"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ACQ",
+        "Task": "Configure AKS and Container Registry Backup for Cloud-Native Banking Applications",
+        "Task Description": "Configure backup for AKS clusters and container registry for banking applications",
+        "Task Type": "Operations",
+        "Classification": "Critical",
+        "Documentation Link": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-kubernetes-service-cluster",
+        "RACI": {
+          "R": [
+            "Cloud Engineer/Operator",
+            "Application Owner/Business Owner"
+          ],
+          "A": [
+            "Cloud Architect"
+          ],
+          "C": [
+            "Security Architect/Engineer",
+            "Compliance Officer",
+            "IT Service Manager"
+          ],
+          "I": []
+        }
+      },
+      {
+        "TaskSortId": "ACR",
+        "Task": "Perform AKS and Container Registry Disaster Recovery Testing and Application Validation",
+        "Task Description": "Perform disaster recovery testing for AKS and container environments",
+        "Task Type": "Operations",
+        "Classification": "Critical",
+        "Documentation Link": "https://internal.bank.nz/dr/container-testing",
+        "RACI": {
+          "R": [
+            "IT Service Manager",
+            "Application Owner/Business Owner"
+          ],
+          "A": [
+            "Cloud Engineer/Operator"
+          ],
+          "C": [
+            "Cloud Architect",
+            "Security Architect/Engineer",
+            "Compliance Officer"
+          ],
+          "I": []
+        }
+      }
+    ]
+  }
+]
