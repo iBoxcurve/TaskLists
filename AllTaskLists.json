@@ -263,5 +263,16 @@
     "PlatformIconURL": "https://raw.githubusercontent.com/iBoxcurve/Public/main/icons/microsoft-azure.svg",
     "ServiceIconURL": "https://raw.githubusercontent.com/iBoxcurve/Public/main/icons/Azure%20Backup.svg",
     "PrepopulatedRoles": true
-  }
+  },
+  {
+    "UID": "00000026",
+    "Vendor": "Microsoft",
+    "Platform": "Microsoft Azure",
+    "Service": "Test 500 Tasks",
+    "Link": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/refs/heads/main/taskPacks/test500TasksPack.json",
+    "Description": "",
+    "VendorIconURL": "https://raw.githubusercontent.com/iBoxcurve/Public/main/icons/Microsoft_logo.svg",
+    "PlatformIconURL": "https://raw.githubusercontent.com/iBoxcurve/Public/main/icons/microsoft-azure.svg",
+    "ServiceIconURL": "https://raw.githubusercontent.com/iBoxcurve/Public/refs/heads/main/icons/10030-icon-service-Cloud-Services-(Classic).svg"
+  
 ]
