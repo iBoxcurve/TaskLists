@@ -285,7 +285,7 @@
     "Description": "",
     "VendorIconURL": "https://raw.githubusercontent.com/iBoxcurve/Public/refs/heads/main/icons/amazon-icon.svg",
     "PlatformIconURL": "https://raw.githubusercontent.com/iBoxcurve/Public/refs/heads/main/icons/aws_logo.svg",
-    "ServiceIconURL": "https://raw.githubusercontent.com/iBoxcurve/Public/refs/heads/main/icons/boxLogo.svg",
+    "ServiceIconURL": "https://raw.githubusercontent.com/iBoxcurve/Public/refs/heads/main/icons/Amazon-S3-Logo.svg",
     "PrepopulatedRoles": true
   }
 ]
