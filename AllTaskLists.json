@@ -287,5 +287,17 @@
     "PlatformIconURL": "https://raw.githubusercontent.com/iBoxcurve/Public/refs/heads/main/icons/aws_logo.svg",
     "ServiceIconURL": "https://raw.githubusercontent.com/iBoxcurve/Public/refs/heads/main/icons/Amazon-S3-Logo.svg",
     "PrepopulatedRoles": true
+  },
+  {
+    "UID": "00000028",
+    "Vendor": "Google",
+    "Platform": "Google Cloud Platform",
+    "Service": "Vertex AI",
+    "Link": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/refs/heads/main/taskPacks/test500TasksPack.json",
+    "Description": "",
+    "VendorIconURL": "https://raw.githubusercontent.com/iBoxcurve/Public/refs/heads/main/icons/google.svg",
+    "PlatformIconURL": "https://raw.githubusercontent.com/iBoxcurve/Public/refs/heads/main/icons/Google-cloud-platform.svg",
+    "ServiceIconURL": "https://raw.githubusercontent.com/iBoxcurve/Public/refs/heads/main/icons/vertexAI.svg",
+    "PrepopulatedRoles": true
   }
 ]
