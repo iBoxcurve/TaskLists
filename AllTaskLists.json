@@ -311,5 +311,17 @@
     "PlatformIconURL": "https://raw.githubusercontent.com/iBoxcurve/Public/refs/heads/main/icons/iso-27001.svg",
     "ServiceIconURL": "https://raw.githubusercontent.com/iBoxcurve/Public/refs/heads/main/icons/iso-27001.svg",
     "PrepopulatedRoles": true
+  },
+  {
+    "UID": "00000030",
+    "Vendor": "Axelos",
+    "Platform": "ITIL",
+    "Service": "ITIL 4 Strategic Leader (SL)",
+    "Link": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/refs/heads/main/taskPacks/test500TasksPack.json",
+    "Description": "",
+    "VendorIconURL": "https://clslearn.com/wp-content/uploads/2022/12/Axelos-logo.webp",
+    "PlatformIconURL": "https://raw.githubusercontent.com/iBoxcurve/Public/refs/heads/main/icons/iso-27001.svg",
+    "ServiceIconURL": "https://raw.githubusercontent.com/iBoxcurve/Public/refs/heads/main/icons/iso-27001.svg",
+    "PrepopulatedRoles": true
   }
 ]
