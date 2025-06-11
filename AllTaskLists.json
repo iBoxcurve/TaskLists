@@ -320,8 +320,8 @@
     "Link": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/refs/heads/main/taskPacks/test500TasksPack.json",
     "Description": "",
     "VendorIconURL": "https://clslearn.com/wp-content/uploads/2022/12/Axelos-logo.webp",
-    "PlatformIconURL": "https://raw.githubusercontent.com/iBoxcurve/Public/refs/heads/main/icons/iso-27001.svg",
-    "ServiceIconURL": "https://raw.githubusercontent.com/iBoxcurve/Public/refs/heads/main/icons/iso-27001.svg",
+    "PlatformIconURL": "https://raw.githubusercontent.com/iBoxcurve/Public/refs/heads/main/icons/ITIL.svg",
+    "ServiceIconURL": "https://raw.githubusercontent.com/iBoxcurve/Public/refs/heads/main/icons/ITIL.svg",
     "PrepopulatedRoles": true
   }
 ]
