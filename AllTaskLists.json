@@ -266,13 +266,25 @@
   },
   {
     "UID": "00000026",
-    "Vendor": "Boxcurve Group",
+    "Vendor": "Boxcurve",
     "Platform": "Boxcurve",
     "Service": "Boxcurve Tasks",
     "Link": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/refs/heads/main/taskPacks/test500TasksPack.json",
     "Description": "",
     "VendorIconURL": "https://raw.githubusercontent.com/iBoxcurve/Public/refs/heads/main/icons/boxLogo.svg",
     "PlatformIconURL": "https://raw.githubusercontent.com/iBoxcurve/Public/refs/heads/main/icons/boxLogo.svg",
+    "ServiceIconURL": "https://raw.githubusercontent.com/iBoxcurve/Public/refs/heads/main/icons/boxLogo.svg",
+    "PrepopulatedRoles": true
+  },
+  {
+    "UID": "00000027",
+    "Vendor": "Amazon",
+    "Platform": "AWS",
+    "Service": "S3",
+    "Link": "https://raw.githubusercontent.com/iBoxcurve/TaskLists/refs/heads/main/taskPacks/test500TasksPack.json",
+    "Description": "",
+    "VendorIconURL": "https://raw.githubusercontent.com/iBoxcurve/Public/refs/heads/main/icons/amazon-icon.svg",
+    "PlatformIconURL": "https://raw.githubusercontent.com/iBoxcurve/Public/refs/heads/main/icons/aws_logo.svg",
     "ServiceIconURL": "https://raw.githubusercontent.com/iBoxcurve/Public/refs/heads/main/icons/boxLogo.svg",
     "PrepopulatedRoles": true
   }
